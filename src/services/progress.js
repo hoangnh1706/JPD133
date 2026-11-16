@@ -23,6 +23,29 @@ export function recordEvent(progress, type, detail = {}) {
   return { ...progress, events: [...progress.events, { type, at: new Date().toISOString(), ...detail }] };
 }
 
+const legacyTypes = {
+  lesson: ['lesson'], reading: ['reading'], speaking: ['speaking', 'speaking-rating'],
+  fe: ['answer', 'exam-answer'], grammar: ['grammar'],
+  vocab: ['vocab', 'vocab-review', 'vocab-quiz'], 'speaking-exam': ['speaking-exam'],
+};
+
+export function getLearnedSet(progress, section) {
+  const learned = new Set();
+  for (const event of progress.events) {
+    if (event.type === 'learned' && event.section === section && event.id !== undefined) learned.add(String(event.id));
+    if (legacyTypes[section]?.includes(event.type)) {
+      const id = section === 'lesson' ? event.lesson : section === 'speaking-exam' ? event.exam : event.id;
+      if (id !== undefined) learned.add(String(id));
+    }
+  }
+  return learned;
+}
+
+export function markLearned(progress, section, id, lesson) {
+  if (!legacyTypes[section] || id === undefined || id === null || getLearnedSet(progress, section).has(String(id))) return progress;
+  return recordEvent(progress, 'learned', { section, id: String(id), ...(lesson ? { lesson } : {}) });
+}
+
 export function getStats(progress) {
   const localDay = value => { const date = new Date(value); return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; };
   const answers = progress.events.filter(event => event.type === 'answer' || event.type === 'exam-answer');

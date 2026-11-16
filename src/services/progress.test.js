@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { getStats, initialProgress, recordEvent, validProgress } from './progress.js';
+import { getStats, getLearnedSet, initialProgress, markLearned, recordEvent, validProgress } from './progress.js';
 
 test('progress records real attempts and calculates accuracy', () => {
   const first = recordEvent(initialProgress, 'answer', { id: 1, lesson: 8, correct: false });
@@ -16,4 +16,14 @@ test('import validation rejects incomplete or malformed progress', () => {
   assert.equal(validProgress({ ...initialProgress, events: [{ type: 'answer', at: 'not-a-date' }] }), false);
   assert.equal(validProgress({ ...initialProgress, bookmarks: ['bad'] }), false);
   assert.equal(validProgress({ ...initialProgress, settings: { theme: 'unknown' } }), false);
+});
+
+test('opening content marks it once and preserves earlier completion history', () => {
+  const first = markLearned(initialProgress, 'speaking', 'n-1', 8);
+  assert.equal(getLearnedSet(first, 'speaking').has('n-1'), true);
+  assert.equal(markLearned(first, 'speaking', 'n-1', 8), first);
+  const old = recordEvent(initialProgress, 'answer', { id: 101, lesson: 1, correct: true });
+  assert.equal(getLearnedSet(old, 'fe').has('101'), true);
+  assert.equal(markLearned(old, 'fe', 101, 1), old);
+  assert.equal(getStats(first).answers, 0);
 });

@@ -11,7 +11,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "validate:data": "node scripts/validate-data.mjs",
-    "test": "node --test src/services/*.test.js server/*.test.mjs"
+    "test": "node --test src/services/*.test.js src/utils/*.test.js server/*.test.mjs"
   },
   "dependencies": {
     "pdf-parse": "^2.4.5",
