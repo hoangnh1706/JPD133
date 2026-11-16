@@ -26,4 +26,7 @@ test('opening content marks it once and preserves earlier completion history', (
   assert.equal(getLearnedSet(old, 'fe').has('101'), true);
   assert.equal(markLearned(old, 'fe', 101, 1), old);
   assert.equal(getStats(first).answers, 0);
+  const workbook = markLearned(first, 'workbook', 8, 8);
+  assert.equal(getLearnedSet(workbook, 'workbook').has('8'), true);
+  assert.equal(validProgress(workbook), true);
 });

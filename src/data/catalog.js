@@ -5,9 +5,11 @@ import grammarSpeaking from './grammar_speaking.json';
 import imageQuestions from './questions.json';
 import noImageQuestions from './no_image_questions.json';
 import readings from './reading_passages.json';
+import { readingChallenges } from './readingChallenges.js';
 
 export const exercises = [...baseExercises, ...grammarExercises];
 export { vocabulary, imageQuestions, noImageQuestions, readings };
+export const readingLibrary = [...readings, ...readingChallenges];
 export const lessons = Array.from({ length: 11 }, (_, index) => {
   const id = index + 1;
   const words = vocabulary.filter(word => word.lesson === id);

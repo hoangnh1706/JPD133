@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { landingCounts, landingLessons } from '../src/data/landingMeta.js';
+import { readingChallenges } from '../src/data/readingChallenges.js';
 const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url)));
 const vocab = read('vocabulary_b1_11');
 const exercises = [...read('vocab_exercises'), ...read('grammar_exercises')];
@@ -28,8 +29,15 @@ for (const row of imageQuestions) {
 }
 for (const row of [...noImageQuestions, ...grammarSpeaking]) if (!row.q_jp || !row.a_jp) errors.push(`no-image question ${row.id}: incomplete Q&A`);
 for (const row of readings) if (!row.jp_text || !Array.isArray(row.questions) || !row.questions.every(qa => qa.q_jp && qa.a_jp)) errors.push(`reading ${row.id}: incomplete text/Q&A`);
-const actualCounts = { vocabulary: vocab.length, exercises: exercises.length, speaking: noImageQuestions.length + grammarSpeaking.length + imageQuestions.reduce((sum, row) => sum + row.qa.length, 0), readings: readings.length };
+for (const row of readingChallenges) {
+  if (readings.some(item => item.id === row.id)) errors.push(`reading ${row.id}: duplicate id`);
+  if (!Number.isInteger(row.lesson) || row.lesson < 8 || row.lesson > 11 || !row.jp_text || row.questions.length !== 2) errors.push(`reading ${row.id}: invalid lesson or format`);
+  const plain = row.jp_text.replace(/<rt>[\s\S]*?<\/rt>/g, '').replace(/<[^>]+>/g, '');
+  for (const word of row.focus) if (!plain.includes(word) || !vocab.some(item => item.lesson === row.lesson && item.word_jp === word)) errors.push(`reading ${row.id}: focus word ${word} is outside lesson ${row.lesson} or missing from passage`);
+  if (row.focus.filter(word => /^[ァ-ヴー]+$/.test(word)).length < 4 || row.focus.filter(word => /[一-龯]/.test(word)).length < 6) errors.push(`reading ${row.id}: insufficient Katakana or Kanji focus words`);
+}
+const actualCounts = { vocabulary: vocab.length, exercises: exercises.length, speaking: noImageQuestions.length + grammarSpeaking.length + imageQuestions.reduce((sum, row) => sum + row.qa.length, 0), readings: readings.length + readingChallenges.length };
 for (const [name, count] of Object.entries(actualCounts)) if (landingCounts[name] !== count) errors.push(`landing count ${name}: expected ${count}, found ${landingCounts[name]}`);
 for (const lesson of landingLessons) if (vocab.filter(word => word.lesson === lesson.id).length !== lesson.words) errors.push(`landing lesson ${lesson.id}: wrong word count`);
-console.log(`Validated ${vocab.length} words, ${exercises.length} exercises, ${imageQuestions.length} image sets, ${noImageQuestions.length + grammarSpeaking.length} speaking prompts, ${readings.length} readings and ${kanji.length} Kanji. ${errors.length} structural errors.`);
+console.log(`Validated ${vocab.length} words, ${exercises.length} exercises, ${imageQuestions.length} image sets, ${noImageQuestions.length + grammarSpeaking.length} speaking prompts, ${readings.length + readingChallenges.length} readings and ${kanji.length} Kanji. ${errors.length} structural errors.`);
 if (errors.length) { console.error(errors.slice(0, 30).join('\n')); process.exitCode = 1; }

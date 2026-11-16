@@ -1,5 +1,5 @@
 // Small landing-page snapshot. scripts/validate-data.mjs checks these counts against source JSON.
-export const landingCounts = { vocabulary: 977, exercises: 424, speaking: 229, readings: 16 };
+export const landingCounts = { vocabulary: 977, exercises: 424, speaking: 229, readings: 20 };
 
 export const landingLessons = [
   { id: 8, jp: '家族・友達', title: 'Gia đình & bạn bè', detail: 'Ngoại hình · quà tặng', words: 90 },

@@ -26,7 +26,7 @@ export function recordEvent(progress, type, detail = {}) {
 const legacyTypes = {
   lesson: ['lesson'], reading: ['reading'], speaking: ['speaking', 'speaking-rating'],
   fe: ['answer', 'exam-answer'], grammar: ['grammar'],
-  vocab: ['vocab', 'vocab-review', 'vocab-quiz'], 'speaking-exam': ['speaking-exam'],
+  vocab: ['vocab', 'vocab-review', 'vocab-quiz'], 'speaking-exam': ['speaking-exam'], workbook: [],
 };
 
 export function getLearnedSet(progress, section) {

@@ -12,7 +12,7 @@ function GrammarCard({ item, learned, furigana, markLearned }) {
         markLearned('grammar', item.id, item.lesson);
         observer.disconnect();
       }
-    }, { threshold: 0.6 });
+    }, { threshold: 0.25 });
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [item.id, item.lesson, learned, markLearned]);
