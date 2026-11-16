@@ -5,8 +5,6 @@ import vocabData from '../data/vocabulary_b1_11.json';
 const VOCAB_STATUS_KEY = 'jpd133_vocab_status_v1';
 
 export default function GeneralDrawer({ isOpen, onClose, activeTab, onOpenAiSettings }) {
-  if (!isOpen) return null;
-
   // Tính thống kê từ vựng nếu ở tab vocabulary
   const vocabStats = useMemo(() => {
     try {
@@ -37,6 +35,8 @@ export default function GeneralDrawer({ isOpen, onClose, activeTab, onOpenAiSett
     });
     return counts;
   }, []);
+
+  if (!isOpen) return null;
 
   return (
     <>

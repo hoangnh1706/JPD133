@@ -1,544 +1,90 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import imageQuestionsData from './data/questions.json';
-import noImageQuestionsData from './data/no_image_questions.json';
-import readingPassagesData from './data/reading_passages.json';
-import { useSpeech } from './hooks/useSpeech';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import NoImageSidebar from './components/NoImageSidebar';
-import ReadingSidebar from './components/ReadingSidebar';
-import PracticeCard from './components/PracticeCard';
-import NoImagePracticeCard from './components/NoImagePracticeCard';
-import ReadingPracticeCard from './components/ReadingPracticeCard';
-import VocabPractice from './components/VocabPractice';
-import AiLookupView from './components/AiLookupView';
-import AiSettingsModal from './components/AiSettingsModal';
-import GeneralDrawer from './components/GeneralDrawer';
-import MockTestModal from './components/MockTestModal';
+import { lazy, Suspense, useEffect, useState } from 'react';
+import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesCombined, Settings, Menu, X, BookText, Sparkles, RotateCcw, House } from 'lucide-react';
+import { loadProgress, KEY, recordEvent } from './services/progress';
+import Landing from './pages/Landing';
+import Auth from './pages/Auth';
+import GrammarWorkbook from './components/GrammarWorkbook';
+import './styles/app.css';
+import './styles/refinement.css';
 
-const STORAGE_IMAGE_KEY = 'jpd133_progress_v1';
-const STORAGE_NO_IMAGE_KEY = 'jpd133_no_image_progress_v1';
-const STORAGE_READING_KEY = 'jpd133_reading_progress_v1';
-const SPEED_KEY = 'jpd133_speed_v1';
-const FURIGANA_KEY = 'jpd133_furigana_v1';
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const Lessons = lazy(() => import('./pages/Lessons'));
+const Vocabulary = lazy(() => import('./pages/Vocabulary'));
+const Grammar = lazy(() => import('./pages/Grammar'));
+const Reading = lazy(() => import('./pages/Reading'));
+const Speaking = lazy(() => import('./pages/Speaking'));
+const SpeakingExam = lazy(() => import('./pages/SpeakingExam'));
+const Practice = lazy(() => import('./pages/Practice'));
+const Progress = lazy(() => import('./pages/Progress'));
+const SettingsPage = lazy(() => import('./pages/Settings'));
+const LegacyApp = lazy(() => import('./LegacyApp'));
+
+const nav = [
+  ['/', 'Tổng quan', LayoutDashboard], ['/lessons', 'Bài học', BookOpen], ['/vocabulary', 'Từ vựng', Layers3],
+  ['/grammar', 'Ngữ pháp', BookText], ['/reading', 'Đọc hiểu', BookOpen], ['/speaking', 'Luyện nói', Mic], ['/speaking-exam', 'Đề mẫu Speaking', Mic], ['/practice', 'Luyện FE', GraduationCap],
+  ['/mock', 'Thi thử', Sparkles], ['/mistakes', 'Ôn câu sai', RotateCcw], ['/progress', 'Tiến độ', ChartNoAxesCombined], ['/settings', 'Cài đặt', Settings], ['/legacy', 'Kho luyện gốc', BookOpen], ['/landing', 'Giới thiệu', House]
+];
+const urlFor = path => path === '/landing' ? '/nihongo' : path === '/' ? '/nihongo/dashboard' : `/nihongo${path}`;
+const readRoute = () => {
+  const path = window.location.pathname.replace(/\/$/, '') || '/';
+  if (path === '/nihongo') return '/landing';
+  if (path === '/nihongo/dashboard') return '/';
+  if (path.startsWith('/nihongo/')) return path.slice('/nihongo'.length) + window.location.search;
+  return '/landing';
+};
 
 export default function App() {
-  // Tabs: 'image' (102 Hình) | 'no-image' (39 Câu không hình) | 'reading' (16 Bài đọc) | 'mocktest'
-  const [activeTab, setActiveTab] = useState('image');
-
-  // Sidebar toggle state (cho các tab luyện tập có danh sách: 102 Hình, 39 Phản xạ, 16 Bài đọc)
-  // Mặc định mở cố định bên ngoài trên Desktop/Laptop (>= 1024px) theo yêu cầu người dùng
-  const [isSidebarOpen, setIsSidebarOpen] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return window.innerWidth >= 1024;
-    }
-    return true;
-  });
-
-  // Drawer state cho tab từ vựng / AI lookup
-  const [isGeneralDrawerOpen, setIsGeneralDrawerOpen] = useState(false);
-
-  // AI Settings Modal state
-  const [isAiSettingsOpen, setIsAiSettingsOpen] = useState(false);
-
-  // Settings
-  const [speed, setSpeed] = useState(() => {
-    const saved = localStorage.getItem(SPEED_KEY);
-    return saved ? Number(saved) : 1.0;
-  });
-
-  const [showFurigana, setShowFurigana] = useState(() => {
-    const saved = localStorage.getItem(FURIGANA_KEY);
-    return saved !== null ? JSON.parse(saved) : true;
-  });
-
-  // Progress State for 102 Image Questions
-  const [progressImage, setProgressImage] = useState(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_IMAGE_KEY);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
-
-  // Progress State for 39 No-Image Questions
-  const [progressNoImage, setProgressNoImage] = useState(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_NO_IMAGE_KEY);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
-
-  // Progress State for 16 Reading Passages
-  const [progressReading, setProgressReading] = useState(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_READING_KEY);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
-
-  // Current IDs for each tab
-  const [currentImageId, setCurrentImageId] = useState(1);
-  const [currentNoImageId, setCurrentNoImageId] = useState(1);
-  const [currentReadingId, setCurrentReadingId] = useState(1);
-
-  // Filters for Image Tab
-  const [imageLessonFilter, setImageLessonFilter] = useState('all');
-  const [imageStatusFilter, setImageStatusFilter] = useState('all');
-  const [imageSearchQuery, setImageSearchQuery] = useState('');
-
-  // Filters for No-Image Tab
-  const [noImageLessonFilter, setNoImageLessonFilter] = useState('all');
-  const [noImageStatusFilter, setNoImageStatusFilter] = useState('all');
-  const [noImageSearchQuery, setNoImageSearchQuery] = useState('');
-
-  // Filters for Reading Tab
-  const [readingGroupFilter, setReadingGroupFilter] = useState('all');
-  const [readingStatusFilter, setReadingStatusFilter] = useState('all');
-  const [readingSearchQuery, setReadingSearchQuery] = useState('');
-
-  // Speech Controller
-  const speech = useSpeech(speed);
-
-  // Save Settings to localStorage
+  const [route, setRoute] = useState(readRoute);
+  const [mobile, setMobile] = useState(false);
+  const [progress, setProgress] = useState(loadProgress);
+  const [user, setUser] = useState(null);
+  const [authReady, setAuthReady] = useState(false);
+  const [progressReady, setProgressReady] = useState(false);
+  const [saveError, setSaveError] = useState('');
   useEffect(() => {
-    localStorage.setItem(SPEED_KEY, String(speed));
-  }, [speed]);
-
-  useEffect(() => {
-    localStorage.setItem(FURIGANA_KEY, JSON.stringify(showFurigana));
-  }, [showFurigana]);
-
-  useEffect(() => {
-    localStorage.setItem(STORAGE_IMAGE_KEY, JSON.stringify(progressImage));
-  }, [progressImage]);
-
-  useEffect(() => {
-    localStorage.setItem(STORAGE_NO_IMAGE_KEY, JSON.stringify(progressNoImage));
-  }, [progressNoImage]);
-
-  useEffect(() => {
-    localStorage.setItem(STORAGE_READING_KEY, JSON.stringify(progressReading));
-  }, [progressReading]);
-
-  // Update Status Handlers
-  const handleUpdateImageStatus = useCallback((id, status) => {
-    setProgressImage((prev) => {
-      const updated = { ...prev };
-      if (status === 'unseen') delete updated[id];
-      else updated[id] = status;
-      return updated;
-    });
+    if (window.location.hash.startsWith('#/')) { const old = window.location.hash.slice(1); window.history.replaceState({}, '', urlFor(old)); setRoute(readRoute()); }
+    else if (window.location.pathname === '/') { window.history.replaceState({}, '', '/nihongo'); setRoute('/landing'); }
+    const change = () => { setRoute(readRoute()); setMobile(false); };
+    window.addEventListener('popstate', change);
+    fetch('/api/auth/me', { credentials: 'same-origin' }).then(response => response.json()).then(data => { setUser(data.user); if (data.user) { setProgress(data.progress); setProgressReady(true); } }).catch(() => setSaveError('Không kết nối được máy chủ. Hãy kiểm tra lệnh chạy ứng dụng.')).finally(() => setAuthReady(true));
+    return () => window.removeEventListener('popstate', change);
   }, []);
-
-  const handleUpdateNoImageStatus = useCallback((id, status) => {
-    setProgressNoImage((prev) => {
-      const updated = { ...prev };
-      if (status === 'unseen') delete updated[id];
-      else updated[id] = status;
-      return updated;
-    });
-  }, []);
-
-  const handleUpdateReadingStatus = useCallback((id, status) => {
-    setProgressReading((prev) => {
-      const updated = { ...prev };
-      if (status === 'unseen') delete updated[id];
-      else updated[id] = status;
-      return updated;
-    });
-  }, []);
-
-  // Reset Handlers
-  const handleResetImageProgress = useCallback(() => {
-    setProgressImage({});
-    localStorage.removeItem(STORAGE_IMAGE_KEY);
-  }, []);
-
-  const handleResetNoImageProgress = useCallback(() => {
-    setProgressNoImage({});
-    localStorage.removeItem(STORAGE_NO_IMAGE_KEY);
-  }, []);
-
-  const handleResetReadingProgress = useCallback(() => {
-    setProgressReading({});
-    localStorage.removeItem(STORAGE_READING_KEY);
-  }, []);
-
-  // Filtered List for Image Tab
-  const filteredImageList = useMemo(() => {
-    return imageQuestionsData.filter((q) => {
-      if (imageLessonFilter !== 'all' && q.lesson !== Number(imageLessonFilter)) return false;
-      const itemStatus = progressImage[q.id] || 'unseen';
-      if (imageStatusFilter !== 'all' && itemStatus !== imageStatusFilter) return false;
-      if (imageSearchQuery.trim()) {
-        const query = imageSearchQuery.toLowerCase().trim();
-        const idMatch = String(q.id) === query || `hình ${q.id}`.includes(query) || `hinh ${q.id}`.includes(query);
-        const grammarMatch = q.grammar.toLowerCase().includes(query);
-        return idMatch || grammarMatch;
-      }
-      return true;
-    });
-  }, [imageLessonFilter, imageStatusFilter, imageSearchQuery, progressImage]);
-
-  // Filtered List for No-Image Tab
-  const filteredNoImageList = useMemo(() => {
-    return noImageQuestionsData.filter((q) => {
-      if (noImageLessonFilter !== 'all' && q.lesson !== Number(noImageLessonFilter)) return false;
-      const itemStatus = progressNoImage[q.id] || 'unseen';
-      if (noImageStatusFilter !== 'all' && itemStatus !== noImageStatusFilter) return false;
-      if (noImageSearchQuery.trim()) {
-        const query = noImageSearchQuery.toLowerCase().trim();
-        const idMatch = String(q.id) === query || `câu ${q.id}`.includes(query) || `cau ${q.id}`.includes(query);
-        const grammarMatch = q.grammar.toLowerCase().includes(query) || q.grammar_meaning.toLowerCase().includes(query);
-        const textMatch = q.q_jp.toLowerCase().includes(query) || q.q_vi.toLowerCase().includes(query);
-        return idMatch || grammarMatch || textMatch;
-      }
-      return true;
-    });
-  }, [noImageLessonFilter, noImageStatusFilter, noImageSearchQuery, progressNoImage]);
-
-  // Filtered List for Reading Tab
-  const filteredReadingList = useMemo(() => {
-    return readingPassagesData.filter((p) => {
-      if (readingGroupFilter !== 'all' && p.group !== readingGroupFilter) return false;
-      const itemStatus = progressReading[p.id] || 'unseen';
-      if (readingStatusFilter !== 'all' && itemStatus !== readingStatusFilter) return false;
-      if (readingSearchQuery.trim()) {
-        const query = readingSearchQuery.toLowerCase().trim();
-        const idMatch = String(p.id) === query || `bài ${p.id}`.includes(query) || `bai ${p.id}`.includes(query);
-        const titleMatch = p.title.toLowerCase().includes(query);
-        const textMatch = p.jp_text.toLowerCase().includes(query) || p.vi_text.toLowerCase().includes(query);
-        return idMatch || titleMatch || textMatch;
-      }
-      return true;
-    });
-  }, [readingGroupFilter, readingStatusFilter, readingSearchQuery, progressReading]);
-
-  // Current Objects
-  const currentImageQuestion = useMemo(() => {
-    return imageQuestionsData.find(q => q.id === currentImageId) || imageQuestionsData[0];
-  }, [currentImageId]);
-
-  const currentNoImageQuestion = useMemo(() => {
-    return noImageQuestionsData.find(q => q.id === currentNoImageId) || noImageQuestionsData[0];
-  }, [currentNoImageId]);
-
-  const currentReadingPassage = useMemo(() => {
-    return readingPassagesData.find(p => p.id === currentReadingId) || readingPassagesData[0];
-  }, [currentReadingId]);
-
-  // Navigation for Image Tab
-  const handlePrevImage = useCallback(() => {
-    const list = filteredImageList.length > 0 ? filteredImageList : imageQuestionsData;
-    const idx = list.findIndex(q => q.id === currentImageId);
-    if (idx > 0) setCurrentImageId(list[idx - 1].id);
-    else setCurrentImageId(list[list.length - 1].id);
-  }, [currentImageId, filteredImageList]);
-
-  const handleNextImage = useCallback(() => {
-    const list = filteredImageList.length > 0 ? filteredImageList : imageQuestionsData;
-    const idx = list.findIndex(q => q.id === currentImageId);
-    if (idx !== -1 && idx < list.length - 1) setCurrentImageId(list[idx + 1].id);
-    else setCurrentImageId(list[0].id);
-  }, [currentImageId, filteredImageList]);
-
-  const handleRandomImage = useCallback(() => {
-    const list = filteredImageList.length > 0 ? filteredImageList : imageQuestionsData;
-    const randomIdx = Math.floor(Math.random() * list.length);
-    setCurrentImageId(list[randomIdx].id);
-  }, [filteredImageList]);
-
-  // Navigation for No-Image Tab
-  const handlePrevNoImage = useCallback(() => {
-    const list = filteredNoImageList.length > 0 ? filteredNoImageList : noImageQuestionsData;
-    const idx = list.findIndex(q => q.id === currentNoImageId);
-    if (idx > 0) setCurrentNoImageId(list[idx - 1].id);
-    else setCurrentNoImageId(list[list.length - 1].id);
-  }, [currentNoImageId, filteredNoImageList]);
-
-  const handleNextNoImage = useCallback(() => {
-    const list = filteredNoImageList.length > 0 ? filteredNoImageList : noImageQuestionsData;
-    const idx = list.findIndex(q => q.id === currentNoImageId);
-    if (idx !== -1 && idx < list.length - 1) setCurrentNoImageId(list[idx + 1].id);
-    else setCurrentNoImageId(list[0].id);
-  }, [currentNoImageId, filteredNoImageList]);
-
-  const handleRandomNoImage = useCallback(() => {
-    const list = filteredNoImageList.length > 0 ? filteredNoImageList : noImageQuestionsData;
-    const randomIdx = Math.floor(Math.random() * list.length);
-    setCurrentNoImageId(list[randomIdx].id);
-  }, [filteredNoImageList]);
-
-  // Navigation for Reading Tab
-  const handlePrevReading = useCallback(() => {
-    const list = filteredReadingList.length > 0 ? filteredReadingList : readingPassagesData;
-    const idx = list.findIndex(p => p.id === currentReadingId);
-    if (idx > 0) setCurrentReadingId(list[idx - 1].id);
-    else setCurrentReadingId(list[list.length - 1].id);
-  }, [currentReadingId, filteredReadingList]);
-
-  const handleNextReading = useCallback(() => {
-    const list = filteredReadingList.length > 0 ? filteredReadingList : readingPassagesData;
-    const idx = list.findIndex(p => p.id === currentReadingId);
-    if (idx !== -1 && idx < list.length - 1) setCurrentReadingId(list[idx + 1].id);
-    else setCurrentReadingId(list[0].id);
-  }, [currentReadingId, filteredReadingList]);
-
-  const handleRandomReading = useCallback(() => {
-    const list = filteredReadingList.length > 0 ? filteredReadingList : readingPassagesData;
-    const randomIdx = Math.floor(Math.random() * list.length);
-    setCurrentReadingId(list[randomIdx].id);
-  }, [filteredReadingList]);
-
-  // Keyboard Shortcuts
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
-
-      if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        if (activeTab === 'image') handlePrevImage();
-        else if (activeTab === 'no-image') handlePrevNoImage();
-        else if (activeTab === 'reading') handlePrevReading();
-      } else if (e.key === 'ArrowRight') {
-        e.preventDefault();
-        if (activeTab === 'image') handleNextImage();
-        else if (activeTab === 'no-image') handleNextNoImage();
-        else if (activeTab === 'reading') handleNextReading();
-      } else if (e.code === 'Space') {
-        e.preventDefault();
-        if (activeTab === 'image') {
-          const allText = currentImageQuestion.qa.map(item => item.q_jp).join(' ... ');
-          speech.speak(allText, speed);
-        } else if (activeTab === 'no-image') {
-          speech.speak(currentNoImageQuestion.q_jp, speed);
-        } else if (activeTab === 'reading') {
-          speech.speak(currentReadingPassage.jp_text, speed);
-        }
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeTab, handlePrevImage, handleNextImage, handlePrevNoImage, handleNextNoImage, handlePrevReading, handleNextReading, currentImageQuestion, currentNoImageQuestion, currentReadingPassage, speed, speech]);
-
-  // Statistics depending on current active tab
-  const currentStats = useMemo(() => {
-    if (activeTab === 'reading') {
-      const mastered = Object.values(progressReading).filter(v => v === 'mastered').length;
-      const review = Object.values(progressReading).filter(v => v === 'review').length;
-      return { mastered, review, total: readingPassagesData.length };
-    }
-    if (activeTab === 'no-image') {
-      const mastered = Object.values(progressNoImage).filter(v => v === 'mastered').length;
-      const review = Object.values(progressNoImage).filter(v => v === 'review').length;
-      return { mastered, review, total: noImageQuestionsData.length };
-    }
-    // Default: Image tab
-    const mastered = Object.values(progressImage).filter(v => v === 'mastered').length;
-    const review = Object.values(progressImage).filter(v => v === 'review').length;
-    return { mastered, review, total: imageQuestionsData.length };
-  }, [activeTab, progressImage, progressNoImage, progressReading]);
-
-  // Điều khiển toggle sidebar / drawer phù hợp theo từng tab
-  const handleToggleSidebar = useCallback(() => {
-    if (activeTab === 'vocabulary' || activeTab === 'ai-lookup') {
-      setIsGeneralDrawerOpen(prev => !prev);
-    } else {
-      setIsSidebarOpen(prev => !prev);
-    }
-  }, [activeTab]);
-
-  return (
-    <div className="min-h-screen bg-slate-100 flex flex-col font-sans">
-      {/* Top Header */}
-      <Header
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        speed={speed}
-        setSpeed={setSpeed}
-        showFurigana={showFurigana}
-        setShowFurigana={setShowFurigana}
-        toggleSidebar={handleToggleSidebar}
-        isSidebarOpen={
-          (activeTab === 'vocabulary' || activeTab === 'ai-lookup')
-            ? isGeneralDrawerOpen
-            : isSidebarOpen
-        }
-        masteredCount={currentStats.mastered}
-        reviewCount={currentStats.review}
-        totalCount={currentStats.total}
-        onOpenMockTest={() => setActiveTab('mocktest')}
-        onOpenAiSettings={() => setIsAiSettingsOpen(true)}
-      />
-
-      {/* Main Layout Area */}
-      <div className="flex-1 flex max-w-[1600px] w-full mx-auto">
-        
-        {/* Left Sidebar according to active tab */}
-        {activeTab === 'image' && (
-          <Sidebar
-            isOpen={isSidebarOpen}
-            onClose={() => setIsSidebarOpen(false)}
-            questions={imageQuestionsData}
-            currentId={currentImageId}
-            onSelectQuestion={(id) => setCurrentImageId(id)}
-            lessonFilter={imageLessonFilter}
-            setLessonFilter={setImageLessonFilter}
-            statusFilter={imageStatusFilter}
-            setStatusFilter={setImageStatusFilter}
-            searchQuery={imageSearchQuery}
-            setSearchQuery={setImageSearchQuery}
-            progress={progressImage}
-            onResetProgress={handleResetImageProgress}
-          />
-        )}
-
-        {activeTab === 'no-image' && (
-          <NoImageSidebar
-            isOpen={isSidebarOpen}
-            onClose={() => setIsSidebarOpen(false)}
-            questions={noImageQuestionsData}
-            currentId={currentNoImageId}
-            onSelectQuestion={(id) => setCurrentNoImageId(id)}
-            lessonFilter={noImageLessonFilter}
-            setLessonFilter={setNoImageLessonFilter}
-            statusFilter={noImageStatusFilter}
-            setStatusFilter={setNoImageStatusFilter}
-            searchQuery={noImageSearchQuery}
-            setSearchQuery={setNoImageSearchQuery}
-            progress={progressNoImage}
-            onResetProgress={handleResetNoImageProgress}
-          />
-        )}
-
-        {activeTab === 'reading' && (
-          <ReadingSidebar
-            isOpen={isSidebarOpen}
-            onClose={() => setIsSidebarOpen(false)}
-            passages={readingPassagesData}
-            currentId={currentReadingId}
-            onSelectPassage={(id) => setCurrentReadingId(id)}
-            groupFilter={readingGroupFilter}
-            setGroupFilter={setReadingGroupFilter}
-            statusFilter={readingStatusFilter}
-            setStatusFilter={setReadingStatusFilter}
-            searchQuery={readingSearchQuery}
-            setSearchQuery={setReadingSearchQuery}
-            progress={progressReading}
-            onResetProgress={handleResetReadingProgress}
-          />
-        )}
-
-        {/* General Navigation Drawer for Vocabulary and AI Lookup tabs */}
-        {(activeTab === 'vocabulary' || activeTab === 'ai-lookup') && (
-          <GeneralDrawer
-            isOpen={isGeneralDrawerOpen}
-            onClose={() => setIsGeneralDrawerOpen(false)}
-            activeTab={activeTab}
-            onOpenAiSettings={() => setIsAiSettingsOpen(true)}
-          />
-        )}
-
-        {/* Center Content */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto">
-          {activeTab === 'image' && (
-            <PracticeCard
-              question={currentImageQuestion}
-              totalCount={imageQuestionsData.length}
-              onPrev={handlePrevImage}
-              onNext={handleNextImage}
-              onRandom={handleRandomImage}
-              onStatusChange={handleUpdateImageStatus}
-              status={progressImage[currentImageQuestion.id] || 'unseen'}
-              showFurigana={showFurigana}
-              speech={speech}
-              speed={speed}
-              setSpeed={setSpeed}
-            />
-          )}
-
-          {activeTab === 'no-image' && (
-            <NoImagePracticeCard
-              question={currentNoImageQuestion}
-              totalCount={noImageQuestionsData.length}
-              onPrev={handlePrevNoImage}
-              onNext={handleNextNoImage}
-              onRandom={handleRandomNoImage}
-              onStatusChange={handleUpdateNoImageStatus}
-              status={progressNoImage[currentNoImageQuestion.id] || 'unseen'}
-              showFurigana={showFurigana}
-              speech={speech}
-              speed={speed}
-              setSpeed={setSpeed}
-            />
-          )}
-
-          {activeTab === 'reading' && (
-            <ReadingPracticeCard
-              passage={currentReadingPassage}
-              totalCount={readingPassagesData.length}
-              onPrev={handlePrevReading}
-              onNext={handleNextReading}
-              onRandom={handleRandomReading}
-              onStatusChange={handleUpdateReadingStatus}
-              status={progressReading[currentReadingPassage.id] || 'unseen'}
-              showFurigana={showFurigana}
-              setShowFurigana={setShowFurigana}
-              speech={speech}
-              speed={speed}
-              setSpeed={setSpeed}
-              onOpenAiSettings={() => setIsAiSettingsOpen(true)}
-            />
-          )}
-
-          {activeTab === 'vocabulary' && (
-            <VocabPractice
-              showFurigana={showFurigana}
-              speech={speech}
-              speed={speed}
-              setSpeed={setSpeed}
-            />
-          )}
-
-          {activeTab === 'ai-lookup' && (
-            <AiLookupView
-              speech={speech}
-              speed={speed}
-              onOpenAiSettings={() => setIsAiSettingsOpen(true)}
-            />
-          )}
-
-          {activeTab === 'mocktest' && (
-            <MockTestModal
-              imageQuestions={imageQuestionsData}
-              noImageQuestions={noImageQuestionsData}
-              readingPassages={readingPassagesData}
-              onClose={() => setActiveTab('image')}
-              speech={speech}
-              speed={speed}
-              setSpeed={setSpeed}
-              showFurigana={showFurigana}
-              onUpdateImageStatus={handleUpdateImageStatus}
-              onUpdateNoImageStatus={handleUpdateNoImageStatus}
-              onUpdateReadingStatus={handleUpdateReadingStatus}
-            />
-          )}
-        </main>
-
-      </div>
-
-      {/* AI Settings Modal */}
-      <AiSettingsModal
-        isOpen={isAiSettingsOpen}
-        onClose={() => setIsAiSettingsOpen(false)}
-      />
+  useEffect(() => { if (!user || !progressReady) return; const timer = setTimeout(() => { fetch('/api/progress', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(progress) }).then(response => { if (!response.ok) throw new Error(); setSaveError(''); }).catch(() => setSaveError('Chưa lưu được tiến độ. Vui lòng kiểm tra kết nối.')); }, 450); return () => clearTimeout(timer); }, [progress, progressReady, user]);
+  useEffect(() => { if (authReady && !user) localStorage.setItem(KEY, JSON.stringify(progress)); }, [progress, authReady, user]);
+  useEffect(() => { document.documentElement.dataset.theme = progress.settings.theme; document.documentElement.dataset.sakura = progress.settings.sakura ? 'on' : 'off'; document.documentElement.dataset.sakuraIntensity = progress.settings.sakuraIntensity; }, [progress.settings.theme, progress.settings.sakura, progress.settings.sakuraIntensity]);
+  const go = path => { window.history.pushState({}, '', urlFor(path)); setRoute(path); setMobile(false); window.scrollTo(0, 0); };
+  const signedIn = data => { setUser(data.user); setProgress(data.progress); setProgressReady(true); setSaveError(''); go('/'); };
+  const logout = async () => { await fetch('/api/progress', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(progress) }).catch(() => {}); await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: '{}' }); setUser(null); setProgress(loadProgress()); setProgressReady(false); go('/landing'); };
+  const record = (type, detail) => setProgress(current => recordEvent(current, type, detail));
+  const update = patch => setProgress(current => ({ ...current, ...patch }));
+  const baseRoute = route.split('?')[0];
+  const active = nav.find(([path]) => path === baseRoute)?.[1] || 'Bài học';
+  if (baseRoute === '/landing') return <Landing user={user}/>;
+  if (baseRoute === '/login' || baseRoute === '/register') return <Auth mode={baseRoute.slice(1)} onSuccess={signedIn} go={go}/>;
+  return <div className="app-shell">
+    <a className="app-skip" href="#main-content" onClick={event => { event.preventDefault(); document.getElementById('main-content')?.focus(); }}>Đến nội dung chính</a>
+    <aside className={`app-sidebar ${mobile ? 'open' : ''}`}>
+      <div className="brand"><span className="brand-mark">桜</span><span><strong>JPD133</strong><small>Japanese learning space</small></span><button className="icon-button mobile-close" onClick={() => setMobile(false)} aria-label="Đóng menu"><X size={20}/></button></div>
+      <div className="nav-label">HỌC TẬP</div>
+      <nav aria-label="Điều hướng chính">{nav.map(([path, label, Icon]) => <a key={path} href={urlFor(path)} className={baseRoute === path ? 'active' : ''} onClick={event => { event.preventDefault(); go(path); }}><Icon size={19}/>{label}</a>)}</nav>
+      <div className="sidebar-foot"><div className="sakura-icon">✿</div><strong>Mỗi ngày một chút</strong><p>Học đều đặn, ghi nhớ lâu hơn.</p></div>
+    </aside>
+    {mobile && <button className="mobile-shade" aria-label="Đóng menu" onClick={() => setMobile(false)}/>}
+    <div className="app-content"><header className="topbar"><button className="icon-button mobile-menu" onClick={() => setMobile(true)} aria-label="Mở menu"><Menu size={22}/></button><div className="breadcrumb">JPD133 <span>/</span> <strong>{active}</strong></div><div className="top-actions"><span className="study-dot"/> {user ? <>{user.name} <button className="text-button" onClick={logout}>Đăng xuất</button></> : <>Khách <button className="text-button" onClick={() => go('/login')}>Đăng nhập</button> <button className="text-button" onClick={() => go('/register')}>Đăng ký</button></>}</div></header>
+      {saveError && <div className="save-error" role="alert">{saveError}</div>}
+      <main id="main-content" tabIndex={-1} className="main-area"><Suspense fallback={<div className="page-loading" role="status">Đang mở nội dung học…</div>}>
+        {route === '/' && <Dashboard progress={progress} go={go} user={user}/>}
+        {route.startsWith('/lessons') && <Lessons progress={progress} record={record} go={go} route={route}/>}
+        {route === '/vocabulary' && <Vocabulary progress={progress} update={update} record={record}/>}
+        {route === '/grammar' && <Grammar progress={progress} record={record}/>}
+        {route === '/reading' && <Reading progress={progress} record={record}/>}
+        {route === '/speaking' && <Speaking progress={progress} record={record}/>}
+        {route === '/speaking-exam' && <SpeakingExam progress={progress} record={record}/>}
+        {['/practice','/mock','/mistakes'].includes(baseRoute) && <><Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} go={go} userId={user?.id || 'guest'}/><GrammarWorkbook lesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} title="Ôn ngữ pháp cho bài FE"/></>}
+        {route === '/progress' && <Progress progress={progress} go={go} user={user}/>}
+        {route === '/settings' && <SettingsPage progress={progress} update={update} user={user}/>}
+        {route === '/legacy' && <LegacyApp/>}
+      </Suspense></main>
     </div>
-  );
+  </div>;
 }

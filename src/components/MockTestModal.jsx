@@ -35,7 +35,7 @@ export default function MockTestModal({
   onUpdateReadingStatus
 }) {
   // Cài đặt trước khi thi
-  // examMode: 'full' (Chuẩn thi thật: Đọc hiểu + Có hình + Phản xạ) | 'mixed' (Hình + Phản xạ) | 'image' | 'no-image' | 'reading'
+  // examMode: 'full' (Mô phỏng tự luyện: Đọc hiểu + Có hình + Phản xạ) | 'mixed' (Hình + Phản xạ) | 'image' | 'no-image' | 'reading'
   const [examMode, setExamMode] = useState('full');
   const [testSize, setTestSize] = useState(5);
   const [selectedLesson, setSelectedLesson] = useState('all');
@@ -69,7 +69,7 @@ export default function MockTestModal({
     let selected = [];
 
     if (examMode === 'full') {
-      // Chuẩn phòng thi thật: 1 Bài đọc + 2 Câu có hình + 2 Câu phản xạ
+      // Mô phỏng tự luyện: 1 Bài đọc + 2 Câu có hình + 2 Câu phản xạ
       const pickedReading = shuffleArray(poolReading).slice(0, 1);
       const pickedImgs = shuffleArray(poolImage).slice(0, 2);
       const pickedNoImgs = shuffleArray(poolNoImage).slice(0, 2);
@@ -197,17 +197,17 @@ export default function MockTestModal({
           </div>
           <h2 className="text-2xl font-bold text-slate-900">Thi Thử Vấn Đáp JPD133</h2>
           <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto">
-            Mô phỏng chân thực quy trình thi vấn đáp môn JPD133: Tự động bấm giờ, phát âm câu hỏi ngẫu nhiên và rèn luyện phản xạ đối đáp trước giám khảo.
+            Mô phỏng tự luyện Speaking JPD133, không phải quy chế thi chính thức: Tự động bấm giờ, phát âm câu hỏi ngẫu nhiên và rèn luyện phản xạ đối đáp trước giám khảo.
           </p>
         </div>
 
         {/* 1. Chọn Chế độ Thi */}
         <div className="space-y-2">
           <label className="text-xs font-bold text-slate-700 uppercase tracking-wider block">
-            1. Chọn hình thức thi
+            1. Chọn hình thức tự luyện
           </label>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-            {/* Chế độ Toàn diện: Chuẩn thi thật */}
+            {/* Chế độ Toàn diện: Mô phỏng tự luyện */}
             <button
               onClick={() => { setExamMode('full'); setTestSize(5); }}
               className={`p-3 rounded-2xl text-xs sm:text-sm font-bold border transition-all flex flex-col items-center justify-center gap-1 col-span-2 sm:col-span-1 ${
@@ -217,7 +217,7 @@ export default function MockTestModal({
               }`}
             >
               <Award className="w-5 h-5" />
-              <span>Chuẩn thi thật</span>
+              <span>Mô phỏng tự luyện</span>
               <span className="text-[10px] opacity-90 font-normal">Đọc + Hình + Phản xạ</span>
             </button>
 
@@ -585,7 +585,7 @@ export default function MockTestModal({
               </h3>
             ) : (
               <p className="text-slate-400 italic text-sm">
-                🎧 Nghe câu hỏi từ giảng viên và trả lời trong 30 giây...
+                🎧 Nghe câu hỏi bằng giọng đọc trình duyệt và trả lời trong 30 giây tự luyện...
               </p>
             )}
           </div>

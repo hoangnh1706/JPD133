@@ -1,0 +1,10 @@
+[
+  {"id":8001,"lesson":8,"q_jp":"どこに住んでいますか。","q_vi":"Bạn đang sống ở đâu?","a_jp":"ハノイに住んでいます。","a_vi":"Tôi sống ở Hà Nội.","grammar":"Nに住んでいます"},
+  {"id":8002,"lesson":8,"q_jp":"家族の人はどんな人ですか。","q_vi":"Một người trong gia đình bạn là người như thế nào?","a_jp":"兄は背が高くて、髪が短いです。","a_vi":"Anh trai tôi cao và tóc ngắn.","grammar":"Tính từ い + くて"},
+  {"id":9001,"lesson":9,"q_jp":"趣味は何ですか。","q_vi":"Sở thích của bạn là gì?","a_jp":"本を読むことです。","a_vi":"Sở thích của tôi là đọc sách.","grammar":"Vることです"},
+  {"id":9002,"lesson":9,"q_jp":"一週間に何回日本語を勉強しますか。","q_vi":"Một tuần bạn học tiếng Nhật mấy lần?","a_jp":"一週間に三回勉強します。","a_vi":"Tôi học ba lần một tuần.","grammar":"Khoảng thời gian + に + số lần"},
+  {"id":10001,"lesson":10,"q_jp":"ここで写真を撮ってもいいですか。","q_vi":"Tôi chụp ảnh ở đây có được không?","a_jp":"はい、撮ってもいいです。","a_vi":"Vâng, bạn có thể chụp.","grammar":"Vてもいいですか"},
+  {"id":10002,"lesson":10,"q_jp":"駅への道を教えてください。","q_vi":"Hãy chỉ đường đến nhà ga cho tôi.","a_jp":"はい。まっすぐ行って、右に曲がってください。","a_vi":"Vâng. Đi thẳng rồi rẽ phải.","grammar":"Vてください"},
+  {"id":11001,"lesson":11,"q_jp":"休みの日、何をしますか。","q_vi":"Ngày nghỉ bạn thường làm gì?","a_jp":"音楽を聞いたり、テレビを見たりします。","a_vi":"Tôi nghe nhạc, xem TV và làm những việc khác.","grammar":"Vたり、Vたりします"},
+  {"id":11002,"lesson":11,"q_jp":"風邪をひいたとき、どうしますか。","q_vi":"Khi bị cảm bạn làm gì?","a_jp":"病院へ行って、薬を飲みます。","a_vi":"Tôi đi bệnh viện và uống thuốc.","grammar":"Vたとき"}
+]
