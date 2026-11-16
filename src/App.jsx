@@ -46,7 +46,17 @@ export default function App() {
     else if (window.location.pathname === '/') { window.history.replaceState({}, '', '/nihongo'); setRoute('/landing'); }
     const change = () => { setRoute(readRoute()); setMobile(false); };
     window.addEventListener('popstate', change);
-    fetch('/api/auth/me', { credentials: 'same-origin' }).then(response => response.json()).then(data => { setUser(data.user); if (data.user) { setProgress(data.progress); setProgressReady(true); } }).catch(() => setSaveError('Không kết nối được máy chủ. Hãy kiểm tra lệnh chạy ứng dụng.')).finally(() => setAuthReady(true));
+    fetch('/api/auth/me', { credentials: 'same-origin' })
+      .then(response => response.ok ? response.json() : null)
+      .then(data => {
+        if (data?.user) {
+          setUser(data.user);
+          setProgress(data.progress);
+          setProgressReady(true);
+        }
+      })
+      .catch(() => {})
+      .finally(() => setAuthReady(true));
     return () => window.removeEventListener('popstate', change);
   }, []);
   useEffect(() => { if (!user || !progressReady) return; const timer = setTimeout(() => { fetch('/api/progress', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(progress) }).then(response => { if (!response.ok) throw new Error(); setSaveError(''); }).catch(() => setSaveError('Chưa lưu được tiến độ. Vui lòng kiểm tra kết nối.')); }, 450); return () => clearTimeout(timer); }, [progress, progressReady, user]);
