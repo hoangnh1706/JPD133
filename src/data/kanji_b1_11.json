@@ -1,0 +1,3131 @@
+[
+  {
+    "id": "k_1",
+    "kanji": "私",
+    "lesson": 1,
+    "han_viet": "TƯ",
+    "on_reading": "し(từ N3)",
+    "kun_reading": "わたし",
+    "meaning": "Tôi, riêng tư",
+    "examples": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi, riêng tư"
+      }
+    ]
+  },
+  {
+    "id": "k_2",
+    "kanji": "人",
+    "lesson": 1,
+    "han_viet": "NHÂN",
+    "on_reading": "にん / じん",
+    "kun_reading": "ひと",
+    "meaning": "Người",
+    "examples": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Người"
+      },
+      {
+        "word": "３人",
+        "reading": "さんにん",
+        "meaning": ""
+      },
+      {
+        "word": "タイ人",
+        "reading": "にほんじん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_3",
+    "kanji": "才",
+    "lesson": 1,
+    "han_viet": "TÀI",
+    "on_reading": "さい",
+    "kun_reading": "—",
+    "meaning": "tuổi(Giỏi, tài năng xuất hiện ở N3)",
+    "examples": [
+      {
+        "word": "１才",
+        "reading": "いっさい",
+        "meaning": ""
+      },
+      {
+        "word": "２５才",
+        "reading": "にじゅうごさい",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_4",
+    "kanji": "学",
+    "lesson": 1,
+    "han_viet": "HỌC",
+    "on_reading": "がく",
+    "kun_reading": "—",
+    "meaning": "học tập, nghiên cứu",
+    "examples": [
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_5",
+    "kanji": "生",
+    "lesson": 1,
+    "han_viet": "SINH",
+    "on_reading": "せい",
+    "kun_reading": "—",
+    "meaning": "sinh sống, sinh ra",
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": ""
+      },
+      {
+        "word": "大学生",
+        "reading": "だいがくせい",
+        "meaning": ""
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_6",
+    "kanji": "校",
+    "lesson": 1,
+    "han_viet": "HIỆU",
+    "on_reading": "こう",
+    "kun_reading": "—",
+    "meaning": "Trường học",
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "trường học"
+      }
+    ]
+  },
+  {
+    "id": "k_7",
+    "kanji": "日",
+    "lesson": 1,
+    "han_viet": "NHẬT",
+    "on_reading": "にち(に) / じつ / か",
+    "kun_reading": "ひ(び)",
+    "meaning": "Ngày, mặt trời",
+    "examples": [
+      {
+        "word": "日",
+        "reading": "ひ",
+        "meaning": "Ngày, mặt trời"
+      },
+      {
+        "word": "３日",
+        "reading": "みっか",
+        "meaning": ""
+      },
+      {
+        "word": "１１日",
+        "reading": "じゅういちにち",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_8",
+    "kanji": "本",
+    "lesson": 1,
+    "han_viet": "BẢN",
+    "on_reading": "ほん",
+    "kun_reading": "—",
+    "meaning": "Sách, gốc rễ",
+    "examples": [
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": ""
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_9",
+    "kanji": "語",
+    "lesson": 1,
+    "han_viet": "NGỮ",
+    "on_reading": "ご",
+    "kun_reading": "—",
+    "meaning": "Ngôn ngữ, từ",
+    "examples": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": ""
+      },
+      {
+        "word": "ベトナム語",
+        "reading": "ベトナムご",
+        "meaning": ""
+      },
+      {
+        "word": "日本語学校",
+        "reading": "にほんごがっこう",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_10",
+    "kanji": "一",
+    "lesson": 2,
+    "han_viet": "NHẤT",
+    "on_reading": "いち",
+    "kun_reading": "ひと・つ",
+    "meaning": "Số 1",
+    "examples": [
+      {
+        "word": "一つ",
+        "reading": "ひとつ",
+        "meaning": "Số 1"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": ""
+      },
+      {
+        "word": "一日",
+        "reading": "ついたち",
+        "meaning": ""
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": ""
+      },
+      {
+        "word": "一才",
+        "reading": "いっさい",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_11",
+    "kanji": "二",
+    "lesson": 2,
+    "han_viet": "NHỊ",
+    "on_reading": "に",
+    "kun_reading": "ふた・つ",
+    "meaning": "Số 2",
+    "examples": [
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "meaning": "Số 2"
+      },
+      {
+        "word": "二月",
+        "reading": "にがつ",
+        "meaning": ""
+      },
+      {
+        "word": "二人",
+        "reading": "ふたり",
+        "meaning": ""
+      },
+      {
+        "word": "二日",
+        "reading": "ふつか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_12",
+    "kanji": "三",
+    "lesson": 2,
+    "han_viet": "TAM",
+    "on_reading": "さん",
+    "kun_reading": "みっ・つ",
+    "meaning": "Số 3",
+    "examples": [
+      {
+        "word": "三つ",
+        "reading": "みっつ",
+        "meaning": "Số 3"
+      },
+      {
+        "word": "三月",
+        "reading": "さんがつ",
+        "meaning": ""
+      },
+      {
+        "word": "三人",
+        "reading": "さんにん",
+        "meaning": ""
+      },
+      {
+        "word": "三日",
+        "reading": "みっか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_13",
+    "kanji": "四",
+    "lesson": 2,
+    "han_viet": "TỨ",
+    "on_reading": "し",
+    "kun_reading": "よ/よん / よっ・つ",
+    "meaning": "Số 4",
+    "examples": [
+      {
+        "word": "四",
+        "reading": "よ",
+        "meaning": "Số 4"
+      },
+      {
+        "word": "四",
+        "reading": "よん",
+        "meaning": "Số 4"
+      },
+      {
+        "word": "四つ",
+        "reading": "よっつ",
+        "meaning": "Số 4"
+      },
+      {
+        "word": "四月",
+        "reading": "しがつ",
+        "meaning": ""
+      },
+      {
+        "word": "四人",
+        "reading": "よにん",
+        "meaning": ""
+      },
+      {
+        "word": "四日",
+        "reading": "よっか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_14",
+    "kanji": "五",
+    "lesson": 2,
+    "han_viet": "NGŨ",
+    "on_reading": "ご",
+    "kun_reading": "いつ・つ",
+    "meaning": "Số 5",
+    "examples": [
+      {
+        "word": "五つ",
+        "reading": "いつつ",
+        "meaning": "Số 5"
+      },
+      {
+        "word": "五月",
+        "reading": "ごがつ",
+        "meaning": ""
+      },
+      {
+        "word": "五人",
+        "reading": "ごにん",
+        "meaning": ""
+      },
+      {
+        "word": "五日",
+        "reading": "いつか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_15",
+    "kanji": "六",
+    "lesson": 2,
+    "han_viet": "LỤC",
+    "on_reading": "ろく",
+    "kun_reading": "むっ・つ",
+    "meaning": "Số 6",
+    "examples": [
+      {
+        "word": "六つ",
+        "reading": "むっつ",
+        "meaning": "Số 6"
+      },
+      {
+        "word": "六月",
+        "reading": "ろくがつ",
+        "meaning": ""
+      },
+      {
+        "word": "六人",
+        "reading": "ろくにん",
+        "meaning": ""
+      },
+      {
+        "word": "六日",
+        "reading": "むいか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_16",
+    "kanji": "七",
+    "lesson": 2,
+    "han_viet": "THẤT",
+    "on_reading": "しち",
+    "kun_reading": "なな・つ",
+    "meaning": "Số 7",
+    "examples": [
+      {
+        "word": "七つ",
+        "reading": "ななつ",
+        "meaning": "Số 7"
+      },
+      {
+        "word": "七月",
+        "reading": "しちがつ",
+        "meaning": ""
+      },
+      {
+        "word": "七人",
+        "reading": "ななにん",
+        "meaning": ""
+      },
+      {
+        "word": "七日",
+        "reading": "なのか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_17",
+    "kanji": "八",
+    "lesson": 2,
+    "han_viet": "BÁT",
+    "on_reading": "はち",
+    "kun_reading": "やっ・つ",
+    "meaning": "Số 8",
+    "examples": [
+      {
+        "word": "八つ",
+        "reading": "やっつ",
+        "meaning": "Số 8"
+      },
+      {
+        "word": "八月",
+        "reading": "はちがつ",
+        "meaning": ""
+      },
+      {
+        "word": "八人",
+        "reading": "はちにん",
+        "meaning": ""
+      },
+      {
+        "word": "八日",
+        "reading": "ようか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_18",
+    "kanji": "九",
+    "lesson": 2,
+    "han_viet": "CỬU",
+    "on_reading": "きゅう / く",
+    "kun_reading": "ここの・つ",
+    "meaning": "Số 9",
+    "examples": [
+      {
+        "word": "九つ",
+        "reading": "ここのつ",
+        "meaning": "Số 9"
+      },
+      {
+        "word": "九月",
+        "reading": "くがつ",
+        "meaning": ""
+      },
+      {
+        "word": "九人",
+        "reading": "きゅうにん",
+        "meaning": ""
+      },
+      {
+        "word": "九日",
+        "reading": "ここのか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_19",
+    "kanji": "十",
+    "lesson": 2,
+    "han_viet": "THẬP",
+    "on_reading": "じゅう",
+    "kun_reading": "とお",
+    "meaning": "Số 10",
+    "examples": [
+      {
+        "word": "十",
+        "reading": "とお",
+        "meaning": "Số 10"
+      },
+      {
+        "word": "十月",
+        "reading": "じゅうがつ",
+        "meaning": ""
+      },
+      {
+        "word": "十人",
+        "reading": "じゅうにん",
+        "meaning": ""
+      },
+      {
+        "word": "十日",
+        "reading": "とおか",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_20",
+    "kanji": "百",
+    "lesson": 2,
+    "han_viet": "BÁCH",
+    "on_reading": "ひゃく",
+    "kun_reading": "—",
+    "meaning": "Trăm (100)",
+    "examples": [
+      {
+        "word": "三百",
+        "reading": "さんびゃく",
+        "meaning": ""
+      },
+      {
+        "word": "六百",
+        "reading": "ろっぴゃく",
+        "meaning": ""
+      },
+      {
+        "word": "八百",
+        "reading": "はっぴゃく",
+        "meaning": ""
+      },
+      {
+        "word": "百人",
+        "reading": "ひゃくにん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_21",
+    "kanji": "千",
+    "lesson": 2,
+    "han_viet": "THIÊN",
+    "on_reading": "せん",
+    "kun_reading": "—",
+    "meaning": "Nghìn (1000)",
+    "examples": [
+      {
+        "word": "三千",
+        "reading": "さんぜん",
+        "meaning": ""
+      },
+      {
+        "word": "八千",
+        "reading": "はっせん",
+        "meaning": ""
+      },
+      {
+        "word": "千人",
+        "reading": "せんにん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_22",
+    "kanji": "万",
+    "lesson": 2,
+    "han_viet": "VẠN",
+    "on_reading": "まん",
+    "kun_reading": "—",
+    "meaning": "Vạn, mười nghìn (10000)",
+    "examples": [
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "meaning": ""
+      },
+      {
+        "word": "百万",
+        "reading": "ひゃくまん",
+        "meaning": ""
+      },
+      {
+        "word": "一千万",
+        "reading": "いっせんまん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_23",
+    "kanji": "円",
+    "lesson": 2,
+    "han_viet": "VIÊN",
+    "on_reading": "えん",
+    "kun_reading": "—",
+    "meaning": "Tròn; yên (tiền Nhật)",
+    "examples": [
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "meaning": ""
+      },
+      {
+        "word": "千円",
+        "reading": "せんえん",
+        "meaning": ""
+      },
+      {
+        "word": "一万円",
+        "reading": "いちまんえん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_24",
+    "kanji": "月",
+    "lesson": 3,
+    "han_viet": "NGUYỆT",
+    "on_reading": "がつ / げつ",
+    "kun_reading": "つき",
+    "meaning": "Ánh trăng, tháng",
+    "examples": [
+      {
+        "word": "月",
+        "reading": "つき",
+        "meaning": "Ánh trăng, tháng"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": ""
+      },
+      {
+        "word": "ガツ",
+        "reading": "gatsu",
+        "meaning": "dùng để gọi tên 12 tháng trong năm:"
+      },
+      {
+        "word": "ゲツ",
+        "reading": "getsu",
+        "meaning": "dùng cho thứ trong tuần hoặc đếm khoảng thời gian tháng:"
+      },
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Thứ hai"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "Tháng này"
+      },
+      {
+        "word": "一か月",
+        "reading": "いっかげつ",
+        "meaning": "1 tháng (khoảng thời gian)"
+      }
+    ]
+  },
+  {
+    "id": "k_25",
+    "kanji": "火",
+    "lesson": 3,
+    "han_viet": "HỎA",
+    "on_reading": "か",
+    "kun_reading": "ひ",
+    "meaning": "Lửa",
+    "examples": [
+      {
+        "word": "火",
+        "reading": "ひ",
+        "meaning": "Lửa"
+      },
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Thứ ba"
+      }
+    ]
+  },
+  {
+    "id": "k_26",
+    "kanji": "水",
+    "lesson": 3,
+    "han_viet": "THỦY",
+    "on_reading": "すい",
+    "kun_reading": "みず",
+    "meaning": "Nước",
+    "examples": [
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "Nước"
+      },
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Thứ tư"
+      }
+    ]
+  },
+  {
+    "id": "k_27",
+    "kanji": "木",
+    "lesson": 3,
+    "han_viet": "MỘC",
+    "on_reading": "もく",
+    "kun_reading": "き",
+    "meaning": "Cây, gỗ",
+    "examples": [
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "Cây, gỗ"
+      },
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "Thứ năm"
+      }
+    ]
+  },
+  {
+    "id": "k_28",
+    "kanji": "金",
+    "lesson": 3,
+    "han_viet": "KIM",
+    "on_reading": "きん",
+    "kun_reading": "かね",
+    "meaning": "Tiền, vàng",
+    "examples": [
+      {
+        "word": "金",
+        "reading": "かね",
+        "meaning": "Tiền, vàng"
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Thứ sáu"
+      }
+    ]
+  },
+  {
+    "id": "k_29",
+    "kanji": "土",
+    "lesson": 3,
+    "han_viet": "THỔ",
+    "on_reading": "ど",
+    "kun_reading": "つち",
+    "meaning": "Đất đai",
+    "examples": [
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning": "Đất đai"
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Thứ bảy"
+      }
+    ]
+  },
+  {
+    "id": "k_30",
+    "kanji": "曜",
+    "lesson": 3,
+    "han_viet": "DIỆU",
+    "on_reading": "よう",
+    "kun_reading": "—",
+    "meaning": "Ngày (trong tuần)",
+    "examples": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": ""
+      },
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": ""
+      },
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": ""
+      },
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": ""
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": ""
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": ""
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_31",
+    "kanji": "何",
+    "lesson": 3,
+    "han_viet": "HÀ",
+    "on_reading": "か(N1)",
+    "kun_reading": "なん / なに",
+    "meaning": "Cái gì",
+    "examples": [
+      {
+        "word": "何",
+        "reading": "なん",
+        "meaning": "Cái gì"
+      },
+      {
+        "word": "何",
+        "reading": "なに",
+        "meaning": "Cái gì"
+      },
+      {
+        "word": "何曜日",
+        "reading": "なんようび",
+        "meaning": ""
+      },
+      {
+        "word": "何月",
+        "reading": "なんがつ",
+        "meaning": ""
+      },
+      {
+        "word": "何才",
+        "reading": "なんさい",
+        "meaning": ""
+      },
+      {
+        "word": "何日",
+        "reading": "なんにち",
+        "meaning": ""
+      },
+      {
+        "word": "なに",
+        "reading": "nani",
+        "meaning": "đứng độc lập hoặc đứng trước các trợ từ が, を, に, で:"
+      },
+      {
+        "word": "何をしますか",
+        "reading": "なにをしますか",
+        "meaning": "Bạn làm cái gì thế?"
+      },
+      {
+        "word": "何も見えません",
+        "reading": "なにもみえません",
+        "meaning": "Không nhìn thấy gì cả."
+      }
+    ]
+  },
+  {
+    "id": "k_32",
+    "kanji": "年",
+    "lesson": 3,
+    "han_viet": "NIÊN",
+    "on_reading": "ねん",
+    "kun_reading": "とし",
+    "meaning": "Năm, tuổi",
+    "examples": [
+      {
+        "word": "年",
+        "reading": "とし",
+        "meaning": "Năm, tuổi"
+      },
+      {
+        "word": "一年",
+        "reading": "いちねん",
+        "meaning": ""
+      },
+      {
+        "word": "四年",
+        "reading": "よねん",
+        "meaning": ""
+      },
+      {
+        "word": "何年生",
+        "reading": "なんねんせい",
+        "meaning": ""
+      },
+      {
+        "word": "何年",
+        "reading": "なんねん",
+        "meaning": ""
+      },
+      {
+        "word": "生年月日",
+        "reading": "せいねんがっぴ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_33",
+    "kanji": "時",
+    "lesson": 3,
+    "han_viet": "THỜI",
+    "on_reading": "じ",
+    "kun_reading": "とき",
+    "meaning": "Giờ, thời gian",
+    "examples": [
+      {
+        "word": "時",
+        "reading": "とき",
+        "meaning": "Giờ, thời gian"
+      },
+      {
+        "word": "四時",
+        "reading": "よじ",
+        "meaning": ""
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_34",
+    "kanji": "間",
+    "lesson": 3,
+    "han_viet": "GIAN",
+    "on_reading": "かん",
+    "kun_reading": "あいだ",
+    "meaning": "Trung gian, ở giữa",
+    "examples": [
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "Trung gian, ở giữa"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "Thời gian"
+      },
+      {
+        "word": "人間",
+        "reading": "にんげん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_35",
+    "kanji": "分",
+    "lesson": 3,
+    "han_viet": "PHÂN",
+    "on_reading": "ふん",
+    "kun_reading": "わ・かります / わ・けます",
+    "meaning": "Phút, phân chia, hiểu biết",
+    "examples": [
+      {
+        "word": "分かります",
+        "reading": "わかります",
+        "meaning": "Phút, phân chia, hiểu biết"
+      },
+      {
+        "word": "分けます",
+        "reading": "わけます",
+        "meaning": "Phút, phân chia, hiểu biết"
+      },
+      {
+        "word": "三分",
+        "reading": "さんぷん",
+        "meaning": ""
+      },
+      {
+        "word": "何分",
+        "reading": "なんぷん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_36",
+    "kanji": "東",
+    "lesson": 4,
+    "han_viet": "ĐÔNG",
+    "on_reading": "とう",
+    "kun_reading": "ひがし",
+    "meaning": "Hướng đông",
+    "examples": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "Hướng đông"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_37",
+    "kanji": "京",
+    "lesson": 4,
+    "han_viet": "KINH",
+    "on_reading": "きょう",
+    "kun_reading": "—",
+    "meaning": "Kinh đô, kinh thành",
+    "examples": [
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_38",
+    "kanji": "名",
+    "lesson": 4,
+    "han_viet": "DANH",
+    "on_reading": "めい",
+    "kun_reading": "な",
+    "meaning": "Tên, nổi tiếng, danh dự",
+    "examples": [
+      {
+        "word": "名",
+        "reading": "な",
+        "meaning": "Tên, nổi tiếng, danh dự"
+      },
+      {
+        "word": "名前",
+        "reading": "namae",
+        "meaning": "tên"
+      },
+      {
+        "word": "有名",
+        "reading": "yuumei",
+        "meaning": "nổi tiếng"
+      }
+    ]
+  },
+  {
+    "id": "k_39",
+    "kanji": "前",
+    "lesson": 4,
+    "han_viet": "TIỀN",
+    "on_reading": "ぜん",
+    "kun_reading": "まえ",
+    "meaning": "Trước, phía trước",
+    "examples": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "Trước, phía trước"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "(âm kun đặc biệt)"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": "buổi sáng"
+      },
+      {
+        "word": "前日",
+        "reading": "ぜんじつ",
+        "meaning": "ngày hôm trc"
+      }
+    ]
+  },
+  {
+    "id": "k_40",
+    "kanji": "国",
+    "lesson": 4,
+    "han_viet": "QUỐC",
+    "on_reading": "こく",
+    "kun_reading": "くに",
+    "meaning": "Đất nước",
+    "examples": [
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "Đất nước"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_41",
+    "kanji": "男",
+    "lesson": 4,
+    "han_viet": "NAM",
+    "on_reading": "だん",
+    "kun_reading": "おとこ",
+    "meaning": "Đàn ông, con trai",
+    "examples": [
+      {
+        "word": "男",
+        "reading": "おとこ",
+        "meaning": "Đàn ông, con trai"
+      },
+      {
+        "word": "男の人",
+        "reading": "おとこのひと",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_42",
+    "kanji": "女",
+    "lesson": 4,
+    "han_viet": "NỮ",
+    "on_reading": "じょ",
+    "kun_reading": "おんな",
+    "meaning": "Phụ nữ, con gái",
+    "examples": [
+      {
+        "word": "女",
+        "reading": "おんな",
+        "meaning": "Phụ nữ, con gái"
+      },
+      {
+        "word": "女の人",
+        "reading": "おんなのひと",
+        "meaning": ""
+      },
+      {
+        "word": "男女",
+        "reading": "だんじょ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_43",
+    "kanji": "区",
+    "lesson": 4,
+    "han_viet": "KHU",
+    "on_reading": "く",
+    "kun_reading": "—",
+    "meaning": "Vùng, quận",
+    "examples": [
+      {
+        "word": "～区",
+        "reading": "～く",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_44",
+    "kanji": "市",
+    "lesson": 4,
+    "han_viet": "THỊ",
+    "on_reading": "し",
+    "kun_reading": "—",
+    "meaning": "Chợ, thành phố",
+    "examples": [
+      {
+        "word": "～市",
+        "reading": "～し",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_45",
+    "kanji": "先",
+    "lesson": 5,
+    "han_viet": "TIÊN",
+    "on_reading": "せん",
+    "kun_reading": "さきx",
+    "meaning": "Trước",
+    "examples": [
+      {
+        "word": "先",
+        "reading": "さき",
+        "meaning": "Trước"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": ""
+      },
+      {
+        "word": "先月",
+        "reading": "せんげつ",
+        "meaning": ""
+      },
+      {
+        "word": "先日",
+        "reading": "せんじつ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_46",
+    "kanji": "週",
+    "lesson": 5,
+    "han_viet": "CHU",
+    "on_reading": "しゅう",
+    "kun_reading": "—",
+    "meaning": "Tuần",
+    "examples": [
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": ""
+      },
+      {
+        "word": "一週間",
+        "reading": "いっしゅうかん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_47",
+    "kanji": "毎",
+    "lesson": 5,
+    "han_viet": "MỖI",
+    "on_reading": "まい",
+    "kun_reading": "—",
+    "meaning": "Các, mỗi, một",
+    "examples": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": ""
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": ""
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "meaning": ""
+      },
+      {
+        "word": "毎月",
+        "reading": "まいつき",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_48",
+    "kanji": "午",
+    "lesson": 5,
+    "han_viet": "NGỌ",
+    "on_reading": "ご",
+    "kun_reading": "—",
+    "meaning": "Buổi trưa",
+    "examples": [
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_49",
+    "kanji": "後",
+    "lesson": 5,
+    "han_viet": "HẬU",
+    "on_reading": "ご",
+    "kun_reading": "うし・ろ / あとx",
+    "meaning": "Sau",
+    "examples": [
+      {
+        "word": "後ろ",
+        "reading": "うしろ",
+        "meaning": "Sau"
+      },
+      {
+        "word": "後",
+        "reading": "あと",
+        "meaning": "Sau"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": ""
+      },
+      {
+        "word": "前後",
+        "reading": "ぜんご",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_50",
+    "kanji": "見",
+    "lesson": 5,
+    "han_viet": "KIẾN",
+    "on_reading": "けんx",
+    "kun_reading": "み・ます / み・えます / み・せます",
+    "meaning": "Nhìn, xem, ngắm",
+    "examples": [
+      {
+        "word": "見ます",
+        "reading": "みます",
+        "meaning": "Nhìn, xem, ngắm"
+      },
+      {
+        "word": "見えます",
+        "reading": "みえます",
+        "meaning": "Nhìn, xem, ngắm"
+      },
+      {
+        "word": "見せます",
+        "reading": "みせます",
+        "meaning": "Nhìn, xem, ngắm"
+      },
+      {
+        "word": "見学",
+        "reading": "けんがく",
+        "meaning": "(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_51",
+    "kanji": "食",
+    "lesson": 5,
+    "han_viet": "THỰC",
+    "on_reading": "しょくx",
+    "kun_reading": "た・べます",
+    "meaning": "Ăn",
+    "examples": [
+      {
+        "word": "食べます",
+        "reading": "たべます",
+        "meaning": "Ăn"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "( chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_52",
+    "kanji": "飲",
+    "lesson": 5,
+    "han_viet": "ẨM",
+    "on_reading": "いんx",
+    "kun_reading": "の・みます",
+    "meaning": "Uống",
+    "examples": [
+      {
+        "word": "飲みます",
+        "reading": "のみます",
+        "meaning": "Uống"
+      },
+      {
+        "word": "飲食",
+        "reading": "いんしょく",
+        "meaning": ""
+      },
+      {
+        "word": "飲み水",
+        "reading": "のみみず",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_53",
+    "kanji": "買",
+    "lesson": 5,
+    "han_viet": "MÃI",
+    "on_reading": "ばいx",
+    "kun_reading": "か・います",
+    "meaning": "Mua sắm",
+    "examples": [
+      {
+        "word": "買います",
+        "reading": "かいます",
+        "meaning": "Mua sắm"
+      }
+    ]
+  },
+  {
+    "id": "k_54",
+    "kanji": "物",
+    "lesson": 5,
+    "han_viet": "VẬT",
+    "on_reading": "ぶつ / もつx",
+    "kun_reading": "もの",
+    "meaning": "Đồ vật, động vật",
+    "examples": [
+      {
+        "word": "物",
+        "reading": "もの",
+        "meaning": "Đồ vật, động vật"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": ""
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": ""
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning": ""
+      },
+      {
+        "word": "人物",
+        "reading": "じんぶつ",
+        "meaning": "( chưa học)"
+      },
+      {
+        "word": "見物",
+        "reading": "けんぶつ",
+        "meaning": "( chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_55",
+    "kanji": "行",
+    "lesson": 5,
+    "han_viet": "HÀNH",
+    "on_reading": "こうx",
+    "kun_reading": "い・きます",
+    "meaning": "Đi",
+    "examples": [
+      {
+        "word": "行きます",
+        "reading": "いきます",
+        "meaning": "Đi"
+      }
+    ]
+  },
+  {
+    "id": "k_56",
+    "kanji": "休",
+    "lesson": 5,
+    "han_viet": "HƯU",
+    "on_reading": "きゅうx",
+    "kun_reading": "やす・み / やす・みます",
+    "meaning": "Nghỉ ngơi",
+    "examples": [
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "Nghỉ ngơi"
+      },
+      {
+        "word": "休みます",
+        "reading": "やすみます",
+        "meaning": "Nghỉ ngơi"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": ""
+      },
+      {
+        "word": "休みの日",
+        "reading": "やすみのひ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_57",
+    "kanji": "今",
+    "lesson": 6,
+    "han_viet": "KIM",
+    "on_reading": "こん",
+    "kun_reading": "いま",
+    "meaning": "Bây giờ, nay",
+    "examples": [
+      {
+        "word": "今",
+        "reading": "いま",
+        "meaning": "Bây giờ, nay"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "tháng này"
+      },
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "tuần này"
+      },
+      {
+        "word": "今晩",
+        "reading": "こんばん",
+        "meaning": "tối nay"
+      }
+    ]
+  },
+  {
+    "id": "k_58",
+    "kanji": "来",
+    "lesson": 6,
+    "han_viet": "LAI",
+    "on_reading": "らい",
+    "kun_reading": "き・ます",
+    "meaning": "Đến, tương lai",
+    "examples": [
+      {
+        "word": "来ます",
+        "reading": "きます",
+        "meaning": "Đến, tương lai"
+      },
+      {
+        "word": "来月",
+        "reading": "らいげつ",
+        "meaning": "tháng sau"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "tuần sau"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "năm sau"
+      }
+    ]
+  },
+  {
+    "id": "k_59",
+    "kanji": "帰",
+    "lesson": 6,
+    "han_viet": "QUY",
+    "on_reading": "き(chưa học)",
+    "kun_reading": "かえ・ります",
+    "meaning": "Trở về",
+    "examples": [
+      {
+        "word": "帰ります",
+        "reading": "かえります",
+        "meaning": "Trở về"
+      },
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaning": "về nước"
+      },
+      {
+        "word": "帰宅",
+        "reading": "きたく",
+        "meaning": "về nhà"
+      },
+      {
+        "word": "お帰り",
+        "reading": "おかえり",
+        "meaning": "chào mừng về"
+      }
+    ]
+  },
+  {
+    "id": "k_60",
+    "kanji": "会",
+    "lesson": 6,
+    "han_viet": "HỘI",
+    "on_reading": "かい",
+    "kun_reading": "あ・います",
+    "meaning": "Gặp gỡ, xã hội",
+    "examples": [
+      {
+        "word": "会います",
+        "reading": "あいます",
+        "meaning": "Gặp gỡ, xã hội"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "công ty"
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "cuộc họp"
+      },
+      {
+        "word": "会話",
+        "reading": "かいわ",
+        "meaning": "hội thoại"
+      }
+    ]
+  },
+  {
+    "id": "k_61",
+    "kanji": "社",
+    "lesson": 6,
+    "han_viet": "XÃ",
+    "on_reading": "しゃ",
+    "kun_reading": "—",
+    "meaning": "Công ty, đền thần đạo",
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "công ty"
+      },
+      {
+        "word": "社会",
+        "reading": "しゃかい",
+        "meaning": "xã hội"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "giám đốc"
+      }
+    ]
+  },
+  {
+    "id": "k_62",
+    "kanji": "聞",
+    "lesson": 6,
+    "han_viet": "VĂN",
+    "on_reading": "ぶん",
+    "kun_reading": "き・きます",
+    "meaning": "Nghe",
+    "examples": [
+      {
+        "word": "聞きます",
+        "reading": "ききます",
+        "meaning": "Nghe"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "báo"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "きこえる",
+        "meaning": "nghe thấy"
+      }
+    ]
+  },
+  {
+    "id": "k_63",
+    "kanji": "読",
+    "lesson": 6,
+    "han_viet": "ĐỘC",
+    "on_reading": "どく",
+    "kun_reading": "よ・みます",
+    "meaning": "Đọc",
+    "examples": [
+      {
+        "word": "読みます",
+        "reading": "よみます",
+        "meaning": "Đọc"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning": "đọc sách"
+      },
+      {
+        "word": "読者",
+        "reading": "どくしゃ",
+        "meaning": "độc giả"
+      },
+      {
+        "word": "読み方",
+        "reading": "よみかた",
+        "meaning": "cách đọc"
+      }
+    ]
+  },
+  {
+    "id": "k_64",
+    "kanji": "書",
+    "lesson": 6,
+    "han_viet": "THƯ",
+    "on_reading": "しょ",
+    "kun_reading": "か・きます",
+    "meaning": "Viết",
+    "examples": [
+      {
+        "word": "書きます",
+        "reading": "かきます",
+        "meaning": "Viết"
+      },
+      {
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning": "từ điển"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "thư viện"
+      },
+      {
+        "word": "書き方",
+        "reading": "かきかた",
+        "meaning": "cách viết"
+      }
+    ]
+  },
+  {
+    "id": "k_65",
+    "kanji": "話",
+    "lesson": 6,
+    "han_viet": "THOẠI",
+    "on_reading": "わ",
+    "kun_reading": "はなし / はな・します",
+    "meaning": "Nói chuyện",
+    "examples": [
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "Nói chuyện"
+      },
+      {
+        "word": "話します",
+        "reading": "はなします",
+        "meaning": "Nói chuyện"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "điện thoại"
+      },
+      {
+        "word": "会話",
+        "reading": "かいわ",
+        "meaning": "hội thoại"
+      }
+    ]
+  },
+  {
+    "id": "k_66",
+    "kanji": "寺",
+    "lesson": 6,
+    "han_viet": "TỰ",
+    "on_reading": "じ",
+    "kun_reading": "てら",
+    "meaning": "Chùa",
+    "examples": [
+      {
+        "word": "寺",
+        "reading": "てら",
+        "meaning": "Chùa"
+      },
+      {
+        "word": "金閣寺",
+        "reading": "きんかくじ",
+        "meaning": "chùa Kinkaku"
+      },
+      {
+        "word": "東大寺",
+        "reading": "とうだいじ",
+        "meaning": "chùa Todai"
+      },
+      {
+        "word": "お寺",
+        "reading": "おてら",
+        "meaning": "chùa (lịch sự)"
+      }
+    ]
+  },
+  {
+    "id": "k_67",
+    "kanji": "言",
+    "lesson": 6,
+    "han_viet": "NGÔN",
+    "on_reading": "げん / ごん\n(chưa học)",
+    "kun_reading": "い・います",
+    "meaning": "Nói",
+    "examples": [
+      {
+        "word": "言います",
+        "reading": "いいます",
+        "meaning": "Nói"
+      },
+      {
+        "word": "言語",
+        "reading": "げんご",
+        "meaning": "ngôn ngữ"
+      },
+      {
+        "word": "方言",
+        "reading": "ほうげん",
+        "meaning": "phương ngữ"
+      },
+      {
+        "word": "伝言",
+        "reading": "でんごん",
+        "meaning": "lời nhắn"
+      }
+    ]
+  },
+  {
+    "id": "k_68",
+    "kanji": "貝",
+    "lesson": 6,
+    "han_viet": "BỐI (chưa cần học)",
+    "on_reading": "—",
+    "kun_reading": "かい",
+    "meaning": "Con sò",
+    "examples": [
+      {
+        "word": "貝",
+        "reading": "かい",
+        "meaning": "Con sò"
+      },
+      {
+        "word": "貝殻",
+        "reading": "かいがら",
+        "meaning": "vỏ sò"
+      }
+    ]
+  },
+  {
+    "id": "k_69",
+    "kanji": "田",
+    "lesson": 6,
+    "han_viet": "ĐIỀN(chưa cần học)",
+    "on_reading": "でん",
+    "kun_reading": "た",
+    "meaning": "Ruộng",
+    "examples": [
+      {
+        "word": "田",
+        "reading": "た",
+        "meaning": "Ruộng"
+      },
+      {
+        "word": "田園",
+        "reading": "でんえん",
+        "meaning": "đồng quê"
+      },
+      {
+        "word": "水田",
+        "reading": "すいでん",
+        "meaning": "ruộng nước"
+      },
+      {
+        "word": "田んぼ",
+        "reading": "たんぼ",
+        "meaning": "ruộng lúa"
+      },
+      {
+        "word": "田中",
+        "reading": "たなか",
+        "meaning": "họ Tanaka"
+      }
+    ]
+  },
+  {
+    "id": "k_70",
+    "kanji": "力",
+    "lesson": 6,
+    "han_viet": "LỰC(chưa cần học)",
+    "on_reading": "りょく / りき",
+    "kun_reading": "ちから",
+    "meaning": "Sức lực",
+    "examples": [
+      {
+        "word": "力",
+        "reading": "ちから",
+        "meaning": "Sức lực"
+      },
+      {
+        "word": "努力",
+        "reading": "どりょく",
+        "meaning": "nỗ lực"
+      },
+      {
+        "word": "能力",
+        "reading": "のうりょく",
+        "meaning": "năng lực"
+      },
+      {
+        "word": "力士",
+        "reading": "りきし",
+        "meaning": "võ sĩ sumo"
+      }
+    ]
+  },
+  {
+    "id": "k_71",
+    "kanji": "門",
+    "lesson": 6,
+    "han_viet": "MÔN",
+    "on_reading": "もん",
+    "kun_reading": "—",
+    "meaning": "Cánh cổng",
+    "examples": [
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "cổng"
+      },
+      {
+        "word": "校門",
+        "reading": "こうもん",
+        "meaning": "cổng trường"
+      },
+      {
+        "word": "専門",
+        "reading": "せんもん",
+        "meaning": "chuyên môn"
+      }
+    ]
+  },
+  {
+    "id": "k_72",
+    "kanji": "肉",
+    "lesson": 7,
+    "han_viet": "NHỤC",
+    "on_reading": "にく",
+    "kun_reading": "—",
+    "meaning": "thịt",
+    "examples": [
+      {
+        "word": "肉",
+        "reading": "にく",
+        "meaning": "thịt"
+      },
+      {
+        "word": "牛肉",
+        "reading": "ぎゅうにく",
+        "meaning": "thịt bò"
+      },
+      {
+        "word": "豚肉",
+        "reading": "ぶたにく",
+        "meaning": "thịt heo"
+      },
+      {
+        "word": "鶏肉",
+        "reading": "とりにく",
+        "meaning": "thịt gà"
+      }
+    ]
+  },
+  {
+    "id": "k_73",
+    "kanji": "料",
+    "lesson": 7,
+    "han_viet": "LIỆU",
+    "on_reading": "りょう",
+    "kun_reading": "—",
+    "meaning": "phí, nguyên liệu",
+    "examples": [
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "meaning": "nấu ăn, món ăn"
+      },
+      {
+        "word": "料金",
+        "reading": "りょうきん",
+        "meaning": "tiền phí"
+      }
+    ]
+  },
+  {
+    "id": "k_74",
+    "kanji": "理",
+    "lesson": 7,
+    "han_viet": "LÝ",
+    "on_reading": "り",
+    "kun_reading": "—",
+    "meaning": "Lý do",
+    "examples": [
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "meaning": "nấu ăn, món ăn"
+      }
+    ]
+  },
+  {
+    "id": "k_75",
+    "kanji": "野",
+    "lesson": 7,
+    "han_viet": "DÃ",
+    "on_reading": "や",
+    "kun_reading": "の",
+    "meaning": "đồng ruộng, hoang dã",
+    "examples": [
+      {
+        "word": "野",
+        "reading": "の",
+        "meaning": "đồng ruộng, hoang dã"
+      },
+      {
+        "word": "野菜",
+        "reading": "やさい",
+        "meaning": "rau củ"
+      },
+      {
+        "word": "野球",
+        "reading": "やきゅう",
+        "meaning": "bóng chày"
+      }
+    ]
+  },
+  {
+    "id": "k_76",
+    "kanji": "半",
+    "lesson": 7,
+    "han_viet": "BÁN",
+    "on_reading": "はん",
+    "kun_reading": "なか・ば",
+    "meaning": "một nửa, rưỡi",
+    "examples": [
+      {
+        "word": "半ば",
+        "reading": "なかば",
+        "meaning": "một nửa, rưỡi"
+      },
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "một nửa"
+      },
+      {
+        "word": "一時半",
+        "reading": "いちじはん",
+        "meaning": "1 giờ rưỡi"
+      },
+      {
+        "word": "半年",
+        "reading": "はんとし",
+        "meaning": "nửa năm"
+      }
+    ]
+  },
+  {
+    "id": "k_77",
+    "kanji": "大",
+    "lesson": 7,
+    "han_viet": "ĐẠI",
+    "on_reading": "だい / たい",
+    "kun_reading": "おお・きい",
+    "meaning": "lớn, to",
+    "examples": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "lớn, to"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "đại học"
+      },
+      {
+        "word": "大変",
+        "reading": "たいへん",
+        "meaning": "vất vả"
+      },
+      {
+        "word": "大切",
+        "reading": "たいせつ",
+        "meaning": "quan trọng"
+      }
+    ]
+  },
+  {
+    "id": "k_78",
+    "kanji": "小",
+    "lesson": 7,
+    "han_viet": "TIỂU",
+    "on_reading": "しょう",
+    "kun_reading": "ちい・さい",
+    "meaning": "nhỏ, bé",
+    "examples": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "nhỏ, bé"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "trường tiểu học"
+      },
+      {
+        "word": "小さな",
+        "reading": "ちいさな",
+        "meaning": "nhỏ (trước danh từ)"
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "tiểu thuyết"
+      }
+    ]
+  },
+  {
+    "id": "k_79",
+    "kanji": "家",
+    "lesson": 8,
+    "han_viet": "GIA",
+    "on_reading": "カ",
+    "kun_reading": "うち、いえ",
+    "meaning": "Nhà",
+    "examples": [
+      {
+        "word": "家",
+        "reading": "うち",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "家",
+        "reading": "いえ",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "大家",
+        "reading": "おおや",
+        "meaning": "chủ trọ(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_80",
+    "kanji": "族",
+    "lesson": 8,
+    "han_viet": "TỘC",
+    "on_reading": "ゾク",
+    "kun_reading": "—",
+    "meaning": "Gia tộc, dòng họ",
+    "examples": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_81",
+    "kanji": "父",
+    "lesson": 8,
+    "han_viet": "PHỤ",
+    "on_reading": "フ",
+    "kun_reading": "ちち",
+    "meaning": "Cha, bố",
+    "examples": [
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "Cha, bố"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_82",
+    "kanji": "母",
+    "lesson": 8,
+    "han_viet": "MẪU",
+    "on_reading": "ボ",
+    "kun_reading": "はは",
+    "meaning": "Mẹ",
+    "examples": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning": ""
+      },
+      {
+        "word": "父母",
+        "reading": "ふぼ",
+        "meaning": ""
+      },
+      {
+        "word": "母国（語）",
+        "reading": "ぼこく（ご",
+        "meaning": ") – tiếng mẹ đẻ(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_83",
+    "kanji": "兄",
+    "lesson": 8,
+    "han_viet": "HUYNH",
+    "on_reading": "キョウ",
+    "kun_reading": "あに",
+    "meaning": "Anh trai",
+    "examples": [
+      {
+        "word": "兄",
+        "reading": "あに",
+        "meaning": "Anh trai"
+      },
+      {
+        "word": "お兄さん",
+        "reading": "おにいさん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_84",
+    "kanji": "弟",
+    "lesson": 8,
+    "han_viet": "ĐỆ",
+    "on_reading": "ダイ",
+    "kun_reading": "おとうと",
+    "meaning": "Em trai",
+    "examples": [
+      {
+        "word": "弟",
+        "reading": "おとうと",
+        "meaning": "Em trai"
+      },
+      {
+        "word": "弟さん",
+        "reading": "おとうとさん",
+        "meaning": ""
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_85",
+    "kanji": "姉",
+    "lesson": 8,
+    "han_viet": "TỈ",
+    "on_reading": "シ",
+    "kun_reading": "あね",
+    "meaning": "Chị gái",
+    "examples": [
+      {
+        "word": "姉",
+        "reading": "あね",
+        "meaning": "Chị gái"
+      },
+      {
+        "word": "お姉さん",
+        "reading": "おねえさん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_86",
+    "kanji": "妹",
+    "lesson": 8,
+    "han_viet": "MUỘI",
+    "on_reading": "マイ",
+    "kun_reading": "いもうと",
+    "meaning": "Em gái",
+    "examples": [
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "meaning": "Em gái"
+      },
+      {
+        "word": "妹さん",
+        "reading": "いもうとさん",
+        "meaning": ""
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "meaning": "chị em gái(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_87",
+    "kanji": "犬",
+    "lesson": 8,
+    "han_viet": "KHUYỂN",
+    "on_reading": "ケンx",
+    "kun_reading": "いぬ",
+    "meaning": "Con chó",
+    "examples": [
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      }
+    ]
+  },
+  {
+    "id": "k_88",
+    "kanji": "高",
+    "lesson": 8,
+    "han_viet": "CAO",
+    "on_reading": "コウx",
+    "kun_reading": "たか・い",
+    "meaning": "Cao",
+    "examples": [
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "meaning": "Cao"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "(chưa học)"
+      },
+      {
+        "word": "高校生",
+        "reading": "こうこうせい",
+        "meaning": "(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_89",
+    "kanji": "短",
+    "lesson": 8,
+    "han_viet": "ĐOẢN",
+    "on_reading": "タンx",
+    "kun_reading": "みじか・い",
+    "meaning": "Ngắn",
+    "examples": [
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "meaning": "Ngắn"
+      },
+      {
+        "word": "短大",
+        "reading": "たんだい",
+        "meaning": "cao đẳng(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_90",
+    "kanji": "長",
+    "lesson": 8,
+    "han_viet": "TRƯỜNG, TRƯỞNG",
+    "on_reading": "チョウx",
+    "kun_reading": "なが・い",
+    "meaning": "Dài; trưởng",
+    "examples": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "Dài; trưởng"
+      },
+      {
+        "word": "族長",
+        "reading": "ぞくちょう",
+        "meaning": "tộc trưởng(chưa học)"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "(chưa học)"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "(chưa học)"
+      },
+      {
+        "word": "学長",
+        "reading": "がくちょう",
+        "meaning": "(chưa học)"
+      }
+    ]
+  },
+  {
+    "id": "k_91",
+    "kanji": "好",
+    "lesson": 9,
+    "han_viet": "HẢO",
+    "on_reading": "コウ",
+    "kun_reading": "す・き",
+    "meaning": "Thích",
+    "examples": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "大好き",
+        "reading": "だいすき",
+        "meaning": ""
+      },
+      {
+        "word": "大好物",
+        "reading": "だいこうぶつ",
+        "meaning": "món yêu thích"
+      }
+    ]
+  },
+  {
+    "id": "k_92",
+    "kanji": "歌",
+    "lesson": 9,
+    "han_viet": "CA",
+    "on_reading": "カ",
+    "kun_reading": "うた、うた・う",
+    "meaning": "Bài hát, hát",
+    "examples": [
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "Bài hát, hát"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "Bài hát, hát"
+      },
+      {
+        "word": "国歌",
+        "reading": "こっか",
+        "meaning": ""
+      },
+      {
+        "word": "短歌",
+        "reading": "たんか",
+        "meaning": "thơ ngắn"
+      }
+    ]
+  },
+  {
+    "id": "k_93",
+    "kanji": "音",
+    "lesson": 9,
+    "han_viet": "ÂM",
+    "on_reading": "オン",
+    "kun_reading": "おと",
+    "meaning": "Âm thanh",
+    "examples": [
+      {
+        "word": "音",
+        "reading": "おと",
+        "meaning": "Âm thanh"
+      },
+      {
+        "word": "音読み",
+        "reading": "おんよみ",
+        "meaning": "âm On"
+      }
+    ]
+  },
+  {
+    "id": "k_94",
+    "kanji": "楽",
+    "lesson": 9,
+    "han_viet": "NHẠC, LẠC",
+    "on_reading": "がく、らく",
+    "kun_reading": "たの・しい",
+    "meaning": "Âm nhạc; vui",
+    "examples": [
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Âm nhạc; vui"
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_95",
+    "kanji": "車",
+    "lesson": 9,
+    "han_viet": "XA",
+    "on_reading": "シャ",
+    "kun_reading": "くるま",
+    "meaning": "Xe",
+    "examples": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "Xe"
+      }
+    ]
+  },
+  {
+    "id": "k_96",
+    "kanji": "映",
+    "lesson": 9,
+    "han_viet": "ẢNH, ÁNH",
+    "on_reading": "エイ",
+    "kun_reading": "—",
+    "meaning": "Chiếu, phản chiếu",
+    "examples": [
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_97",
+    "kanji": "画",
+    "lesson": 9,
+    "han_viet": "HỌA, HOẠCH",
+    "on_reading": "ガ、カク",
+    "kun_reading": "—",
+    "meaning": "Tranh; kế hoạch",
+    "examples": [
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": ""
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "kế hoạch"
+      }
+    ]
+  },
+  {
+    "id": "k_98",
+    "kanji": "旅",
+    "lesson": 9,
+    "han_viet": "LỮ",
+    "on_reading": "リョ",
+    "kun_reading": "たび",
+    "meaning": "Du lịch, chuyến đi",
+    "examples": [
+      {
+        "word": "旅",
+        "reading": "たび",
+        "meaning": "Du lịch, chuyến đi"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_99",
+    "kanji": "海",
+    "lesson": 9,
+    "han_viet": "HẢI",
+    "on_reading": "カイ",
+    "kun_reading": "うみ",
+    "meaning": "Biển",
+    "examples": [
+      {
+        "word": "海",
+        "reading": "うみ",
+        "meaning": "Biển"
+      },
+      {
+        "word": "海水",
+        "reading": "かいすい",
+        "meaning": "nước biển"
+      }
+    ]
+  },
+  {
+    "id": "k_100",
+    "kanji": "外",
+    "lesson": 9,
+    "han_viet": "NGOẠI",
+    "on_reading": "ガイ",
+    "kun_reading": "そと",
+    "meaning": "Ngoài",
+    "examples": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning": "Ngoài"
+      },
+      {
+        "word": "家の外",
+        "reading": "いえのそと",
+        "meaning": ""
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": ""
+      },
+      {
+        "word": "外国語",
+        "reading": "がいこくご",
+        "meaning": ""
+      },
+      {
+        "word": "外国人",
+        "reading": "がいこくじん",
+        "meaning": ""
+      },
+      {
+        "word": "社外",
+        "reading": "しゃがい",
+        "meaning": "ngoài công ty"
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning": "nước ngoài"
+      }
+    ]
+  },
+  {
+    "id": "k_101",
+    "kanji": "駅",
+    "lesson": 10,
+    "han_viet": "DỊCH",
+    "on_reading": "エキ",
+    "kun_reading": "—",
+    "meaning": "Nhà ga",
+    "examples": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": ""
+      },
+      {
+        "word": "駅長",
+        "reading": "えきちょう",
+        "meaning": "trưởng ga"
+      }
+    ]
+  },
+  {
+    "id": "k_102",
+    "kanji": "上",
+    "lesson": 10,
+    "han_viet": "THƯỢNG",
+    "on_reading": "ジョウ",
+    "kun_reading": "うえ",
+    "meaning": "Trên",
+    "examples": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "Trên"
+      },
+      {
+        "word": "上京",
+        "reading": "じょうきょう",
+        "meaning": "tới Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "k_103",
+    "kanji": "下",
+    "lesson": 10,
+    "han_viet": "HẠ",
+    "on_reading": "カ",
+    "kun_reading": "した",
+    "meaning": "Dưới",
+    "examples": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "Dưới"
+      },
+      {
+        "word": "下車",
+        "reading": "げしゃ",
+        "meaning": "xuống xe"
+      },
+      {
+        "word": "上下",
+        "reading": "じょうげ",
+        "meaning": "trên dưới"
+      }
+    ]
+  },
+  {
+    "id": "k_104",
+    "kanji": "地",
+    "lesson": 10,
+    "han_viet": "ĐỊA",
+    "on_reading": "チ",
+    "kun_reading": "—",
+    "meaning": "Đất",
+    "examples": [
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "đất đai"
+      },
+      {
+        "word": "地下",
+        "reading": "ちか",
+        "meaning": "ngầm"
+      }
+    ]
+  },
+  {
+    "id": "k_105",
+    "kanji": "図",
+    "lesson": 10,
+    "han_viet": "ĐỒ",
+    "on_reading": "ト、ズ",
+    "kun_reading": "—",
+    "meaning": "Hình vẽ, bản đồ",
+    "examples": [
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "meaning": "bản đồ"
+      },
+      {
+        "word": "図",
+        "reading": "ず",
+        "meaning": "hình vẽ"
+      }
+    ]
+  },
+  {
+    "id": "k_106",
+    "kanji": "館",
+    "lesson": 10,
+    "han_viet": "QUÁN",
+    "on_reading": "カン",
+    "kun_reading": "—",
+    "meaning": "Tòa nhà, quán",
+    "examples": [
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": ""
+      },
+      {
+        "word": "旅館",
+        "reading": "りょかん",
+        "meaning": "nhà trọ kiểu Nhật"
+      },
+      {
+        "word": "会館",
+        "reading": "かいかん",
+        "meaning": "hội quán"
+      },
+      {
+        "word": "映画館",
+        "reading": "えいがかん",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_107",
+    "kanji": "右",
+    "lesson": 10,
+    "han_viet": "HỮU",
+    "on_reading": "ユウ",
+    "kun_reading": "みぎ",
+    "meaning": "Phải",
+    "examples": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "Phải"
+      }
+    ]
+  },
+  {
+    "id": "k_108",
+    "kanji": "左",
+    "lesson": 10,
+    "han_viet": "TẢ",
+    "on_reading": "サ",
+    "kun_reading": "ひだり",
+    "meaning": "Trái",
+    "examples": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "Trái"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning": "trái phải"
+      }
+    ]
+  },
+  {
+    "id": "k_109",
+    "kanji": "道",
+    "lesson": 10,
+    "han_viet": "ĐẠO",
+    "on_reading": "ドウ",
+    "kun_reading": "みち",
+    "meaning": "Đường",
+    "examples": [
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "Đường"
+      },
+      {
+        "word": "書道",
+        "reading": "しょどう",
+        "meaning": ""
+      },
+      {
+        "word": "国道",
+        "reading": "こくどう",
+        "meaning": "quốc lộ"
+      },
+      {
+        "word": "車道",
+        "reading": "しゃどう",
+        "meaning": "đường xe chạy"
+      }
+    ]
+  },
+  {
+    "id": "k_110",
+    "kanji": "起",
+    "lesson": 11,
+    "han_viet": "KHỞI",
+    "on_reading": "キ",
+    "kun_reading": "お・きる、お・こす",
+    "meaning": "Thức dậy; gây ra",
+    "examples": [
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "meaning": "Thức dậy; gây ra"
+      },
+      {
+        "word": "起こす",
+        "reading": "おこす",
+        "meaning": "Thức dậy; gây ra"
+      }
+    ]
+  },
+  {
+    "id": "k_111",
+    "kanji": "歩",
+    "lesson": 11,
+    "han_viet": "BỘ",
+    "on_reading": "ホ",
+    "kun_reading": "ある・く",
+    "meaning": "Đi bộ",
+    "examples": [
+      {
+        "word": "歩く",
+        "reading": "あるく",
+        "meaning": "Đi bộ"
+      },
+      {
+        "word": "歩行",
+        "reading": "ほこう",
+        "meaning": "bộ hành"
+      },
+      {
+        "word": "一歩",
+        "reading": "いっぽ",
+        "meaning": "từng bước"
+      }
+    ]
+  },
+  {
+    "id": "k_112",
+    "kanji": "乗",
+    "lesson": 11,
+    "han_viet": "THỪA",
+    "on_reading": "ジョウ",
+    "kun_reading": "の・る、の・せる",
+    "meaning": "Lên (tàu, xe…), chất lên",
+    "examples": [
+      {
+        "word": "乗る",
+        "reading": "のる",
+        "meaning": "Lên (tàu, xe…), chất lên"
+      },
+      {
+        "word": "乗せる",
+        "reading": "のせる",
+        "meaning": "Lên (tàu, xe…), chất lên"
+      },
+      {
+        "word": "乗車",
+        "reading": "じょうしゃ",
+        "meaning": "lên xe"
+      }
+    ]
+  },
+  {
+    "id": "k_113",
+    "kanji": "始",
+    "lesson": 11,
+    "han_viet": "THỦY",
+    "on_reading": "シ",
+    "kun_reading": "はじ・める、はじ・まる",
+    "meaning": "Bắt đầu",
+    "examples": [
+      {
+        "word": "始める",
+        "reading": "はじめる",
+        "meaning": "Bắt đầu"
+      },
+      {
+        "word": "始まる",
+        "reading": "はじまる",
+        "meaning": "Bắt đầu"
+      }
+    ]
+  },
+  {
+    "id": "k_114",
+    "kanji": "終",
+    "lesson": 11,
+    "han_viet": "CHUNG",
+    "on_reading": "シュウ",
+    "kun_reading": "お・わる、お・える",
+    "meaning": "Kết thúc",
+    "examples": [
+      {
+        "word": "終わる",
+        "reading": "おわる",
+        "meaning": "Kết thúc"
+      },
+      {
+        "word": "終える",
+        "reading": "おえる",
+        "meaning": "Kết thúc"
+      },
+      {
+        "word": "始終",
+        "reading": "しじゅう",
+        "meaning": "bắt đầu và kết thúc"
+      }
+    ]
+  },
+  {
+    "id": "k_115",
+    "kanji": "勉",
+    "lesson": 11,
+    "han_viet": "MIỄN",
+    "on_reading": "ベン",
+    "kun_reading": "—",
+    "meaning": "Cố gắng, chăm chỉ",
+    "examples": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "học tập"
+      },
+      {
+        "word": "勉学",
+        "reading": "べんがく",
+        "meaning": "chăm chỉ"
+      }
+    ]
+  },
+  {
+    "id": "k_116",
+    "kanji": "強",
+    "lesson": 11,
+    "han_viet": "CƯỜNG, CƯỠNG",
+    "on_reading": "キョウ",
+    "kun_reading": "つよ・い",
+    "meaning": "Mạnh mẽ",
+    "examples": [
+      {
+        "word": "強い",
+        "reading": "つよい",
+        "meaning": "Mạnh mẽ"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "học tập"
+      }
+    ]
+  },
+  {
+    "id": "k_117",
+    "kanji": "朝",
+    "lesson": 11,
+    "han_viet": "TRIỀU",
+    "on_reading": "チョウ",
+    "kun_reading": "あさ",
+    "meaning": "Buổi sáng",
+    "examples": [
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "朝食",
+        "reading": "ちょうしょく",
+        "meaning": ""
+      },
+      {
+        "word": "今朝",
+        "reading": "けさ",
+        "meaning": ""
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "id": "k_118",
+    "kanji": "昼",
+    "lesson": 11,
+    "han_viet": "TRÚ",
+    "on_reading": "チュウ",
+    "kun_reading": "ひる",
+    "meaning": "Buổi trưa",
+    "examples": [
+      {
+        "word": "昼",
+        "reading": "ひる",
+        "meaning": "Buổi trưa"
+      },
+      {
+        "word": "昼食",
+        "reading": "ちゅうしょく",
+        "meaning": ""
+      },
+      {
+        "word": "昼間",
+        "reading": "ひるま",
+        "meaning": "ban ngày"
+      }
+    ]
+  },
+  {
+    "id": "k_119",
+    "kanji": "夜",
+    "lesson": 11,
+    "han_viet": "DẠ",
+    "on_reading": "ヤ",
+    "kun_reading": "よる",
+    "meaning": "Ban đêm",
+    "examples": [
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "Ban đêm"
+      },
+      {
+        "word": "夜道",
+        "reading": "よみち",
+        "meaning": "đường phố ban đêm"
+      },
+      {
+        "word": "夜会",
+        "reading": "やかい",
+        "meaning": "dạ hội"
+      },
+      {
+        "word": "夜間",
+        "reading": "やかん",
+        "meaning": "ban đêm"
+      }
+    ]
+  }
+]

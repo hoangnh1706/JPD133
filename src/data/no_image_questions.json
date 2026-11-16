@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "lesson": 8,
+    "q_jp": "おとうさん/おかあさんは どこで はたらいて いますか。",
+    "q_vi": "Bố / Mẹ của bạn đang làm việc ở đâu?",
+    "a_jp": "父は <ruby>会社<rt>かいしゃ</rt></ruby>で はたらいて います。/ 母は <ruby>銀行<rt>ぎんこう</rt></ruby>で はたらいて います。",
+    "a_vi": "Bố tôi đang làm việc ở công ty. / Mẹ tôi đang làm việc ở ngân hàng.",
+    "grammar": "V て形 + います",
+    "grammar_meaning": "Diễn tả hành động đang diễn ra hoặc trạng thái kết quả của hành động (trạng thái nghề nghiệp hiện tại)."
+  },
+  {
+    "id": 2,
+    "lesson": 8,
+    "q_jp": "～さんは いま どこで/なにを べんきょうして いますか。",
+    "q_vi": "Bạn ~ hiện tại đang học ở đâu / đang học gì?",
+    "a_jp": "いま <ruby>FPT大学<rt>だいがく</rt></ruby>で IT／<ruby>日本語<rt>にほんご</rt></ruby>を べんきょうして います。",
+    "a_vi": "Hiện tại tôi đang học CNTT / tiếng Nhật ở Đại học FPT.",
+    "grammar": "V て形 + います",
+    "grammar_meaning": "Diễn tả hành động đang diễn ra ở hiện tại."
+  },
+  {
+    "id": 3,
+    "lesson": 8,
+    "q_jp": "～さんは いま どこに/だれと すんで いますか。",
+    "q_vi": "Bạn ~ hiện tại đang sống ở đâu / sống với ai?",
+    "a_jp": "いま ハノイに 家族と すんで います。（<ruby>友達<rt>ともだち</rt></ruby>と <ruby>2人<rt>ふたり</rt></ruby>で すんで います。）",
+    "a_vi": "Hiện tại tôi đang sống ở Hà Nội cùng gia đình. (Sống cùng bạn, 2 người.)",
+    "grammar": "V て形 + います / [～人] で",
+    "grammar_meaning": "Diễn tả trạng thái kết quả của hành động (đang sinh sống); [～人] で diễn tả số người cùng làm một hành động."
+  },
+  {
+    "id": 4,
+    "lesson": 8,
+    "q_jp": "ハノイ/ベトナム/日本は どんな まち/ところですか。",
+    "q_vi": "Hà Nội / Việt Nam / Nhật Bản là thành phố / nơi như thế nào?",
+    "a_jp": "ハノイは <ruby>食<rt>た</rt></ruby>べ物が おいしくて、にぎやかな まちです。",
+    "a_vi": "Hà Nội là một thành phố có đồ ăn ngon và nhộn nhịp.",
+    "grammar": "N1 は N2 が A です / イA くて、ナA で、N で",
+    "grammar_meaning": "Mô tả đặc điểm, tính chất của một phần trong toàn thể; hoặc liệt kê nhiều tính từ/danh từ để mô tả đặc điểm."
+  },
+  {
+    "id": 5,
+    "lesson": 8,
+    "q_jp": "ことし/きょねんの たんじょうびに なにを もらいますか/もらいましたか。",
+    "q_vi": "Sinh nhật năm nay / năm ngoái, bạn sẽ nhận / đã nhận được gì?",
+    "a_jp": "きょねんの たんじょうびに <ruby>友達<rt>ともだち</rt></ruby>に 本を もらいました。",
+    "a_vi": "Vào sinh nhật năm ngoái, tôi đã nhận được sách từ bạn.",
+    "grammar": "N1（人）に N2（đồ vật）を もらいます",
+    "grammar_meaning": "Nhận cái gì đó (N2) từ ai đó (N1)."
+  },
+  {
+    "id": 6,
+    "lesson": 8,
+    "q_jp": "らいねん おかあさん／おとうさん／ともだちの たんじょうびに なにを あげますか。",
+    "q_vi": "Sinh nhật mẹ / bố / bạn bè năm sau, bạn sẽ tặng gì?",
+    "a_jp": "らいねん 母の たんじょうびに <ruby>花<rt>はな</rt></ruby>を あげます。",
+    "a_vi": "Sinh nhật mẹ năm sau, tôi sẽ tặng hoa.",
+    "grammar": "S は N1（人）に N2（đồ vật）を あげます",
+    "grammar_meaning": "S (chủ ngữ) cho / tặng N1 một vật gì đó (N2)."
+  },
+  {
+    "id": 7,
+    "lesson": 8,
+    "q_jp": "誕生日に だれが プレゼントを くれましたか。",
+    "q_vi": "Vào ngày sinh nhật, ai đã tặng quà cho bạn?",
+    "a_jp": "<ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>が <ruby>時計<rt>とけい</rt></ruby>を くれました。",
+    "a_vi": "Vào ngày sinh nhật, bạn tôi đã tặng đồng hồ cho tôi.",
+    "grammar": "N1（人）が 私に N2（物）を くれます",
+    "grammar_meaning": "Ai đó (ngôi thứ 3) cho / tặng tôi cái gì đó."
+  },
+  {
+    "id": 8,
+    "lesson": 8,
+    "q_jp": "日本語/日本/日本の映画/ＦＰＴ大学。。。は どうですか。",
+    "q_vi": "Tiếng Nhật / Nhật Bản / Phim Nhật / Đại học FPT... thì thế nào?",
+    "a_jp": "<ruby>日本語<rt>にほんご</rt></ruby>は かんじが むずかしいですが、おもしろいです。",
+    "a_vi": "Tiếng Nhật thì chữ Hán khó nhưng thú vị.",
+    "grammar": "N1 は N2 が A です / イA くて、ナA で、N で",
+    "grammar_meaning": "Dùng để trả lời câu hỏi đánh giá/cảm nhận (～はどうですか), mô tả đặc điểm hoặc liệt kê tính chất."
+  },
+  {
+    "id": 9,
+    "lesson": 9,
+    "q_jp": "～さんは どんな スポーツが できますか。",
+    "q_vi": "Bạn ~ có thể chơi môn thể thao nào?",
+    "a_jp": "<ruby>私<rt>わたし</rt></ruby>は サッカーと ランニングが できます。",
+    "a_vi": "Tôi có thể chơi bóng đá và chạy bộ.",
+    "grammar": "N／V ることが できます (～が できます)",
+    "grammar_meaning": "Diễn tả khả năng (có thể làm gì đó)."
+  },
+  {
+    "id": 10,
+    "lesson": 9,
+    "q_jp": "～さんは 何が できますか。（えを見る）",
+    "q_vi": "Bạn ~ có thể làm được gì? (Xem tranh)",
+    "a_jp": "<ruby>私<rt>わたし</rt></ruby>は 料理を 作ることが できます。",
+    "a_vi": "Tôi có thể nấu ăn.",
+    "grammar": "N／V ることが できます",
+    "grammar_meaning": "Diễn tả khả năng (có thể làm gì đó); こと dùng để danh từ hóa động từ (V る + こと)."
+  },
+  {
+    "id": 11,
+    "lesson": 9,
+    "q_jp": "かんじを いくつぐらい かくことが できますか。",
+    "q_vi": "Bạn có thể viết được khoảng bao nhiêu chữ Hán?",
+    "a_jp": "かんじを <ruby>100<rt>ひゃく</rt></ruby>ぐらい かくことが できます。",
+    "a_vi": "Tôi có thể viết được khoảng 100 chữ Hán.",
+    "grammar": "V る + ことが できます",
+    "grammar_meaning": "Diễn tả khả năng có thể làm việc gì đó (chia động từ về thể từ điển V る)."
+  },
+  {
+    "id": 12,
+    "lesson": 9,
+    "q_jp": "けさ 起きて、すぐ 何を しましたか。",
+    "q_vi": "Sáng nay sau khi thức dậy, bạn đã làm gì ngay?",
+    "a_jp": "けさ 起きて、すぐ かおを あらって、朝ごはんを <ruby>食<rt>た</rt></ruby>べました。",
+    "a_vi": "Sáng nay sau khi thức dậy, tôi rửa mặt ngay rồi ăn sáng.",
+    "grammar": "「V て形、」→ V1 て、V2 て、V3",
+    "grammar_meaning": "Nối các hành động theo trình tự (làm A rồi làm B)."
+  },
+  {
+    "id": 13,
+    "lesson": 9,
+    "q_jp": "うちへ 帰って、すぐ 何を しますか。",
+    "q_vi": "Sau khi về nhà, bạn làm gì ngay?",
+    "a_jp": "うちへ 帰って、すぐ シャワーを あびて、ばんごはんを <ruby>食<rt>た</rt></ruby>べます。",
+    "a_vi": "Sau khi về nhà, tôi tắm vòi sen ngay rồi ăn tối.",
+    "grammar": "「V て形、」→ V1 て、V2 て、V3",
+    "grammar_meaning": "Nối các hành động theo trình tự (làm A rồi làm B)."
+  },
+  {
+    "id": 14,
+    "lesson": 9,
+    "q_jp": "しゅみは なんですか（えを見る）",
+    "q_vi": "Sở thích của bạn là gì? (Xem tranh)",
+    "a_jp": "<ruby>私<rt>わたし</rt></ruby>の <ruby>趣味<rt>しゅみ</rt></ruby>は 本を <ruby>読<rt>よ</rt></ruby>むことです。",
+    "a_vi": "Sở thích của tôi là đọc sách.",
+    "grammar": "私の趣味は V ることです",
+    "grammar_meaning": "Diễn tả sở thích của tôi là làm việc gì đó."
+  },
+  {
+    "id": 15,
+    "lesson": 9,
+    "q_jp": "〜さんの趣味はなんですか？→ どんな N をVますか／よく V ますか。",
+    "q_vi": "Sở thích của bạn ~ là gì? → Bạn thích/làm N nào? / Bạn có thường xuyên V không?",
+    "a_jp": "<ruby>趣味<rt>しゅみ</rt></ruby>は 本を <ruby>読<rt>よ</rt></ruby>むことです。よく <ruby>日本<rt>にほん</rt></ruby>の本を <ruby>読<rt>よ</rt></ruby>みます。<ruby>1週間<rt>いっしゅうかん</rt></ruby>に <ruby>3回<rt>さんかい</rt></ruby>ぐらい <ruby>読<rt>よ</rt></ruby>みます。",
+    "a_vi": "Sở thích của tôi là đọc sách. Tôi thường đọc sách Nhật, khoảng 3 lần mỗi tuần.",
+    "grammar": "趣味は V ることです / いつも・よく・ときどき / [Thời gian] に [Số lần]",
+    "grammar_meaning": "Diễn tả sở thích, mức độ thường xuyên và tần suất thực hiện hành động."
+  },
+  {
+    "id": 16,
+    "lesson": 9,
+    "q_jp": "週末、何をしましたか／しますか（絵を見る）→ Vて、Vて…",
+    "q_vi": "Cuối tuần bạn đã làm gì / sẽ làm gì? (Xem tranh) → V rồi V...",
+    "a_jp": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と 映画を 見て、カフェで コーヒーを 飲んで、うちへ 帰りました。",
+    "a_vi": "Cuối tuần tôi đã xem phim với bạn, uống cà phê ở quán rồi về nhà.",
+    "grammar": "「V て形、」→ V1 て、V2 て、V3",
+    "grammar_meaning": "Nối các hành động theo trình tự (làm A rồi B), thường dùng để liệt kê hành động."
+  },
+  {
+    "id": 17,
+    "lesson": 9,
+    "q_jp": "ハノイからは どうやって FPT大学に 行きますか。",
+    "q_vi": "Từ Hà Nội thì đi đến Đại học FPT bằng cách nào?",
+    "a_jp": "バスに 乗って、<ruby>FPT大学前<rt>だいがくまえ</rt></ruby>で 降ります。",
+    "a_vi": "Đi xe buýt rồi xuống ở trước cổng Đại học FPT.",
+    "grammar": "「どうやって」 (kết hợp V て、V ます)",
+    "grammar_meaning": "Dùng để hỏi/trả lời cách làm, phương pháp (\"làm thế nào\")."
+  },
+  {
+    "id": 18,
+    "lesson": 10,
+    "q_jp": "きょうしつで 写真を とっても いいですか。",
+    "q_vi": "Tôi chụp ảnh trong lớp học có được không?",
+    "a_jp": "はい、いいですよ。（すみません、ちょっと…。）",
+    "a_vi": "Vâng, được chứ ạ. (Xin lỗi, không được ạ...)",
+    "grammar": "「V て + もいいですか」",
+    "grammar_meaning": "Dùng để xin phép làm một hành động nào đó (\"Tôi làm ... được không?\")."
+  },
+  {
+    "id": 19,
+    "lesson": 10,
+    "q_jp": "きょうしつで たばこを すっても いいですか。",
+    "q_vi": "Tôi hút thuốc lá trong lớp học có được không?",
+    "a_jp": "いいえ、だめです。きょうしつで たばこを すわないで ください。",
+    "a_vi": "Không, không được đâu. Xin đừng hút thuốc trong lớp học.",
+    "grammar": "「V て + もいいですか」 / 「V ない + でください」",
+    "grammar_meaning": "Xin phép làm hành động gì đó; V ない + でください dùng để yêu cầu không làm gì một cách lịch sự (\"Xin đừng...\")."
+  },
+  {
+    "id": 20,
+    "lesson": 10,
+    "q_jp": "クラスで コンピューターを つかうことが できますか。",
+    "q_vi": "Trong lớp học có thể sử dụng máy tính không?",
+    "a_jp": "はい、つかうことが できます。",
+    "a_vi": "Vâng, có thể sử dụng được.",
+    "grammar": "「N／V ることが できます」",
+    "grammar_meaning": "Diễn tả điều kiện cho phép thực hiện một hành động nào đó."
+  },
+  {
+    "id": 21,
+    "lesson": 10,
+    "q_jp": "FPT 大学から 何が 見えますか。/ ここから 何が 聞こえますか。",
+    "q_vi": "Từ Đại học FPT có thể nhìn thấy gì? / Từ đây có thể nghe thấy gì?",
+    "a_jp": "<ruby>FPT大学<rt>だいがく</rt></ruby>から きれいな そらが 見えます。/ ここから <ruby>鳥<rt>とり</rt></ruby>の 声が 聞こえます。",
+    "a_vi": "Từ Đại học FPT có thể thấy bầu trời đẹp. / Từ đây nghe thấy tiếng chim.",
+    "grammar": "「N が 見えます／聞こえます」",
+    "grammar_meaning": "Diễn tả khả năng cảm nhận tự nhiên bằng mắt (có thể nhìn thấy N) hoặc tai (có thể nghe thấy N), không dùng với ý chí chủ động."
+  },
+  {
+    "id": 22,
+    "lesson": 10,
+    "q_jp": "これから てんきが どうなりますか。",
+    "q_vi": "Từ bây giờ thời tiết sẽ trở nên như thế nào?",
+    "a_jp": "これから さむくなります。（あたたかくなります。）",
+    "a_vi": "Từ bây giờ trời sẽ trở nên lạnh. (Sẽ trở nên ấm áp.)",
+    "grammar": "「イA（～く）なります／ナA・N（～に）なります」",
+    "grammar_meaning": "Diễn tả sự thay đổi trạng thái (\"trở nên...\")."
+  },
+  {
+    "id": 23,
+    "lesson": 10,
+    "q_jp": "来年、何歳に なりますか。",
+    "q_vi": "Năm sau bạn sẽ bao nhiêu tuổi?",
+    "a_jp": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>21歳<rt>にじゅういっさい</rt></ruby>に なります。",
+    "a_vi": "Năm sau tôi sẽ bước sang tuổi 21.",
+    "grammar": "「N（～に）なります」",
+    "grammar_meaning": "Diễn tả sự thay đổi trạng thái (\"trở nên / bước sang tuổi...\")."
+  },
+  {
+    "id": 24,
+    "lesson": 11,
+    "q_jp": "毎朝 うんどうしていますか。/新聞を 読んでいますか。",
+    "q_vi": "Mỗi sáng bạn có tập thể dục không? / Bạn có đọc báo không?",
+    "a_jp": "はい、毎朝 うんどうしています。/ いいえ、あまり <ruby>読<rt>よ</rt></ruby>んでいません。",
+    "a_vi": "Vâng, mỗi sáng tôi đều tập thể dục. / Không, tôi không đọc lắm.",
+    "grammar": "「V て形 + います」",
+    "grammar_meaning": "Diễn tả hành động đang xảy ra hoặc thói quen / hành vi lặp lại (thường đi với từ chỉ thời gian như 毎朝, 毎日...)."
+  },
+  {
+    "id": 25,
+    "lesson": 11,
+    "q_jp": "日曜日 何を しますか。（～たり、～たりします。）（絵を見る）",
+    "q_vi": "Chủ nhật bạn làm gì? (Dùng ～たり、～たりします) (Xem tranh)",
+    "a_jp": "<ruby>日曜日<rt>にちようび</rt></ruby>、本を <ruby>読<rt>よ</rt></ruby>んだり、ゲームを したり します。",
+    "a_vi": "Chủ nhật tôi đọc sách, chơi game, v.v.",
+    "grammar": "「V たり、V たり します」",
+    "grammar_meaning": "Liệt kê một vài hành động đại diện mang tính ví dụ, xảy ra không theo thứ tự nhất định (chia thể た giống thể て)."
+  },
+  {
+    "id": 26,
+    "lesson": 11,
+    "q_jp": "よる いつも 何を しますか。（～たり、～たりします。）（絵を見る）",
+    "q_vi": "Buổi tối bạn thường làm gì? (Dùng ～たり、～たりします) (Xem tranh)",
+    "a_jp": "よる、<ruby>日本語<rt>にほんご</rt></ruby>を べんきょうしたり、音楽を 聞いたり しています。",
+    "a_vi": "Buổi tối tôi thường học tiếng Nhật, nghe nhạc, v.v.",
+    "grammar": "「V たり、V たり します」",
+    "grammar_meaning": "Liệt kê một vài hành động đại diện mang tính ví dụ, không theo thứ tự nhất định."
+  },
+  {
+    "id": 27,
+    "lesson": 11,
+    "q_jp": "ひまなとき/さびしいとき、いつも 何を していますか。",
+    "q_vi": "Khi rảnh / khi buồn, bạn thường làm gì?",
+    "a_jp": "ひまなとき、いつも ゲームを したり、本を <ruby>読<rt>よ</rt></ruby>んだり しています。",
+    "a_vi": "Khi rảnh, tôi thường chơi game hoặc đọc sách.",
+    "grammar": "「イA い + とき」 / 「ナA な + とき」 + 「V て + います」",
+    "grammar_meaning": "とき nghĩa là \"Khi~\": tính từ đuôi い giữ い + とき; tính từ đuôi な giữ な + とき."
+  },
+  {
+    "id": 28,
+    "lesson": 11,
+    "q_jp": "あめ/やすみ/じかんがある/べんきょうがないとき、何をしますか。",
+    "q_vi": "Khi trời mưa / khi nghỉ / khi có thời gian / khi không có tiết học, bạn làm gì?",
+    "a_jp": "やすみのとき、ジムへ <ruby>行<rt>い</rt></ruby>ったり、<ruby>友達<rt>ともだち</rt></ruby>と あそんだり します。",
+    "a_vi": "Khi nghỉ, tôi đi tập gym hoặc đi chơi với bạn.",
+    "grammar": "「N の + とき」 / 「V る・V た・V ない + とき」",
+    "grammar_meaning": "とき nghĩa là \"Khi~\": danh từ thêm の + とき; động từ chia V る / V ない + とき."
+  },
+  {
+    "id": 29,
+    "lesson": 11,
+    "q_jp": "頭がいたい/道がわからない/疲れた／かぜをひいた／眠いとき、どうしますか。",
+    "q_vi": "Khi đau đầu / không biết đường / mệt / bị cảm / buồn ngủ, bạn làm thế nào?",
+    "a_jp": "疲れたとき、うちで ゆっくり 休みます。（眠いとき、コーヒーを 飲みます。）",
+    "a_vi": "Khi mệt, tôi nghỉ ngơi thư giãn ở nhà. (Khi buồn ngủ, tôi uống cà phê.)",
+    "grammar": "「イA い / V る・V た・V ない + とき」 + 「どうしますか」",
+    "grammar_meaning": "とき (\"Khi~\") kết hợp どうしますか dùng để hỏi: \"Bạn sẽ làm gì?\" hoặc \"Phải làm sao đây?\"."
+  },
+  {
+    "id": 30,
+    "lesson": 11,
+    "q_jp": "こどものとき、よく お父さんと お母さんと どこへ あそびに 行きましたか。",
+    "q_vi": "Khi còn nhỏ, bạn thường đi đâu chơi cùng bố và mẹ?",
+    "a_jp": "こどものとき、よく <ruby>公園<rt>こうえん</rt></ruby>や どうぶつえんへ あそびに <ruby>行<rt>い</rt></ruby>きました。",
+    "a_vi": "Khi còn nhỏ, tôi thường đi công viên hoặc sở thú chơi.",
+    "grammar": "「N の + とき」",
+    "grammar_meaning": "とき nghĩa là \"Khi~\" (Danh từ + の + とき)."
+  },
+  {
+    "id": 31,
+    "lesson": 11,
+    "q_jp": "お金が ないとき、だれに かして もらいますか。",
+    "q_vi": "Khi không có tiền, bạn nhờ ai cho mượn?",
+    "a_jp": "お金が ないとき、母／<ruby>友達<rt>ともだち</rt></ruby>に かして もらいます。",
+    "a_vi": "Khi không có tiền, tôi nhờ mẹ / bạn cho mượn.",
+    "grammar": "「V ない + とき」 (kết hợp N に V て もらいます)",
+    "grammar_meaning": "とき (\"Khi~\") dùng với thể ない; kết hợp cấu trúc nhận sự giúp đỡ/cho vay từ ai đó."
+  },
+  {
+    "id": 32,
+    "lesson": 11,
+    "q_jp": "日本で 日本語が わからないとき、どう なりますか。",
+    "q_vi": "Ở Nhật khi không hiểu tiếng Nhật thì sẽ ra sao?",
+    "a_jp": "ちょっと こまりますが、スマホで しらべます。",
+    "a_vi": "Sẽ hơi lúng túng một chút, nhưng tôi sẽ tra bằng điện thoại.",
+    "grammar": "「V ない + とき」 + 「どう なりますか」",
+    "grammar_meaning": "Hỏi sự thay đổi trạng thái/tình huống khi không hiểu tiếng Nhật (なります: trở nên)."
+  },
+  {
+    "id": 33,
+    "lesson": 11,
+    "q_jp": "日本人の 友達へ 行くとき、何を しますか。",
+    "q_vi": "Khi đi đến (nhà) người bạn Nhật, bạn làm gì?",
+    "a_jp": "おみやげを <ruby>買<rt>か</rt></ruby>って <ruby>行<rt>い</rt></ruby>きます。",
+    "a_vi": "Tôi mua quà mang theo.",
+    "grammar": "「V る + とき」",
+    "grammar_meaning": "とき nghĩa là \"Khi~\" (dùng V る cho hành động cụ thể sắp/trước khi xảy ra)."
+  },
+  {
+    "id": 34,
+    "lesson": 11,
+    "q_jp": "言葉の 意味が 分からないとき、何を しますか。",
+    "q_vi": "Khi không hiểu nghĩa của từ vựng, bạn làm gì?",
+    "a_jp": "じしょで しらべたり、<ruby>先生<rt>せんせい</rt></ruby>に 聞いたり します。",
+    "a_vi": "Tôi tra từ điển hoặc hỏi thầy cô.",
+    "grammar": "「V ない + とき」",
+    "grammar_meaning": "とき nghĩa là \"Khi~\" (dùng với động từ thể ない)."
+  },
+  {
+    "id": 35,
+    "lesson": 11,
+    "q_jp": "日本語/勉強は どう？",
+    "q_vi": "Tiếng Nhật / Việc học thế nào?",
+    "a_jp": "ちょっと むずかしいけど、おもしろいよ。",
+    "a_vi": "Hơi khó một chút nhưng thú vị đấy.",
+    "grammar": "友達言葉 (Thể thường – văn nói thân mật)",
+    "grammar_meaning": "Cách nói ngắn gọn, thân mật giữa bạn bè, người thân, người ngang hàng hoặc nhỏ tuổi hơn (lược bỏ ですか)."
+  },
+  {
+    "id": 36,
+    "lesson": 11,
+    "q_jp": "日本の映画/FPT 大学/明日の 天気は どう？",
+    "q_vi": "Phim Nhật / Đại học FPT / Thời tiết ngày mai thế nào?",
+    "a_jp": "<ruby>FPT大学<rt>だいがく</rt></ruby>は とても きれいだよ。",
+    "a_vi": "Đại học FPT đẹp lắm đấy.",
+    "grammar": "友達言葉 (Thể thường – văn nói thân mật)",
+    "grammar_meaning": "Hỏi cảm nhận/tình hình ở dạng thân mật (lược bỏ ですか)."
+  },
+  {
+    "id": 37,
+    "lesson": 11,
+    "q_jp": "この教室で たばこを すっても いい？",
+    "q_vi": "Tớ hút thuốc ở phòng học này được không?",
+    "a_jp": "ううん、だめだよ。ここでは すわないで。",
+    "a_vi": "Không được đâu. Đừng hút ở đây nhé.",
+    "grammar": "「～ていい？」 (V てもいい？) / 「V ないて (～ないで)」",
+    "grammar_meaning": "Xin phép thân mật (\"V có được không?\", dạng thể thường của V てもいいですか); V ないで (\"Đừng V\")."
+  },
+  {
+    "id": 38,
+    "lesson": 11,
+    "q_jp": "いっしょに ごはんを 食べない？",
+    "q_vi": "Cùng đi ăn cơm với tớ không?",
+    "a_jp": "うん、いいね。<ruby>食<rt>た</rt></ruby>べよう！",
+    "a_vi": "Ừ, hay đấy. Đi ăn thôi!",
+    "grammar": "「～ない？」 (Rủ rê thân mật)",
+    "grammar_meaning": "Rủ rê nhẹ nhàng, thân mật (\"Làm... không?\")."
+  },
+  {
+    "id": 39,
+    "lesson": 11,
+    "q_jp": "せんしゅうの こうぎは どうだった？",
+    "q_vi": "Bài giảng tuần trước thế nào?",
+    "a_jp": "とても わかりやすくて、よかったよ。",
+    "a_vi": "Rất dễ hiểu và hay lắm đấy.",
+    "grammar": "友達言葉 (Thể thường quá khứ)",
+    "grammar_meaning": "Hỏi cảm nhận ở thì quá khứ dạng thân mật (どうでしたか → どうだった？)."
+  }
+]

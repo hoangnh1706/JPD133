@@ -1,0 +1,2687 @@
+[
+  {
+    "id": 1,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 1 (Nhạc kịch Cats)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>趣味<rt>しゅみ</rt></ruby>はミュージカルを<ruby>見<rt>み</rt></ruby>ることです。1<ruby>か月<rt>かげつ</rt></ruby>に1<ruby>回<rt>かい</rt></ruby>くらい、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。とても楽しいです。<ruby>特<rt>とく</rt></ruby>に「キャッツ」が好きです。「キャッツ」は<ruby>猫<rt>ねこ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>です。「キャッツ」は歌もダンスもとてもいいです。<ruby>私<rt>わたし</rt></ruby>はミュージカルのCDを<ruby>買<rt>か</rt></ruby>って、よくうちで<ruby>聞<rt>き</rt></ruby>きます。ときどき、歌も歌います。上手に歌うことができませんが、<ruby>気持<rt>きも</rt></ruby>ちがいいです。<ruby>日本<rt>にほん</rt></ruby>でいろいろなミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。",
+    "vi_text": "Sở thích của tôi là xem nhạc kịch. Khoảng 1 tháng 1 lần, tôi đi xem cùng bạn. Rất là vui. Đặc biệt tôi thích vở \"Cats\". \"Cats\" là câu chuyện về những chú mèo. Vở \"Cats\" có cả bài hát lẫn vũ đạo đều rất hay. Tôi mua đĩa CD nhạc kịch và thường nghe ở nhà. Thỉnh thoảng tôi cũng hát theo nữa. Tuy không thể hát hay nhưng cảm giác rất sảng khoái. Ở Nhật tôi muốn đi xem nhiều vở nhạc kịch khác nhau.",
+    "questions": [
+      {
+        "q_jp": "しゅみはなんですか。",
+        "q_vi": "Sở thích của nhân vật \"tôi\" là gì?",
+        "a_jp": "ミュージカルを<ruby>見<rt>み</rt></ruby>ることです。"
+      },
+      {
+        "q_jp": "1<ruby>か月<rt>かげつ</rt></ruby>に<ruby>何回<rt>なんかい</rt></ruby>くらいミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きますか。",
+        "q_vi": "1 tháng đi xem nhạc kịch khoảng mấy lần?",
+        "a_jp": "1<ruby>か月<rt>かげつ</rt></ruby>に1<ruby>回<rt>かい</rt></ruby>くらい<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "lesson": "Bài 9",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "meaning": "Sở thích"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem, nhìn"
+      },
+      {
+        "word": "1か月",
+        "reading": "いっかげつ",
+        "meaning": "1 tháng"
+      },
+      {
+        "word": "1回",
+        "reading": "いっかい",
+        "meaning": "1 lần"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "見に行く",
+        "reading": "みにいく",
+        "meaning": "Đi xem"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "特に",
+        "reading": "とくに",
+        "meaning": "Đặc biệt"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "猫",
+        "reading": "ねこ",
+        "meaning": "Con mèo"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "Câu chuyện"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "Nghe"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "Hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning": "Cảm giác, tâm trạng"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 2 (Gia đình và Chủ nhật)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>の家族は4<ruby>人<rt>にん</rt></ruby>です。父と母と兄と<ruby>私<rt>わたし</rt></ruby>です。うちには犬もいます。兄は高<ruby>校<rt>こう</rt></ruby>に勉強しています。<ruby>私<rt>わたし</rt></ruby>たち兄弟は、<ruby>日曜日<rt>にちようび</rt></ruby>によく<ruby>買い物<rt>かいもの</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。駅のちかくに<ruby>大<rt>おお</rt></ruby>きい<ruby>本<rt>ほん</rt></ruby>やがあります。兄はスポーツの<ruby>本<rt>ほん</rt></ruby>が好きで、<ruby>私<rt>わたし</rt></ruby>は犬の<ruby>本<rt>ほん</rt></ruby>が好きです。<ruby>本<rt>ほん</rt></ruby>を<ruby>買<rt>か</rt></ruby>ってから、ちかくの<ruby>店<rt>みせ</rt></ruby>でジュースを<ruby>飲<rt>の</rt></ruby>みます。兄はおもしろい<ruby>人<rt>ひと</rt></ruby>です。うちへ<ruby>帰<rt>かえ</rt></ruby>ってから、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。夜は家族とごはんを<ruby>食<rt>た</rt></ruby>べます。<ruby>食事<rt>しょくじ</rt></ruby>してから、犬と散歩に<ruby>行<rt>い</rt></ruby>きます。<ruby>日曜日<rt>にちようび</rt></ruby>はいつも楽しいです。",
+    "vi_text": "Gia đình tôi có 4 người: bố, mẹ, anh trai và tôi. Nhà tôi còn có cả một chú chó nữa. Anh trai tôi đang học ở trường cấp 3. Anh em chúng tôi thường đi mua sắm vào Chủ nhật. Gần nhà ga có một hiệu sách lớn. Anh trai thích sách thể thao, còn tôi thích sách về chó. Sau khi mua sách, chúng tôi uống nước ép ở cửa hàng gần đó. Anh trai tôi là một người thú vị. Sau khi về nhà, chúng tôi đọc sách. Buổi tối tôi ăn cơm cùng gia đình. Sau khi ăn xong, tôi đi dạo cùng chú chó. Chủ nhật lúc nào cũng vui.",
+    "questions": [
+      {
+        "q_jp": "<ruby>私<rt>わたし</rt></ruby>たち兄弟は<ruby>日曜日<rt>にちようび</rt></ruby>によく<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "q_vi": "Anh em nhân vật \"tôi\" thường làm gì vào Chủ nhật?",
+        "a_jp": "よく<ruby>買い物<rt>かいもの</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
+      },
+      {
+        "q_jp": "兄はどんな<ruby>本<rt>ほん</rt></ruby>が好きですか。",
+        "q_vi": "Người anh trai thích loại sách nào?",
+        "a_jp": "スポーツの<ruby>本<rt>ほん</rt></ruby>が好きです。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "lesson": "Bài 8",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "lesson": "Bài 8",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "lesson": "Bài 8",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "兄",
+        "reading": "あに",
+        "lesson": "Bài 8",
+        "meaning": "Anh trai"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "lesson": "Bài 8",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "lesson": "Bài 8",
+        "meaning": "Trường cấp 3"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "lesson": "Bài 11",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "lesson": "Bài 8",
+        "meaning": "Anh em"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "lesson": "Bài 10",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "lesson": "Bài 11",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "散歩",
+        "reading": "さんぽ",
+        "lesson": "Bài 11",
+        "meaning": "Đi dạo"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "4人",
+        "reading": "よにん",
+        "meaning": "4 người"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "兄",
+        "reading": "あに",
+        "meaning": "Anh trai"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "Trường cấp 3"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "Anh em"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Chủ nhật"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": "Mua sắm"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "Lớn, to"
+      },
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "Sách"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "Cửa hàng, tiệm"
+      },
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "Uống"
+      },
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Người"
+      },
+      {
+        "word": "帰る",
+        "reading": "かえる",
+        "meaning": "Về (nhà)"
+      },
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "Đọc"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "Ăn"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "Ăn uống, dùng bữa"
+      },
+      {
+        "word": "散歩",
+        "reading": "さんぽ",
+        "meaning": "Đi dạo"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 3 (Gia đình 5 người & Chó Pochi)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>の家族は5<ruby>人<rt>にん</rt></ruby>です。父と母と姉と妹と<ruby>私<rt>わたし</rt></ruby>です。<ruby>私<rt>わたし</rt></ruby>たちは3<ruby>人<rt>にん</rt></ruby>姉妹です。姉は<ruby>会社<rt>かいしゃ</rt></ruby>ではたらいています。妹は高<ruby>校<rt>こう</rt></ruby><ruby>生<rt>せい</rt></ruby>です。うちには犬がいます。<ruby>名前<rt>なまえ</rt></ruby>はポチです。<ruby>土曜日<rt>どようび</rt></ruby>の朝、<ruby>私<rt>わたし</rt></ruby>は母とスーパーへ<ruby>買い物<rt>かいもの</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。パンと<ruby>果物<rt>くだもの</rt></ruby>を<ruby>買<rt>か</rt></ruby>います。<ruby>午後<rt>ごご</rt></ruby>はポチをつれて<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。妹はポチとあそびます。<ruby>私<rt>わたし</rt></ruby>はベンチに<ruby>座<rt>すわ</rt></ruby>って、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。ときどき、姉と<ruby>本<rt>ほん</rt></ruby>のことを<ruby>話<rt>はな</rt></ruby>します。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きません。うちで家族と映画を<ruby>見<rt>み</rt></ruby>ます。",
+    "vi_text": "Gia đình tôi có 5 người: bố, mẹ, chị gái, em gái và tôi. Chúng tôi là 3 chị em gái. Chị gái tôi đang làm việc ở công ty. Em gái tôi là học sinh cấp 3. Nhà tôi có nuôi một con chó tên là Pochi. Sáng thứ Bảy, tôi đi siêu thị mua sắm cùng mẹ. Chúng tôi mua bánh mì và hoa quả. Buổi chiều tôi dắt Pochi đi công viên. Em gái tôi chơi với Pochi. Tôi ngồi trên ghế đá đọc sách. Thỉnh thoảng tôi nói chuyện với chị gái về sách. Ngày mưa thì không đi công viên mà ở nhà xem phim cùng gia đình.",
+    "questions": [
+      {
+        "q_jp": "家族は<ruby>何人<rt>なんにん</rt></ruby>いますか。",
+        "q_vi": "Gia đình có mấy người?",
+        "a_jp": "5<ruby>人<rt>にん</rt></ruby>います。"
+      },
+      {
+        "q_jp": "妹は<ruby>公園<rt>こうえん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "q_vi": "Em gái làm gì ở công viên?",
+        "a_jp": "ポチとあそびます。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "lesson": "Bài 8",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "lesson": "Bài 8",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "lesson": "Bài 8",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "姉",
+        "reading": "あね",
+        "lesson": "Bài 8",
+        "meaning": "Chị gái"
+      },
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "lesson": "Bài 8",
+        "meaning": "Em gái"
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "lesson": "Bài 8",
+        "meaning": "Chị em gái"
+      },
+      {
+        "word": "高校生",
+        "reading": "こうこうせい",
+        "lesson": "Bài 8",
+        "meaning": "Học sinh cấp 3"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "lesson": "Bài 8",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "lesson": "Bài 11",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "lesson": "Bài 9",
+        "meaning": "Phim ảnh"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "5人",
+        "reading": "ごにん",
+        "meaning": "5 người"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "姉",
+        "reading": "あね",
+        "meaning": "Chị gái"
+      },
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "meaning": "Em gái"
+      },
+      {
+        "word": "3人姉妹",
+        "reading": "さんにんしまい",
+        "meaning": "3 chị em gái"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "Công ty"
+      },
+      {
+        "word": "高校生",
+        "reading": "こうこうせい",
+        "meaning": "Học sinh cấp 3"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "Tên"
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Thứ Bảy"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": "Mua sắm"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      },
+      {
+        "word": "果物",
+        "reading": "くだもの",
+        "meaning": "Hoa quả, trái cây"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "Buổi chiều"
+      },
+      {
+        "word": "公園",
+        "reading": "こうえん",
+        "meaning": "Công viên"
+      },
+      {
+        "word": "座る",
+        "reading": "すわる",
+        "meaning": "Ngồi"
+      },
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "Sách"
+      },
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "Đọc"
+      },
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "meaning": "Nói chuyện"
+      },
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning": "Mưa"
+      },
+      {
+        "word": "日",
+        "reading": "ひ",
+        "meaning": "Ngày"
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "Phim ảnh"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 4 (Đi chơi ở Odaiba)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>はお<ruby>台場<rt>だいば</rt></ruby>が好きです。お<ruby>台場<rt>だいば</rt></ruby>におんせんやかんらんしゃやショッピングモールなどがあります。おんせんの<ruby>名前<rt>なまえ</rt></ruby>は<ruby>大江戸<rt>だいえど</rt></ruby>おんせんです。ここで好きな<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>ることができます。<ruby>大江戸<rt>だいえど</rt></ruby>おんせんでは犬もおんせんに<ruby>入<rt>はい</rt></ruby>ることができます。かんらんしゃは1<ruby>人<rt>ひとり</rt></ruby>900<ruby>円<rt>えん</rt></ruby>です。かんらんしゃからレインボーブリッジや<ruby>東京<rt>とうきょう</rt></ruby>タワーが<ruby>見<rt>み</rt></ruby>えます。夜、イルミネーションがとてもきれいです。みなさんもこんどの<ruby>休<rt>やす</rt></ruby>みにぜひ<ruby>行<rt>い</rt></ruby>ってください。",
+    "vi_text": "Tôi thích Odaiba. Ở Odaiba có suối nước nóng, vòng đu quay và trung tâm mua sắm, v.v. Tên của suối nước nóng là Oedo Onsen. Ở đây có thể mặc bộ Yukata mình thích. Tại Oedo Onsen, chó cũng có thể vào tắm suối nước nóng. Vé vòng đu quay là 900 yên/người. Từ trên vòng đu quay có thể nhìn thấy cầu Rainbow và tháp Tokyo. Buổi tối ánh đèn trang trí rất đẹp. Kỳ nghỉ tới mọi người nhất định hãy đến chơi nhé.",
+    "questions": [
+      {
+        "q_jp": "お<ruby>台場<rt>だいば</rt></ruby>にある<ruby>温泉<rt>おんせん</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+        "q_vi": "Tên của suối nước nóng ở Odaiba là gì?",
+        "a_jp": "<ruby>大江戸<rt>だいえど</rt></ruby>おんせんです。"
+      },
+      {
+        "q_jp": "<ruby>観覧<rt>かんらん</rt></ruby>車から<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えますか。",
+        "q_vi": "Từ vòng đu quay có thể nhìn thấy gì?",
+        "a_jp": "レインボーブリッジや<ruby>東京<rt>とうきょう</rt></ruby>タワーが<ruby>見<rt>み</rt></ruby>えます。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "lesson": "Bài 8",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "lesson": "Bài 11",
+        "meaning": "Buổi tối"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "お台場",
+        "reading": "おだいば",
+        "meaning": "Odaiba"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "Tên"
+      },
+      {
+        "word": "大江戸",
+        "reading": "だいえど",
+        "meaning": "Đại Giang Hộ (Oedo)"
+      },
+      {
+        "word": "浴衣",
+        "reading": "ゆかた",
+        "meaning": "Áo Yukata"
+      },
+      {
+        "word": "着る",
+        "reading": "きる",
+        "meaning": "Mặc"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "Vào, tắm"
+      },
+      {
+        "word": "1人",
+        "reading": "ひとり",
+        "meaning": "1 người"
+      },
+      {
+        "word": "円",
+        "reading": "えん",
+        "meaning": "Yên (tiền Nhật)"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "見える",
+        "reading": "みえる",
+        "meaning": "Nhìn thấy"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "Kỳ nghỉ"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 5 (Nhạc kịch và Đĩa CD)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>のしゅみはミュージカルを<ruby>見<rt>み</rt></ruby>ることです。1<ruby>か月<rt>かげつ</rt></ruby>に1<ruby>回<rt>かい</rt></ruby>くらい、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。とても楽しいです。とくに「キャッツ」が好きです。「キャッツ」はネコの<ruby>話<rt>はなし</rt></ruby>です。「キャッツ」は歌もダンスもとてもいいです。<ruby>私<rt>わたし</rt></ruby>はミュージカルのCDを<ruby>買<rt>か</rt></ruby>って、よく家で<ruby>聞<rt>き</rt></ruby>きます。ときどき、歌も歌います。上手に歌うことができませんが、<ruby>気持<rt>きも</rt></ruby>ちがいいです。<ruby>日本<rt>にほん</rt></ruby>でいろいろなミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。",
+    "vi_text": "Sở thích của tôi là xem nhạc kịch. Khoảng 1 tháng 1 lần, tôi đi xem cùng bạn. Rất là vui. Đặc biệt tôi thích vở \"Cats\". \"Cats\" là câu chuyện về những chú mèo. Vở \"Cats\" có cả bài hát lẫn vũ đạo đều rất hay. Tôi mua đĩa CD nhạc kịch và thường nghe ở nhà. Thỉnh thoảng tôi cũng hát theo nữa. Tuy không thể hát hay nhưng cảm giác rất sảng khoái. Ở Nhật tôi muốn đi xem nhiều vở nhạc kịch khác nhau.",
+    "questions": [
+      {
+        "q_jp": "だれとミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きますか。",
+        "q_vi": "Đi xem nhạc kịch cùng với ai?",
+        "a_jp": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
+      },
+      {
+        "q_jp": "<ruby>日本<rt>にほん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしたいですか。",
+        "q_vi": "Ở Nhật muốn làm gì?",
+        "a_jp": "いろいろなミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "lesson": "Bài 9",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "家",
+        "reading": "うち",
+        "lesson": "Bài 8",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "meaning": "Sở thích"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      },
+      {
+        "word": "1か月",
+        "reading": "いっかげつ",
+        "meaning": "1 tháng"
+      },
+      {
+        "word": "1回",
+        "reading": "いっかい",
+        "meaning": "1 lần"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "見に行く",
+        "reading": "みにいく",
+        "meaning": "Đi xem"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "Câu chuyện"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "家",
+        "reading": "うち",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "Nghe"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "Hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning": "Cảm giác, tâm trạng"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 6 (Chuyến du lịch biển)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>の家族は<ruby>夏<rt>なつ</rt></ruby><ruby>休<rt>やす</rt></ruby>みによく旅<ruby>行<rt>こう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>今年<rt>ことし</rt></ruby>は父と母と妹といっしょに海へ<ruby>行<rt>い</rt></ruby>きました。朝7<ruby>時<rt>じ</rt></ruby>にうちを<ruby>出<rt>で</rt></ruby>て、父の車で<ruby>行<rt>い</rt></ruby>きました。海のちかくに<ruby>小<rt>ちい</rt></ruby>さいホテルがありました。ホテルに<ruby>来<rt>き</rt></ruby>てから、妹と海でおよぎました。りょうしんは海のちかくをさんぽしました。夜はみんなでさかなを<ruby>食<rt>た</rt></ruby>べました。<ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>の朝、海でたくさん<ruby>写真<rt>しゃしん</rt></ruby>をとりました。とても楽しかったです。<ruby>来年<rt>らいねん</rt></ruby>もまたみんなで<ruby>行<rt>い</rt></ruby>きたいです。",
+    "vi_text": "Gia đình tôi thường đi du lịch vào kỳ nghỉ hè. Năm nay tôi đã đi biển cùng bố, mẹ và em gái. Chúng tôi rời nhà lúc 7 giờ sáng và đi bằng ô tô của bố. Gần biển có một khách sạn nhỏ. Sau khi đến khách sạn, tôi đã bơi ở biển cùng em gái. Bố mẹ tôi thì đi dạo gần biển. Buổi tối mọi người cùng ăn cá. Sáng ngày hôm sau, chúng tôi chụp rất nhiều ảnh ở biển. Chuyến đi rất vui. Năm sau tôi lại muốn đi cùng mọi người nữa.",
+    "questions": [
+      {
+        "q_jp": "<ruby>何<rt>なに</rt></ruby>で海へ<ruby>行<rt>い</rt></ruby>きましたか。",
+        "q_vi": "Đi biển bằng phương tiện gì?",
+        "a_jp": "父の車で<ruby>行<rt>い</rt></ruby>きました。"
+      },
+      {
+        "q_jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>の朝、海で<ruby>何<rt>なに</rt></ruby>をしましたか。",
+        "q_vi": "Sáng ngày hôm sau đã làm gì ở biển?",
+        "a_jp": "たくさん<ruby>写真<rt>しゃしん</rt></ruby>をとりました。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "lesson": "Bài 8",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "lesson": "Bài 9",
+        "meaning": "Du lịch"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "lesson": "Bài 8",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "lesson": "Bài 8",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "lesson": "Bài 8",
+        "meaning": "Em gái"
+      },
+      {
+        "word": "海",
+        "reading": "うみ",
+        "lesson": "Bài 9",
+        "meaning": "Biển"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "lesson": "Bài 11",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "lesson": "Bài 9",
+        "meaning": "Ô tô, xe hơi"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "lesson": "Bài 11",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "Gia đình"
+      },
+      {
+        "word": "夏休み",
+        "reading": "なつやすみ",
+        "meaning": "Kỳ nghỉ hè"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "Du lịch"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      },
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "Năm nay"
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "Bố"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "meaning": "Em gái"
+      },
+      {
+        "word": "海",
+        "reading": "うみ",
+        "meaning": "Biển"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "7時",
+        "reading": "しちじ",
+        "meaning": "7 giờ"
+      },
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning": "Ra khỏi, rời khỏi"
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "Ô tô, xe hơi"
+      },
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "Nhỏ"
+      },
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "Đến"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "Ăn"
+      },
+      {
+        "word": "次の日",
+        "reading": "つぎのひ",
+        "meaning": "Ngày tiếp theo"
+      },
+      {
+        "word": "写真",
+        "reading": "しゃしん",
+        "meaning": "Bức ảnh"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "Năm sau"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 7 (Đi xem phim cùng bạn)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>のしゅみは映画を<ruby>見<rt>み</rt></ruby>ることです。<ruby>日曜日<rt>にちようび</rt></ruby>によく<ruby>友達<rt>ともだち</rt></ruby>と映画を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>日曜日<rt>にちようび</rt></ruby>は、駅のちかくの<ruby>電<rt>でん</rt></ruby>車で映画館へ<ruby>行<rt>い</rt></ruby>きました。そこで外<ruby>国<rt>こく</rt></ruby>の映画を<ruby>見<rt>み</rt></ruby>ました。その映画は犬と<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>です。<ruby>私<rt>わたし</rt></ruby>は犬が好きですから、この映画を<ruby>見<rt>み</rt></ruby>たいでした（※<ruby>見<rt>み</rt></ruby>たい映画でした）。映画を<ruby>見<rt>み</rt></ruby>て、ともだちときっさてんへ<ruby>行<rt>い</rt></ruby>きました。コーヒーを<ruby>飲<rt>の</rt></ruby>んだり、<ruby>話<rt>はなし</rt></ruby>したりしました。<ruby>来週<rt>らいしゅう</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の映画を<ruby>見<rt>み</rt></ruby>たいです。",
+    "vi_text": "Sở thích của tôi là xem phim. Chủ nhật tôi thường đi xem phim cùng bạn. Chủ nhật tuần trước, tôi đã đi tàu điện đến rạp chiếu phim gần nhà ga. Ở đó tôi đã xem một bộ phim nước ngoài. Bộ phim đó kể về câu chuyện của một chú chó và một cậu bé. Vì tôi thích chó nên tôi rất muốn xem bộ phim này. Xem phim xong, tôi đi quán cà phê cùng bạn. Chúng tôi uống cà phê, trò chuyện với nhau. Tuần tới tôi muốn xem phim Nhật.",
+    "questions": [
+      {
+        "q_jp": "映画館はどこにありますか。",
+        "q_vi": "Rạp chiếu phim nằm ở đâu?",
+        "a_jp": "駅のちかくにあります。"
+      },
+      {
+        "q_jp": "映画を<ruby>見<rt>み</rt></ruby>て、どこへ<ruby>行<rt>い</rt></ruby>きましたか。",
+        "q_vi": "Sau khi xem phim xong đã đi đâu?",
+        "a_jp": "ともだちときっさてんへ<ruby>行<rt>い</rt></ruby>きました。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "lesson": "Bài 9",
+        "meaning": "Phim ảnh"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "lesson": "Bài 10",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "lesson": "Bài 9",
+        "meaning": "Tàu điện"
+      },
+      {
+        "word": "映画館",
+        "reading": "えいがかん",
+        "lesson": "Bài 10",
+        "meaning": "Rạp chiếu phim"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "lesson": "Bài 9",
+        "meaning": "Nước ngoài"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "lesson": "Bài 8",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "Phim ảnh"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Chủ nhật"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "見に行く",
+        "reading": "みにいく",
+        "meaning": "Đi xem"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "Tuần trước"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "Tàu điện"
+      },
+      {
+        "word": "映画館",
+        "reading": "えいがかん",
+        "meaning": "Rạp chiếu phim"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "Nước ngoài"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "meaning": "Bé trai"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "Câu chuyện"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "Uống"
+      },
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "meaning": "Nói chuyện"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "Tuần sau"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "group": "Phần 1: Bài đọc 1–8",
+    "title": "Bài đọc 8 (Chơi đàn Guitar)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>は音楽が好きです。<ruby>毎<rt>まい</rt></ruby><ruby>晩<rt>ばん</rt></ruby>、家でギターをひきます。<ruby>月曜日<rt>げつようび</rt></ruby>から<ruby>金曜日<rt>きんようび</rt></ruby>まで<ruby>学校<rt>がっこう</rt></ruby>のしゅくだいがありますから、ギターをひく<ruby>時間<rt>じかん</rt></ruby>は短いです。<ruby>土曜日<rt>どようび</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みですから、朝から長い<ruby>時間<rt>じかん</rt></ruby>ギターをひきます。ときどき、<ruby>友達<rt>ともだち</rt></ruby>がうちに<ruby>来<rt>き</rt></ruby>ます。<ruby>友達<rt>ともだち</rt></ruby>は歌が上手です。<ruby>私<rt>わたし</rt></ruby>がギターをひいて、<ruby>友達<rt>ともだち</rt></ruby>が歌います。<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>で音楽コンテストがあります。そこで<ruby>友達<rt>ともだち</rt></ruby>といっしょに好きな歌を歌いたいです。",
+    "vi_text": "Tôi thích âm nhạc. Mỗi tối tôi chơi đàn guitar ở nhà. Từ thứ Hai đến thứ Sáu vì có bài tập ở trường nên thời gian chơi guitar ngắn. Thứ Bảy được nghỉ nên từ sáng tôi chơi guitar rất lâu. Thỉnh thoảng bạn tôi đến nhà chơi. Bạn tôi hát rất hay. Tôi đánh guitar còn bạn tôi hát. Tháng sau ở trường có cuộc thi âm nhạc. Ở đó tôi muốn hát bài hát yêu thích cùng với bạn.",
+    "questions": [
+      {
+        "q_jp": "どうして<ruby>月曜日<rt>げつようび</rt></ruby>から<ruby>金曜日<rt>きんようび</rt></ruby>までギターをひく<ruby>時間<rt>じかん</rt></ruby>が短いですか。",
+        "q_vi": "Tại sao từ thứ Hai đến thứ Sáu thời gian chơi guitar lại ngắn?",
+        "a_jp": "<ruby>学校<rt>がっこう</rt></ruby>のしゅくだいがありますから。"
+      },
+      {
+        "q_jp": "<ruby>来月<rt>らいげつ</rt></ruby>の音楽コンテストです。<ruby>友達<rt>ともだち</rt></ruby>と<ruby>何<rt>なに</rt></ruby>をしたいですか。",
+        "q_vi": "Tháng sau có cuộc thi âm nhạc. Nhân vật \"tôi\" muốn làm gì cùng bạn?",
+        "a_jp": "<ruby>友達<rt>ともだち</rt></ruby>といっしょに好きな歌を歌いたいです。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "lesson": "Bài 9",
+        "meaning": "Âm nhạc"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "家",
+        "reading": "いえ",
+        "lesson": "Bài 8",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "lesson": "Bài 8",
+        "meaning": "Ngắn"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "lesson": "Bài 11",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "lesson": "Bài 8",
+        "meaning": "Dài"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "lesson": "Bài 9",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": "Âm nhạc"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "毎晩",
+        "reading": "まいばん",
+        "meaning": "Mỗi tối"
+      },
+      {
+        "word": "家",
+        "reading": "いえ",
+        "meaning": "Nhà"
+      },
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Thứ Hai"
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Thứ Sáu"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "Trường học"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "Thời gian"
+      },
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "meaning": "Ngắn"
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Thứ Bảy"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "Ngày nghỉ"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "Dài"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "Đến"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "Hát"
+      },
+      {
+        "word": "来月",
+        "reading": "らいげつ",
+        "meaning": "Tháng sau"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 I 「たいせつな人」",
+    "jp_text": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>のともだちです。<ruby>名前<rt>なまえ</rt></ruby>は<ruby>山口<rt>やまぐち</rt></ruby><ruby>春子<rt>はるこ</rt></ruby>さんです。<ruby>山口<rt>やまぐち</rt></ruby>さんは<ruby>大学<rt>だいがく</rt></ruby>で<ruby>中国語<rt>ちゅうごくご</rt></ruby>を勉強しています。<ruby>毎週<rt>まいしゅう</rt></ruby>の<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>一緒<rt>いっしょ</rt></ruby>にテニスをします。<ruby>山口<rt>やまぐち</rt></ruby>さんはテニスがとても上手です。テニスの<ruby>教<rt>おし</rt></ruby>え<ruby>方<rt>かた</rt></ruby>も上手です。<ruby>山口<rt>やまぐち</rt></ruby>さんはおもしろくて、やさしい<ruby>人<rt>ひと</rt></ruby>です。<ruby>山口<rt>やまぐち</rt></ruby>さんはともだちがたくさんいます。",
+    "vi_text": "Người này là bạn của tôi. Tên bạn ấy là Yamaguchi Haruko. Bạn Yamaguchi đang học tiếng Trung ở trường đại học. Chủ nhật hàng tuần, chúng tôi cùng nhau chơi quần vợt. Bạn Yamaguchi chơi quần vợt rất giỏi. Cách dạy quần vợt của bạn ấy cũng giỏi nữa. Bạn Yamaguchi là người thú vị và tốt bụng. Bạn ấy có rất nhiều bạn bè.",
+    "questions": [
+      {
+        "q_jp": "たいせつな<ruby>人<rt>ひと</rt></ruby>はだれですか。",
+        "q_vi": "Người quan trọng đó là ai?",
+        "a_jp": "ともだちの<ruby>山口<rt>やまぐち</rt></ruby><ruby>春子<rt>はるこ</rt></ruby>さんです。"
+      },
+      {
+        "q_jp": "どんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+        "q_vi": "Bạn ấy là người như thế nào?",
+        "a_jp": "おもしろくて、やさしい<ruby>人<rt>ひと</rt></ruby>です。"
+      },
+      {
+        "q_jp": "<ruby>何<rt>なに</rt></ruby>をしていますか。",
+        "q_vi": "Bạn ấy đang làm gì / học gì?",
+        "a_jp": "<ruby>大学<rt>だいがく</rt></ruby>で<ruby>中国語<rt>ちゅうごくご</rt></ruby>を勉強しています。また、<ruby>毎週<rt>まいしゅう</rt></ruby>の<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>一緒<rt>いっしょ</rt></ruby>にテニスをします。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "lesson": "Bài 11",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Người"
+      },
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "Tên"
+      },
+      {
+        "word": "山口",
+        "reading": "やまぐち",
+        "meaning": "Yamaguchi (họ người Nhật)"
+      },
+      {
+        "word": "春子",
+        "reading": "はるこ",
+        "meaning": "Haruko (tên nữ)"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "Trường đại học"
+      },
+      {
+        "word": "中国語",
+        "reading": "ちゅうごくご",
+        "meaning": "Tiếng Trung"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": "Mỗi tuần, hàng tuần"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Chủ nhật"
+      },
+      {
+        "word": "一緒",
+        "reading": "いっしょ",
+        "meaning": "Cùng nhau"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "教え方",
+        "reading": "おしえかた",
+        "meaning": "Cách dạy"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 II 「私のしゅみ」",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>のしゅみはミュージカルを<ruby>見<rt>み</rt></ruby>ることです。1<ruby>か月<rt>かげつ</rt></ruby>に1<ruby>回<rt>かい</rt></ruby>くらい、ともだちと<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。とても楽しいです。<ruby>特<rt>とく</rt></ruby>に「キャッツ」が好きです。「キャッツ」は<ruby>猫<rt>ねこ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>です。「キャッツ」は歌もダンスもとてもいいです。<ruby>私<rt>わたし</rt></ruby>はミュージカルのCDを<ruby>買<rt>か</rt></ruby>って、よくうちで<ruby>聞<rt>き</rt></ruby>きます。ときどき、歌も歌います。上手に歌うことができませんが、<ruby>気持<rt>きも</rt></ruby>ちがいいです。<ruby>日本<rt>にほん</rt></ruby>でいろいろなミュージカルを<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。",
+    "vi_text": "Sở thích của tôi là xem nhạc kịch. Khoảng 1 tháng 1 lần, tôi đi xem cùng bạn. Rất là vui. Đặc biệt tôi thích vở \"Cats\". \"Cats\" là câu chuyện về những chú mèo. Vở \"Cats\" có cả bài hát lẫn vũ đạo đều rất hay. Tôi mua đĩa CD nhạc kịch và thường nghe ở nhà. Thỉnh thoảng tôi cũng hát theo nữa. Tuy không thể hát hay nhưng cảm giác rất sảng khoái. Ở Nhật tôi muốn đi xem nhiều vở nhạc kịch khác nhau.",
+    "questions": [
+      {
+        "q_jp": "しゅみはなんですか。",
+        "q_vi": "Sở thích là gì?",
+        "a_jp": "ミュージカルを<ruby>見<rt>み</rt></ruby>ることです。"
+      },
+      {
+        "q_jp": "○○で<ruby>何<rt>なに</rt></ruby>/いつ/だれ/どこがいちばん〜ですか。",
+        "q_vi": "Đi xem cùng ai / bao lâu một lần?",
+        "a_jp": "1<ruby>か月<rt>かげつ</rt></ruby>に1<ruby>回<rt>かい</rt></ruby>くらい、ともだちと<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
+      },
+      {
+        "q_jp": "とくに<ruby>何<rt>なに</rt></ruby>が好きですか。",
+        "q_vi": "Đặc biệt thích vở nào nhất?",
+        "a_jp": "<ruby>特<rt>とく</rt></ruby>に「キャッツ」が好きです。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "lesson": "Bài 9",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "meaning": "Sở thích"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      },
+      {
+        "word": "1か月",
+        "reading": "いっかげつ",
+        "meaning": "1 tháng"
+      },
+      {
+        "word": "1回",
+        "reading": "いっかい",
+        "meaning": "1 lần"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "見に行く",
+        "reading": "みにいく",
+        "meaning": "Đi xem"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "特に",
+        "reading": "とくに",
+        "meaning": "Đặc biệt"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "猫",
+        "reading": "ねこ",
+        "meaning": "Con mèo"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "Câu chuyện"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "Bài hát"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "Nghe"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "Hát"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning": "Cảm giác, tâm trạng"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 III 「好きなところ」",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>はお<ruby>台場<rt>だいば</rt></ruby>が好きです。お<ruby>台場<rt>だいば</rt></ruby>に<ruby>温泉<rt>おんせん</rt></ruby>や<ruby>観覧<rt>かんらん</rt></ruby>車やショッピングモールなどがあります。<ruby>温泉<rt>おんせん</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は<ruby>大江戸温泉<rt>おおえどおんせん</rt></ruby>です。ここで好きな<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>ることができます。<ruby>大江戸温泉<rt>おおえどおんせん</rt></ruby>では犬も<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ることができます。<ruby>観覧<rt>かんらん</rt></ruby>車は1<ruby>人<rt>ひとり</rt></ruby>900<ruby>円<rt>えん</rt></ruby>です。<ruby>観覧<rt>かんらん</rt></ruby>車からレインボーブリッジや<ruby>東京<rt>とうきょう</rt></ruby>タワーが<ruby>見<rt>み</rt></ruby>えます。夜、イルミネーションがとてもきれいです。<ruby>皆<rt>みな</rt></ruby>さんもこんどの<ruby>休<rt>やす</rt></ruby>みにぜひ<ruby>行<rt>い</rt></ruby>ってください。",
+    "vi_text": "Tôi thích Odaiba. Ở Odaiba có suối nước nóng, vòng đu quay và trung tâm mua sắm, v.v. Tên của suối nước nóng là Oedo Onsen. Ở đây có thể mặc bộ Yukata mình thích. Tại Oedo Onsen, chó cũng có thể vào tắm suối nước nóng. Vé vòng đu quay là 900 yên/người. Từ trên vòng đu quay có thể nhìn thấy cầu Rainbow và tháp Tokyo. Buổi tối ánh đèn trang trí rất đẹp. Kỳ nghỉ tới mọi người nhất định hãy đến chơi nhé.",
+    "questions": [
+      {
+        "q_jp": "好きなところを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "q_vi": "Hãy cho biết nơi bạn thích?",
+        "a_jp": "お<ruby>台場<rt>だいば</rt></ruby>です。"
+      },
+      {
+        "q_jp": "そこに<ruby>何<rt>なに</rt></ruby>がありますか。",
+        "q_vi": "Ở đó có những gì?",
+        "a_jp": "<ruby>温泉<rt>おんせん</rt></ruby>や<ruby>観覧<rt>かんらん</rt></ruby>車やショッピングモールなどがあります。"
+      },
+      {
+        "q_jp": "そこで<ruby>何<rt>なに</rt></ruby>ができますか。",
+        "q_vi": "Ở đó có thể làm gì?",
+        "a_jp": "好きな<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>たり、<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったり、<ruby>観覧<rt>かんらん</rt></ruby>車からレインボーブリッジや<ruby>東京<rt>とうきょう</rt></ruby>タワーを<ruby>見<rt>み</rt></ruby>たりすることができます。"
+      },
+      {
+        "q_jp": "どうやっていきますか。",
+        "q_vi": "Đi đến đó bằng cách nào?",
+        "a_jp": "<ruby>電<rt>でん</rt></ruby>車やバスなどで<ruby>行<rt>い</rt></ruby>きます。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "lesson": "Bài 8",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "lesson": "Bài 11",
+        "meaning": "Buổi tối"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "お台場",
+        "reading": "おだいば",
+        "meaning": "Odaiba"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "温泉",
+        "reading": "おんせん",
+        "meaning": "Suối nước nóng"
+      },
+      {
+        "word": "観覧車",
+        "reading": "かんらんしゃ",
+        "meaning": "Vòng đu quay"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "Tên"
+      },
+      {
+        "word": "大江戸温泉",
+        "reading": "おおえどおんせん",
+        "meaning": "Suối nước nóng Oedo"
+      },
+      {
+        "word": "浴衣",
+        "reading": "ゆかた",
+        "meaning": "Áo Yukata"
+      },
+      {
+        "word": "着る",
+        "reading": "きる",
+        "meaning": "Mặc"
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "Con chó"
+      },
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "Vào, tắm"
+      },
+      {
+        "word": "1人",
+        "reading": "ひとり",
+        "meaning": "1 người"
+      },
+      {
+        "word": "円",
+        "reading": "えん",
+        "meaning": "Yên (tiền)"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "見える",
+        "reading": "みえる",
+        "meaning": "Nhìn thấy"
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "Buổi tối"
+      },
+      {
+        "word": "皆さん",
+        "reading": "みなさん",
+        "meaning": "Mọi người"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "Kỳ nghỉ"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 IV 「今の生活」",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>は4<ruby>月<rt>がつ</rt></ruby>に<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>き</rt></ruby>ました。<ruby>初<rt>はじ</rt></ruby>めは<ruby>少<rt>すこ</rt></ruby>し<ruby>大変<rt>たいへん</rt></ruby>でしたが、<ruby>今<rt>いま</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れました。<ruby>平日<rt>へいじつ</rt></ruby>は、<ruby>学校<rt>がっこう</rt></ruby>で勉強しています。<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>食事<rt>しょくじ</rt></ruby>をしたり<ruby>有名<rt>ゆうめい</rt></ruby>なところへ<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>ったりしています。<ruby>一週間<rt>いっしゅうかん</rt></ruby>に2<ruby>回<rt>かい</rt></ruby>、レストランでアルバイトをしています。<ruby>毎日<rt>まいにち</rt></ruby><ruby>忙<rt>いそが</rt></ruby>しいですが、楽しいです。これから、<ruby>日本<rt>にほん</rt></ruby>でもっといろいろなことをしたいです。",
+    "vi_text": "Tôi đã đến Nhật vào tháng 4. Ban đầu hơi vất vả một chút, nhưng bây giờ tôi đã quen với cuộc sống ở Nhật rồi. Ngày thường tôi học ở trường. Ngày nghỉ thì tôi đi ăn uống cùng bạn bè hoặc đi chơi ở những nơi nổi tiếng. Một tuần 2 lần, tôi làm thêm ở nhà hàng. Mỗi ngày tuy bận rộn nhưng rất vui. Sắp tới, ở Nhật tôi muốn làm thêm nhiều điều khác nữa.",
+    "questions": [
+      {
+        "q_jp": "もう<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れましたか。",
+        "q_vi": "Đã quen với cuộc sống ở Nhật chưa?",
+        "a_jp": "はい、もう<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れました。"
+      },
+      {
+        "q_jp": "<ruby>今<rt>いま</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>は楽しいですか。",
+        "q_vi": "Cuộc sống hiện tại có vui không?",
+        "a_jp": "はい、<ruby>毎日<rt>まいにち</rt></ruby><ruby>忙<rt>いそが</rt></ruby>しいですが、楽しいです。"
+      },
+      {
+        "q_jp": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>に、よく<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "q_vi": "Vào ngày nghỉ thường làm gì?",
+        "a_jp": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>食事<rt>しょくじ</rt></ruby>をしたり、<ruby>有名<rt>ゆうめい</rt></ruby>なところへ<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>ったりしています。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "lesson": "Bài 11",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "4月",
+        "reading": "しがつ",
+        "meaning": "Tháng 4"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      },
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "Đến"
+      },
+      {
+        "word": "初め",
+        "reading": "はじめ",
+        "meaning": "Ban đầu"
+      },
+      {
+        "word": "少し",
+        "reading": "すこし",
+        "meaning": "Một chút"
+      },
+      {
+        "word": "大変",
+        "reading": "たいへん",
+        "meaning": "Vất vả"
+      },
+      {
+        "word": "今",
+        "reading": "いま",
+        "meaning": "Bây giờ"
+      },
+      {
+        "word": "生活",
+        "reading": "せいかつ",
+        "meaning": "Cuộc sống"
+      },
+      {
+        "word": "慣れる",
+        "reading": "なれる",
+        "meaning": "Quen với"
+      },
+      {
+        "word": "平日",
+        "reading": "へいじつ",
+        "meaning": "Ngày thường"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "Trường học"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "休みの日",
+        "reading": "やすみのひ",
+        "meaning": "Ngày nghỉ"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "Ăn uống"
+      },
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "meaning": "Nổi tiếng"
+      },
+      {
+        "word": "遊びに行く",
+        "reading": "あそびにいく",
+        "meaning": "Đi chơi"
+      },
+      {
+        "word": "一週間",
+        "reading": "いっしゅうかん",
+        "meaning": "1 tuần"
+      },
+      {
+        "word": "2回",
+        "reading": "にかい",
+        "meaning": "2 lần"
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "Mỗi ngày"
+      },
+      {
+        "word": "忙しい",
+        "reading": "いそがしい",
+        "meaning": "Bận rộn"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 V (Câu chuyện của anh Jorge)",
+    "jp_text": "ホルへさんは<ruby>去年<rt>きょねん</rt></ruby>ペルーから<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>き</rt></ruby>ました。ワットさんにテレビをもらいました。<ruby>松本<rt>まつもと</rt></ruby>さんに<ruby>机<rt>つくえ</rt></ruby>をもらいました。<ruby>山田<rt>やまだ</rt></ruby>さんにコートをもらいました。<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にコンピューターを<ruby>借<rt>か</rt></ruby>りました。ホルへさんは<ruby>皆<rt>みな</rt></ruby>さんにペルーのお<ruby>土産<rt>みやげ</rt></ruby>をあげました。ホルへさんは<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>国<rt>くに</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。<ruby>今日<rt>きょう</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にコンピューターを<ruby>返<rt>かえ</rt></ruby>しました。<ruby>友達<rt>ともだち</rt></ruby>にテレビと<ruby>机<rt>つくえ</rt></ruby>をあげました。でも、コートをあげませんでした。ホルへさんの<ruby>身<rt>しん</rt></ruby>長は165センチです。<ruby>友達<rt>ともだち</rt></ruby>の<ruby>身<rt>しん</rt></ruby>長は2メートルです。",
+    "vi_text": "Anh Jorge đã từ Peru đến Nhật vào năm ngoái. Anh ấy đã nhận được tivi từ anh Watt, nhận được bàn học từ anh Matsumoto, và nhận được áo khoác từ anh Yamada. Anh ấy mượn máy tính từ người ở công ty. Anh Jorge đã tặng mọi người quà lưu niệm của Peru. Tuần sau anh Jorge sẽ về nước. Hôm nay, anh ấy đã trả lại máy tính cho người ở công ty, và tặng lại tivi cùng bàn học cho bạn. Nhưng anh ấy không tặng lại chiếc áo khoác. Chiều cao của anh Jorge là 165 cm, còn chiều cao của người bạn là 2 mét.",
+    "questions": [
+      {
+        "q_jp": "ホルへさんはだれに<ruby>何<rt>なに</rt></ruby>をもらいましたか。",
+        "q_vi": "Anh Jorge đã nhận được gì từ ai?",
+        "a_jp": "ワットさんにテレビをもらって、<ruby>松本<rt>まつもと</rt></ruby>さんに<ruby>机<rt>つくえ</rt></ruby>をもらって、<ruby>山田<rt>やまだ</rt></ruby>さんにコートをもらいました。"
+      },
+      {
+        "q_jp": "ホルへさんはだれに<ruby>何<rt>なに</rt></ruby>をあげましたか。",
+        "q_vi": "Anh Jorge đã tặng gì cho ai?",
+        "a_jp": "<ruby>皆<rt>みな</rt></ruby>さんにペルーのお<ruby>土産<rt>みやげ</rt></ruby>をあげました。また、<ruby>国<rt>くに</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>にテレビと<ruby>机<rt>つくえ</rt></ruby>をあげました。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "身長",
+        "reading": "しんちょう",
+        "lesson": "Bài 8",
+        "meaning": "Chiều cao"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "meaning": "Năm ngoái"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      },
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "Đến"
+      },
+      {
+        "word": "松本",
+        "reading": "まつもと",
+        "meaning": "Matsumoto (họ)"
+      },
+      {
+        "word": "机",
+        "reading": "つくえ",
+        "meaning": "Bàn"
+      },
+      {
+        "word": "山田",
+        "reading": "やまだ",
+        "meaning": "Yamada (họ)"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "Công ty"
+      },
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Người"
+      },
+      {
+        "word": "借りる",
+        "reading": "かりる",
+        "meaning": "Mượn"
+      },
+      {
+        "word": "皆",
+        "reading": "みな",
+        "meaning": "Mọi người"
+      },
+      {
+        "word": "お土産",
+        "reading": "おみやげ",
+        "meaning": "Quà lưu niệm"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "Tuần sau"
+      },
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "Đất nước, quê hương"
+      },
+      {
+        "word": "帰る",
+        "reading": "かえる",
+        "meaning": "Về"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "Hôm nay"
+      },
+      {
+        "word": "返す",
+        "reading": "かえす",
+        "meaning": "Trả lại"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "身長",
+        "reading": "しんちょう",
+        "meaning": "Chiều cao"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 VI (Nhật ký của anh Miller)",
+    "jp_text": "今朝、図<ruby>書<rt>しょ</rt></ruby>館へ<ruby>行<rt>い</rt></ruby>きました。図<ruby>書<rt>しょ</rt></ruby>館で<ruby>太郎<rt>たろう</rt></ruby>さんに<ruby>会<rt>あ</rt></ruby>いました。<ruby>太郎<rt>たろう</rt></ruby>さんと<ruby>一緒<rt>いっしょ</rt></ruby>にビデオを<ruby>見<rt>み</rt></ruby>ました。<ruby>私<rt>わたし</rt></ruby>は旅<ruby>行<rt>こう</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>借<rt>か</rt></ruby>りました。あしたは<ruby>日曜日<rt>にちようび</rt></ruby>です。朝、旅<ruby>行<rt>こう</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。<ruby>午後<rt>ごご</rt></ruby>、デパートへ<ruby>行<rt>い</rt></ruby>きます。母の<ruby>誕生日<rt>たんじょうび</rt></ruby>のプレゼントを<ruby>買<rt>か</rt></ruby>います。<ruby>去年<rt>きょねん</rt></ruby>は母に<ruby>花<rt>はな</rt></ruby>をあげました。<ruby>今年<rt>ことし</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>花<rt>はな</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>をあげます（※<ruby>原文<rt>げんぶん</rt></ruby>: あげました）。",
+    "vi_text": "Sáng nay tôi đã đến thư viện. Ở thư viện tôi đã gặp anh Taro. Tôi đã xem video cùng với anh Taro. Tôi đã mượn một cuốn sách du lịch. Ngày mai là Chủ nhật. Buổi sáng tôi sẽ đọc cuốn sách du lịch. Buổi chiều tôi sẽ đi trung tâm thương mại để mua quà sinh nhật cho mẹ. Năm ngoái tôi đã tặng hoa cho mẹ. Năm nay tôi sẽ tặng mẹ một cuốn sách về hoa của Nhật Bản.",
+    "questions": [
+      {
+        "q_jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>土曜日<rt>どようび</rt></ruby>ですか / <ruby>何曜日<rt>なんようび</rt></ruby>ですか。",
+        "q_vi": "Hôm nay là thứ Bảy phải không / là thứ mấy?",
+        "a_jp": "はい、<ruby>土曜日<rt>どようび</rt></ruby>です。"
+      },
+      {
+        "q_jp": "ミラーさんは今朝 <ruby>太郎<rt>たろう</rt></ruby>さんと 図<ruby>書<rt>しょ</rt></ruby>館へ<ruby>行<rt>い</rt></ruby>きましたか。",
+        "q_vi": "Sáng nay anh Miller đi thư viện cùng anh Taro phải không?",
+        "a_jp": "いいえ、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんでした。図<ruby>書<rt>しょ</rt></ruby>館で<ruby>太郎<rt>たろう</rt></ruby>さんに<ruby>会<rt>あ</rt></ruby>いました。"
+      },
+      {
+        "q_jp": "ミラーさんは図<ruby>書<rt>しょ</rt></ruby>館で旅<ruby>行<rt>こう</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みましたか。",
+        "q_vi": "Anh Miller đã đọc sách du lịch ở thư viện phải không?",
+        "a_jp": "いいえ、<ruby>読<rt>よ</rt></ruby>みませんでした。図<ruby>書<rt>しょ</rt></ruby>館で旅<ruby>行<rt>こう</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>借<rt>か</rt></ruby>りました。"
+      },
+      {
+        "q_jp": "ミラーさんは<ruby>今年<rt>ことし</rt></ruby>もお母さんに<ruby>花<rt>はな</rt></ruby>をあげますか。",
+        "q_vi": "Năm nay anh Miller cũng tặng hoa cho mẹ phải không?",
+        "a_jp": "いいえ、<ruby>今年<rt>ことし</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>花<rt>はな</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>をあげます。"
+      },
+      {
+        "q_jp": "ミラーさんは<ruby>今日<rt>きょう</rt></ruby> / あした<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "q_vi": "Hôm nay / ngày mai anh Miller làm gì?",
+        "a_jp": "今朝図<ruby>書<rt>しょ</rt></ruby>館へ<ruby>行<rt>い</rt></ruby>って、ビデオを<ruby>見<rt>み</rt></ruby>たり<ruby>本<rt>ほん</rt></ruby>を<ruby>借<rt>か</rt></ruby>りたりしました。あしたは朝<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んで、<ruby>午後<rt>ごご</rt></ruby>デパートへ母のプレゼントを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きます。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "今朝",
+        "reading": "けさ",
+        "lesson": "Bài 11",
+        "meaning": "Sáng nay"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "lesson": "Bài 10",
+        "meaning": "Thư viện"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "lesson": "Bài 9",
+        "meaning": "Du lịch"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "lesson": "Bài 11",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "lesson": "Bài 8",
+        "meaning": "Mẹ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "今朝",
+        "reading": "けさ",
+        "meaning": "Sáng nay"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "Thư viện"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      },
+      {
+        "word": "太郎",
+        "reading": "たろう",
+        "meaning": "Taro (tên nam)"
+      },
+      {
+        "word": "会う",
+        "reading": "あう",
+        "meaning": "Gặp gỡ"
+      },
+      {
+        "word": "一緒",
+        "reading": "いっしょ",
+        "meaning": "Cùng nhau"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      },
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "Du lịch"
+      },
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "Sách"
+      },
+      {
+        "word": "借りる",
+        "reading": "かりる",
+        "meaning": "Mượn"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Chủ nhật"
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "Buổi sáng"
+      },
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "Đọc"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "Buổi chiều"
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "Mẹ"
+      },
+      {
+        "word": "誕生日",
+        "reading": "たんじょうび",
+        "meaning": "Sinh nhật"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "Mua"
+      },
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "meaning": "Năm ngoái"
+      },
+      {
+        "word": "花",
+        "reading": "はな",
+        "meaning": "Hoa"
+      },
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "Năm nay"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "group": "Phần 2: 問題 I–VII",
+    "title": "問題 VII (Câu chuyện của anh Yamada)",
+    "jp_text": "<ruby>山田<rt>やまだ</rt></ruby>さんはダンスが好きです。<ruby>毎<rt>まい</rt></ruby><ruby>晩<rt>ばん</rt></ruby>ダンスの<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。ダンスの<ruby>先生<rt>せんせい</rt></ruby>はきれいな<ruby>人<rt>ひと</rt></ruby>です。<ruby>山田<rt>やまだ</rt></ruby>さんは上手ではありませんが、きれいな<ruby>先生<rt>せんせい</rt></ruby>に<ruby>習<rt>なら</rt></ruby>いますから、<ruby>毎日<rt>まいにち</rt></ruby>楽しいです。<ruby>先生<rt>せんせい</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>にコンサートのチケットをあげました。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>行<rt>い</rt></ruby>きました。<ruby>山田<rt>やまだ</rt></ruby>さんはとても<ruby>残念<rt>ざんねん</rt></ruby>です。",
+    "vi_text": "Anh Yamada thích khiêu vũ. Mỗi tối anh ấy đều đến trường dạy khiêu vũ. Cô giáo dạy khiêu vũ là một người xinh đẹp. Anh Yamada nhảy không giỏi lắm, nhưng vì được học với cô giáo xinh đẹp nên ngày nào cũng vui. Vào ngày sinh nhật của cô giáo, anh ấy đã tặng cô vé đi xem buổi hòa nhạc. Cô giáo đã đi xem cùng với bạn. Anh Yamada cảm thấy rất tiếc nuối.",
+    "questions": [
+      {
+        "q_jp": "<ruby>山田<rt>やまだ</rt></ruby>さんはダンスが上手ですか。",
+        "q_vi": "Anh Yamada khiêu vũ có giỏi không?",
+        "a_jp": "いいえ、上手ではありません。"
+      },
+      {
+        "q_jp": "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>先生<rt>せんせい</rt></ruby>にコンサートのチケットをもらいましたか。",
+        "q_vi": "Anh Yamada nhận được vé hòa nhạc từ cô giáo phải không?",
+        "a_jp": "いいえ、もらいましたではなくて、<ruby>山田<rt>やまだ</rt></ruby>さんが<ruby>先生<rt>せんせい</rt></ruby>にチケットをあげました。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "lesson": "Bài 9",
+        "meaning": "Thích"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "lesson": "Bài 10",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "山田",
+        "reading": "やまだ",
+        "meaning": "Yamada (họ)"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "毎晩",
+        "reading": "まいばん",
+        "meaning": "Mỗi tối"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "Trường học"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "Đi"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "Thầy / Cô giáo"
+      },
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Người"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "Giỏi, khéo"
+      },
+      {
+        "word": "習う",
+        "reading": "ならう",
+        "meaning": "Học"
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "Mỗi ngày"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      },
+      {
+        "word": "誕生日",
+        "reading": "たんじょうび",
+        "meaning": "Sinh nhật"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "Bạn bè"
+      },
+      {
+        "word": "残念",
+        "reading": "ざんねん",
+        "meaning": "Tiếc nuối"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "group": "Phần 3: Bài đọc bổ sung",
+    "title": "Bài đọc bổ sung – Tổng hợp 10 chữ Hán còn thiếu (Bài 10 – Bài 11)",
+    "jp_text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎<rt>まい</rt></ruby>朝7<ruby>時<rt>じ</rt></ruby>に起きます。朝ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてから、地図を<ruby>見<rt>み</rt></ruby>て、地下<ruby>鉄<rt>てつ</rt></ruby>に乗ります。駅の<ruby>前<rt>まえ</rt></ruby>の道を右へ<ruby>曲<rt>ま</rt></ruby>がります。そして、<ruby>一<rt>ひと</rt></ruby>つ<ruby>目<rt>め</rt></ruby>の<ruby>角<rt>かど</rt></ruby>を左へ<ruby>曲<rt>ま</rt></ruby>がります。右に<ruby>学校<rt>がっこう</rt></ruby>があります。昼は<ruby>学校<rt>がっこう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>公園<rt>こうえん</rt></ruby>で、<ruby>大<rt>おお</rt></ruby>きい<ruby>木<rt>き</rt></ruby>の下に<ruby>座<rt>すわ</rt></ruby>って昼ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>午後<rt>ごご</rt></ruby>1<ruby>時<rt>じ</rt></ruby>から勉強を始めて、4<ruby>時半<rt>じはん</rt></ruby>に終わります。<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は音楽を<ruby>聞<rt>き</rt></ruby>いたり、映画を<ruby>見<rt>み</rt></ruby>たりして、とても楽しいです。",
+    "vi_text": "Tôi thức dậy lúc 7 giờ mỗi sáng. Sau khi ăn sáng, tôi xem bản đồ rồi lên tàu điện ngầm. Rẽ phải ở con đường phía trước nhà ga. Sau đó rẽ trái ở góc đường thứ nhất. Trường học ở bên phải. Buổi trưa, tôi ngồi dưới gốc cây lớn ở công viên gần trường và ăn cơm trưa. Tôi bắt đầu học từ 1 giờ chiều và kết thúc lúc 4 giờ rưỡi. Vào ngày nghỉ, tôi nghe nhạc, xem phim, v.v., cảm thấy rất vui.",
+    "questions": [
+      {
+        "q_jp": "<ruby>毎<rt>まい</rt></ruby>朝<ruby>何時<rt>なんじ</rt></ruby>に起きますか。",
+        "q_vi": "Mỗi sáng nhân vật \"tôi\" thức dậy lúc mấy giờ?",
+        "a_jp": "<ruby>毎<rt>まい</rt></ruby>朝7<ruby>時<rt>じ</rt></ruby>に起きます。"
+      },
+      {
+        "q_jp": "<ruby>何<rt>なに</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きますか。駅の<ruby>前<rt>まえ</rt></ruby>の道をどちらへ<ruby>曲<rt>ま</rt></ruby>がりますか。",
+        "q_vi": "Đi đến trường bằng phương tiện gì? Ở con đường trước nhà ga thì rẽ về phía nào?",
+        "a_jp": "地下<ruby>鉄<rt>てつ</rt></ruby>に乗って<ruby>行<rt>い</rt></ruby>きます。駅の<ruby>前<rt>まえ</rt></ruby>の道を右へ<ruby>曲<rt>ま</rt></ruby>がって、<ruby>一<rt>ひと</rt></ruby>つ<ruby>目<rt>め</rt></ruby>の<ruby>角<rt>かど</rt></ruby>を左へ<ruby>曲<rt>ま</rt></ruby>がります。"
+      },
+      {
+        "q_jp": "昼はどこで昼ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "q_vi": "Buổi trưa ăn cơm trưa ở đâu?",
+        "a_jp": "<ruby>学校<rt>がっこう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>公園<rt>こうえん</rt></ruby>で、<ruby>大<rt>おお</rt></ruby>きい<ruby>木<rt>き</rt></ruby>の下に<ruby>座<rt>すわ</rt></ruby>って<ruby>食<rt>た</rt></ruby>べます。"
+      },
+      {
+        "q_jp": "<ruby>午後<rt>ごご</rt></ruby>の勉強は<ruby>何時<rt>なんじ</rt></ruby>から始めて、<ruby>何時<rt>なんじ</rt></ruby>に終わりますか。",
+        "q_vi": "Buổi chiều việc học bắt đầu từ mấy giờ và kết thúc lúc mấy giờ?",
+        "a_jp": "<ruby>午後<rt>ごご</rt></ruby>1<ruby>時<rt>じ</rt></ruby>から始めて、4<ruby>時半<rt>じはん</rt></ruby>に終わります。"
+      }
+    ],
+    "kanji_check": [
+      {
+        "word": "起きます",
+        "reading": "おきます",
+        "lesson": "Bài 11",
+        "meaning": "Thức dậy"
+      },
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "lesson": "Bài 10",
+        "meaning": "Bản đồ"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "lesson": "Bài 10",
+        "meaning": "Tàu điện ngầm"
+      },
+      {
+        "word": "乗ります",
+        "reading": "のります",
+        "lesson": "Bài 11",
+        "meaning": "Lên (xe, tàu)"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "lesson": "Bài 10",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "道",
+        "reading": "みち",
+        "lesson": "Bài 10",
+        "meaning": "Con đường"
+      },
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "lesson": "Bài 10",
+        "meaning": "Bên phải"
+      },
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "lesson": "Bài 10",
+        "meaning": "Bên trái"
+      },
+      {
+        "word": "昼",
+        "reading": "ひる",
+        "lesson": "Bài 11",
+        "meaning": "Buổi trưa"
+      },
+      {
+        "word": "下",
+        "reading": "した",
+        "lesson": "Bài 10",
+        "meaning": "Dưới"
+      },
+      {
+        "word": "昼ご飯",
+        "reading": "ひるごはん",
+        "lesson": "Bài 11",
+        "meaning": "Cơm trưa"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "lesson": "Bài 11",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "始めて",
+        "reading": "はじめて",
+        "lesson": "Bài 11",
+        "meaning": "Bắt đầu"
+      },
+      {
+        "word": "終わります",
+        "reading": "おわります",
+        "lesson": "Bài 11",
+        "meaning": "Kết thúc"
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "lesson": "Bài 9",
+        "meaning": "Âm nhạc"
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "lesson": "Bài 9",
+        "meaning": "Phim ảnh"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "lesson": "Bài 9",
+        "meaning": "Vui vẻ"
+      }
+    ],
+    "all_kanji_words": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "Tôi"
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": "Mỗi sáng"
+      },
+      {
+        "word": "7時",
+        "reading": "しちじ",
+        "meaning": "7 giờ"
+      },
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "meaning": "Thức dậy"
+      },
+      {
+        "word": "朝ご飯",
+        "reading": "あさごはん",
+        "meaning": "Cơm sáng"
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "Ăn"
+      },
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "meaning": "Bản đồ"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "Xem"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "meaning": "Tàu điện ngầm"
+      },
+      {
+        "word": "乗る",
+        "reading": "のる",
+        "meaning": "Lên (tàu, xe)"
+      },
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "Nhà ga"
+      },
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "Phía trước"
+      },
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "Con đường"
+      },
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "Bên phải"
+      },
+      {
+        "word": "曲がる",
+        "reading": "まがる",
+        "meaning": "Rẽ, quẹo"
+      },
+      {
+        "word": "一つ目",
+        "reading": "ひとつめ",
+        "meaning": "Thứ nhất"
+      },
+      {
+        "word": "角",
+        "reading": "かど",
+        "meaning": "Góc đường"
+      },
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "Bên trái"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "Trường học"
+      },
+      {
+        "word": "昼",
+        "reading": "ひる",
+        "meaning": "Buổi trưa"
+      },
+      {
+        "word": "近く",
+        "reading": "ちかく",
+        "meaning": "Gần"
+      },
+      {
+        "word": "公園",
+        "reading": "こうえん",
+        "meaning": "Công viên"
+      },
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "To, lớn"
+      },
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "Cây"
+      },
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "Dưới"
+      },
+      {
+        "word": "座る",
+        "reading": "すわる",
+        "meaning": "Ngồi"
+      },
+      {
+        "word": "昼ご飯",
+        "reading": "ひるごはん",
+        "meaning": "Cơm trưa"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "Buổi chiều"
+      },
+      {
+        "word": "1時",
+        "reading": "いちじ",
+        "meaning": "1 giờ"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "Học tập"
+      },
+      {
+        "word": "始める",
+        "reading": "はじめる",
+        "meaning": "Bắt đầu"
+      },
+      {
+        "word": "4時半",
+        "reading": "よじはん",
+        "meaning": "4 giờ rưỡi"
+      },
+      {
+        "word": "終わる",
+        "reading": "おわる",
+        "meaning": "Kết thúc"
+      },
+      {
+        "word": "休みの日",
+        "reading": "やすみのひ",
+        "meaning": "Ngày nghỉ"
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": "Âm nhạc"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "Nghe"
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "Phim ảnh"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "Vui vẻ"
+      }
+    ]
+  }
+]

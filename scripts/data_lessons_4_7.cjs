@@ -1,0 +1,1620 @@
+// Data Bài 4 - Bài 7 (100% nguyên bản từ sách できる日本語 初級 言葉・文法練習帳 & Đáp án)
+
+const lesson4Exercises = [
+  // =========================================================================
+  // BÀI 4: 私の国・町 (51 câu)
+  // =========================================================================
+  {
+    id: 401,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (1)',
+    question: '【Nhìn tranh】Hình chiếc máy bay đang bay là gì?',
+    options: ['ひこうき（飛行機）', 'くるま', 'バス', 'でんしゃ'],
+    correct_answer: 'ひこうき（飛行機）',
+    explanation: 'Hình 1 minh họa máy bay: 飛行機 (ひこうき).',
+    full_sentence_jp: '① ひこうき'
+  },
+  {
+    id: 402,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (2)',
+    question: '【Nhìn tranh】Hình quả dưa lưới tròn có vân và miếng cắt là gì?',
+    options: ['メロン', 'リンゴ', 'イチゴ', 'スイカ'],
+    correct_answer: 'メロン',
+    explanation: 'Hình 2 minh họa quả dưa lưới: メロン.',
+    full_sentence_jp: '② メロン'
+  },
+  {
+    id: 403,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (3)',
+    question: '【Nhìn tranh】Hình tách hồng trà / trà nóng là gì?',
+    options: ['こうちゃ（紅茶）', 'コーヒー', 'みず', 'おさけ'],
+    correct_answer: 'こうちゃ（紅茶）',
+    explanation: 'Hình 3 minh họa hồng trà: こうちゃ (紅茶).',
+    full_sentence_jp: '③ こうちゃ'
+  },
+  {
+    id: 404,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (4)',
+    question: '【Nhìn tranh】Hình ngôi chùa Phật giáo truyền thống là gì?',
+    options: ['おてら（お寺）', 'じんじゃ', 'きょうかい', 'ビル'],
+    correct_answer: 'おてら（お寺）',
+    explanation: 'Hình 4 minh họa chùa: おてら (お寺).',
+    full_sentence_jp: '④ おてら'
+  },
+  {
+    id: 405,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (5)',
+    question: '【Nhìn tranh】Hình xe ô tô con 4 chỗ là gì?',
+    options: ['くるま（車）', 'バス', 'ひこうき', 'タクシー'],
+    correct_answer: 'くるま（車）',
+    explanation: 'Hình 5 minh họa ô tô: くるま (車).',
+    full_sentence_jp: '⑤ くるま'
+  },
+  {
+    id: 406,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (6)',
+    question: '【Nhìn tranh】Hình toà cao ốc văn phòng hiện đại nhiều tầng là gì?',
+    options: ['ビル', 'うち', 'おてら', 'がっこう'],
+    correct_answer: 'ビル',
+    explanation: 'Hình 6 minh họa toà nhà cao tầng: ビル.',
+    full_sentence_jp: '⑥ ビル'
+  },
+  {
+    id: 407,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (7)',
+    question: '【Nhìn tranh】Hình xe buýt công cộng chở khách là gì?',
+    options: ['バス', 'くるま', 'でんしゃ', 'ちかてつ'],
+    correct_answer: 'バス',
+    explanation: 'Hình 7 minh họa xe buýt: バス.',
+    full_sentence_jp: '⑦ バス'
+  },
+  {
+    id: 408,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nhận diện từ vựng (8)',
+    question: '【Nhìn tranh】Hình vòi nước và cốc nước lọc là gì?',
+    options: ['みず（水）', 'こうちゃ', 'ジュース', 'ビール'],
+    correct_answer: 'みず（水）',
+    explanation: 'Hình 8 minh họa nước uống: みず (水).',
+    full_sentence_jp: '⑧ みず'
+  },
+  {
+    id: 409,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm từ (Đồ ăn)',
+    question: 'Trong các từ trên, từ nào thuộc nhóm [食べ物] (đồ ăn)?',
+    options: ['メロン', 'こうちゃ', 'ビル', 'バス'],
+    correct_answer: 'メロン',
+    explanation: 'メロン (dưa lưới) là hoa quả đồ ăn: 食べ物.',
+    full_sentence_jp: 'メロンは食べ物です。'
+  },
+  {
+    id: 410,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm từ (Đồ uống)',
+    question: 'Các từ nào thuộc nhóm [飲み物] (đồ uống)?',
+    options: ['こうちゃ、みず', 'メロン、くるま', 'おてら、ビル', 'バス、ひこうき'],
+    correct_answer: 'こうちゃ、みず',
+    explanation: 'こうちゃ (hồng trà) và みず (nước) là đồ uống: 飲み物.',
+    full_sentence_jp: 'こうちゃと水は飲み物です。'
+  },
+  {
+    id: 411,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm từ (Công trình)',
+    question: 'Các từ nào thuộc nhóm [建物] (công trình xây dựng / toà nhà)?',
+    options: ['おてら、ビル', 'メロン、みず', 'くるま、バス', 'こうちゃ、おてら'],
+    correct_answer: 'おてら、ビル',
+    explanation: 'おてら (chùa) và ビル (toà cao ốc) là công trình xây dựng: 建物.',
+    full_sentence_jp: 'お寺とビルは建物です。'
+  },
+  {
+    id: 412,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm từ (Phương tiện)',
+    question: 'Các từ nào thuộc nhóm [乗り物] (phương tiện giao thông)?',
+    options: ['ひこうき、くるま、バス', 'メロン、こうちゃ、みず', 'おてら、ビル、うち'],
+    correct_answer: 'ひこうき、くるま、バス',
+    explanation: 'Máy bay, ô tô, xe buýt là phương tiện di chuyển: 乗り物.',
+    full_sentence_jp: '飛行機と車とバスは乗り物です。'
+  },
+  {
+    id: 413,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (1)',
+    question: '【Nhìn tranh】Hình toa tàu điện trên đường ray là gì?',
+    options: ['電車（でんしゃ）', '地下鉄（ちかてつ）', 'バス', '飛行機（ひこうき）'],
+    correct_answer: '電車（でんしゃ）',
+    explanation: 'Hình 1 minh họa tàu điện: 電車 (でんしゃ).',
+    full_sentence_jp: '① 電車'
+  },
+  {
+    id: 414,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (2)',
+    question: '【Nhìn tranh】Hình nhà ga tàu đón trả khách là gì?',
+    options: ['駅（えき）', '空港（くうこう）', 'バス停', '港（みなと）'],
+    correct_answer: '駅（えき）',
+    explanation: 'Hình 2 minh họa nhà ga: 駅 (えき).',
+    full_sentence_jp: '② 駅'
+  },
+  {
+    id: 415,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (3)',
+    question: '【Nhìn tranh】Hình ngọn núi cao chót vót (núi Phú Sĩ) là gì?',
+    options: ['山（やま）', '川（かわ）', '海（うみ）', '湖（みずうみ）'],
+    correct_answer: '山（やま）',
+    explanation: 'Hình 3 minh họa núi: 山 (やま).',
+    full_sentence_jp: '③ 山'
+  },
+  {
+    id: 416,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (4)',
+    question: '【Nhìn tranh】Hình dòng sông uốn lượn chảy qua là gì?',
+    options: ['川（かわ）', '海（うみ）', '山（やま）', '池（いけ）'],
+    correct_answer: '川（かわ）',
+    explanation: 'Hình 4 minh họa dòng sông: 川 (かわ).',
+    full_sentence_jp: '④ 川'
+  },
+  {
+    id: 417,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (5)',
+    question: '【Nhìn tranh】Hình bầu trời mưa rơi người cầm ô là gì?',
+    options: ['雨（あめ）', '雪（ゆき）', '晴れ（はれ）', '曇り（くもり）'],
+    correct_answer: '雨（あめ）',
+    explanation: 'Hình 5 minh họa cơn mưa: 雨 (あめ).',
+    full_sentence_jp: '⑤ 雨'
+  },
+  {
+    id: 418,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (6)',
+    question: '【Nhìn tranh】Hình người tuyết và tuyết rơi trắng xoá là gì?',
+    options: ['雪（ゆき）', '雨（あめ）', '雲（くも）', '風（かぜ）'],
+    correct_answer: '雪（ゆき）',
+    explanation: 'Hình 6 minh họa tuyết: 雪 (ゆき).',
+    full_sentence_jp: '⑥ 雪'
+  },
+  {
+    id: 419,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (7)',
+    question: '【Nhìn tranh】Nhà thờ phong cách phương Tây có cây thánh giá là gì?',
+    options: ['教会（きょうかい）', '神社（じんじゃ）', 'お寺（おてら）', '博物館'],
+    correct_answer: '教会（きょうかい）',
+    explanation: 'Hình 7 minh họa nhà thờ Kitô giáo: 教会 (きょうかい).',
+    full_sentence_jp: '⑦ 教会'
+  },
+  {
+    id: 420,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Địa danh & Tự nhiên (8)',
+    question: '【Nhìn tranh】Đền thờ Thần đạo Nhật Bản có cổng Torii đỏ là gì?',
+    options: ['神社（じんじゃ）', '教会（きょうかい）', 'お寺（おてら）', '城（しろ）'],
+    correct_answer: '神社（じんじゃ）',
+    explanation: 'Hình 8 minh họa đền Thần đạo (Shinto): 神社 (じんじゃ).',
+    full_sentence_jp: '⑧ 神社'
+  },
+  {
+    id: 421,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Phương hướng (9)',
+    question: '【Nhìn hình chữ thập phương hướng】Hướng bên trái (Tây) đọc là gì?',
+    options: ['西（にし）', '東（ひがし）', '南（みなみ）', '北（きた）'],
+    correct_answer: '西（にし）',
+    explanation: 'Hướng Tây là 西 (にし).',
+    full_sentence_jp: '⑨ 西'
+  },
+  {
+    id: 422,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 Phương hướng (10)',
+    question: '【Nhìn hình chữ thập phương hướng】Hướng bên phải (Đông) đọc là gì?',
+    options: ['東（ひがし）', '西（にし）', '南（みなみ）', '北（きた）'],
+    correct_answer: '東（ひがし）',
+    explanation: 'Hướng Đông là 東 (ひがし).',
+    full_sentence_jp: '⑩ 東'
+  },
+  {
+    id: 423,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 程度 Mức độ tính từ (Rất cay)',
+    question: 'Mức độ cay cao nhất (3 ớt): （　　）辛いです。',
+    options: ['とても', 'すこし', 'あまり', 'ぜんぜん'],
+    correct_answer: 'とても',
+    explanation: '「とても辛いです」 nghĩa là rất cay.',
+    full_sentence_jp: 'とても辛いです。'
+  },
+  {
+    id: 424,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 程度 Mức độ tính từ (Hơi cay)',
+    question: 'Mức độ cay vừa phải (1 ớt): （　　）辛いです。',
+    options: ['すこし', 'とても', 'あまり', 'ぜんぜん'],
+    correct_answer: 'すこし',
+    explanation: '「すこし辛いです」 nghĩa là hơi cay một chút.',
+    full_sentence_jp: 'すこし辛いです。'
+  },
+  {
+    id: 425,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 程度 Mức độ tính từ (Không cay lắm)',
+    question: 'Mức độ phủ định nhẹ: （　　）辛くないです。',
+    options: ['あまり', 'とても', 'すこし', 'いつも'],
+    correct_answer: 'あまり',
+    explanation: '「あまり」 kết hợp với đuôi phủ định 「〜くない」: không cay lắm.',
+    full_sentence_jp: 'あまり辛くないです。'
+  },
+  {
+    id: 426,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 味 Vị giác (Bánh ngọt)',
+    question: 'ケーキは（　　）。',
+    options: ['あまいです（甘い）', 'からいです', 'にがいです', 'すっぱいです'],
+    correct_answer: 'あまいです（甘い）',
+    explanation: 'Bánh kem có vị ngọt: 甘い (あまい).',
+    full_sentence_jp: 'ケーキはあまいです。'
+  },
+  {
+    id: 427,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 味 Vị giác (Cà phê)',
+    question: 'ブラックコーヒーは（　　）。',
+    options: ['にがいです（苦い）', 'あまいです', 'からいです', 'しょっぱいです'],
+    correct_answer: 'にがいです（苦い）',
+    explanation: 'Cà phê đen nguyên chất có vị đắng: 苦い (にがい).',
+    full_sentence_jp: 'コーヒーはにがいです。'
+  },
+  {
+    id: 428,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 味 Vị giác (Cơm cà ri)',
+    question: 'カレーは（　　）。',
+    options: ['からいです（辛い）', 'あまいです', 'にがいです', 'つめたいです'],
+    correct_answer: 'からいです（辛い）',
+    explanation: 'Món cơm cà ri có vị cay nồng đặc trưng: 辛い (からい).',
+    full_sentence_jp: 'カレーはからいです。'
+  },
+  {
+    id: 429,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. 違うものが1つあります (1)',
+    question: 'ふるい (cũ/cổ kính) có thể miêu tả cho 3 từ nào, từ nào KHÔNG ĐI CÙNG?\n[ ビル ・ 教会 ・ 人 ・ 車 ]',
+    options: ['人（ひと）', 'ビル', '教会', '車'],
+    correct_answer: '人（ひと）',
+    explanation: 'Toà nhà cũ, nhà thờ cổ, xe hơi cũ đều dùng 「ふるい」. Với người không dùng 古い người (phải dùng 年寄り, お年寄り, おじいさん...).',
+    full_sentence_jp: '人だけ「ふるい」と一緒に使いません。'
+  },
+  {
+    id: 430,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. 違うものが1つあります (2)',
+    question: 'おいしい (ngon miệng) đi với món ăn/uống, từ nào KHÔNG ĐI CÙNG?\n[ ケーキ ・ 温泉 ・ イチゴ ・ ワイン ]',
+    options: ['温泉（おんせん）', 'ケーキ', 'イチゴ', 'ワイン'],
+    correct_answer: '温泉（おんせん）',
+    explanation: 'Bánh kem ngon, dâu tây ngon, rượu vang ngon. 温泉 (suối nước nóng) là nơi ngâm mình (thường khen 気持ちがいい), không dùng おいしい.',
+    full_sentence_jp: '温泉だけ食べ物／飲み物ではありません。'
+  },
+  {
+    id: 431,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. 違うものが1つあります (3)',
+    question: 'ちいさい (nhỏ bé) đi với đồ vật, từ nào KHÔNG PHÙ HỢP?\n[ 日 ・ リンゴ ・ 国 ・ ビル ]',
+    options: ['日（ひ）', 'リンゴ', '国', 'ビル'],
+    correct_answer: '日（ひ）',
+    explanation: 'Quả táo nhỏ, đất nước nhỏ, toà nhà nhỏ. 日 (ngày/mặt trời) không dùng tính từ 小さい.',
+    full_sentence_jp: '日だけ「ちいさい」を使いません。'
+  },
+  {
+    id: 432,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. 違うものが1つあります (4)',
+    question: 'にぎやか (náo nhiệt, đông đúc) đi với địa điểm có người, từ nào KHÔNG PHÙ HỢP?\n[ 町 ・ お祭り ・ 川 ・ パーティー ]',
+    options: ['川（かわ）', '町', 'お祭り', 'パーティー'],
+    correct_answer: '川（かわ）',
+    explanation: 'Phố xá, lễ hội, bữa tiệc đều có thể náo nhiệt (にぎやか). 川 (dòng sông) là cảnh quan thiên nhiên tĩnh lặng.',
+    full_sentence_jp: '川だけ「にぎやか」ではありません。'
+  },
+  {
+    id: 433,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Đồ uống lạnh)',
+    question: 'このビールは [ さむい ・ つめたい ] です。',
+    options: ['つめたい（冷たい）', 'さむい（寒い）'],
+    correct_answer: 'つめたい（冷たい）',
+    explanation: 'Đồ ăn đồ uống hoặc vật sờ chạm có nhiệt độ lạnh dùng 冷たい (つめたい); còn 寒い chỉ dùng cho thời tiết/không khí.',
+    full_sentence_jp: 'このビールは冷たいです。'
+  },
+  {
+    id: 434,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Thời tiết mùa đông lạnh)',
+    question: 'ロシアの冬は [ さむい ・ つめたい ] です。',
+    options: ['さむい（寒い）', 'つめたい（冷たい）'],
+    correct_answer: 'さむい（寒い）',
+    explanation: 'Thời tiết mùa đông rét buốt dùng 寒い (さむい).',
+    full_sentence_jp: 'ロシアの冬は寒いです。'
+  },
+  {
+    id: 435,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Mưa nhiều)',
+    question: 'タイは雨が [ おおきい ・ おおい ] です。',
+    options: ['おおい（多い）', 'おおきい（大きい）'],
+    correct_answer: 'おおい（多い）',
+    explanation: 'Số lượng mưa nhiều dùng 多い (おおい); 大きい là kích thước to lớn.',
+    full_sentence_jp: 'タイは雨が多いです。'
+  },
+  {
+    id: 436,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Thành phố lớn)',
+    question: '私の町は [ おおきい ・ おおい ] です。',
+    options: ['おおきい（大きい）', 'おおい（多い）'],
+    correct_answer: 'おおきい（大きい）',
+    explanation: 'Quy mô diện tích thành phố lớn dùng 大きい (おおきい).',
+    full_sentence_jp: '私の町は大きいです。'
+  },
+  {
+    id: 437,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Cây xanh ít)',
+    question: 'この町は緑が [ すくない ・ すこし ] です。',
+    options: ['すくない（少ない）', 'すこし（少し）'],
+    correct_answer: 'すくない（少ない）',
+    explanation: 'Khi làm vị ngữ 「〜が 少ないです」 phải dùng tính từ 少ない (すくない); còn 少し là phó từ bổ nghĩa cho từ khác.',
+    full_sentence_jp: 'この町は緑が少ないです。'
+  },
+  {
+    id: 438,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. どちらがいいですか (Hơi lạnh một chút)',
+    question: '[ すくない ・ すこし ] 寒いです。',
+    options: ['すこし（少し）', 'すくない（少ない）'],
+    correct_answer: 'すこし（少し）',
+    explanation: 'Phó từ đứng trước bổ nghĩa cho tính từ 「寒いです」: 少し寒いです (hơi lạnh một chút).',
+    full_sentence_jp: '少し寒いです。'
+  },
+  {
+    id: 439,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 反対の言葉 Từ trái nghĩa (1)',
+    question: 'おおきい（大きい - to lớn） <=> （　　）',
+    options: ['ちいさい（小さい）', 'ふるい', 'しずか', 'ひくい'],
+    correct_answer: 'ちいさい（小さい）',
+    explanation: '大きい (to) trái nghĩa với 小さい (nhỏ).',
+    full_sentence_jp: 'おおきい <=> ちいさい'
+  },
+  {
+    id: 440,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 反対の言葉 Từ trái nghĩa (2)',
+    question: 'あたらしい（新しい - mới mẻ） <=> （　　）',
+    options: ['ふるい（古い）', 'ちいさい', 'たかい', 'すくない'],
+    correct_answer: 'ふるい（古い）',
+    explanation: '新しい (mới) trái nghĩa với 古い (cũ).',
+    full_sentence_jp: 'あたらしい <=> ふるい'
+  },
+  {
+    id: 441,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 反対の言葉 Từ trái nghĩa (3)',
+    question: 'にぎやか（nhộn nhịp, náo nhiệt） <=> （　　）',
+    options: ['しずか（静か）', 'ゆうめい', 'ひくい', 'ちいさい'],
+    correct_answer: 'しずか（静か）',
+    explanation: 'にぎやか (náo nhiệt) trái nghĩa với 静か (yên tĩnh).',
+    full_sentence_jp: 'にぎやか <=> しずか'
+  },
+  {
+    id: 442,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 反対の言葉 Từ trái nghĩa (4)',
+    question: 'ひくい（低い - thấp） <=> （　　）',
+    options: ['たかい（高い）', 'おおきい', 'ふるい', 'しずか'],
+    correct_answer: 'たかい（高い）',
+    explanation: '低い (thấp) trái nghĩa với 高い (cao).',
+    full_sentence_jp: 'ひくい <=> たかい'
+  },
+  {
+    id: 443,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 反対の言葉 Từ trái nghĩa (5)',
+    question: 'ひとがおおい（人が多い - đông người） <=> ひとが（　　）',
+    options: ['すくない（少ない）', 'ちいさい', 'ひくい', 'あつい'],
+    correct_answer: 'すくない（少ない）',
+    explanation: '人が多い (đông người) trái nghĩa với 人が少ない (ít người, thưa người).',
+    full_sentence_jp: 'ひとがおおい <=> ひとがすくない'
+  },
+  {
+    id: 444,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (1)',
+    question: '【Nhìn tranh bản đồ】Mưa rơi từ đám mây xuống là gì?',
+    options: ['雨（あめ）', '雪', '雲', '風'],
+    correct_answer: '雨（あめ）',
+    explanation: 'Số 1 là mưa: 雨 (あめ).',
+    full_sentence_jp: '① 雨'
+  },
+  {
+    id: 445,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (2)',
+    question: '【Nhìn tranh bản đồ】Dãy núi non nhô lên là gì?',
+    options: ['山（やま）', '川', '海', '森'],
+    correct_answer: '山（やま）',
+    explanation: 'Số 2 là núi: 山 (やま).',
+    full_sentence_jp: '② 山'
+  },
+  {
+    id: 446,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (3)',
+    question: '【Nhìn tranh bản đồ】Dòng nước chảy từ núi ra biển là gì?',
+    options: ['川（かわ）', '湖', '海', '池'],
+    correct_answer: '川（かわ）',
+    explanation: 'Số 3 là dòng sông: 川 (かわ).',
+    full_sentence_jp: '③ 川'
+  },
+  {
+    id: 447,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (4)',
+    question: '【Nhìn tranh bản đồ】Cụm những ngôi nhà dân ở là gì?',
+    options: ['うち／家（いえ）', 'ホテル', 'ビル', '学校'],
+    correct_answer: 'うち／家（いえ）',
+    explanation: 'Số 4 là nhà ở: うち / 家 (いえ).',
+    full_sentence_jp: '④ うち／家'
+  },
+  {
+    id: 448,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (5)',
+    question: '【Nhìn tranh bản đồ】Những toà nhà cao tầng bê tông cốt thép là gì?',
+    options: ['ビル', 'うち', 'ホテル', 'おてら'],
+    correct_answer: 'ビル',
+    explanation: 'Số 5 là toà cao ốc: ビル.',
+    full_sentence_jp: '⑤ ビル'
+  },
+  {
+    id: 449,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (6)',
+    question: '【Nhìn tranh bản đồ】Vòng tròn bao trọn toàn bộ khu dân cư, đường xá là gì?',
+    options: ['町（まち）', '国', '駅', '公園'],
+    correct_answer: '町（まち）',
+    explanation: 'Số 6 là thị trấn, thị xã, khu phố: 町 (まち).',
+    full_sentence_jp: '⑥ 町'
+  },
+  {
+    id: 450,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (7)',
+    question: '【Nhìn tranh bản đồ】Con cá nhảy trên mặt nước là gì?',
+    options: ['魚（さかな）', '鳥', '犬', '猫'],
+    correct_answer: '魚（さかな）',
+    explanation: 'Số 7 là con cá: 魚 (さかな).',
+    full_sentence_jp: '⑦ 魚'
+  },
+  {
+    id: 451,
+    lesson: 4,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ 私の町 (8)',
+    question: '【Nhìn tranh bản đồ】Vùng biển lớn có con tàu thuỷ chạy là gì?',
+    options: ['海（うみ）', '川', '湖', 'プール'],
+    correct_answer: '海（うみ）',
+    explanation: 'Số 8 là biển: 海 (うみ).',
+    full_sentence_jp: '⑧ 海'
+  }
+];
+
+const lesson5Exercises = [
+  // =========================================================================
+  // BÀI 5: 休みの日 (28 câu)
+  // =========================================================================
+  {
+    id: 501,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (1)',
+    question: '部屋を（　　）。(Dọn dẹp phòng)',
+    options: ['掃除します（そうじします）', '登ります', '撮ります', '会います'],
+    correct_answer: '掃除します（そうじします）',
+    explanation: 'Dọn dẹp phòng ốc: 部屋を掃除します.',
+    full_sentence_jp: '部屋を掃除します。'
+  },
+  {
+    id: 502,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (2)',
+    question: '料理を（　　）。(Nấu nướng thức ăn)',
+    options: ['作ります／します', '登ります', '会います', '掃除します'],
+    correct_answer: '作ります／します',
+    explanation: 'Nấu ăn: 料理を作ります hoặc 料理をします.',
+    full_sentence_jp: '料理を作ります。'
+  },
+  {
+    id: 503,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (3)',
+    question: 'レストランで（　　）。(Dùng bữa tại nhà hàng)',
+    options: ['食事します（しょくじします）', '登ります', '撮ります', '作ります'],
+    correct_answer: '食事します（しょくじします）',
+    explanation: 'Dùng bữa, ăn uống: レストランで食事します.',
+    full_sentence_jp: 'レストランで食事します。'
+  },
+  {
+    id: 504,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (4)',
+    question: 'デパートで（　　）。(Mua sắm sắm đồ)',
+    options: ['買い物します（かいものします）', '食事します', '登ります', '掃除します'],
+    correct_answer: '買い物します（かいものします）',
+    explanation: 'Mua sắm: 買い物します.',
+    full_sentence_jp: 'デパートで買い物します。'
+  },
+  {
+    id: 505,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (5)',
+    question: '恋人に（　　）。(Hẹn gặp người yêu)',
+    options: ['会います（あいます）', '登ります', '撮ります', 'します'],
+    correct_answer: '会います（あいます）',
+    explanation: 'Gặp gỡ ai đó: [Người] に会います.',
+    full_sentence_jp: '恋人に会います。'
+  },
+  {
+    id: 506,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (6)',
+    question: '山に（　　）。(Leo núi)',
+    options: ['登ります（のぼります）', '会います', '掃除します', '作ります'],
+    correct_answer: '登ります（のぼります）',
+    explanation: 'Leo núi: 山に登ります.',
+    full_sentence_jp: '山に登ります。'
+  },
+  {
+    id: 507,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 動詞 Hoạt động ngày nghỉ (7)',
+    question: '写真を（　　）。(Chụp ảnh)',
+    options: ['撮ります（とります）', '会います', '登ります', '食事します'],
+    correct_answer: '撮ります（とります）',
+    explanation: 'Chụp ảnh: 写真を撮ります.',
+    full_sentence_jp: '写真を撮ります。'
+  },
+  {
+    id: 508,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Sáng nay)',
+    question: 'Buổi sáng của ngày hôm nay gọi là gì?',
+    options: ['けさ（今朝）', 'きのう', 'あした', 'こんばん'],
+    correct_answer: 'けさ（今朝）',
+    explanation: 'Sáng nay là 今朝 (けさ).',
+    full_sentence_jp: '今朝（けさ）'
+  },
+  {
+    id: 509,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Hôm qua)',
+    question: 'おととい $\\rightarrow$ （　　） $\\rightarrow$ きょう',
+    options: ['きのう（昨日）', 'あした', 'けさ', 'ことし'],
+    correct_answer: 'きのう（昨日）',
+    explanation: 'Hôm qua là 昨日 (きのう).',
+    full_sentence_jp: 'おととい $\\rightarrow$ きのう $\\rightarrow$ きょう'
+  },
+  {
+    id: 510,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Ngày mai)',
+    question: 'きょう $\\rightarrow$ （　　） $\\rightarrow$ あさって',
+    options: ['あした（明日）', 'きのう', 'けさ', 'らいねん'],
+    correct_answer: 'あした（明日）',
+    explanation: 'Ngày mai là 明日 (あした).',
+    full_sentence_jp: 'きょう $\\rightarrow$ あした $\\rightarrow$ あさって'
+  },
+  {
+    id: 511,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Năm ngoái)',
+    question: '（　　） $\\rightarrow$ ことし $\\rightarrow$ らいねん',
+    options: ['きょねん（去年）', 'きのう', 'おととし', 'らいねん'],
+    correct_answer: 'きょねん（去年）',
+    explanation: 'Năm ngoái là 去年 (きょねん).',
+    full_sentence_jp: 'きょねん $\\rightarrow$ ことし $\\rightarrow$ らいねん'
+  },
+  {
+    id: 512,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Năm nay)',
+    question: 'きょねん $\\rightarrow$ （　　） $\\rightarrow$ らいねん',
+    options: ['ことし（今年）', 'けさ', 'きのう', 'あした'],
+    correct_answer: 'ことし（今年）',
+    explanation: 'Năm nay là 今年 (ことし).',
+    full_sentence_jp: 'きょねん $\\rightarrow$ ことし $\\rightarrow$ らいねん'
+  },
+  {
+    id: 513,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. イ形容詞 Phân loại tính từ đuôi i',
+    question: 'Nhóm nào sau đây toàn bộ là [イ形容詞] (tính từ đuôi -i)?',
+    options: ['たかい、おもしろい、やすい、いそがしい、むずかしい、たのしい', 'すき、きらい、ひま', 'たいへん、きれい、かんたん'],
+    correct_answer: 'たかい、おもしろい、やすい、いそがしい、むずかしい、たのしい',
+    explanation: 'Các tính từ này tận cùng bằng đuôi い nguyên bản và biến đổi theo hệ tính từ đuôi -i.',
+    full_sentence_jp: 'たかい、おもしろい、やすい、いそがしい、むずかしい、たのしいはイ形容詞です。'
+  },
+  {
+    id: 514,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. ナ形容詞 Trường hợp đặc biệt',
+    question: 'Hai từ nào sau đây tuy có chữ tận cùng là 「い」 nhưng bản chất là [ナ形容詞]?',
+    options: ['きらい、きれい', 'たかい、やすい', 'いそがしい、たのしい', 'あまい、からい'],
+    correct_answer: 'きらい、きれい',
+    explanation: '綺麗 (きれい) và 嫌い (きらい) là 2 tính từ đuôi -na đặc biệt thường xuyên gặp trong đề thi.',
+    full_sentence_jp: '「きれい」と「きらい」はナ形容詞です。'
+  },
+  {
+    id: 515,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. ナ形容詞 Từ chỉ rảnh rỗi',
+    question: 'Tính từ đuôi -na nào sau đây chỉ trạng thái rảnh rỗi, không bận rộn?',
+    options: ['ひま（暇）', 'いそがしい', 'やすい', 'たのしい'],
+    correct_answer: 'ひま（暇）',
+    explanation: 'Rảnh rỗi là 暇 (ひま) - ナ形容詞.',
+    full_sentence_jp: 'ひま（暇）はナ形容詞です。'
+  },
+  {
+    id: 516,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Vất vả)',
+    question: '毎日、アルバイトをします。[ むずかしい ・ たいへん ] です。',
+    options: ['たいへん（大変）', 'むずかしい（難しい）'],
+    correct_answer: 'たいへん（大変）',
+    explanation: 'Đi làm thêm mỗi ngày mệt mỏi vất vả dùng 大変 (たいへん); 難しい là độ khó của bài học/câu hỏi.',
+    full_sentence_jp: '毎日、アルバイトをします。大変です。'
+  },
+  {
+    id: 517,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Dễ chịu, sảng khoái)',
+    question: '温泉は [ きもちがいい ・ かんたん ] です。',
+    options: ['きもちがいい（気持ちがいい）', 'かんたん（簡単）'],
+    correct_answer: 'きもちがいい（気持ちがいい）',
+    explanation: 'Tắm suối nước nóng mang lại cảm giác vô cùng khoan khoái, dễ chịu: 気持ちがいい.',
+    full_sentence_jp: '温泉は気持ちがいいです。'
+  },
+  {
+    id: 518,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Rảnh rỗi)',
+    question: '日曜日、私はどこへも行きません。[ ひま ・ かんたん ] です。',
+    options: ['ひま（暇）', 'かんたん（簡単）'],
+    correct_answer: 'ひま（暇）',
+    explanation: 'Chủ nhật không đi đâu cả nên rất rảnh: 暇 (ひま) です.',
+    full_sentence_jp: '日曜日、私はどこへも行きません。暇です。'
+  },
+  {
+    id: 519,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Bận rộn)',
+    question: '朝7時から夜10時まで働きます。[ おもしろい ・ いそがしい ] です。',
+    options: ['いそがしい（忙しい）', 'おもしろい（面白い）'],
+    correct_answer: 'いそがしい（忙しい）',
+    explanation: 'Làm việc từ 7h sáng tới 10h đêm thì rất bận rộn: 忙しい (いそがしい).',
+    full_sentence_jp: '朝7時から夜10時まで働きます。忙しいです。'
+  },
+  {
+    id: 520,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Vui vẻ)',
+    question: '毎日、恋人と喫茶店で勉強します。[ きもちがいい ・ たのしい ] です。',
+    options: ['たのしい（楽しい）', 'きもちがいい'],
+    correct_answer: 'たのしい（楽しい）',
+    explanation: 'Mỗi ngày cùng người yêu học tập là trải nghiệm vui vẻ, hạnh phúc: 楽しい (たのしい).',
+    full_sentence_jp: '毎日、恋人と喫茶店で勉強します。楽しいです。'
+  },
+  {
+    id: 521,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Thú vị)',
+    question: '毎晩、ゲームをします。ゲームは [ おもしろい ・ たいへん ] です。',
+    options: ['おもしろい（面白い）', 'たいへん（大変）'],
+    correct_answer: 'おもしろい（面白い）',
+    explanation: 'Chơi game rất hay và thú vị: 面白い (おもしろい).',
+    full_sentence_jp: '毎晩、ゲームをします。ゲームは面白いです。'
+  },
+  {
+    id: 522,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (1)',
+    question: '【Nhìn tranh】Cửa hàng có bảng 100円 (All 100) là gì?',
+    options: ['100円ショップ', 'スーパー', '銀行', 'コンビニ'],
+    correct_answer: '100円ショップ',
+    explanation: 'Cửa hàng đồng giá 100 yên: 100円ショップ.',
+    full_sentence_jp: '① 100円ショップ'
+  },
+  {
+    id: 523,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (2)',
+    question: '【Nhìn tranh】Toà nhà có chữ BANK là gì?',
+    options: ['銀行（ぎんこう）', '郵便局', '美術館', '図書館'],
+    correct_answer: '銀行（ぎんこう）',
+    explanation: 'Ngân hàng: 銀行 (ぎんこう).',
+    full_sentence_jp: '② 銀行'
+  },
+  {
+    id: 524,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (3)',
+    question: '【Nhìn tranh】Quầy bán hàng rau củ thực phẩm giảm giá Sale là gì?',
+    options: ['スーパー', '100円ショップ', '映画館', '公園'],
+    correct_answer: 'スーパー',
+    explanation: 'Siêu thị: スーパー.',
+    full_sentence_jp: '③ スーパー'
+  },
+  {
+    id: 525,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (4)',
+    question: '【Nhìn tranh】Toà nhà có trưng bày tượng điêu khắc và tranh vẽ là gì?',
+    options: ['美術館（びじゅつかん）', '映画館', '図書館', '美容院'],
+    correct_answer: '美術館（びじゅつかん）',
+    explanation: 'Bảo tàng mỹ thuật: 美術館 (びじゅつかん).',
+    full_sentence_jp: '④ 美術館'
+  },
+  {
+    id: 526,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (5)',
+    question: '【Nhìn tranh】Cửa hàng có bảng 24 OPEN (mở cửa 24h) là gì?',
+    options: ['コンビニ／コンビニエンスストア', 'スーパー', '本屋', '銀行'],
+    correct_answer: 'コンビニ／コンビニエンスストア',
+    explanation: 'Cửa hàng tiện lợi: コンビニ.',
+    full_sentence_jp: '⑤ コンビニ／コンビニエンスストア'
+  },
+  {
+    id: 527,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (6)',
+    question: '【Nhìn tranh】Khuôn viên có cầu trượt, xích đu ngoài trời là gì?',
+    options: ['公園（こうえん）', '遊園地', '動物園', '庭'],
+    correct_answer: '公園（こうえん）',
+    explanation: 'Công viên: 公園 (こうえん).',
+    full_sentence_jp: '⑥ 公園'
+  },
+  {
+    id: 528,
+    lesson: 5,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa điểm (7)',
+    question: '【Nhìn tranh】Toà nhà có biểu tượng trang sách mở trên bảng hiệu là gì?',
+    options: ['図書館（としょかん）', '本屋', '学校', '美術館'],
+    correct_answer: '図書館（としょかん）',
+    explanation: 'Thư viện: 図書館 (としょかん).',
+    full_sentence_jp: '⑦ 図書館'
+  }
+];
+
+const lesson6Exercises = [
+  // =========================================================================
+  // BÀI 6: 一緒に！ (27 câu)
+  // =========================================================================
+  {
+    id: 601,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm [旅行]',
+    question: 'Nhóm từ nào sau đây đi cùng chủ đề [旅行] (du lịch)?',
+    options: ['うみ、おんせん、けしき、ちず、ツアー', 'かしゅ、コンサート、カラオケ', 'パン、ラーメン、ハンバーグ'],
+    correct_answer: 'うみ、おんせん、けしき、ちず、ツアー',
+    explanation: 'Du lịch gắn liền với biển (うみ), suối nước nóng (おんせん), phong cảnh (けしき), bản đồ (ちず), tour (ツアー).',
+    full_sentence_jp: '旅行：うみ、おんせん、けしき、ちず、ツアー'
+  },
+  {
+    id: 602,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm [水泳]',
+    question: 'Từ nào liên quan đến môn [水泳] (bơi lội)?',
+    options: ['うみ、みずぎ（水着）', 'ちず、チケット', 'かしゅ、ドライブ'],
+    correct_answer: 'うみ、みずぎ（水着）',
+    explanation: 'Bơi lội thì gắn với biển (海) và đồ bơi (水着 - みずぎ).',
+    full_sentence_jp: '水泳：うみ、みずぎ'
+  },
+  {
+    id: 603,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Phân loại nhóm [音楽]',
+    question: 'Nhóm từ nào liên quan đến chủ đề [音楽] (âm nhạc)?',
+    options: ['かしゅ（歌手）、コンサート、チケット、カラオケ', 'おんせん、ツアー、みずぎ', 'うみ、ちず、ドライブ'],
+    correct_answer: 'かしゅ（歌手）、コンサート、チケット、カラオケ',
+    explanation: 'Âm nhạc gắn với ca sĩ (歌手), buổi hòa nhạc (コンサート), vé (チケット), hát karaoke.',
+    full_sentence_jp: '音楽：かしゅ、コンサート、チケット、カラオケ'
+  },
+  {
+    id: 604,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 (1)',
+    question: '【Nhìn tranh】Hình người vung gậy đánh bóng chày là môn thể thao gì?',
+    options: ['野球（やきゅう）', 'サッカー', 'テニス', 'ゴルフ'],
+    correct_answer: '野球（やきゅう）',
+    explanation: 'Hình 1 minh họa bóng chày: 野球 (やきゅう).',
+    full_sentence_jp: '① 野球'
+  },
+  {
+    id: 605,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 (2)',
+    question: '【Nhìn tranh】Rạp chiếu phim có biển CINEMA là gì?',
+    options: ['映画館（えいがかん）', '美術館', '図書館', '劇場'],
+    correct_answer: '映画館（えいがかん）',
+    explanation: 'Hình 2 minh họa rạp chiếu phim: 映画館 (えいがかん).',
+    full_sentence_jp: '② 映画館'
+  },
+  {
+    id: 606,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 (3)',
+    question: '【Nhìn tranh】Tàu điện ngầm chạy ngầm dưới lòng đất là gì?',
+    options: ['地下鉄（ちかてつ）', '電車', '新幹線', 'バス'],
+    correct_answer: '地下鉄（ちかてつ）',
+    explanation: 'Hình 3 minh họa tàu điện ngầm: 地下鉄 (ちかてつ).',
+    full_sentence_jp: '③ 地下鉄'
+  },
+  {
+    id: 607,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 名詞 (4)',
+    question: '【Nhìn tranh】Bát mì ramen có thịt và trứng luộc bốc khói là gì?',
+    options: ['ラーメン', 'うどん', 'そば', 'パスタ'],
+    correct_answer: 'ラーメン',
+    explanation: 'Hình 4 minh họa mì Ramen: ラーメン.',
+    full_sentence_jp: '④ ラーメン'
+  },
+  {
+    id: 608,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Tuần này & Tuần sau)',
+    question: 'せんしゅう（tuần trước） $\\rightarrow$ （①　　） $\\rightarrow$ （②　　）',
+    options: ['こんしゅう、らいしゅう', 'こんげつ、らいげつ', 'きのう、あした', 'ことし、らいねん'],
+    correct_answer: 'こんしゅう、らいしゅう',
+    explanation: 'Tuần trước (先週) $\\rightarrow$ Tuần này (今週 - こんしゅう) $\\rightarrow$ Tuần sau (来週 - らいしゅう).',
+    full_sentence_jp: 'せんしゅう $\\rightarrow$ こんしゅう $\\rightarrow$ らいしゅう'
+  },
+  {
+    id: 609,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 時を表す言葉 (Tháng này & Tháng sau)',
+    question: 'せんげつ（tháng trước） $\\rightarrow$ （③　　） $\\rightarrow$ （④　　）',
+    options: ['こんげつ、らいげつ', 'こんしゅう、らいしゅう', 'ことし、らいねん', 'きのう、あした'],
+    correct_answer: 'こんげつ、らいげつ',
+    explanation: 'Tháng trước (先月) $\\rightarrow$ Tháng này (今月 - こんげつ) $\\rightarrow$ Tháng sau (来月 - らいげつ).',
+    full_sentence_jp: 'せんげつ $\\rightarrow$ こんげつ $\\rightarrow$ らいげつ'
+  },
+  {
+    id: 610,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. グループの名前 (Đồ uống)',
+    question: '[ 水 ・ ジュース ・ ワイン ] thuộc nhóm danh từ chung nào?',
+    options: ['飲み物（のみもの）', '食べ物', '季節', '乗り物'],
+    correct_answer: '飲み物（のみもの）',
+    explanation: 'Nước, nước ép, rượu vang là đồ uống: 飲み物.',
+    full_sentence_jp: '水、ジュース、ワインは飲み物です。'
+  },
+  {
+    id: 611,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. グループの名前 (Đồ ăn)',
+    question: '[ パン ・ 卵 ・ イチゴ ] thuộc nhóm danh từ chung nào?',
+    options: ['食べ物（たべもの）', '飲み物', '料理', '道具'],
+    correct_answer: '食べ物（たべもの）',
+    explanation: 'Bánh mì, trứng, dâu tây là thức ăn: 食べ物.',
+    full_sentence_jp: 'パン、卵、イチゴは食べ物です。'
+  },
+  {
+    id: 612,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. グループの名前 (Mùa)',
+    question: '[ 春 ・ 夏 ・ 秋 ・ 冬 ] thuộc nhóm danh từ chung nào?',
+    options: ['季節（きせつ）', '天気', '時間', '曜日'],
+    correct_answer: '季節（きせつ）',
+    explanation: 'Xuân, hạ, thu, đông là 4 mùa trong năm: 季節 (きせつ).',
+    full_sentence_jp: '春、夏、秋、冬は季節です。'
+  },
+  {
+    id: 613,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Khoảng cách gần)',
+    question: 'この居酒屋は駅から [ はやい ・ ちかい ] です。',
+    options: ['ちかい（近い）', 'はやい（早い／速い）'],
+    correct_answer: 'ちかい（近い）',
+    explanation: 'Khoảng cách từ quán tới nhà ga gần dùng 近い (ちかい); はやい là nhanh về tốc độ hoặc sớm về giờ giấc.',
+    full_sentence_jp: 'この居酒屋は駅から近いです。'
+  },
+  {
+    id: 614,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Không gian rộng rãi)',
+    question: 'この公園はとても [ ひろい ・ やすい ] です。',
+    options: ['ひろい（広い）', 'やすい（安い）'],
+    correct_answer: 'ひろい（広い）',
+    explanation: 'Công viên có diện tích rộng rãi dùng 広い (ひろい); 安い là giá rẻ.',
+    full_sentence_jp: 'この公園はとても広いです。'
+  },
+  {
+    id: 615,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Trận thi đấu)',
+    question: '明日、横浜でサッカーの [ ようじ ・ しあい ] があります。',
+    options: ['しあい（試合）', 'ようじ（用事）'],
+    correct_answer: 'しあい（試合）',
+    explanation: 'Trận đấu bóng đá dùng 試合 (しあい); 用事 là việc bận cá nhân.',
+    full_sentence_jp: '明日、横浜でサッカーの試合があります。'
+  },
+  {
+    id: 616,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Mùa giảm giá)',
+    question: 'デパートの [ コース ・ セール ] に行きました。',
+    options: ['セール', 'コース'],
+    correct_answer: 'セール',
+    explanation: 'Đợt giảm giá khuyến mại tại trung tâm thương mại: セール (Sale).',
+    full_sentence_jp: 'デパートのセールに行きました。'
+  },
+  {
+    id: 617,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Chơi môn thể thao)',
+    question: '野球を [ します ・ あそびます ]。',
+    options: ['します', 'あそびます'],
+    correct_answer: 'します',
+    explanation: 'Chơi các môn thể thao (bóng đá, bóng chày, tennis...) trong tiếng Nhật luôn dùng động từ します, không dùng 遊ぶ (あそぶ chỉ là đi chơi giải trí chung).',
+    full_sentence_jp: '野球をします。'
+  },
+  {
+    id: 618,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Có cuộc hẹn với bạn)',
+    question: 'A: 「明日、映画に行きませんか。」\nB: 「すみません。明日は友達と [ やくそく ・ ようじ ] がありますから……。」',
+    options: ['やくそく（約束）', 'ようじ（用事）'],
+    correct_answer: 'やくそく（約束）',
+    explanation: 'Hẹn trước với một người cụ thể dùng 約束 (やくそく); nếu nói chung việc bận không nhắc người thì mới dùng 用事.',
+    full_sentence_jp: '明日は友達と約束がありますから……。'
+  },
+  {
+    id: 619,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Cái nào / Cả hai)',
+    question: 'A: 「ご飯とパンと [ どちら ・ どちらも ] が好きですか。」\nB: 「[ どちら ・ どちらも ] 好きです。」',
+    options: ['どちら、どちらも', 'どちらも、どちら', 'どちら、どちら', 'どちらも、どちらも'],
+    correct_answer: 'どちら、どちらも',
+    explanation: 'Câu hỏi lựa chọn giữa 2 vật dùng どちら: 「どちらが好きですか」; câu trả lời thích cả hai dùng どちらも: 「どちらも好きです」.',
+    full_sentence_jp: 'A: 「ご飯とパンとどちらが好きですか。」 B: 「どちらも好きです。」'
+  },
+  {
+    id: 620,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 「ぜひ」の使い方 (Nhất định muốn làm gì)',
+    question: 'Câu nào sau đây sử dụng phó từ 「ぜひ」 hoàn toàn chuẩn xác?',
+    options: [
+      '一緒にお祭りに行きませんか。・・・ぜひ行きたいです。',
+      'タイは今、暑いですか。・・・はい、ぜひ暑いです。',
+      '子どももチケットを買いますか。・・・はい、ぜひ買います。'
+    ],
+    correct_answer: '一緒にお祭りに行きませんか。・・・ぜひ行きたいです。',
+    explanation: '「ぜひ」 biểu thị mong muốn tha thiết hoặc lời mời chân thành, đi cùng dạng mong muốn 「〜たい」 hoặc 「〜てください」: 「ぜひ行きたいです」.',
+    full_sentence_jp: '一緒にお祭りに行きませんか。・・・ぜひ行きたいです。'
+  },
+  {
+    id: 621,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 文章の中で (Cùng nhau)',
+    question: '週末、友達と (①　　) 渋谷へ遊びに行きました。',
+    options: ['いっしょに（一緒に）', 'ひとりで', 'またこんど', 'ぜひ'],
+    correct_answer: 'いっしょに（一緒に）',
+    explanation: 'Cùng với bạn bè đi chơi: 友達と一緒に.',
+    full_sentence_jp: '週末、友達と一緒に渋谷へ遊びに行きました。'
+  },
+  {
+    id: 622,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 文章の中で (Thật tiếc)',
+    question: 'パクさんはアルバイトがありましたから、来ませんでした。(②　　) でした。',
+    options: ['ざんねん（残念）', 'たいへん', 'おもしろい', 'いい'],
+    correct_answer: 'ざんねん（残念）',
+    explanation: 'Bạn không đến được nên thật đáng tiếc: 残念でした.',
+    full_sentence_jp: '来ませんでした。残念でした。'
+  },
+  {
+    id: 623,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 文章の中で (Ăn buffet thả ga)',
+    question: '私たちは渋谷で買い物をしました。それから、(③　　) に行きました。',
+    options: ['たべほうだい（食べ放題）', 'のみもの', 'りょうり', 'おみせ'],
+    correct_answer: 'たべほうだい（食べ放題）',
+    explanation: 'Đi ăn tiệc buffet trọn gói: 食べ放題 (たべほうだい).',
+    full_sentence_jp: 'それから、食べ放題に行きました。'
+  },
+  {
+    id: 624,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: '確認しよう！ 6. 文章の中で (Hẹn lần tới)',
+    question: 'とてもおいしかったです。(④　　) 行きたいです。',
+    options: ['またこんど（また今度）', 'ぜひ', 'いつも', 'ぜんぜん'],
+    correct_answer: 'またこんど（また今度）',
+    explanation: 'Hẹn lần tới lại muốn đi tiếp: また今度行きたいです.',
+    full_sentence_jp: 'また今度行きたいです。'
+  },
+  {
+    id: 625,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa danh Nhật Bản (1)',
+    question: '【Gợi ý: Mùa đông rất lạnh, có lễ hội tuyết Sapporo lớn nhất nước Nhật】Đây là vùng đất nào?',
+    options: ['北海道（ほっかいどう）', '東京', '京都', '沖縄'],
+    correct_answer: '北海道（ほっかいどう）',
+    explanation: 'Vị trí 1 ở cực bắc Nhật Bản là Hokkaido: 北海道 (ほっかいどう).',
+    full_sentence_jp: '① 北海道'
+  },
+  {
+    id: 626,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa danh Nhật Bản (2)',
+    question: '【Gợi ý: Thủ đô hiện đại đông đúc, náo nhiệt, trung tâm kinh tế của Nhật】Đây là đâu?',
+    options: ['東京（とうきょう）', '大阪', '名古屋', '仙台'],
+    correct_answer: '東京（とうきょう）',
+    explanation: 'Vị trí 2 là thủ đô Tokyo: 東京 (とうきょう).',
+    full_sentence_jp: '② 東京'
+  },
+  {
+    id: 627,
+    lesson: 6,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Địa danh Nhật Bản (3)',
+    question: '【Gợi ý: Cố đô cổ kính có rất nhiều chùa chiền và đền thờ lịch sử】Đây là đâu?',
+    options: ['京都（きょうと）', '神戸', '広島', '福岡'],
+    correct_answer: '京都（きょうと）',
+    explanation: 'Vị trí 3 là cố đô Kyoto: 京都 (きょうと).',
+    full_sentence_jp: '③ 京都'
+  }
+];
+
+const lesson7Exercises = [
+  // =========================================================================
+  // BÀI 7: 友達の家で (38 câu)
+  // =========================================================================
+  {
+    id: 701,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (1)',
+    question: '【Nhìn tranh】Chiếc tủ lạnh trong gian bếp là gì?',
+    options: ['れいぞうこ（冷蔵庫）', 'まど', 'テーブル', 'いす'],
+    correct_answer: 'れいぞうこ（冷蔵庫）',
+    explanation: 'Hình 1 minh họa tủ lạnh: 冷蔵庫 (れいぞうこ).',
+    full_sentence_jp: '① れいぞうこ'
+  },
+  {
+    id: 702,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (2)',
+    question: '【Nhìn tranh】Khung cửa sổ có rèm kéo nhìn ra ngoài là gì?',
+    options: ['まど（窓）', 'ドア', 'かべ', 'カーテン'],
+    correct_answer: 'まど（窓）',
+    explanation: 'Hình 2 minh họa cửa sổ: 窓 (まど).',
+    full_sentence_jp: '② まど'
+  },
+  {
+    id: 703,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (3)',
+    question: '【Nhìn tranh】Chiếc cốc nước thuỷ tinh trên bàn là gì?',
+    options: ['コップ', 'おさら', 'ナイフ', 'はし'],
+    correct_answer: 'コップ',
+    explanation: 'Hình 3 minh họa cốc uống nước: コップ.',
+    full_sentence_jp: '③ コップ'
+  },
+  {
+    id: 704,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (4)',
+    question: '【Nhìn tranh】Con dao ăn trên đĩa thức ăn là gì?',
+    options: ['ナイフ', 'はし', 'フォーク', 'スプーン'],
+    correct_answer: 'ナイフ',
+    explanation: 'Hình 4 minh họa dao ăn: ナイフ.',
+    full_sentence_jp: '④ ナイフ'
+  },
+  {
+    id: 705,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (5)',
+    question: '【Nhìn tranh】Chiếc đĩa phẳng đựng thức ăn là gì?',
+    options: ['おさら（お皿）', 'コップ', 'おわん', 'なべ'],
+    correct_answer: 'おさら（お皿）',
+    explanation: 'Hình 5 minh họa đĩa đựng thức ăn: お皿 (おさら).',
+    full_sentence_jp: '⑤ おさら'
+  },
+  {
+    id: 706,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (6)',
+    question: '【Nhìn tranh】Đôi đũa ăn cơm là gì?',
+    options: ['はし（箸）', 'ナイフ', 'フォーク', 'スプーン'],
+    correct_answer: 'はし（箸）',
+    explanation: 'Hình 6 minh họa đôi đũa: はし (箸).',
+    full_sentence_jp: '⑥ はし'
+  },
+  {
+    id: 707,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (7)',
+    question: '【Nhìn tranh】Chiếc bàn ăn tròn là gì?',
+    options: ['テーブル', 'いす', 'ベッド', 'たな'],
+    correct_answer: 'テーブル',
+    explanation: 'Hình 7 minh họa bàn ăn: テーブル.',
+    full_sentence_jp: '⑦ テーブル'
+  },
+  {
+    id: 708,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Đồ dùng gia đình (8)',
+    question: '【Nhìn tranh】Chiếc ghế tựa dựa lưng là gì?',
+    options: ['いす（椅子）', 'テーブル', 'ベッド', 'ソファー'],
+    correct_answer: 'いす（椅子）',
+    explanation: 'Hình 8 minh họa chiếc ghế: いす (椅子).',
+    full_sentence_jp: '⑧ いす'
+  },
+  {
+    id: 709,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'みんなで話そう！ Nơi có đầy đủ các vật dụng trên',
+    question: 'Tất cả 8 đồ vật trên (tủ lạnh, cửa sổ, cốc, dao, đĩa, đũa, bàn, ghế) đều hiện diện đầy đủ nhất ở đâu?',
+    options: ['家（いえ）', '学校（がっこう）', '図書館（としょかん）'],
+    correct_answer: '家（いえ）',
+    explanation: 'Ngôi nhà (家) có đầy đủ cả 8 đồ vật sinh hoạt gia đình.',
+    full_sentence_jp: '家には全部あります。'
+  },
+  {
+    id: 710,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 地図 Công trình khu phố (1)',
+    question: '【Nhìn tranh】Khu vực cửa soát vé tự động tại nhà ga là gì?',
+    options: ['改札（かいさつ）', 'ポスト', '交番', 'バス停'],
+    correct_answer: '改札（かいさつ）',
+    explanation: 'Hình 1 minh họa cổng soát vé ga: 改札 (かいさつ).',
+    full_sentence_jp: '① 改札'
+  },
+  {
+    id: 711,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 地図 Công trình khu phố (2)',
+    question: '【Nhìn tranh】Hòm thư màu đỏ đứng bên lề đường là gì?',
+    options: ['ポスト', '自動販売機', '改札', 'ゴミ箱'],
+    correct_answer: 'ポスト',
+    explanation: 'Hình 2 minh họa thùng thư bưu điện: ポスト.',
+    full_sentence_jp: '② ポスト'
+  },
+  {
+    id: 712,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 地図 Công trình khu phố (3)',
+    question: '【Nhìn tranh】Cột biển đón trả khách xe buýt là gì?',
+    options: ['バス停（バスてい）', '駅', '改札', '駐車場'],
+    correct_answer: 'バス停（バスてい）',
+    explanation: 'Hình 3 minh họa trạm dừng xe buýt: バス停 (バスてい).',
+    full_sentence_jp: '③ バス停'
+  },
+  {
+    id: 713,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 地図 Công trình khu phố (4)',
+    question: '【Nhìn tranh】Đồn cảnh sát nhỏ khu phố có chữ POLICE là gì?',
+    options: ['交番（こうばん）', '郵便局', '銀行', '病院'],
+    correct_answer: '交番（こうばん）',
+    explanation: 'Hình 4 minh họa đồn công an khu phố: 交番 (こうばん).',
+    full_sentence_jp: '④ 交番'
+  },
+  {
+    id: 714,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 1. 地図 Công trình khu phố (5)',
+    question: '【Nhìn tranh】Máy bán nước giải khát tự động bên đường là gì?',
+    options: ['自動販売機（じどうはんばいき）', 'ポスト', '改札', 'レジ'],
+    correct_answer: '自動販売機（じどうはんばいき）',
+    explanation: 'Hình 5 minh họa máy bán hàng tự động: 自動販売機 (じどうはんばいき).',
+    full_sentence_jp: '⑤ 自動販売機'
+  },
+  {
+    id: 715,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Rửa bát)',
+    question: 'お皿を（　　）。',
+    options: ['あらいます（洗います）', 'うたいます', 'ひきます', 'かけます'],
+    correct_answer: 'あらいます（洗います）',
+    explanation: 'Rửa chén đĩa: お皿を洗います.',
+    full_sentence_jp: 'お皿を洗います。'
+  },
+  {
+    id: 716,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Viết tên)',
+    question: '名前を（　　）。',
+    options: ['かきます（書きます）', 'あらいます', 'すいます', 'うたいます'],
+    correct_answer: 'かきます（書きます）',
+    explanation: 'Viết tên: 名前を書きます.',
+    full_sentence_jp: '名前を書きます。'
+  },
+  {
+    id: 717,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Gọi điện)',
+    question: '電話を（　　）。',
+    options: ['かけます', 'うたいます', 'ひきます', 'すいます'],
+    correct_answer: 'かけます',
+    explanation: 'Gọi điện thoại: 電話をかけます.',
+    full_sentence_jp: '電話をかけます。'
+  },
+  {
+    id: 718,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Hát bài hát)',
+    question: '歌を（　　）。',
+    options: ['うたいます（歌います）', 'あらいます', 'かきます', 'ひきます'],
+    correct_answer: 'うたいます（歌います）',
+    explanation: 'Hát bài hát: 歌を歌います.',
+    full_sentence_jp: '歌を歌います。'
+  },
+  {
+    id: 719,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Đánh đàn)',
+    question: 'ギターを（　　）。',
+    options: ['ひきます（弾きます）', 'うたいます', 'かけます', 'します'],
+    correct_answer: 'ひきます（弾きます）',
+    explanation: 'Chơi nhạc cụ có dây/phím (guitar, piano...): ギターを弾きます.',
+    full_sentence_jp: 'ギターを弾きます。'
+  },
+  {
+    id: 720,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 2. 動詞 Cụm động từ (Hút thuốc)',
+    question: 'たばこを（　　）。',
+    options: ['すいます（吸います）', 'のみます', 'たべます', 'かけます'],
+    correct_answer: 'すいます（吸います）',
+    explanation: 'Hút thuốc lá: たばこを吸います.',
+    full_sentence_jp: 'たばこを吸います。'
+  },
+  {
+    id: 721,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 位置 Vị trí cây bút (Dưới tờ báo)',
+    question: '【Nhìn tranh】Cây bút nằm bên dưới tờ báo: 新聞の（　　）にペンがあります。',
+    options: ['下（した）', '上（うえ）', '中（なか）', '横（よこ）'],
+    correct_answer: '下（した）',
+    explanation: 'Phía dưới: 下 (した).',
+    full_sentence_jp: '新聞の下にペンがあります。'
+  },
+  {
+    id: 722,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 位置 Vị trí cây bút (Giữa các cuốn sách)',
+    question: '【Nhìn tranh】Cây bút nằm kẹp giữa 2 cuốn sách: 本と本の（　　）にペンがあります。',
+    options: ['間（あいだ）', '前（まえ）', '後ろ（うしろ）', '外（そと）'],
+    correct_answer: '間（あいだ）',
+    explanation: 'Ở giữa 2 vật: 間 (あいだ).',
+    full_sentence_jp: '本と本の間（あいだ）にペンがあります。'
+  },
+  {
+    id: 723,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 位置 Vị trí cây bút (Bên cạnh / Bên trái máy tính)',
+    question: '【Nhìn tranh】Cây bút đặt bên cạnh (bên trái) laptop: パソコンの（　　）にペンがあります。',
+    options: ['横／左（よこ／ひだり）', '右（みぎ）', '上（うえ）', '中（なか）'],
+    correct_answer: '横／左（よこ／ひだり）',
+    explanation: 'Bên cạnh / bên trái: 横 (よこ) hoặc 左 (ひだり).',
+    full_sentence_jp: 'パソコンの横（左）にペンがあります。'
+  },
+  {
+    id: 724,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 3. 位置 Vị trí cây bút (Trong chiếc cặp)',
+    question: '【Nhìn tranh】Cây bút nằm bên trong túi xách: かばんの（　　）にペンがあります。',
+    options: ['中（なか）', '外（そと）', '下（した）', '後ろ（うしろ）'],
+    correct_answer: '中（なか）',
+    explanation: 'Bên trong: 中 (なか).',
+    full_sentence_jp: 'かばんの中にペンがあります。'
+  },
+  {
+    id: 725,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Đường vào cà phê)',
+    question: 'コーヒーに [ さとう ・ しお ] を入れます。',
+    options: ['さとう（砂糖）', 'しお（塩）'],
+    correct_answer: 'さとう（砂糖）',
+    explanation: 'Cho đường vào cà phê: 砂糖 (さとう); còn 塩 (しお) là muối ăn mặn.',
+    full_sentence_jp: 'コーヒーに砂糖を入れます。'
+  },
+  {
+    id: 726,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Cho tôi mượn)',
+    question: 'A: 「パクさん、すみませんが、消しゴムを [ かりて ・ かして ] ください。」\nB: 「はい、どうぞ。」',
+    options: ['かして（貸して）', 'かりて（借りて）'],
+    correct_answer: 'かして（貸して）',
+    explanation: 'Nhờ người khác cho mình mượn dùng: 貸してください (かしてください); còn 借りる là tự mình mượn.',
+    full_sentence_jp: '消しゴムを貸してください。'
+  },
+  {
+    id: 727,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Cách nấu món)',
+    question: 'A: 「スープの [ つくりかた ・ しかた ] を教えてください。」\nB: 「いいですよ。」',
+    options: ['つくりかた（作り方）', 'しかた（仕方）'],
+    correct_answer: 'つくりかた（作り方）',
+    explanation: 'Cách làm/nấu món ăn dùng 作り方 (つくりかた).',
+    full_sentence_jp: 'スープの作り方を教えてください。'
+  },
+  {
+    id: 728,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 4. どちらがいいですか (Mở cửa sổ giúp nhé)',
+    question: 'A: 「暑いですね。窓を [ あけましょうか ・ しめましょうか ]。」\nB: 「はい、お願いします。」',
+    options: ['あけましょうか（開けましょうか）', 'しめましょうか（閉めましょうか）'],
+    correct_answer: 'あけましょうか（開けましょうか）',
+    explanation: 'Vì trời nóng (暑いですね) nên đề nghị mở cửa sổ ra: 開けましょうか.',
+    full_sentence_jp: '暑いですね。窓を開けましょうか。'
+  },
+  {
+    id: 729,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 反対の言葉 Từ trái nghĩa (1)',
+    question: 'いれます（入れます - cho vào） <=> （　　）',
+    options: ['だします（出します）', 'もっていきます', 'ひだり', 'なか'],
+    correct_answer: 'だします（出します）',
+    explanation: '入れます (bỏ vào) trái nghĩa với 出します (lấy ra).',
+    full_sentence_jp: 'いれます <=> だします'
+  },
+  {
+    id: 730,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 反対の言葉 Từ trái nghĩa (2)',
+    question: 'もってきます（持って来ます - mang đến） <=> （　　）',
+    options: ['もっていきます（持って行きます）', 'だします', 'しめます', 'うしろ'],
+    correct_answer: 'もっていきます（持って行きます）',
+    explanation: '持って来ます (mang lại đây) trái nghĩa với 持って行きます (mang đi chỗ khác).',
+    full_sentence_jp: 'もってきます <=> もっていきます'
+  },
+  {
+    id: 731,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 反対の言葉 Từ trái nghĩa (3)',
+    question: 'うしろ（後ろ - phía sau） <=> （　　）',
+    options: ['まえ（前）', 'なか', 'ひだり', 'そと'],
+    correct_answer: 'まえ（前）',
+    explanation: '後ろ (đằng sau) trái nghĩa với 前 (đằng trước).',
+    full_sentence_jp: 'うしろ <=> まえ'
+  },
+  {
+    id: 732,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 反対の言葉 Từ trái nghĩa (4)',
+    question: 'そと（外 - bên ngoài） <=> （　　）',
+    options: ['なか（中）', 'まえ', 'ひだり', 'した'],
+    correct_answer: 'なか（中）',
+    explanation: '外 (bên ngoài) trái nghĩa với 中 (bên trong).',
+    full_sentence_jp: 'そと <=> なか'
+  },
+  {
+    id: 733,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: '確認しよう！ 5. 反対の言葉 Từ trái nghĩa (5)',
+    question: 'みぎ（右 - bên phải） <=> （　　）',
+    options: ['ひだり（左）', 'まえ', 'うしろ', 'そと'],
+    correct_answer: 'ひだり（左）',
+    explanation: '右 (bên phải) trái nghĩa với 左 (bên trái).',
+    full_sentence_jp: 'みぎ <=> ひだり'
+  },
+  {
+    id: 734,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Văn phòng phẩm (1)',
+    question: '【Nhìn tranh bàn làm việc】Chiếc đồng hồ nhỏ để bàn là gì?',
+    options: ['時計（とけい）', 'カレンダー', 'ホチキス', '消しゴム'],
+    correct_answer: '時計（とけい）',
+    explanation: 'Số 1 là chiếc đồng hồ: 時計 (とけい).',
+    full_sentence_jp: '① 時計'
+  },
+  {
+    id: 735,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Văn phòng phẩm (2)',
+    question: '【Nhìn tranh bàn làm việc】Cục gôm tẩy có chữ ERASER là gì?',
+    options: ['消しゴム（けしゴム）', 'セロハンテープ', 'はさみ', 'ボールペン'],
+    correct_answer: '消しゴム（けしゴム）',
+    explanation: 'Số 2 là cục tẩy chì: 消しゴム (けしゴム).',
+    full_sentence_jp: '② 消しゴム'
+  },
+  {
+    id: 736,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Văn phòng phẩm (3)',
+    question: 'Dụng cụ dập ghim bấm giấy tiếng Nhật là gì?',
+    options: ['ホチキス', 'ボールペン', 'はさみ', 'セロハンテープ'],
+    correct_answer: 'ホチキス',
+    explanation: 'Dập ghim: ホチキス.',
+    full_sentence_jp: 'ホチキス（dập ghim）'
+  },
+  {
+    id: 737,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Văn phòng phẩm (4)',
+    question: 'Cuộn băng dính trong suốt tiếng Nhật là gì?',
+    options: ['セロハンテープ', 'ホチキス', 'はさみ', 'シャープペンシル'],
+    correct_answer: 'セロハンテープ',
+    explanation: 'Băng dính trong: セロハンテープ (Scotch tape).',
+    full_sentence_jp: 'セロハンテープ（băng keo）'
+  },
+  {
+    id: 738,
+    lesson: 7,
+    type: 'multiple_choice',
+    title: 'もっと覚えよう！ Văn phòng phẩm (5)',
+    question: 'Chiếc bút chì bấm ruột kim tiếng Nhật là gì?',
+    options: ['シャープペンシル／シャーペン', 'ボールペン', 'えんぴつ', 'マジック'],
+    correct_answer: 'シャープペンシル／シャーペン',
+    explanation: 'Bút chì kim bấm: シャープペンシル (thường gọi tắt là シャーペン).',
+    full_sentence_jp: 'シャープペンシル／シャーペン'
+  }
+];
+
+module.exports = {
+  lesson4Exercises,
+  lesson5Exercises,
+  lesson6Exercises,
+  lesson7Exercises
+};
