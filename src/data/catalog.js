@@ -5,10 +5,11 @@ import grammarSpeaking from './grammar_speaking.json';
 import imageQuestions from './questions.json';
 import noImageQuestions from './no_image_questions.json';
 import readings from './reading_passages.json';
+import kanji from './kanji_b1_11.json';
 import { readingChallenges } from './readingChallenges.js';
 
 export const exercises = [...baseExercises, ...grammarExercises];
-export { vocabulary, imageQuestions, noImageQuestions, readings };
+export { vocabulary, imageQuestions, noImageQuestions, readings, kanji };
 export const readingLibrary = [...readings, ...readingChallenges];
 export const lessons = Array.from({ length: 11 }, (_, index) => {
   const id = index + 1;

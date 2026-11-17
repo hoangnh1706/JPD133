@@ -29,4 +29,7 @@ test('opening content marks it once and preserves earlier completion history', (
   const workbook = markLearned(first, 'workbook', 8, 8);
   assert.equal(getLearnedSet(workbook, 'workbook').has('8'), true);
   assert.equal(validProgress(workbook), true);
+  const kanji = markLearned(workbook, 'kanji', 'k_1', 1);
+  assert.equal(getLearnedSet(kanji, 'kanji').has('k_1'), true);
+  assert.equal(markLearned(kanji, 'kanji', 'k_1', 1), kanji);
 });

@@ -23,6 +23,7 @@ for (const row of exercises) {
   if (!row.explanation) errors.push(`exercise ${row.id}: missing explanation`);
 }
 for (const row of vocab) if (!row.word_jp || !row.meaning_vi) errors.push(`vocabulary ${row.id}: missing word/meaning`);
+for (const row of kanji) if (!Number.isInteger(row.lesson) || row.lesson < 1 || row.lesson > 11 || !row.kanji || !row.meaning || !Array.isArray(row.examples)) errors.push(`kanji ${row.id}: invalid lesson or content`);
 for (const row of imageQuestions) {
   if (!row.image || !existsSync(new URL(`../public${row.image}`, import.meta.url))) errors.push(`image question ${row.id}: missing image`);
   if (!Array.isArray(row.qa) || !row.qa.every(qa => qa.q_jp && qa.a_jp)) errors.push(`image question ${row.id}: incomplete Q&A`);

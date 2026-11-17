@@ -1,5 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
-import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesCombined, Settings, Menu, X, BookText, Sparkles, RotateCcw, House } from 'lucide-react';
+import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesCombined, Settings, Menu, X, BookText, Sparkles, RotateCcw, House, Languages } from 'lucide-react';
 import { loadProgress, KEY, markLearned as addLearned, recordEvent } from './services/progress';
 import Landing from './pages/Landing';
 import Auth from './pages/Auth';
@@ -10,6 +10,7 @@ import './styles/refinement.css';
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Lessons = lazy(() => import('./pages/Lessons'));
 const Vocabulary = lazy(() => import('./pages/Vocabulary'));
+const Kanji = lazy(() => import('./pages/Kanji'));
 const Grammar = lazy(() => import('./pages/Grammar'));
 const Reading = lazy(() => import('./pages/Reading'));
 const Speaking = lazy(() => import('./pages/Speaking'));
@@ -20,7 +21,7 @@ const SettingsPage = lazy(() => import('./pages/Settings'));
 const LegacyApp = lazy(() => import('./LegacyApp'));
 
 const nav = [
-  ['/', 'Tổng quan', LayoutDashboard], ['/lessons', 'Bài học', BookOpen], ['/vocabulary', 'Từ vựng', Layers3],
+  ['/', 'Tổng quan', LayoutDashboard], ['/lessons', 'Bài học', BookOpen], ['/vocabulary', 'Từ vựng', Layers3], ['/kanji', 'Ôn chữ Hán', Languages],
   ['/grammar', 'Ngữ pháp', BookText], ['/reading', 'Đọc hiểu', BookOpen], ['/speaking', 'Luyện nói', Mic], ['/speaking-exam', 'Đề mẫu Speaking', Mic], ['/practice', 'Luyện FE', GraduationCap],
   ['/mock', 'Thi thử', Sparkles], ['/mistakes', 'Ôn câu sai', RotateCcw], ['/progress', 'Tiến độ', ChartNoAxesCombined], ['/settings', 'Cài đặt', Settings], ['/legacy', 'Kho luyện gốc', BookOpen], ['/landing', 'Giới thiệu', House]
 ];
@@ -87,6 +88,7 @@ export default function App() {
         {route === '/' && <Dashboard progress={progress} go={go} user={user}/>}
         {route.startsWith('/lessons') && <Lessons progress={progress} record={record} markLearned={markLearned} go={go} route={route}/>}
         {route === '/vocabulary' && <Vocabulary progress={progress} update={update} record={record} markLearned={markLearned}/>}
+        {baseRoute === '/kanji' && <Kanji key={route} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} record={record} markLearned={markLearned}/>}
         {route === '/grammar' && <Grammar progress={progress} record={record} markLearned={markLearned}/>}
         {route === '/reading' && <Reading progress={progress} record={record} markLearned={markLearned}/>}
         {route === '/speaking' && <Speaking progress={progress} record={record} markLearned={markLearned}/>}

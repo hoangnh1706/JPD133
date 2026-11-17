@@ -745,7 +745,7 @@ export default function ReadingPracticeCard({
                 }`}
               >
                 <HelpCircle className="w-3.5 h-3.5" />
-                <span>{showQuestions ? 'Ẩn câu hỏi' : '❓ Giám khảo hỏi'}</span>
+                <span>{showQuestions ? 'Ẩn phần nghe' : 'Nghe giám khảo hỏi'}</span>
               </button>
             </div>
           </div>
@@ -1114,14 +1114,14 @@ export default function ReadingPracticeCard({
             </div>
           )}
 
-          {/* Reading Comprehension Questions Section (Hidden by default) */}
+          {/* Reading comprehension questions are audio-only, including after answers are revealed. */}
           {showQuestions && (
             <div className="space-y-4 pt-2 border-t border-slate-200 animate-fadeIn">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block animate-ping" />
                   <h3 className="font-bold text-slate-900 text-base">
-                    Câu hỏi đọc hiểu ({passage.questions.length} câu)
+                    Nghe câu hỏi đọc hiểu ({passage.questions.length} câu)
                   </h3>
                 </div>
                 <span className="text-xs text-slate-500 italic">
@@ -1138,27 +1138,18 @@ export default function ReadingPracticeCard({
                       key={idx}
                       className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/90 space-y-3"
                     >
-                      {/* Question Row: Japanese Question */}
+                      {/* Question row: audio only */}
                       <div className="flex items-start gap-3">
                         <button
                           onClick={() => handleSpeakQuestion(q.q_jp)}
                           className="p-2 rounded-xl bg-amber-100 text-amber-800 hover:bg-amber-200 transition-colors shrink-0"
-                          title="Nghe câu hỏi"
+                          title={`Nghe câu hỏi ${idx + 1}`}
+                          aria-label={`Nghe câu hỏi ${idx + 1}`}
                         >
                           <Volume2 className="w-4 h-4" />
                         </button>
 
-                        <div className="flex-1 space-y-1">
-                          <div className="flex items-center gap-2">
-                            <span className="text-xs font-bold text-amber-700">
-                              Câu hỏi {idx + 1}:
-                            </span>
-                          </div>
-
-                          <div className="text-base sm:text-lg font-semibold text-slate-900 leading-relaxed font-sans">
-                            {renderJapaneseWithFurigana(q.q_jp, showFurigana)}
-                          </div>
-                        </div>
+                        <span className="flex-1 text-sm font-bold text-amber-700">Câu hỏi {idx + 1} · chỉ nghe âm thanh</span>
 
                         {/* Toggle Reveal Answer Button */}
                         <button
@@ -1174,14 +1165,9 @@ export default function ReadingPracticeCard({
                         </button>
                       </div>
 
-                      {/* Revealed Answer & Translation */}
+                      {/* Revealed model answer */}
                       {isRevealed && (
                         <div className="ml-11 pt-3 border-t border-slate-200 space-y-2 animate-fadeIn">
-                          {/* Question Translation */}
-                          <div className="text-xs text-slate-600 bg-white p-2.5 rounded-xl border border-slate-200">
-                            <b>Dịch câu hỏi:</b> {q.q_vi}
-                          </div>
-
                           {/* Suggested Model Answer */}
                           <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-200 flex items-start gap-2.5">
                             <button
