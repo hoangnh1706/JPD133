@@ -27,7 +27,7 @@ Mở `http://localhost:3001/nihongo`. Nếu triển khai ra Internet, đặt ứ
 - Landing page, dashboard, bài học 1–11, từ vựng, ngữ pháp, Reading, Speaking, FE, thi thử và tiến độ.
 - 16 bài đọc với 2 câu theo phần Reading của mẫu thi; câu hỏi dư được giữ ở mục luyện thêm.
 - 16 đề nói mẫu: đọc đoạn văn, 2 câu hỏi về đoạn đọc, 1 câu có tranh và 2 câu không tranh, có 20 giây chuẩn bị và ghi âm nghe lại.
-- 424 câu trắc nghiệm FE, gồm 16 câu ngữ pháp mới dựa trên bốn PDF bài 8–11; 229 câu luyện nói, gồm 8 câu phản xạ mới.
+- 82 câu luyện FE dạng điền trợ từ hoặc từ vựng vào câu tiếng Nhật, gồm 16 câu ngữ pháp dựa trên bốn PDF bài 8–11; 229 câu luyện nói, gồm 8 câu phản xạ mới.
 - Bốn PDF bài tập ngữ pháp bài 8–11 (26 trang) có thể xem đầy đủ trong Speaking và FE. Các câu PDF chưa có đáp án kiểm chứng không được chấm tự động.
 - Khách có thể học ngay; tiến độ lưu trong trình duyệt. Đăng ký/đăng nhập để lưu tiến độ riêng theo tài khoản trên máy chủ. Có xuất/nhập JSON trong Cài đặt.
 
