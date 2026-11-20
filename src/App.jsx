@@ -22,7 +22,7 @@ const LegacyApp = lazy(() => import('./LegacyApp'));
 const nav = [
   ['/', 'Tổng quan', LayoutDashboard], ['/lessons', 'Bài học', BookOpen], ['/vocabulary', 'Từ vựng', Layers3],
   ['/grammar', 'Ngữ pháp', BookText], ['/reading', 'Đọc hiểu', BookOpen], ['/speaking-exam', 'Đề mẫu Speaking', Mic], ['/practice', 'Luyện FE', GraduationCap],
-  ['/mistakes', 'Ôn câu sai', RotateCcw], ['/progress', 'Tiến độ', ChartNoAxesCombined], ['/settings', 'Cài đặt', Settings], ['/legacy', 'Kho luyện gốc', BookOpen], ['/landing', 'Giới thiệu', House]
+  ['/mistakes', 'Ôn câu sai', RotateCcw], ['/progress', 'Tiến độ', ChartNoAxesCombined], ['/settings', 'Cài đặt', Settings], ['/landing', 'Giới thiệu', House]
 ];
 const urlFor = path => path === '/landing' ? '/nihongo' : path === '/' ? '/nihongo/dashboard' : `/nihongo${path}`;
 const readRoute = () => {
@@ -65,8 +65,9 @@ export default function App() {
   const go = path => { window.history.pushState({}, '', urlFor(path)); setRoute(path); setMobile(false); window.scrollTo(0, 0); };
   const signedIn = data => { setUser(data.user); setProgress(data.progress); setProgressReady(true); setSaveError(''); go('/'); };
   const logout = async () => { await fetch('/api/progress', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(progress) }).catch(() => { }); await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: '{}' }); setUser(null); setProgress(loadProgress()); setProgressReady(false); go('/landing'); };
-  const record = (type, detail) => setProgress(current => recordEvent(current, type, detail));
-  const update = patch => setProgress(current => ({ ...current, ...patch }));
+  const record = useCallback((type, detail) => setProgress(current => recordEvent(current, type, detail)), []);
+  const markLearned = useCallback((section, id, lesson) => setProgress(current => addLearned(current, section, id, lesson)), []);
+  const update = useCallback(patch => setProgress(current => ({ ...current, ...patch })), []);
   const baseRoute = route.split('?')[0];
   const active = nav.find(([path]) => path === baseRoute)?.[1] || 'Bài học';
   if (baseRoute === '/landing') return <Landing user={user} />;
