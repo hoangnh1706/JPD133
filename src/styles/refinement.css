@@ -72,3 +72,119 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 [data-theme="dark"] .kanji-quiz-option.correct{background:#153a2a}
 [data-theme="dark"] .kanji-quiz-option.incorrect{background:#49272c}
 @media(max-width:650px){.kanji-examples>div{grid-template-columns:1fr 1fr auto}.kanji-examples>div>span:nth-child(3){grid-column:1 / -1;grid-row:2}.kanji-quiz-options{grid-template-columns:repeat(2,minmax(0,1fr))}.kanji-quiz-option{min-height:100px}}
+
+/* EOS Exam Question Layout (FE Exam Format) */
+.eos-card {
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  margin: 16px 0 24px;
+  overflow: hidden;
+}
+.eos-header {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px 14px 24px;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+  position: relative;
+  background: var(--surface, #ffffff);
+}
+.eos-blue-accent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: #2563eb;
+  border-top-left-radius: 6px;
+}
+.eos-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text, #1e293b);
+  letter-spacing: -0.01em;
+}
+.eos-body {
+  padding: 22px 24px 28px;
+}
+.eos-instruction {
+  margin: 0 0 20px 0;
+  font-size: 0.95rem;
+  color: var(--muted, #64748b);
+  font-weight: 400;
+}
+.eos-question-prompt {
+  font-family: 'Noto Sans JP', 'Be Vietnam Pro', sans-serif;
+  font-size: 1.18rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: var(--text, #1e293b);
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+.eos-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.eos-option {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text, #1e293b);
+  font-size: 1.05rem;
+  font-family: 'Noto Sans JP', 'Be Vietnam Pro', sans-serif;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  width: fit-content;
+  min-width: 240px;
+}
+.eos-option:hover:not(:disabled) {
+  background: #f1f5f9;
+}
+:root[data-theme="dark"] .eos-option:hover:not(:disabled) {
+  background: #334155;
+}
+.eos-option.chosen {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+:root[data-theme="dark"] .eos-option.chosen {
+  background: #1e293b;
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+.eos-option.correct {
+  background: #ecfdf5;
+  border-color: #6ee7b7;
+  color: #047857;
+  font-weight: 600;
+}
+.eos-option.wrong {
+  background: #fef2f2;
+  border-color: #fca5a5;
+  color: #b91c1c;
+}
+.eos-letter {
+  font-weight: 600;
+  color: inherit;
+  min-width: 22px;
+}
+.eos-text {
+  color: inherit;
+}
+.practice-head-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+

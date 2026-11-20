@@ -3,7 +3,6 @@ import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesComb
 import { loadProgress, KEY, markLearned as addLearned, recordEvent } from './services/progress';
 import Landing from './pages/Landing';
 import Auth from './pages/Auth';
-import GrammarWorkbook from './components/GrammarWorkbook';
 import './styles/app.css';
 import './styles/refinement.css';
 
@@ -93,7 +92,7 @@ export default function App() {
         {route === '/reading' && <Reading progress={progress} record={record} markLearned={markLearned}/>}
         {route === '/speaking' && <Speaking progress={progress} record={record} markLearned={markLearned}/>}
         {route === '/speaking-exam' && <SpeakingExam progress={progress} record={record} markLearned={markLearned}/>}
-        {['/practice','/mock','/mistakes'].includes(baseRoute) && <><Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} markLearned={markLearned} go={go} userId={user?.id || 'guest'}/><GrammarWorkbook progress={progress} markLearned={markLearned} lesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} title="Ôn ngữ pháp cho bài FE"/></>}
+        {['/practice','/mock','/mistakes'].includes(baseRoute) && <Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} markLearned={markLearned} go={go} userId={user?.id || 'guest'}/>}
         {route === '/progress' && <Progress progress={progress} go={go} user={user}/>}
         {route === '/settings' && <SettingsPage progress={progress} update={update} user={user}/>}
         {route === '/legacy' && <LegacyApp/>}

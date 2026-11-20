@@ -1,68 +1,992 @@
 [
-  {"id":12001,"lesson":1,"type":"multiple_choice","title":"自己紹介","question":"私はベトナム___来ました。","options":["から","まで","で","を"],"correct_answer":"から","explanation":"出身・出発点を表す「から」を使います。"},
-  {"id":12002,"lesson":1,"type":"multiple_choice","title":"自己紹介","question":"私は大学___学生です。","options":["の","に","を","で"],"correct_answer":"の","explanation":"所属先と「学生」をつなぐときは「の」を使います。"},
-  {"id":12003,"lesson":1,"type":"multiple_choice","title":"自己紹介","question":"A：お名前は？ B：___はリンです。","options":["私","あなた","先生","学生"],"correct_answer":"私","explanation":"自分の名前を答えるので「私」です。"},
-  {"id":12004,"lesson":1,"type":"multiple_choice","title":"仕事","question":"父は病院で働いています。父は___です。","options":["医者","学生","店員","会社員"],"correct_answer":"医者","explanation":"病院で働く職業として「医者」が文脈に合います。"},
-  {"id":12005,"lesson":1,"type":"multiple_choice","title":"自己紹介","question":"田中さん___日本人です。","options":["は","を","に","で"],"correct_answer":"は","explanation":"話題の田中さんを示す「は」です。"},
-  {"id":12006,"lesson":1,"type":"multiple_choice","title":"学校","question":"日本語を勉強しています。毎日、日本語___へ行きます。","options":["学校","病院","銀行","会社"],"correct_answer":"学校","explanation":"日本語を勉強しに行く場所は「日本語学校」です。"},
-  {"id":12007,"lesson":2,"type":"multiple_choice","title":"買い物","question":"このカメラは___ですか。 B：一万円です。","options":["いくら","どこ","だれ","いつ"],"correct_answer":"いくら","explanation":"値段を聞くときは「いくら」です。"},
-  {"id":12008,"lesson":2,"type":"multiple_choice","title":"買い物","question":"パンを買います。___でお金を払います。","options":["レジ","トイレ","エレベーター","地下"],"correct_answer":"レジ","explanation":"店で支払いをする場所は「レジ」です。"},
-  {"id":12009,"lesson":2,"type":"multiple_choice","title":"場所","question":"トイレは二階___あります。","options":["に","を","で","が"],"correct_answer":"に","explanation":"存在する場所には「に」を使います。"},
-  {"id":12010,"lesson":2,"type":"multiple_choice","title":"買い物","question":"この野菜___ください。","options":["を","に","で","が"],"correct_answer":"を","explanation":"「Nをください」で欲しい物を伝えます。"},
-  {"id":12011,"lesson":2,"type":"multiple_choice","title":"場所","question":"一階から三階へ行きます。___に乗ります。","options":["エレベーター","レジ","ショップ","きっさてん"],"correct_answer":"エレベーター","explanation":"階を移動するときに乗るものは「エレベーター」です。"},
-  {"id":12012,"lesson":2,"type":"multiple_choice","title":"食事","question":"おなかがすきました。___でご飯を食べましょう。","options":["レストラン","トイレ","レジ","エスカレーター"],"correct_answer":"レストラン","explanation":"食事をする場所は「レストラン」です。"},
-  {"id":12013,"lesson":3,"type":"multiple_choice","title":"時間","question":"授業は九時___始まります。","options":["に","で","を","が"],"correct_answer":"に","explanation":"具体的な時刻には「に」を使います。"},
-  {"id":12014,"lesson":3,"type":"multiple_choice","title":"時間","question":"A：授業は何時までですか。 B：午後五時___です。","options":["まで","から","ごろ","に"],"correct_answer":"まで","explanation":"終わる時刻を表す「まで」です。"},
-  {"id":12015,"lesson":3,"type":"multiple_choice","title":"場所","question":"本を借りたいです。___へ行きます。","options":["図書館","体育館","銀行","郵便局"],"correct_answer":"図書館","explanation":"本を借りる場所は「図書館」です。"},
-  {"id":12016,"lesson":3,"type":"multiple_choice","title":"予定","question":"今日は学校がありません。今日は___です。","options":["休み","授業","テスト","時間"],"correct_answer":"休み","explanation":"学校がない日なので「休み」です。"},
-  {"id":12017,"lesson":3,"type":"multiple_choice","title":"場所","question":"体育館___バスケットボールをします。","options":["で","に","を","が"],"correct_answer":"で","explanation":"動作をする場所には「で」を使います。"},
-  {"id":12018,"lesson":3,"type":"multiple_choice","title":"時間","question":"A：今、何時ですか。 B：十時三十___です。","options":["分","時","日","月"],"correct_answer":"分","explanation":"時刻の「三十分」には「分」を使います。"},
-  {"id":12019,"lesson":4,"type":"multiple_choice","title":"移動","question":"東京から大阪まで新幹線___行きます。","options":["で","に","を","が"],"correct_answer":"で","explanation":"交通手段を表すときは「で」を使います。"},
-  {"id":12020,"lesson":4,"type":"multiple_choice","title":"移動","question":"駅___電車に乗ります。","options":["で","に","を","が"],"correct_answer":"で","explanation":"電車に乗る動作をする場所は「で」示します。"},
-  {"id":12021,"lesson":4,"type":"multiple_choice","title":"移動","question":"空を飛んで遠い国へ行きます。___に乗ります。","options":["飛行機","電車","車","新幹線"],"correct_answer":"飛行機","explanation":"空を飛ぶ交通手段は「飛行機」です。"},
-  {"id":12022,"lesson":4,"type":"multiple_choice","title":"方角","question":"地図の上が北です。下は___です。","options":["南","東","西","真ん中"],"correct_answer":"南","explanation":"北の反対は「南」です。"},
-  {"id":12023,"lesson":4,"type":"multiple_choice","title":"移動","question":"大阪___京都まで電車で行きます。","options":["から","まで","を","が"],"correct_answer":"から","explanation":"移動の出発点は「から」です。"},
-  {"id":12024,"lesson":4,"type":"multiple_choice","title":"時間","question":"駅まで三十分___かかります。","options":["ぐらい","まで","から","に"],"correct_answer":"ぐらい","explanation":"おおよその時間は「三十分ぐらい」と言います。"},
-  {"id":12025,"lesson":5,"type":"multiple_choice","title":"週末","question":"昨日は日曜日でした。今日は___です。","options":["月曜日","土曜日","金曜日","日曜日"],"correct_answer":"月曜日","explanation":"日曜日の次の日は月曜日です。"},
-  {"id":12026,"lesson":5,"type":"multiple_choice","title":"予定","question":"美術館___絵を見ました。","options":["で","に","を","が"],"correct_answer":"で","explanation":"絵を見る動作をする場所には「で」を使います。"},
-  {"id":12027,"lesson":5,"type":"multiple_choice","title":"週末","question":"A：週末、だれ___映画を見ましたか。 B：友達と見ました。","options":["と","に","を","で"],"correct_answer":"と","explanation":"一緒に行動する相手には「と」を使います。"},
-  {"id":12028,"lesson":5,"type":"multiple_choice","title":"予定","question":"今日は金曜日です。___は土曜日です。","options":["明日","昨日","先週","あさって"],"correct_answer":"明日","explanation":"今日の次の日は「明日」です。"},
-  {"id":12029,"lesson":5,"type":"multiple_choice","title":"趣味","question":"家で友達と___をします。画面を見ながら遊びます。","options":["ゲーム","美術館","デパート","部屋"],"correct_answer":"ゲーム","explanation":"画面を見ながら遊ぶ文脈では「ゲーム」です。"},
-  {"id":12030,"lesson":5,"type":"multiple_choice","title":"週末","question":"友達___家へ行きました。","options":["の","に","で","を"],"correct_answer":"の","explanation":"「友達の家」で友達が住む家を表します。"},
-  {"id":12031,"lesson":6,"type":"multiple_choice","title":"誘い","question":"A：一緒に映画を見___か。 B：いいですね。","options":["ません","ない","ませんでした","ます"],"correct_answer":"ません","explanation":"「Vませんか」は相手を誘う表現です。"},
-  {"id":12032,"lesson":6,"type":"multiple_choice","title":"予定","question":"明日は約束があります。___がありますから、行けません。","options":["用事","チケット","地図","水着"],"correct_answer":"用事","explanation":"行けない理由となる予定には「用事」が合います。"},
-  {"id":12033,"lesson":6,"type":"multiple_choice","title":"誘い","question":"コンサート___行きませんか。","options":["に","で","を","が"],"correct_answer":"に","explanation":"目的地・催しへ行くときは「に」を使えます。"},
-  {"id":12034,"lesson":6,"type":"multiple_choice","title":"誘い","question":"チケットが二___あります。一緒に行きましょう。","options":["枚","本","人","杯"],"correct_answer":"枚","explanation":"紙のように薄いチケットは「枚」で数えます。"},
-  {"id":12035,"lesson":6,"type":"multiple_choice","title":"予定","question":"今週は忙しいです。___は時間があります。","options":["来週","今週","昨日","今月"],"correct_answer":"来週","explanation":"今週の次の週は「来週」です。"},
-  {"id":12036,"lesson":6,"type":"multiple_choice","title":"食事","question":"暑いですね。冷たい飲み物___飲みませんか。","options":["を","に","で","が"],"correct_answer":"を","explanation":"飲む対象を示す「を」です。"},
-  {"id":12037,"lesson":7,"type":"multiple_choice","title":"場所","question":"銀行は駅___前にあります。","options":["の","に","を","で"],"correct_answer":"の","explanation":"基準となる場所と位置をつなぐ「の」です。"},
-  {"id":12038,"lesson":7,"type":"multiple_choice","title":"場所","question":"犬はテーブルの___にいます。テーブルより低い所です。","options":["下","上","外","隣"],"correct_answer":"下","explanation":"テーブルより低い位置は「下」です。"},
-  {"id":12039,"lesson":7,"type":"multiple_choice","title":"場所","question":"ポスト___右に交番があります。","options":["の","に","を","で"],"correct_answer":"の","explanation":"「ポストの右」で位置の基準を示します。"},
-  {"id":12040,"lesson":7,"type":"multiple_choice","title":"場所","question":"手紙を出したいです。___はどこですか。","options":["ポスト","バス停","改札","自動販売機"],"correct_answer":"ポスト","explanation":"手紙を出す場所は「ポスト」です。"},
-  {"id":12041,"lesson":7,"type":"multiple_choice","title":"場所","question":"駅の___で電車の切符を見せます。","options":["改札","交番","木","ポスト"],"correct_answer":"改札","explanation":"切符を見せて通る所は「改札」です。"},
-  {"id":12042,"lesson":7,"type":"multiple_choice","title":"場所","question":"公園___大きい木があります。","options":["に","で","を","が"],"correct_answer":"に","explanation":"物が存在する場所には「に」を使います。"},
-  {"id":12043,"lesson":8,"type":"multiple_choice","title":"家族","question":"父と母は私の___です。","options":["両親","兄弟","子ども","夫"],"correct_answer":"両親","explanation":"父と母を合わせて「両親」と言います。"},
-  {"id":12044,"lesson":8,"type":"multiple_choice","title":"家族","question":"私には兄がいます。兄は私___年上です。","options":["より","から","まで","で"],"correct_answer":"より","explanation":"比較の基準は「より」で示します。"},
-  {"id":12045,"lesson":8,"type":"multiple_choice","title":"家族","question":"母の妹は私の___です。","options":["おば","おじ","姉","娘"],"correct_answer":"おば","explanation":"母の姉妹は「おば」です。"},
-  {"id":12046,"lesson":8,"type":"multiple_choice","title":"外見","question":"妹は髪___長いです。","options":["が","を","に","で"],"correct_answer":"が","explanation":"体の特徴を述べるとき「髪が長い」と言います。"},
-  {"id":12047,"lesson":8,"type":"multiple_choice","title":"プレゼント","question":"友達___誕生日のプレゼントをあげました。","options":["に","を","で","が"],"correct_answer":"に","explanation":"あげる相手には「に」を使います。"},
-  {"id":12048,"lesson":8,"type":"multiple_choice","title":"家族","question":"兄の下に生まれた男の子は私の___です。","options":["弟","姉","父","娘"],"correct_answer":"弟","explanation":"自分より年下の男のきょうだいは「弟」です。"},
-  {"id":12049,"lesson":9,"type":"multiple_choice","title":"趣味","question":"父は毎週、川で魚を釣ります。趣味は___です。","options":["釣り","漫画","小説","ドラマ"],"correct_answer":"釣り","explanation":"魚を釣る趣味は「釣り」です。"},
-  {"id":12050,"lesson":9,"type":"multiple_choice","title":"趣味","question":"私はクラシック___好きです。","options":["が","を","に","で"],"correct_answer":"が","explanation":"好きな対象には「が」を使います。"},
-  {"id":12051,"lesson":9,"type":"multiple_choice","title":"頻度","question":"一か月___二回、プールへ行きます。","options":["に","で","を","が"],"correct_answer":"に","explanation":"期間当たりの回数は「期間に回数」で表します。"},
-  {"id":12052,"lesson":9,"type":"multiple_choice","title":"読書","question":"本屋で新しい___を買いました。読むのが楽しみです。","options":["小説","プール","釣り","アクション"],"correct_answer":"小説","explanation":"本屋で買って読むものとして「小説」が合います。"},
-  {"id":12053,"lesson":9,"type":"multiple_choice","title":"趣味","question":"私は友達___映画を見に行きました。","options":["と","を","に","で"],"correct_answer":"と","explanation":"一緒に行く相手を「と」で示します。"},
-  {"id":12054,"lesson":9,"type":"multiple_choice","title":"経験","question":"A：日本へ行ったことがありますか。 B：はい、二___あります。","options":["回","枚","本","人"],"correct_answer":"回","explanation":"経験した回数を数えるときは「回」です。"},
-  {"id":12055,"lesson":10,"type":"multiple_choice","title":"道案内","question":"次の交差点___右に曲がってください。","options":["で","に","を","が"],"correct_answer":"で","explanation":"曲がる場所を「で」で示します。"},
-  {"id":12056,"lesson":10,"type":"multiple_choice","title":"道案内","question":"赤い___では止まってください。青になったら渡ります。","options":["信号","橋","薬","声"],"correct_answer":"信号","explanation":"赤・青に変わる交通設備は「信号」です。"},
-  {"id":12057,"lesson":10,"type":"multiple_choice","title":"健康","question":"頭が痛いです。___を飲みます。","options":["薬","道","音","橋"],"correct_answer":"薬","explanation":"頭が痛いときに飲むものは「薬」です。"},
-  {"id":12058,"lesson":10,"type":"multiple_choice","title":"道案内","question":"この道___まっすぐ行ってください。","options":["を","に","で","が"],"correct_answer":"を","explanation":"移動する経路には「を」を使えます。"},
-  {"id":12059,"lesson":10,"type":"multiple_choice","title":"道案内","question":"一つ目の角を左に___ください。","options":["曲がって","飲んで","聞いて","探して"],"correct_answer":"曲がって","explanation":"角を左へ進む指示は「曲がってください」です。"},
-  {"id":12060,"lesson":10,"type":"multiple_choice","title":"健康","question":"熱がありますから、今日は学校___行きません。","options":["に","を","で","が"],"correct_answer":"に","explanation":"行き先を示す「に」です。"},
-  {"id":12061,"lesson":11,"type":"multiple_choice","title":"生活","question":"私は一人で住んでいます。今は___です。","options":["一人暮らし","クラスメイト","店長","作文"],"correct_answer":"一人暮らし","explanation":"一人で生活することは「一人暮らし」です。"},
-  {"id":12062,"lesson":11,"type":"multiple_choice","title":"生活","question":"朝、六時___起きます。","options":["に","で","を","が"],"correct_answer":"に","explanation":"具体的な時刻には「に」を使います。"},
-  {"id":12063,"lesson":11,"type":"multiple_choice","title":"勉強","question":"毎日、その日にあったことを___に書きます。","options":["日記","雑誌","会話","作文"],"correct_answer":"日記","explanation":"一日の出来事を記録するものは「日記」です。"},
-  {"id":12064,"lesson":11,"type":"multiple_choice","title":"生活","question":"平日は学校へ行きますが、___は休みです。","options":["週末","毎週","生活","初め"],"correct_answer":"週末","explanation":"平日に対して休みの日を示す「週末」です。"},
-  {"id":12065,"lesson":11,"type":"multiple_choice","title":"勉強","question":"クラスメイト___日本語で会話を練習しました。","options":["と","に","を","で"],"correct_answer":"と","explanation":"会話の相手には「と」を使います。"},
-  {"id":12066,"lesson":11,"type":"multiple_choice","title":"生活","question":"ご飯を食べ___、テレビを見たりします。","options":["たり","て","たら","ても"],"correct_answer":"たり","explanation":"「Vたり、Vたりします」で活動を例示します。"}
+  {
+    "id": 12001,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【わたし】は学生です。",
+    "options": [
+      "私",
+      "人",
+      "父",
+      "母"
+    ],
+    "correct_answer": "私",
+    "explanation": "「わたし」được viết là「私」trong câu này."
+  },
+  {
+    "id": 12002,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "あの【ひと】は先生です。",
+    "options": [
+      "私",
+      "人",
+      "本",
+      "日"
+    ],
+    "correct_answer": "人",
+    "explanation": "「ひと」được viết là「人」trong câu này."
+  },
+  {
+    "id": 12003,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "リンさんは大学の【がくせい】です。",
+    "options": [
+      "学校",
+      "先生",
+      "学生",
+      "日本"
+    ],
+    "correct_answer": "学生",
+    "explanation": "「がくせい」được viết là「学生」trong câu này."
+  },
+  {
+    "id": 12004,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎朝、【がっこう】へ行きます。",
+    "options": [
+      "学生",
+      "会社",
+      "大学",
+      "学校"
+    ],
+    "correct_answer": "学校",
+    "explanation": "「がっこう」được viết là「学校」trong câu này."
+  },
+  {
+    "id": 12005,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "来年、【にほん】へ行きます。",
+    "options": [
+      "日本",
+      "日本語",
+      "本日",
+      "学校"
+    ],
+    "correct_answer": "日本",
+    "explanation": "「にほん」được viết là「日本」trong câu này."
+  },
+  {
+    "id": 12006,
+    "lesson": 1,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎日、【にほんご】を勉強します。",
+    "options": [
+      "日本",
+      "日本語",
+      "国語",
+      "英語"
+    ],
+    "correct_answer": "日本語",
+    "explanation": "「にほんご」được viết là「日本語」trong câu này."
+  },
+  {
+    "id": 12007,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "りんごを【ひとつ】ください。",
+    "options": [
+      "二つ",
+      "三つ",
+      "一つ",
+      "五つ"
+    ],
+    "correct_answer": "一つ",
+    "explanation": "「ひとつ」được viết là「一つ」trong câu này."
+  },
+  {
+    "id": 12008,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "パンを【ふたつ】買いました。",
+    "options": [
+      "一つ",
+      "三つ",
+      "四つ",
+      "二つ"
+    ],
+    "correct_answer": "二つ",
+    "explanation": "「ふたつ」được viết là「二つ」trong câu này."
+  },
+  {
+    "id": 12009,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "みかんが【みっつ】あります。",
+    "options": [
+      "三つ",
+      "二つ",
+      "五つ",
+      "八つ"
+    ],
+    "correct_answer": "三つ",
+    "explanation": "「みっつ」được viết là「三つ」trong câu này."
+  },
+  {
+    "id": 12010,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "ノートを【いつつ】買います。",
+    "options": [
+      "四つ",
+      "五つ",
+      "六つ",
+      "九つ"
+    ],
+    "correct_answer": "五つ",
+    "explanation": "「いつつ」được viết là「五つ」trong câu này."
+  },
+  {
+    "id": 12011,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "この本は【ひゃくえん】です。",
+    "options": [
+      "千円",
+      "万円",
+      "百円",
+      "十円"
+    ],
+    "correct_answer": "百円",
+    "explanation": "「ひゃくえん」được viết là「百円」trong câu này."
+  },
+  {
+    "id": 12012,
+    "lesson": 2,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "昼ご飯は【せんえん】でした。",
+    "options": [
+      "百円",
+      "万円",
+      "十円",
+      "千円"
+    ],
+    "correct_answer": "千円",
+    "explanation": "「せんえん」được viết là「千円」trong câu này."
+  },
+  {
+    "id": 12013,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【げつようび】に授業があります。",
+    "options": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "金曜日"
+    ],
+    "correct_answer": "月曜日",
+    "explanation": "「げつようび」được viết là「月曜日」trong câu này."
+  },
+  {
+    "id": 12014,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【かようび】は図書館へ行きます。",
+    "options": [
+      "木曜日",
+      "火曜日",
+      "月曜日",
+      "土曜日"
+    ],
+    "correct_answer": "火曜日",
+    "explanation": "「かようび」được viết là「火曜日」trong câu này."
+  },
+  {
+    "id": 12015,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【すいようび】にテストがあります。",
+    "options": [
+      "火曜日",
+      "木曜日",
+      "水曜日",
+      "日曜日"
+    ],
+    "correct_answer": "水曜日",
+    "explanation": "「すいようび」được viết là「水曜日」trong câu này."
+  },
+  {
+    "id": 12016,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【きんようび】に友達と会います。",
+    "options": [
+      "月曜日",
+      "土曜日",
+      "水曜日",
+      "金曜日"
+    ],
+    "correct_answer": "金曜日",
+    "explanation": "「きんようび」được viết là「金曜日」trong câu này."
+  },
+  {
+    "id": 12017,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "今、【なんじ】ですか。",
+    "options": [
+      "何時",
+      "何年",
+      "何人",
+      "何月"
+    ],
+    "correct_answer": "何時",
+    "explanation": "「なんじ」được viết là「何時」trong câu này."
+  },
+  {
+    "id": 12018,
+    "lesson": 3,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "授業は【いちじかん】です。",
+    "options": [
+      "一週間",
+      "一時間",
+      "一日間",
+      "一分間"
+    ],
+    "correct_answer": "一時間",
+    "explanation": "「いちじかん」được viết là「一時間」trong câu này."
+  },
+  {
+    "id": 12019,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【とうきょう】に住んでいます。",
+    "options": [
+      "京都",
+      "東口",
+      "東京",
+      "日本"
+    ],
+    "correct_answer": "東京",
+    "explanation": "「とうきょう」được viết là「東京」trong câu này."
+  },
+  {
+    "id": 12020,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "ここに【なまえ】を書いてください。",
+    "options": [
+      "前日",
+      "名人",
+      "本名",
+      "名前"
+    ],
+    "correct_answer": "名前",
+    "explanation": "「なまえ」được viết là「名前」trong câu này."
+  },
+  {
+    "id": 12021,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "あなたの【くに】はどこですか。",
+    "options": [
+      "国",
+      "市",
+      "区",
+      "町"
+    ],
+    "correct_answer": "国",
+    "explanation": "「くに」được viết là「国」trong câu này."
+  },
+  {
+    "id": 12022,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "あの【おとこ】の人は父です。",
+    "options": [
+      "女",
+      "男",
+      "人",
+      "子"
+    ],
+    "correct_answer": "男",
+    "explanation": "「おとこ」được viết là「男」trong câu này."
+  },
+  {
+    "id": 12023,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "あの【おんな】の人は先生です。",
+    "options": [
+      "男",
+      "母",
+      "女",
+      "姉"
+    ],
+    "correct_answer": "女",
+    "explanation": "「おんな」được viết là「女」trong câu này."
+  },
+  {
+    "id": 12024,
+    "lesson": 4,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "この【し】には大きな駅があります。",
+    "options": [
+      "区",
+      "国",
+      "駅",
+      "市"
+    ],
+    "correct_answer": "市",
+    "explanation": "「し」được viết là「市」trong câu này."
+  },
+  {
+    "id": 12025,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【まいにち】、日本語を勉強します。",
+    "options": [
+      "毎日",
+      "毎週",
+      "毎月",
+      "先日"
+    ],
+    "correct_answer": "毎日",
+    "explanation": "「まいにち」được viết là「毎日」trong câu này."
+  },
+  {
+    "id": 12026,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【せんしゅう】、映画を見ました。",
+    "options": [
+      "今週",
+      "先週",
+      "来週",
+      "毎週"
+    ],
+    "correct_answer": "先週",
+    "explanation": "「せんしゅう」được viết là「先週」trong câu này."
+  },
+  {
+    "id": 12027,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "朝ご飯を【たべます】。",
+    "options": [
+      "飲みます",
+      "見ます",
+      "食べます",
+      "買います"
+    ],
+    "correct_answer": "食べます",
+    "explanation": "「たべます」được viết là「食べます」trong câu này."
+  },
+  {
+    "id": 12028,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "水を【のみます】。",
+    "options": [
+      "食べます",
+      "読みます",
+      "買います",
+      "飲みます"
+    ],
+    "correct_answer": "飲みます",
+    "explanation": "「のみます」được viết là「飲みます」trong câu này."
+  },
+  {
+    "id": 12029,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "本屋で本を【かいます】。",
+    "options": [
+      "買います",
+      "会います",
+      "書きます",
+      "帰ります"
+    ],
+    "correct_answer": "買います",
+    "explanation": "「かいます」được viết là「買います」trong câu này."
+  },
+  {
+    "id": 12030,
+    "lesson": 5,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "日曜日は【やすみ】です。",
+    "options": [
+      "飲み",
+      "休み",
+      "読み",
+      "買い"
+    ],
+    "correct_answer": "休み",
+    "explanation": "「やすみ」được viết là「休み」trong câu này."
+  },
+  {
+    "id": 12031,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【きょう】は学校へ行きます。",
+    "options": [
+      "昨日",
+      "今週",
+      "今日",
+      "来週"
+    ],
+    "correct_answer": "今日",
+    "explanation": "「きょう」được viết là「今日」trong câu này."
+  },
+  {
+    "id": 12032,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "友達が家へ【きます】。",
+    "options": [
+      "行きます",
+      "帰ります",
+      "見ます",
+      "来ます"
+    ],
+    "correct_answer": "来ます",
+    "explanation": "「きます」được viết là「来ます」trong câu này."
+  },
+  {
+    "id": 12033,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "六時に家へ【かえります】。",
+    "options": [
+      "帰ります",
+      "買います",
+      "来ます",
+      "会います"
+    ],
+    "correct_answer": "帰ります",
+    "explanation": "「かえります」được viết là「帰ります」trong câu này."
+  },
+  {
+    "id": 12034,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "音楽を【ききます】。",
+    "options": [
+      "書きます",
+      "聞きます",
+      "読みます",
+      "行きます"
+    ],
+    "correct_answer": "聞きます",
+    "explanation": "「ききます」được viết là「聞きます」trong câu này."
+  },
+  {
+    "id": 12035,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "図書館で本を【よみます】。",
+    "options": [
+      "飲みます",
+      "聞きます",
+      "読みます",
+      "書きます"
+    ],
+    "correct_answer": "読みます",
+    "explanation": "「よみます」được viết là「読みます」trong câu này."
+  },
+  {
+    "id": 12036,
+    "lesson": 6,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "ノートに名前を【かきます】。",
+    "options": [
+      "聞きます",
+      "読みます",
+      "帰ります",
+      "書きます"
+    ],
+    "correct_answer": "書きます",
+    "explanation": "「かきます」được viết là「書きます」trong câu này."
+  },
+  {
+    "id": 12037,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "晩ご飯に【にく】を食べます。",
+    "options": [
+      "肉",
+      "魚",
+      "野菜",
+      "米"
+    ],
+    "correct_answer": "肉",
+    "explanation": "「にく」được viết là「肉」trong câu này."
+  },
+  {
+    "id": 12038,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "母の【りょうり】はおいしいです。",
+    "options": [
+      "材料",
+      "料理",
+      "理科",
+      "食事"
+    ],
+    "correct_answer": "料理",
+    "explanation": "「りょうり」được viết là「料理」trong câu này."
+  },
+  {
+    "id": 12039,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎日、【やさい】を食べます。",
+    "options": [
+      "料理",
+      "果物",
+      "野菜",
+      "肉"
+    ],
+    "correct_answer": "野菜",
+    "explanation": "「やさい」được viết là「野菜」trong câu này."
+  },
+  {
+    "id": 12040,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "このかばんは【おおきい】です。",
+    "options": [
+      "小さい",
+      "高い",
+      "長い",
+      "大きい"
+    ],
+    "correct_answer": "大きい",
+    "explanation": "「おおきい」được viết là「大きい」trong câu này."
+  },
+  {
+    "id": 12041,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "この犬は【ちいさい】です。",
+    "options": [
+      "小さい",
+      "大きい",
+      "短い",
+      "高い"
+    ],
+    "correct_answer": "小さい",
+    "explanation": "「ちいさい」được viết là「小さい」trong câu này."
+  },
+  {
+    "id": 12042,
+    "lesson": 7,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "ケーキを【はんぶん】食べました。",
+    "options": [
+      "全部",
+      "半分",
+      "半日",
+      "一分"
+    ],
+    "correct_answer": "半分",
+    "explanation": "「はんぶん」được viết là「半分」trong câu này."
+  },
+  {
+    "id": 12043,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "私の【かぞく】は五人です。",
+    "options": [
+      "兄弟",
+      "両親",
+      "家族",
+      "友達"
+    ],
+    "correct_answer": "家族",
+    "explanation": "「かぞく」được viết là「家族」trong câu này."
+  },
+  {
+    "id": 12044,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【ちち】は会社員です。",
+    "options": [
+      "母",
+      "兄",
+      "弟",
+      "父"
+    ],
+    "correct_answer": "父",
+    "explanation": "「ちち」được viết là「父」trong câu này."
+  },
+  {
+    "id": 12045,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【はは】は料理が上手です。",
+    "options": [
+      "母",
+      "父",
+      "姉",
+      "妹"
+    ],
+    "correct_answer": "母",
+    "explanation": "「はは」được viết là「母」trong câu này."
+  },
+  {
+    "id": 12046,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【あに】は大学生です。",
+    "options": [
+      "弟",
+      "兄",
+      "父",
+      "姉"
+    ],
+    "correct_answer": "兄",
+    "explanation": "「あに」được viết là「兄」trong câu này."
+  },
+  {
+    "id": 12047,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "公園に【いぬ】がいます。",
+    "options": [
+      "猫",
+      "鳥",
+      "犬",
+      "魚"
+    ],
+    "correct_answer": "犬",
+    "explanation": "「いぬ」được viết là「犬」trong câu này."
+  },
+  {
+    "id": 12048,
+    "lesson": 8,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "姉は髪が【ながい】です。",
+    "options": [
+      "短い",
+      "高い",
+      "大きい",
+      "長い"
+    ],
+    "correct_answer": "長い",
+    "explanation": "「ながい」được viết là「長い」trong câu này."
+  },
+  {
+    "id": 12049,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "私は歌が【すき】です。",
+    "options": [
+      "好き",
+      "上手",
+      "元気",
+      "便利"
+    ],
+    "correct_answer": "好き",
+    "explanation": "「すき」được viết là「好き」trong câu này."
+  },
+  {
+    "id": 12050,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "日本語の【うた】を歌います。",
+    "options": [
+      "音",
+      "歌",
+      "楽",
+      "画"
+    ],
+    "correct_answer": "歌",
+    "explanation": "「うた」được viết là「歌」trong câu này."
+  },
+  {
+    "id": 12051,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎朝、【おんがく】を聞きます。",
+    "options": [
+      "映画",
+      "料理",
+      "音楽",
+      "旅行"
+    ],
+    "correct_answer": "音楽",
+    "explanation": "「おんがく」được viết là「音楽」trong câu này."
+  },
+  {
+    "id": 12052,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【くるま】で学校へ行きます。",
+    "options": [
+      "駅",
+      "道",
+      "海",
+      "車"
+    ],
+    "correct_answer": "車",
+    "explanation": "「くるま」được viết là「車」trong câu này."
+  },
+  {
+    "id": 12053,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "友達と【えいが】を見ます。",
+    "options": [
+      "映画",
+      "音楽",
+      "旅行",
+      "料理"
+    ],
+    "correct_answer": "映画",
+    "explanation": "「えいが」được viết là「映画」trong câu này."
+  },
+  {
+    "id": 12054,
+    "lesson": 9,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "来年、【かいがい】へ旅行します。",
+    "options": [
+      "海中",
+      "海外",
+      "国内",
+      "外国"
+    ],
+    "correct_answer": "海外",
+    "explanation": "「かいがい」được viết là「海外」trong câu này."
+  },
+  {
+    "id": 12055,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【えき】で友達に会いました。",
+    "options": [
+      "道",
+      "館",
+      "駅",
+      "店"
+    ],
+    "correct_answer": "駅",
+    "explanation": "「えき」được viết là「駅」trong câu này."
+  },
+  {
+    "id": 12056,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "本は机の【うえ】にあります。",
+    "options": [
+      "下",
+      "右",
+      "左",
+      "上"
+    ],
+    "correct_answer": "上",
+    "explanation": "「うえ」được viết là「上」trong câu này."
+  },
+  {
+    "id": 12057,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "猫は椅子の【した】にいます。",
+    "options": [
+      "下",
+      "上",
+      "右",
+      "左"
+    ],
+    "correct_answer": "下",
+    "explanation": "「した」được viết là「下」trong câu này."
+  },
+  {
+    "id": 12058,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "この【ちず】を見てください。",
+    "options": [
+      "図書",
+      "地図",
+      "土地",
+      "道路"
+    ],
+    "correct_answer": "地図",
+    "explanation": "「ちず」được viết là「地図」trong câu này."
+  },
+  {
+    "id": 12059,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "次の角を【みぎ】に曲がってください。",
+    "options": [
+      "左",
+      "上",
+      "右",
+      "下"
+    ],
+    "correct_answer": "右",
+    "explanation": "「みぎ」được viết là「右」trong câu này."
+  },
+  {
+    "id": 12060,
+    "lesson": 10,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "駅の【ひだり】に銀行があります。",
+    "options": [
+      "右",
+      "上",
+      "下",
+      "左"
+    ],
+    "correct_answer": "左",
+    "explanation": "「ひだり」được viết là「左」trong câu này."
+  },
+  {
+    "id": 12061,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎日、学校まで【あるいて】来ます。",
+    "options": [
+      "歩いて",
+      "乗いて",
+      "起いて",
+      "始いて"
+    ],
+    "correct_answer": "歩いて",
+    "explanation": "「あるいて」được viết là「歩いて」trong câu này."
+  },
+  {
+    "id": 12062,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "毎朝、六時に【おきます】。",
+    "options": [
+      "歩きます",
+      "起きます",
+      "乗ります",
+      "終わります"
+    ],
+    "correct_answer": "起きます",
+    "explanation": "「おきます」được viết là「起きます」trong câu này."
+  },
+  {
+    "id": 12063,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "駅で電車に【のります】。",
+    "options": [
+      "起きます",
+      "歩きます",
+      "乗ります",
+      "始まります"
+    ],
+    "correct_answer": "乗ります",
+    "explanation": "「のります」được viết là「乗ります」trong câu này."
+  },
+  {
+    "id": 12064,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "授業は九時に【はじまります】。",
+    "options": [
+      "終わります",
+      "起きます",
+      "帰ります",
+      "始まります"
+    ],
+    "correct_answer": "始まります",
+    "explanation": "「はじまります」được viết là「始まります」trong câu này."
+  },
+  {
+    "id": 12065,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "授業は五時に【おわります】。",
+    "options": [
+      "終わります",
+      "始まります",
+      "起きます",
+      "乗ります"
+    ],
+    "correct_answer": "終わります",
+    "explanation": "「おわります」được viết là「終わります」trong câu này."
+  },
+  {
+    "id": 12066,
+    "lesson": 11,
+    "type": "multiple_choice",
+    "title": "Chọn cách viết Kanji",
+    "question": "【あさ】、コーヒーを飲みます。",
+    "options": [
+      "昼",
+      "朝",
+      "夜",
+      "夕"
+    ],
+    "correct_answer": "朝",
+    "explanation": "「あさ」được viết là「朝」trong câu này."
+  }
 ]

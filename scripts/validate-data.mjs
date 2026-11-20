@@ -3,7 +3,7 @@ import { landingCounts, landingLessons } from '../src/data/landingMeta.js';
 import { readingChallenges } from '../src/data/readingChallenges.js';
 const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url)));
 const vocab = read('vocabulary_b1_11');
-const exercises = [...read('fe_exercises'), ...read('grammar_exercises')];
+const exercises = read('fe_exercises');
 const imageQuestions = read('questions');
 const noImageQuestions = read('no_image_questions');
 const grammarSpeaking = read('grammar_speaking');
@@ -21,7 +21,7 @@ for (const [name, rows] of [['vocabulary', vocab], ['exercises', exercises], ['i
 for (const row of exercises) {
   if (!row.question || !Array.isArray(row.options) || row.options.length !== 4 || !row.options.includes(row.correct_answer)) errors.push(`exercise ${row.id}: invalid answer/options`);
   if (!row.explanation) errors.push(`exercise ${row.id}: missing explanation`);
-  if (row.question?.split('___').length !== 2 || /[À-ỹ]/.test(row.question)) errors.push(`exercise ${row.id}: FE prompt must be a Japanese sentence with one blank`);
+  if (!/^【[ぁ-ゖー]+】/.test(row.question?.match(/【[^】]+】/)?.[0] || '') || (row.question?.match(/【/g) || []).length !== 1 || (row.question?.match(/】/g) || []).length !== 1 || /[À-ỹ]/.test(row.question)) errors.push(`exercise ${row.id}: FE prompt must contain one kana reading in brackets`);
   if (new Set(row.options).size !== row.options.length) errors.push(`exercise ${row.id}: duplicate options`);
 }
 for (let lesson = 1; lesson <= 11; lesson++) if (exercises.filter(row => row.lesson === lesson).length < 6) errors.push(`lesson ${lesson}: too few FE exercises`);
