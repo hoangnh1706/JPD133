@@ -12,7 +12,7 @@ function WordGroup({ title, words }) {
   )}</div></div>;
 }
 
-export default function Reading({ progress, record, markLearned }) {
+export default function Reading({ progress, record, markLearned = () => {} }) {
   const [id, setId] = useState(1);
   const [translation, setTranslation] = useState(false);
   const [answers, setAnswers] = useState(false);

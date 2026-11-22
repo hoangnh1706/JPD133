@@ -31,7 +31,7 @@ const legacyTypes = {
 
 export function getLearnedSet(progress, section) {
   const learned = new Set();
-  for (const event of progress.events) {
+  for (const event of progress?.events || []) {
     if (event.type === 'learned' && event.section === section && event.id !== undefined) learned.add(String(event.id));
     if (legacyTypes[section]?.includes(event.type)) {
       const id = section === 'lesson' ? event.lesson : section === 'speaking-exam' ? event.exam : event.id;
@@ -42,7 +42,7 @@ export function getLearnedSet(progress, section) {
 }
 
 export function markLearned(progress, section, id, lesson) {
-  if (!legacyTypes[section] || id === undefined || id === null || getLearnedSet(progress, section).has(String(id))) return progress;
+  if (!progress || !legacyTypes[section] || id === undefined || id === null || getLearnedSet(progress, section).has(String(id))) return progress;
   return recordEvent(progress, 'learned', { section, id: String(id), ...(lesson ? { lesson } : {}) });
 }
 

@@ -9,7 +9,7 @@ const grammarLessons = [
   { lesson: 11, pages: 8, focus: 'Trải nghiệm, hoạt động và mẫu ～とき' },
 ];
 
-export default function GrammarWorkbook({ lesson = 'all', title = 'Bài tập ngữ pháp 8–11', progress, markLearned }) {
+export default function GrammarWorkbook({ lesson = 'all', title = 'Bài tập ngữ pháp 8–11', progress = { events: [] }, markLearned = () => {} }) {
   const [selected, setSelected] = useState(lesson === 'all' ? 8 : Number(lesson));
   const [open, setOpen] = useState(false);
   const current = grammarLessons.find(item => item.lesson === selected) || grammarLessons[0];

@@ -6,7 +6,7 @@ import { getLearnedSet } from '../services/progress';
 const draftKey=userId=>`jpd133_exam_draft_v1_${userId}`;
 const shuffle=list=>[...list].sort(()=>Math.random()-0.5);
 
-export default function Practice({ mode, initialLesson='all', progress, update, record, markLearned, go, userId }) {
+export default function Practice({ mode, initialLesson='all', progress, update, record, markLearned = () => {}, go, userId }) {
   const DRAFT_KEY=draftKey(userId);
   const [lesson,setLesson]=useState(initialLesson);
   const [count,setCount]=useState(10);

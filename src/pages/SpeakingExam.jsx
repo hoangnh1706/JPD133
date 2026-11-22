@@ -15,7 +15,7 @@ const getExam = index => {
   return { reading, lesson, picture: pictures[Math.floor(index / 4) % pictures.length], free: [free[(index * 2) % free.length], free[(index * 2 + 1) % free.length]] };
 };
 
-export default function SpeakingExam({ progress, record, markLearned }) {
+export default function SpeakingExam({ progress, record, markLearned = () => {} }) {
   const [examIndex, setExamIndex] = useState(0);
   const [phaseIndex, setPhaseIndex] = useState(-1);
   const [prep, setPrep] = useState(20);

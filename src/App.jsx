@@ -85,13 +85,14 @@ export default function App() {
       {saveError && <div className="save-error" role="alert">{saveError}</div>}
       <main id="main-content" tabIndex={-1} className="main-area"><Suspense fallback={<div className="page-loading" role="status">Đang mở nội dung học…</div>}>
         {route === '/' && <Dashboard progress={progress} go={go} user={user} />}
-        {route.startsWith('/lessons') && <Lessons progress={progress} record={record} go={go} route={route} />}
-        {route === '/vocabulary' && <Vocabulary progress={progress} update={update} record={record} />}
-        {route === '/grammar' && <Grammar progress={progress} record={record} />}
-        {route === '/reading' && <Reading progress={progress} record={record} />}
-        {route === '/speaking' && <Speaking progress={progress} record={record} />}
-        {route === '/speaking-exam' && <SpeakingExam progress={progress} record={record} />}
-        {['/practice', '/mock', '/mistakes'].includes(baseRoute) && <><Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} go={go} userId={user?.id || 'guest'} /><GrammarWorkbook lesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} title="Ôn ngữ pháp cho bài FE" /></>}
+        {route.startsWith('/lessons') && <Lessons progress={progress} record={record} markLearned={markLearned} go={go} route={route} />}
+        {route === '/vocabulary' && <Vocabulary progress={progress} update={update} record={record} markLearned={markLearned} />}
+        {baseRoute === '/kanji' && <Kanji key={route} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} record={record} markLearned={markLearned} />}
+        {route === '/grammar' && <Grammar progress={progress} record={record} markLearned={markLearned} />}
+        {route === '/reading' && <Reading progress={progress} record={record} markLearned={markLearned} />}
+        {route === '/speaking' && <Speaking progress={progress} record={record} markLearned={markLearned} />}
+        {route === '/speaking-exam' && <SpeakingExam progress={progress} record={record} markLearned={markLearned} />}
+        {['/practice', '/mock', '/mistakes'].includes(baseRoute) && <Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} markLearned={markLearned} go={go} userId={user?.id || 'guest'} />}
         {route === '/progress' && <Progress progress={progress} go={go} user={user} />}
         {route === '/settings' && <SettingsPage progress={progress} update={update} user={user} />}
         {route === '/legacy' && <LegacyApp />}
