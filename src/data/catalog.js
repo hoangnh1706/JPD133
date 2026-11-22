@@ -1,5 +1,6 @@
 import vocabulary from './vocabulary_b1_11.json';
 import feExercises from './fe_exercises.json';
+import feFormatExams from './fe_format_exams.json';
 import grammarSpeaking from './grammar_speaking.json';
 import imageQuestions from './questions.json';
 import noImageQuestions from './no_image_questions.json';
@@ -8,7 +9,8 @@ import kanji from './kanji_b1_11.json';
 import { readingChallenges } from './readingChallenges.js';
 
 export const exercises = feExercises;
-export { vocabulary, imageQuestions, noImageQuestions, readings, kanji };
+export const allFeExercises = [...feFormatExams, ...feExercises];
+export { feFormatExams, vocabulary, imageQuestions, noImageQuestions, readings, kanji };
 export const readingLibrary = [...readings, ...readingChallenges];
 export const lessons = Array.from({ length: 11 }, (_, index) => {
   const id = index + 1;

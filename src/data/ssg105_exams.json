@@ -1,0 +1,2137 @@
+[
+  {
+    "id": 1,
+    "title": "Đề 1 · Chuẩn Form FA26_C1",
+    "description": "30 câu trắc nghiệm chuẩn cấu trúc đề thi FE SSG105 mới nhất (Slide 1–54).",
+    "questions": [
+      {
+        "unit": "Unit 2 - Psychological Safety",
+        "question": "What is a direct consequence of excluding people from team decisions?",
+        "options": [
+          "It accelerates decision-making speed.",
+          "It reduces motivation and their sense of value.",
+          "It builds learner safety.",
+          "It increases interpersonal risk-taking."
+        ],
+        "correct_answer": "It reduces motivation and their sense of value.",
+        "explanation": "Đáp án đúng: It reduces motivation and their sense of value. (Unit 2 - Psychological Safety).",
+        "id": 1,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 2 - Class Projects",
+        "question": "Why do courses use team projects?",
+        "options": [
+          "To prepare students for working with others in their future career",
+          "To make students feel anxious and drained.",
+          "To evaluate students on individual tasks only",
+          "To replace the need for regular team meetings."
+        ],
+        "correct_answer": "To prepare students for working with others in their future career",
+        "explanation": "Đáp án đúng: To prepare students for working with others in their future career (Unit 2 - Class Projects).",
+        "id": 2,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 4 - Virtual Leadership",
+        "question": "What is NOT a characteristic of virtual leadership?",
+        "options": [
+          "A shift from \"presence\" to \"outcomes\"",
+          "Guiding a team where the members are geographically dispersed",
+          "It is important for a leader to be highly attuned to subtle digital cues.",
+          "Trust can only be earned through face-to-face rapport."
+        ],
+        "correct_answer": "Trust can only be earned through face-to-face rapport.",
+        "explanation": "Đáp án đúng: Trust can only be earned through face-to-face rapport. (Unit 4 - Virtual Leadership).",
+        "id": 3,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 4 - Maslow in Leadership",
+        "question": "What is NOT how Maslow’s hierarchy of needs can be applied to team management?",
+        "options": [
+          "A leader cannot motivate a team member with psychological rewards if basic needs are not met.",
+          "Only when team members feel secure do they crave connection.",
+          "A leader should wait for annual reviews to praise team members as not to let them rest on their laurels.",
+          "It is essential to ensure safe working conditions for team members."
+        ],
+        "correct_answer": "A leader should wait for annual reviews to praise team members as not to let them rest on their laurels.",
+        "explanation": "Đáp án đúng: A leader should wait for annual reviews to praise team members as not to let them rest on their laurels. (Unit 4 - Maslow in Leadership).",
+        "id": 4,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 11 - Research Resources",
+        "question": "Han finds an online article claiming human attention span fell to 8 seconds (shorter than a goldfish). What is the main problem with this resource?",
+        "options": [
+          "It is irrelevant to the purpose of her essay.",
+          "It is an unverified Internet resource.",
+          "It represents personal opinions only.",
+          "It uses informal language."
+        ],
+        "correct_answer": "It is an unverified Internet resource.",
+        "explanation": "Đáp án đúng: It is an unverified Internet resource. (Unit 11 - Research Resources).",
+        "id": 5,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 11 - Writing Channels",
+        "question": "What is unnecessary to be considered when choosing writing channels?",
+        "options": [
+          "The sensitivity and privacy of the content",
+          "The physical distance between team members",
+          "The level of complexity of the information",
+          "Cultural norms and urgency"
+        ],
+        "correct_answer": "The physical distance between team members",
+        "explanation": "Đáp án đúng: The physical distance between team members (Unit 11 - Writing Channels).",
+        "id": 6,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 7 - Problem Solving",
+        "question": "In which step of the problem-solving process does a group start to brainstorm ways to address challenges while focusing resources on actionable solutions?",
+        "options": [
+          "Define the problem",
+          "Generate possible solutions",
+          "Implement the chosen solution",
+          "Establish criteria for solutions"
+        ],
+        "correct_answer": "Generate possible solutions",
+        "explanation": "Đáp án đúng: Generate possible solutions (Unit 7 - Problem Solving).",
+        "id": 7,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 7 - Receiving Feedback",
+        "question": "What is illustrated by the responses: \"So you're saying I'm bad at my job?\" or \"Why are you always attacking me?\"",
+        "options": [
+          "Connecting feedback to personal preferences",
+          "Taking feedback personally",
+          "Acknowledging perspective",
+          "Practicing self-control"
+        ],
+        "correct_answer": "Taking feedback personally",
+        "explanation": "Đáp án đúng: Taking feedback personally (Unit 7 - Receiving Feedback).",
+        "id": 8,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 7 - Defensive Communication",
+        "question": "What is an example of defensive communication?",
+        "options": [
+          "\"It sounds like we have different approaches to managing this project.\"",
+          "\"Help me understand your perspective.\"",
+          "\"You are just looking for things to criticize me about.\"",
+          "\"I realize I missed the deadline. I struggled to balance my priorities.\""
+        ],
+        "correct_answer": "\"You are just looking for things to criticize me about.\"",
+        "explanation": "Đáp án đúng: \"You are just looking for things to criticize me about.\" (Unit 7 - Defensive Communication).",
+        "id": 9,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 12 - Report Types",
+        "question": "Which type of report presents information with a comprehensive analysis to solve problems, demonstrate relationships, or make recommendations?",
+        "options": [
+          "Informational report",
+          "Relational report",
+          "Analytical report",
+          "Financial report"
+        ],
+        "correct_answer": "Analytical report",
+        "explanation": "Đáp án đúng: Analytical report (Unit 12 - Report Types).",
+        "id": 10,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 3 - Business Proposals",
+        "question": "What characterizes solicited proposals?",
+        "options": [
+          "Initiated by the seller or writer without prior request",
+          "Flexible structure with no deadline",
+          "Written in response to a formal request (RFP)",
+          "Relying purely on an unsolicited persuasive hook"
+        ],
+        "correct_answer": "Written in response to a formal request (RFP)",
+        "explanation": "Đáp án đúng: Written in response to a formal request (RFP) (Unit 3 - Business Proposals).",
+        "id": 11,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 3 - Netiquette & Email",
+        "question": "What is the main purpose of the Subject line in an email?",
+        "options": [
+          "It ensures the recipient grasps the core message quickly.",
+          "It demonstrates formal respect and avoids mixups.",
+          "It signals the sender's overall mood.",
+          "It is optional and can be left blank."
+        ],
+        "correct_answer": "It ensures the recipient grasps the core message quickly.",
+        "explanation": "Đáp án đúng: It ensures the recipient grasps the core message quickly. (Unit 3 - Netiquette & Email).",
+        "id": 12,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 12 - Writing Technique",
+        "question": "How is \"paraphrasing\" correctly defined in the writing process?",
+        "options": [
+          "Condensing the main points into a much shorter form",
+          "Copying exact phrases and placing them in quotation marks",
+          "Restating another writer's idea in your own words and roughly similar length",
+          "Using someone else's words without credit"
+        ],
+        "correct_answer": "Restating another writer's idea in your own words and roughly similar length",
+        "explanation": "Đáp án đúng: Restating another writer's idea in your own words and roughly similar length (Unit 12 - Writing Technique).",
+        "id": 13,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 12 - Analytical vs Informational",
+        "question": "What is the main distinguishing factor of an analytical report compared to an informational report?",
+        "options": [
+          "An analytical report focuses entirely on presenting raw data.",
+          "An analytical report interprets information and draws conclusions or recommendations.",
+          "An analytical report avoids using headings and visual aids.",
+          "An analytical report is strictly written for external legal regulators."
+        ],
+        "correct_answer": "An analytical report interprets information and draws conclusions or recommendations.",
+        "explanation": "Đáp án đúng: An analytical report interprets information and draws conclusions or recommendations. (Unit 12 - Analytical vs Informational).",
+        "id": 14,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 12 - Organizational Patterns",
+        "question": "A writer evaluates two software options for the company by examining their distinct features and pricing. Which organizational pattern is being utilized?",
+        "options": [
+          "Compare-contrast",
+          "Chronological",
+          "Problem-solution",
+          "Cause-effect"
+        ],
+        "correct_answer": "Compare-contrast",
+        "explanation": "Đáp án đúng: Compare-contrast (Unit 12 - Organizational Patterns).",
+        "id": 15,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 10 - Effective Business Writing",
+        "question": "Changing \"We need to improve our resources\" to \"We need to upgrade our server hardware\" applies which principle of business writing?",
+        "options": [
+          "Choosing concrete terms over abstract ones to prevent ambiguity.",
+          "Using strict grammatical rules to replace idioms.",
+          "Modifying cultural contexts for international standards.",
+          "Using emotional language to ensure high engagement."
+        ],
+        "correct_answer": "Choosing concrete terms over abstract ones to prevent ambiguity.",
+        "explanation": "Đáp án đúng: Choosing concrete terms over abstract ones to prevent ambiguity. (Unit 10 - Effective Business Writing).",
+        "id": 16,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 10 - Writing Styles",
+        "question": "An employee messages a close coworker: \"Hey, are we still on for grabbing a bite after the shift?\" Which writing style does this represent?",
+        "options": [
+          "Colloquial, because it utilizes regional slang",
+          "Casual, because it involves everyday expressions in a familiar group context",
+          "Formal, because it maintains professional distance",
+          "Bureaucratic, because it focuses on official shift schedules"
+        ],
+        "correct_answer": "Casual, because it involves everyday expressions in a familiar group context",
+        "explanation": "Đáp án đúng: Casual, because it involves everyday expressions in a familiar group context (Unit 10 - Writing Styles).",
+        "id": 17,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 7 - Empathy Skills",
+        "question": "What is NOT a good way to practice empathy during conflict resolution?",
+        "options": [
+          "Practice active listening",
+          "Use tactical reflection",
+          "Ask closed-ended questions",
+          "Separate validation from agreement"
+        ],
+        "correct_answer": "Ask closed-ended questions",
+        "explanation": "Đáp án đúng: Ask closed-ended questions (Unit 7 - Empathy Skills).",
+        "id": 18,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 5 - Leadership Mindset & EQ",
+        "question": "How can we practice adopting a leadership mindset so as to build our emotional intelligence?",
+        "options": [
+          "Be a problem-finder",
+          "Making excuses",
+          "See the big picture",
+          "Prioritize comfort"
+        ],
+        "correct_answer": "See the big picture",
+        "explanation": "Đáp án đúng: See the big picture (Unit 5 - Leadership Mindset & EQ).",
+        "id": 19,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 1 - Team Roles",
+        "question": "How do blocking roles typically affect a team's ability to reach an agreement?",
+        "options": [
+          "They accelerate the process by forcing quick decisions.",
+          "They may lead to conflict and failure in consensus-building.",
+          "They improve team chemistry during disagreements.",
+          "They have no measurable impact."
+        ],
+        "correct_answer": "They may lead to conflict and failure in consensus-building.",
+        "explanation": "Đáp án đúng: They may lead to conflict and failure in consensus-building. (Unit 1 - Team Roles).",
+        "id": 20,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 1 - Task Roles",
+        "question": "Which of the following behaviors are specifically associated with task-facilitating roles?",
+        "options": [
+          "Supporting motivation and empathy",
+          "Providing information, asking for information, and monitoring progress",
+          "Hindering individual contribution and reducing morale",
+          "Resolving interpersonal conflict"
+        ],
+        "correct_answer": "Providing information, asking for information, and monitoring progress",
+        "explanation": "Đáp án đúng: Providing information, asking for information, and monitoring progress (Unit 1 - Task Roles).",
+        "id": 21,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 8 - Visual Aids",
+        "question": "What is suitable when designing presentation slides?",
+        "options": [
+          "Copy and paste whole paragraphs onto a slide",
+          "When explaining two distinct ideas, split them into two slides",
+          "Use low-contrast colors",
+          "Use more than two font families"
+        ],
+        "correct_answer": "When explaining two distinct ideas, split them into two slides",
+        "explanation": "Đáp án đúng: When explaining two distinct ideas, split them into two slides (Unit 8 - Visual Aids).",
+        "id": 22,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 8 - Nonverbal Cues",
+        "question": "Tuan nods continuously with flat filler words (\"Yeah... wow...\") while looking at his feet. What can be inferred from his nonverbal signs?",
+        "options": [
+          "Tuan does not focus on the conversation.",
+          "Tuan is genuinely listening.",
+          "Tuan thinks Manh is telling lies.",
+          "Tuan is jealous of Manh."
+        ],
+        "correct_answer": "Tuan does not focus on the conversation.",
+        "explanation": "Đáp án đúng: Tuan does not focus on the conversation. (Unit 8 - Nonverbal Cues).",
+        "id": 23,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 13 - Career Exploration",
+        "question": "What is the core distinction between being \"college-ready\" and being \"career-ready\"?",
+        "options": [
+          "College-ready involves manual labor; career-ready requires computational math.",
+          "College-ready means mastering software; career-ready means passing entry tests.",
+          "College-ready focuses on foundational academic skills; career-ready focuses on technical and professional field skills.",
+          "College-ready applies to residential students; career-ready to working adults."
+        ],
+        "correct_answer": "College-ready focuses on foundational academic skills; career-ready focuses on technical and professional field skills.",
+        "explanation": "Đáp án đúng: College-ready focuses on foundational academic skills; career-ready focuses on technical and professional field skills. (Unit 13 - Career Exploration).",
+        "id": 24,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 13 - Résumé Guidelines",
+        "question": "Which of the following elements should be EXCLUDED from a standard professional business résumé?",
+        "options": [
+          "Professional email address and phone number",
+          "Personal details such as age, marital status, and a photograph",
+          "Relevant volunteer history and academic internships",
+          "Summary of core qualifications and hard skills"
+        ],
+        "correct_answer": "Personal details such as age, marital status, and a photograph",
+        "explanation": "Đáp án đúng: Personal details such as age, marital status, and a photograph (Unit 13 - Résumé Guidelines).",
+        "id": 25,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 1 & 13 - Hiring Criteria",
+        "question": "When evaluating candidates who possess technical skills but lack strong oral communication and teamwork capabilities, how do modern employers view them?",
+        "options": [
+          "They are prioritized because hard skills are the only attributes valued.",
+          "They are often rejected because broad soft skills are highly prioritized.",
+          "They are hired at a reduced baseline salary.",
+          "They are advised to switch to an arts degree."
+        ],
+        "correct_answer": "They are often rejected because broad soft skills are highly prioritized.",
+        "explanation": "Đáp án đúng: They are often rejected because broad soft skills are highly prioritized. (Unit 1 & 13 - Hiring Criteria).",
+        "id": 26,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 9 - Persuasive Appeals & Maslow",
+        "question": "If an audience is struggling with basic physical survival or safety concerns, what happens if a speaker pitches a product based purely on self-actualization?",
+        "options": [
+          "The presentation will fail because higher-level needs cannot effectively motivate until lower- level needs are met.",
+          "The audience will adapt quickly.",
+          "The pitch will succeed using scarcity principles.",
+          "The audience will reject the message due to ethics."
+        ],
+        "correct_answer": "The presentation will fail because higher-level needs cannot effectively motivate until lower- level needs are met.",
+        "explanation": "Đáp án đúng: The presentation will fail because higher-level needs cannot effectively motivate until lower- level needs are met. (Unit 9 - Persuasive Appeals & Maslow).",
+        "id": 27,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 9 - Elevator Pitch",
+        "question": "What is the recommended purpose of an \"elevator speech\"?",
+        "options": [
+          "To be prepared to concisely communicate your value or an idea in a brief window of opportunity.",
+          "To provide a full, detailed project report to an investor in an elevator.",
+          "To force a stakeholder to make an immediate binding decision.",
+          "To introduce yourself to everyone at a networking event."
+        ],
+        "correct_answer": "To be prepared to concisely communicate your value or an idea in a brief window of opportunity.",
+        "explanation": "Đáp án đúng: To be prepared to concisely communicate your value or an idea in a brief window of opportunity. (Unit 9 - Elevator Pitch).",
+        "id": 28,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 6 - Meeting Channels",
+        "question": "In which case are face-to-face meetings preferred over online meetings?",
+        "options": [
+          "Mapping out a completely new strategy",
+          "Project tracking",
+          "Routine status reporting",
+          "Geographically distributed team updates"
+        ],
+        "correct_answer": "Mapping out a completely new strategy",
+        "explanation": "Đáp án đúng: Mapping out a completely new strategy (Unit 6 - Meeting Channels).",
+        "id": 29,
+        "examId": 1
+      },
+      {
+        "unit": "Unit 6 - Facilitating Meetings",
+        "question": "In a meeting, when a participant goes over time, how should the facilitator intervene professionally?",
+        "options": [
+          "Do not intervene as the speaker has important things to share.",
+          "\"Just so you know, we are past your time block... wrap up whenever.\"",
+          "\"Sorry to break the flow, but we are three minutes over the allocated time. To honor the rest of the agenda, let's skip ahead to your final slide.\"",
+          "Express visible impatience without saying anything."
+        ],
+        "correct_answer": "\"Sorry to break the flow, but we are three minutes over the allocated time. To honor the rest of the agenda, let's skip ahead to your final slide.\"",
+        "explanation": "Đáp án đúng: \"Sorry to break the flow, but we are three minutes over the allocated time. To honor the rest of the agenda, let's skip ahead to your final slide.\" (Unit 6 - Facilitating Meetings).",
+        "id": 30,
+        "examId": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Đề 2 · 30 Câu Bẫy Tình Huống (Case Traps)",
+    "description": "30 câu tình huống thực tế dễ mất điểm kèm mẹo phân tích tránh bẫy chi tiết.",
+    "questions": [
+      {
+        "unit": "Psychological Safety — Slide 6",
+        "question": "During a sprint review, a junior developer notices that the senior architect's database schema will cause severe latency when user traffic scales. Although everyone else agrees with the architect, the junior developer speaks up and questions the design. Which level of psychological safety is this?",
+        "options": [
+          "Inclusion safety",
+          "Learner safety",
+          "Contributor safety",
+          "Challenger safety"
+        ],
+        "correct_answer": "Challenger safety",
+        "explanation": "Rất nhiều sinh viên chọn nhầm Contributor safety (đóng góp năng lực chuyên môn). Từ khóa cốt lõi ở đây là \"speaks up and questions\" (dám công khai phản biện người có quyền lực/số đông) → Chắc chắn là Challenger safety.",
+        "id": 31,
+        "examId": 2
+      },
+      {
+        "unit": "Trust Equation — Slide 5",
+        "question": "Minh always submits his slides two days before every deadline and never misses a meeting. However, during discussions, he constantly interrupts teammates to boast about his GPA and refuses to listen to ideas that don't benefit his own section. Which component of the Trust Equation is lowering Minh's overall trustworthiness?",
+        "options": [
+          "Low Reliability",
+          "Low Credibility",
+          "High Self-orientation",
+          "Low Intimacy"
+        ],
+        "correct_answer": "High Self-orientation",
+        "explanation": "Minh luôn nộp bài đúng hạn nên Reliability rất cao. Yếu tố làm giảm tổng niềm tin T = (C + R + I) / S chính là thói ích kỷ, đề cao bản thân (Self-orientation nằm ở mẫu số, S càng cao thì T càng thấp).",
+        "id": 32,
+        "examId": 2
+      },
+      {
+        "unit": "Team Roles — Slide 3",
+        "question": "When a heated debate breaks out between two subgroups, Mai steps in and says: \"Both sides make valid points about user security and app speed. What if we cache non-sensitive data so we satisfy both goals?\" Which role is Mai playing?",
+        "options": [
+          "Reality testing (Task-facilitating)",
+          "Harmonizing / Compromising (Relationship-building)",
+          "Enforcing (Task-facilitating)",
+          "Blocking role"
+        ],
+        "correct_answer": "Harmonizing / Compromising (Relationship-building)",
+        "explanation": "Reality testing là đánh giá tính khả thi thực tế (thời gian/ngân sách). Đứng ra xoa dịu và đưa giải pháp dung hòa 2 bên xung đột thuộc nhóm Relationship-building roles (Harmonizer/Compromiser).",
+        "id": 33,
+        "examId": 2
+      },
+      {
+        "unit": "Psychological Safety Responsibility — Slide 6",
+        "question": "A university class team is formed without an appointed team leader. Halfway through the semester, members are afraid to ask questions because one outspoken student mocks basic inquiries. Who is responsible for establishing psychological safety in this team?",
+        "options": [
+          "Only the outspoken student",
+          "The course lecturer",
+          "Every member of the team",
+          "Whoever wrote the Team Charter"
+        ],
+        "correct_answer": "Every member of the team",
+        "explanation": "Trong một nhóm không có leader chính thức, việc duy trì môi trường an toàn tâm lý là trách nhiệm của tất cả các thành viên trong nhóm.",
+        "id": 34,
+        "examId": 2
+      },
+      {
+        "unit": "Team Performance Factors — Slide 2",
+        "question": "A team lead insists on approving every single sentence of her teammates' slides and micromanages how they format charts, causing missed deadlines and low morale. Which factor is eroding team performance?",
+        "options": [
+          "Groupthink",
+          "Poor delegation by managers",
+          "Low entry status",
+          "Social loafing"
+        ],
+        "correct_answer": "Poor delegation by managers",
+        "explanation": "Hành vi quản lý quá vụn vặt (micromanagement) và không biết ủy quyền được giáo trình chỉ định rõ là Poor delegation by managers.",
+        "id": 35,
+        "examId": 2
+      },
+      {
+        "unit": "Managing Team Boundaries — Slide 13",
+        "question": "When the marketing department demands last-minute feature changes two days before launch, the engineering team lead negotiates with marketing to push those requests to Phase 2 so her developers can stay focused on testing. Which leadership function is she performing?",
+        "options": [
+          "Managing internal paradoxes",
+          "Managing team boundaries (acting as a buffer)",
+          "Practicing transactional punishment",
+          "Encouraging groupthink"
+        ],
+        "correct_answer": "Managing team boundaries (acting as a buffer)",
+        "explanation": "Trưởng nhóm đóng vai trò tấm đệm (buffer) che chắn cho thành viên khỏi các yêu cầu nhiễu từ bên ngoài là hoạt động Managing team boundaries.",
+        "id": 36,
+        "examId": 2
+      },
+      {
+        "unit": "New Manager Transition — Slide 13",
+        "question": "Newly promoted team lead Tuan still spends 90% of his time coding the hardest modules himself while ignoring conflicts among his four junior developers. What is Tuan's main mistake?",
+        "options": [
+          "Relying too much on self-managing leadership",
+          "Failing to shift his focus from technical tasks as an individual contributor to managing people and relationships",
+          "Over-delegating his responsibilities",
+          "Focusing too heavily on external stakeholders"
+        ],
+        "correct_answer": "Failing to shift his focus from technical tasks as an individual contributor to managing people and relationships",
+        "explanation": "Sai lầm phổ biến nhất của người mới lên quản lý là vẫn sa đà vào chuyên môn kỹ thuật thay vì chuyển hướng sang quản trị con người và mối quan hệ.",
+        "id": 37,
+        "examId": 2
+      },
+      {
+        "unit": "Situational Leadership — Slide 14",
+        "question": "A manager gives detailed step-by-step checklists to a new intern during week one, provides occasional coaching in month three, and grants full autonomy over client accounts in month eight. Which leadership approach is illustrated?",
+        "options": [
+          "Transactional leadership",
+          "Situational leadership",
+          "Autocratic leadership",
+          "Virtual leadership"
+        ],
+        "correct_answer": "Situational leadership",
+        "explanation": "Thay đổi phong cách quản lý tùy thuộc vào độ trưởng thành và năng lực của nhân viên theo thời gian chính là Situational leadership.",
+        "id": 38,
+        "examId": 2
+      },
+      {
+        "unit": "Leader-as-Coach — Slide 14",
+        "question": "A teammate tells you: \"I'm stuck on the financial projection table and don't know where to start.\" Following the \"Leader-as-Coach\" approach, what should you say?",
+        "options": [
+          "\"Send me the file; I'll build the table for you tonight.\"",
+          "\"You should copy the table from Slide 12 and change the numbers.\"",
+          "\"What is the biggest hurdle you're facing right now, and what data do we already have?\"",
+          "\"Why didn't you ask for help earlier?\""
+        ],
+        "correct_answer": "\"What is the biggest hurdle you're facing right now, and what data do we already have?\"",
+        "explanation": "Nguyên tắc của Leader-as-Coach là không làm hộ (A) hay áp đặt giải pháp (B), mà đặt câu hỏi mở để gợi mở suy nghĩ cho đối phương.",
+        "id": 39,
+        "examId": 2
+      },
+      {
+        "unit": "Emotional Intelligence (EQ) — Slide 19",
+        "question": "Which of the following statements demonstrates the highest Emotional Intelligence (EI) during a tense meeting?",
+        "options": [
+          "\"I'm fine, just do whatever you want.\"",
+          "\"You never listen to anyone else's ideas in this group.\"",
+          "\"I feel frustrated when my points are cut off before I finish explaining, because I want us to consider all options.\"",
+          "\"Why are you always attacking my proposals?\""
+        ],
+        "correct_answer": "\"I feel frustrated when my points are cut off before I finish explaining, because I want us to consider all options.\"",
+        "explanation": "Giao tiếp bằng câu \"I-statement\" (bày tỏ cảm xúc và giải thích lý do khách quan) là dấu hiệu tiêu biểu của EQ cao, thay vì dùng \"You-statement\" đổ lỗi.",
+        "id": 40,
+        "examId": 2
+      },
+      {
+        "unit": "Goal-Directed Feedback — Slide 24",
+        "question": "A member forgot to upload the final survey link on Monday, causing the team to lose two days of data collection. Which feedback from the leader is goal-directed?",
+        "options": [
+          "\"You are really careless and let the whole team down.\"",
+          "\"Don't worry about it at all, Monday wasn't important anyway.\"",
+          "\"Our team's target is to collect 100 responses by Friday. Because the link went up two days late, we are currently behind that goal and need a catch-up plan.\"",
+          "\"I felt embarrassed telling our mentor we hadn't started the survey yet.\""
+        ],
+        "correct_answer": "\"Our team's target is to collect 100 responses by Friday. Because the link went up two days late, we are currently behind that goal and need a catch-up plan.\"",
+        "explanation": "Goal-directed feedback tập trung chiếu chiếu hành vi sai sót vào mục tiêu chung của dự án (target) và tìm phương án bù đắp.",
+        "id": 41,
+        "examId": 2
+      },
+      {
+        "unit": "Validation vs. Agreement — Slide 24",
+        "question": "During a disagreement over project scope, Lan says: \"I understand why you're worried that adding a mobile version will overload our schedule, and that's a fair concern. However, based on user feedback, I still believe we need a basic mobile view.\" What conflict skill is Lan using?",
+        "options": [
+          "Avoiding conflict",
+          "Separating validation from agreement",
+          "Defensive communication",
+          "Groupthink"
+        ],
+        "correct_answer": "Separating validation from agreement",
+        "explanation": "Thừa nhận mối lo ngại của đối phương là hợp lý (Validation) không đồng nghĩa với việc chấp nhận từ bỏ quan điểm chuyên môn của mình (Agreement).",
+        "id": 42,
+        "examId": 2
+      },
+      {
+        "unit": "Meeting Necessity — Slide 20",
+        "question": "In which scenario is holding a synchronous group meeting UNNECESSARY?",
+        "options": [
+          "The team needs to pivot their entire project topic after failing the proposal defense",
+          "Engineering and Design disagree on core app features",
+          "One member needs to compile a list of 10 local NGOs from Google for tomorrow's discussion",
+          "The team is resolving a major conflict over unequal workload distribution"
+        ],
+        "correct_answer": "One member needs to compile a list of 10 local NGOs from Google for tomorrow's discussion",
+        "explanation": "Nhiệm vụ tra cứu thông tin cá nhân là công việc đơn lẻ, chỉ cần cập nhật qua chat/email, tổ chức cuộc họp trực tiếp là không cần thiết.",
+        "id": 43,
+        "examId": 2
+      },
+      {
+        "unit": "Meeting Minutes Bias — Slide 20",
+        "question": "What is the critical error in this meeting minute entry: \"Huy stubbornly wasted 15 minutes whining about the budget and rudely dismissed An's brilliant marketing idea\"?",
+        "options": [
+          "Missing the date and location",
+          "Introducing subjective editorial bias and emotional language",
+          "Over-using technical abbreviations",
+          "Following chronological order"
+        ],
+        "correct_answer": "Introducing subjective editorial bias and emotional language",
+        "explanation": "Biên bản cuộc họp phải duy trì tính khách quan 100%. Dùng các từ cảm tính như \"stubbornly\", \"whining\", \"brilliant\" là vi phạm nghiêm trọng lỗi editorial bias.",
+        "id": 44,
+        "examId": 2
+      },
+      {
+        "unit": "Communication Channels — Slide 7 & 8",
+        "question": "You need to send a formal, permanent record of a new warranty policy to an external corporate client. Which channel is most appropriate?",
+        "options": [
+          "An instant text message",
+          "An internal memorandum",
+          "A formal business letter",
+          "A casual verbal hallway chat"
+        ],
+        "correct_answer": "A formal business letter",
+        "explanation": "Memo chỉ lưu hành nội bộ (internal); đối với đối tác/khách hàng bên ngoài (external), văn bản trang trọng luôn là Business Letter.",
+        "id": 45,
+        "examId": 2
+      },
+      {
+        "unit": "Business Letter Formatting — Slide 8",
+        "question": "Which combination of salutation and complimentary close is correctly formatted for a formal business letter?",
+        "options": [
+          "Dear Ms. Tran, ... Sincerely:",
+          "Dear Ms. Tran: ... Sincerely,",
+          "To whom it may concern, ... Cheers!",
+          "Hi Ms. Tran: ... Best."
+        ],
+        "correct_answer": "Dear Ms. Tran: ... Sincerely,",
+        "explanation": "Trong thư thương mại chuẩn (Formal Business Letter): Sau lời chào dùng dấu hai chấm (:), sau lời kết dùng dấu phẩy (,).",
+        "id": 46,
+        "examId": 2
+      },
+      {
+        "unit": "Proposal Types — Slide 9 & 12",
+        "question": "A startup notices that FPT campuses have long cafeteria queues and proactively emails the campus director a 2-page proposal for a pre-order food app, even though no RFP was posted. This is an example of:",
+        "options": [
+          "A solicited proposal",
+          "An unsolicited proposal",
+          "A mid-project progress report",
+          "A descriptive abstract"
+        ],
+        "correct_answer": "An unsolicited proposal",
+        "explanation": "Gửi đề xuất chủ động khi khách hàng không đưa ra yêu cầu mời thầu (RFP) chính là Unsolicited proposal.",
+        "id": 47,
+        "examId": 2
+      },
+      {
+        "unit": "Proposal Structure — Slide 12",
+        "question": "When can a business proposal safely omit a detailed Marketing Plan?",
+        "options": [
+          "When launching a consumer mobile app that needs 10,000 student downloads",
+          "When bidding on a one-time contract to supply 500 office chairs to a single company",
+          "When proposing a community recycling campaign requiring public participation",
+          "When pitching a new subscription e-learning platform"
+        ],
+        "correct_answer": "When bidding on a one-time contract to supply 500 office chairs to a single company",
+        "explanation": "Hợp đồng đấu thầu giao hàng cố định cho 1 bên duy nhất (bidding on a gross lot of supplies) không đòi hỏi thu hút công chúng nên không cần Marketing Plan.",
+        "id": 48,
+        "examId": 2
+      },
+      {
+        "unit": "Concrete Language — Slide 34",
+        "question": "Changing \"We had a great increase in sales recently\" to \"Our Q3 software revenue grew by 18% compared to Q2\" applies which principle of written communication?",
+        "options": [
+          "Using colloquial idioms for warmth",
+          "Choosing concrete, specific terms over abstract, vague ones",
+          "Avoiding active voice",
+          "Relying on emotional pathos"
+        ],
+        "correct_answer": "Choosing concrete, specific terms over abstract, vague ones",
+        "explanation": "Thay thế các từ ngữ mơ hồ (great, recently) bằng dữ liệu định lượng cụ thể chính là nguyên tắc chọn concrete terms.",
+        "id": 49,
+        "examId": 2
+      },
+      {
+        "unit": "Writing Style Levels — Slide 34",
+        "question": "Which style level is characterized by regional expressions, slang, and everyday speech not suitable for formal reports?",
+        "options": [
+          "Formal",
+          "Informal",
+          "Casual",
+          "Colloquial"
+        ],
+        "correct_answer": "Colloquial",
+        "explanation": "Colloquial là cấp độ ngôn ngữ đời thường/tiếng lóng địa phương; phân biệt với Casual (thân mật giữa bạn bè) và Formal (chuẩn mực báo cáo).",
+        "id": 50,
+        "examId": 2
+      },
+      {
+        "unit": "Plagiarism & Paraphrasing — Slide 35 & 36",
+        "question": "A student reads a 150-word paragraph from a Harvard Business Review article, rewrites the entire idea in her own 145 words without copying any exact phrases, and includes it in her report without citing the source. What has she committed?",
+        "options": [
+          "Proper summarizing",
+          "Ethical paraphrasing",
+          "Plagiarism",
+          "Descriptive abstracting"
+        ],
+        "correct_answer": "Plagiarism",
+        "explanation": "Dù đã diễn đạt hoàn toàn bằng văn phong cá nhân (paraphrase), nếu không ghi rõ nguồn trích dẫn thì vẫn cấu thành hành vi Đạo văn (Plagiarism).",
+        "id": 51,
+        "examId": 2
+      },
+      {
+        "unit": "Revision vs. Editing — Slide 36",
+        "question": "Before submitting a group report, Minh checks whether the thesis is clear, the sections flow logically, and all counterarguments are addressed—leaving comma and spelling checks for later. What is Minh doing?",
+        "options": [
+          "Editing",
+          "Revision",
+          "Proofreading",
+          "Citation formatting"
+        ],
+        "correct_answer": "Revision",
+        "explanation": "Revision tập trung vào cấu trúc tổng thể, luận điểm và tính logic; còn Editing/Proofreading mới sửa chi tiết lỗi chính tả và dấu câu.",
+        "id": 52,
+        "examId": 2
+      },
+      {
+        "unit": "Abstract Types — Slide 40",
+        "question": "You read a report abstract that states the research topic, methodology, and key data collected, but intentionally leaves out the final conclusions and recommendations. What type of abstract is this?",
+        "options": [
+          "Informational abstract",
+          "Descriptive abstract",
+          "Executive proposal",
+          "Analytical memo"
+        ],
+        "correct_answer": "Descriptive abstract",
+        "explanation": "Descriptive abstract chỉ mô tả chủ đề/phương pháp mà không đưa ra kết luận; trái lại Informational abstract tóm tắt trọn vẹn cả kết quả và khuyến nghị.",
+        "id": 53,
+        "examId": 2
+      },
+      {
+        "unit": "Progress Report Pitfalls — Slide 38–39",
+        "question": "A team is two weeks behind schedule on their capstone project, but in their Mid-Project Progress Report they write: \"Everything is going smoothly and we anticipate zero issues,\" hoping to catch up secretly. Which common pitfall is this?",
+        "options": [
+          "Providing too much raw data without charts",
+          "Being overly optimistic and hiding problems from stakeholders",
+          "Using too many headings",
+          "Writing in the first person"
+        ],
+        "correct_answer": "Being overly optimistic and hiding problems from stakeholders",
+        "explanation": "Che giấu rủi ro và trễ tiến độ vì quá lạc quan là sai lầm nguy hiểm nhất khi thực hiện báo cáo tiến độ.",
+        "id": 54,
+        "examId": 2
+      },
+      {
+        "unit": "Evaluation Types — Slide 41–42",
+        "question": "At the end of the semester, after the community project has completely finished, the team analyzes survey scores to determine whether the project achieved its original objectives. Which type of evaluation is this?",
+        "options": [
+          "Pre-project (Ex-ante) evaluation",
+          "Formative evaluation",
+          "Summative evaluation",
+          "Process evaluation"
+        ],
+        "correct_answer": "Summative evaluation",
+        "explanation": "Đánh giá diễn ra sau khi kết thúc toàn bộ dự án để đo lường thành quả là Summative evaluation; còn đánh giá trong khi triển khai để điều chỉnh là Formative.",
+        "id": 55,
+        "examId": 2
+      },
+      {
+        "unit": "Aristotle's Appeals — Slide 30",
+        "question": "In a persuasive pitch, a presenter organizes her arguments in a clear cause-and-effect sequence backed by peer-reviewed statistics and ROI calculations. Which appeal is she primarily using?",
+        "options": [
+          "Pathos",
+          "Logos",
+          "Scarcity",
+          "Social penetration"
+        ],
+        "correct_answer": "Logos",
+        "explanation": "Dựa trên lập luận logic, bằng chứng nghiên cứu và số liệu định lượng ROI luôn luôn là Logos.",
+        "id": 56,
+        "examId": 2
+      },
+      {
+        "unit": "Maslow's Hierarchy — Slide 30",
+        "question": "A speaker tries to sell a luxury leadership retreat focused on \"self-actualization\" to factory workers who are currently worried about layoffs and paying rent. Why does the pitch fail?",
+        "options": [
+          "It lacks an elevator hook",
+          "Higher-level needs cannot motivate an audience whose basic safety and physiological needs are unmet",
+          "It violates the principle of reciprocity",
+          "It uses too many concrete terms"
+        ],
+        "correct_answer": "Higher-level needs cannot motivate an audience whose basic safety and physiological needs are unmet",
+        "explanation": "Tháp Maslow chỉ ra rằng người nghe sẽ không quan tâm đến nhu cầu bậc cao (khẳng định bản thân) nếu các nhu cầu thiết yếu căn bản (an toàn tài chính, việc làm) chưa được thỏa mãn.",
+        "id": 57,
+        "examId": 2
+      },
+      {
+        "unit": "Nonverbal Irreversibility — Slide 28",
+        "question": "During a Q&A session, a presenter rolls her eyes when a panelist asks a basic question, and then immediately apologizes. Why can't the presenter undo the negative impression?",
+        "options": [
+          "Because nonverbal communication is arbitrary",
+          "Because nonverbal communication is irreversible",
+          "Because artifacts are permanent",
+          "Because verbal words override facial expressions"
+        ],
+        "correct_answer": "Because nonverbal communication is irreversible",
+        "explanation": "Một trong những tính chất quan trọng của giao tiếp phi ngôn ngữ là Irreversible (không thể thu hồi lại được một khi đã phát ra).",
+        "id": 58,
+        "examId": 2
+      },
+      {
+        "unit": "Résumé Guidelines — Slide 45",
+        "question": "Which of the following items should be REMOVED from an entry-level graduate's résumé before applying to an international company?",
+        "options": [
+          "Bullet points starting with past-tense action verbs",
+          "Relevant university capstone projects",
+          "A headshot photo, marital status, abbreviations, and expected monthly salary",
+          "A professional email address using their real name"
+        ],
+        "correct_answer": "A headshot photo, marital status, abbreviations, and expected monthly salary",
+        "explanation": "Theo tiêu chuẩn quốc tế trong Slide 45, CV ứng tuyển nghiêm cấm chèn ảnh cá nhân, tình trạng hôn nhân/tuổi tác, từ viết tắt và mức lương kỳ vọng để chống phân biệt đối xử.",
+        "id": 59,
+        "examId": 2
+      },
+      {
+        "unit": "Cover Letter Strategy — Slide 46",
+        "question": "An applicant copies the exact work experience bullet points from her résumé into the middle paragraphs of her cover letter. Why will recruiters view this negatively?",
+        "options": [
+          "Because cover letters should never mention past experience",
+          "Because a cover letter should tell a deeper narrative connecting 2–3 key experiences (using STAR) to the specific role rather than repeating the résumé word-for-word",
+          "Because cover letters must be at least three pages long",
+          "Because STAR should only be used on the cover page of a proposal"
+        ],
+        "correct_answer": "Because a cover letter should tell a deeper narrative connecting 2–3 key experiences (using STAR) to the specific role rather than repeating the résumé word-for-word",
+        "explanation": "Cover letter không phải bản sao chép CV mà là câu chuyện kết nối 2–3 trải nghiệm nổi bật nhất (áp dụng mô hình STAR) phù hợp với vị trí tuyển dụng.",
+        "id": 60,
+        "examId": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Đề 3 · Ôn Tập Lý Thuyết & Thuật Ngữ",
+    "description": "30 câu kiểm tra chắc chắn kiến thức trọng tâm các chương 1–13.",
+    "questions": [
+      {
+        "unit": "Unit 1 - Team vs Group",
+        "question": "What primarily distinguishes a \"Team\" from a \"Group\" in organizational behavior?",
+        "options": [
+          "Members work independently toward individual goals and individual evaluation.",
+          "Members share complementary skills, a common goal, and mutual accountability.",
+          "A team always has at least 20 members working in different time zones.",
+          "A group requires a formal Team Charter while a team does not."
+        ],
+        "correct_answer": "Members share complementary skills, a common goal, and mutual accountability.",
+        "explanation": "Team là tập hợp các cá nhân có kỹ năng bổ trợ (complementary skills), cùng hướng tới mục tiêu chung và cùng chịu trách nhiệm (shared accountability).",
+        "id": 61,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 1 - Cohesiveness Drivers",
+        "question": "Which driver of group cohesiveness explains why smaller teams generally exhibit higher satisfaction?",
+        "options": [
+          "Size",
+          "Exclusiveness",
+          "Success",
+          "External Competition"
+        ],
+        "correct_answer": "Size",
+        "explanation": "Đáp án đúng: Size (Unit 1 - Cohesiveness Drivers).",
+        "id": 62,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 1 - Member Roles",
+        "question": "A team member constantly challenges other members' ideas aggressively, stalling decision- making. What role are they performing?",
+        "options": [
+          "Task-facilitating role",
+          "Relationship-building role",
+          "Blocking role",
+          "Executive role"
+        ],
+        "correct_answer": "Blocking role",
+        "explanation": "Đáp án đúng: Blocking role (Unit 1 - Member Roles).",
+        "id": 63,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 2 - Trust Equation",
+        "question": "In the Trust Equation T = (Credibility + Reliability + Intimacy) / Self-Orientation, what happens to trust when Self-Orientation increases?",
+        "options": [
+          "Trust increases proportionally.",
+          "Trust remains unchanged.",
+          "Trust decreases significantly because self-orientation is in the denominator.",
+          "Intimacy is eliminated completely."
+        ],
+        "correct_answer": "Trust decreases significantly because self-orientation is in the denominator.",
+        "explanation": "Đáp án đúng: Trust decreases significantly because self-orientation is in the denominator. (Unit 2 - Trust Equation).",
+        "id": 64,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 2 - Psychological Safety",
+        "question": "Which stage of Psychological Safety allows members to feel safe asking questions, experimenting, and making mistakes without fear of punishment?",
+        "options": [
+          "Inclusion safety",
+          "Learner safety",
+          "Contributor safety",
+          "Challenger safety"
+        ],
+        "correct_answer": "Learner safety",
+        "explanation": "Đáp án đúng: Learner safety (Unit 2 - Psychological Safety).",
+        "id": 65,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 3 - Business Email",
+        "question": "What is the recommended maximum number of paragraphs for a standard business email message?",
+        "options": [
+          "1 paragraph",
+          "3 paragraphs",
+          "5 paragraphs",
+          "10 paragraphs"
+        ],
+        "correct_answer": "3 paragraphs",
+        "explanation": "Đáp án đúng: 3 paragraphs (Unit 3 - Business Email).",
+        "id": 66,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 3 - Memos vs Letters",
+        "question": "When communicating written business information to an external client or partner, which format should be used?",
+        "options": [
+          "Internal Memorandum",
+          "Business Letter",
+          "Casual Text Message",
+          "Meeting Minutes"
+        ],
+        "correct_answer": "Business Letter",
+        "explanation": "Đáp án đúng: Business Letter (Unit 3 - Memos vs Letters).",
+        "id": 67,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 4 - Self-Managing Teams",
+        "question": "In a self-managing team structure, what is the primary role of the team leader?",
+        "options": [
+          "Micro-manage daily step-by-step tasks.",
+          "Define overall goals while allowing members to self-regulate daily operations.",
+          "Perform all technical tasks independently.",
+          "Make all operational decisions without consulting members."
+        ],
+        "correct_answer": "Define overall goals while allowing members to self-regulate daily operations.",
+        "explanation": "Đáp án đúng: Define overall goals while allowing members to self-regulate daily operations. (Unit 4 - Self-Managing Teams).",
+        "id": 68,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 4 - EQ & Communication",
+        "question": "Why are \"I\" statements preferred over \"You\" statements during emotionally tense team discussions?",
+        "options": [
+          "\"I\" statements sound more authoritative.",
+          "\"I\" statements reduce defensiveness by expressing personal perspective rather than attacking the listener.",
+          "\"You\" statements are illegal in professional environments.",
+          "\"I\" statements shift responsibility away from the speaker."
+        ],
+        "correct_answer": "\"I\" statements reduce defensiveness by expressing personal perspective rather than attacking the listener.",
+        "explanation": "Đáp án đúng: \"I\" statements reduce defensiveness by expressing personal perspective rather than attacking the listener. (Unit 4 - EQ & Communication).",
+        "id": 69,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 5 - Meeting Minutes",
+        "question": "What should be strictly avoided when writing official meeting minutes?",
+        "options": [
+          "Action items and assigned owners",
+          "Date, time, and attendee list",
+          "Subjective opinions and emotional comments about participants",
+          "Key decisions approved by the team"
+        ],
+        "correct_answer": "Subjective opinions and emotional comments about participants",
+        "explanation": "Đáp án đúng: Subjective opinions and emotional comments about participants (Unit 5 - Meeting Minutes).",
+        "id": 70,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 6 - Meeting Facilitation",
+        "question": "What is the best seating arrangement to foster open collaboration and equal interaction in face-to-face meetings?",
+        "options": [
+          "Classroom style facing a podium",
+          "Round table seating",
+          "Linear single-file seating along a hallway",
+          "Auditoriums with fixed seating"
+        ],
+        "correct_answer": "Round table seating",
+        "explanation": "Đáp án đúng: Round table seating (Unit 6 - Meeting Facilitation).",
+        "id": 71,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 7 - Problem Solving Steps",
+        "question": "What is the first step in the 7-step systematic problem-solving process?",
+        "options": [
+          "Generate solutions",
+          "Define the problem clearly",
+          "Select the best alternative",
+          "Evaluate results"
+        ],
+        "correct_answer": "Define the problem clearly",
+        "explanation": "Đáp án đúng: Define the problem clearly (Unit 7 - Problem Solving Steps).",
+        "id": 72,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 7 - Brainstorming Rules",
+        "question": "What rule is critical during the initial phase of effective brainstorming?",
+        "options": [
+          "Immediately criticize weak ideas.",
+          "Prioritize quantity of ideas and suspend judgment.",
+          "Allow only the leader to offer suggestions.",
+          "Require full financial estimates for every idea immediately."
+        ],
+        "correct_answer": "Prioritize quantity of ideas and suspend judgment.",
+        "explanation": "Đáp án đúng: Prioritize quantity of ideas and suspend judgment. (Unit 7 - Brainstorming Rules).",
+        "id": 73,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 8 - Aristotle's Pillars",
+        "question": "Which persuasive appeal focuses on establishing the speaker's credibility, character, and expertise?",
+        "options": [
+          "Pathos",
+          "Ethos",
+          "Logos",
+          "Chronos"
+        ],
+        "correct_answer": "Ethos",
+        "explanation": "Đáp án đúng: Ethos (Unit 8 - Aristotle's Pillars).",
+        "id": 74,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 8 - Presentation Slide Design",
+        "question": "When designing presentation slides, what is a recommended design guideline?",
+        "options": [
+          "Fill every slide with full paragraphs of text.",
+          "Use strong visual contrast and limit each slide to one core idea.",
+          "Include at least 5 different font styles per slide.",
+          "Avoid using bullet points altogether."
+        ],
+        "correct_answer": "Use strong visual contrast and limit each slide to one core idea.",
+        "explanation": "Đáp án đúng: Use strong visual contrast and limit each slide to one core idea. (Unit 8 - Presentation Slide Design).",
+        "id": 75,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 9 - Elevator Speech Duration",
+        "question": "What is the standard ideal duration of a professional elevator speech?",
+        "options": [
+          "5–10 seconds",
+          "30–60 seconds",
+          "5–10 minutes",
+          "15–20 minutes"
+        ],
+        "correct_answer": "30–60 seconds",
+        "explanation": "Đáp án đúng: 30–60 seconds (Unit 9 - Elevator Speech Duration).",
+        "id": 76,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 10 - Business Style",
+        "question": "Which phrase represents concrete, specific business writing?",
+        "options": [
+          "\"Sales improved significantly recently.\"",
+          "\"Q3 revenue grew by 14.5% compared to Q2.\"",
+          "\"Things are going well with our stuff.\"",
+          "\"We will complete tasks as soon as possible.\""
+        ],
+        "correct_answer": "\"Q3 revenue grew by 14.5% compared to Q2.\"",
+        "explanation": "Đáp án đúng: \"Q3 revenue grew by 14.5% compared to Q2.\" (Unit 10 - Business Style).",
+        "id": 77,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 11 - Citation Requirements",
+        "question": "When paraphrasing information from a secondary academic source into your business report, what must you do?",
+        "options": [
+          "No citation is needed since the words were changed.",
+          "Include a proper in-text citation and reference entry.",
+          "Change only one word per sentence to avoid citing.",
+          "Put the entire paraphrased section in quotation marks without citation."
+        ],
+        "correct_answer": "Include a proper in-text citation and reference entry.",
+        "explanation": "Đáp án đúng: Include a proper in-text citation and reference entry. (Unit 11 - Citation Requirements).",
+        "id": 78,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 12 - Unsolicited Proposals",
+        "question": "Unlike solicited proposals, an unsolicited proposal requires the writer to:",
+        "options": [
+          "Follow exact RFP formatting instructions provided by the client.",
+          "Create a strong persuasive hook to convince the audience that a problem even exists.",
+          "Omit financial cost estimates.",
+          "Submit directly to regulatory authorities only."
+        ],
+        "correct_answer": "Create a strong persuasive hook to convince the audience that a problem even exists.",
+        "explanation": "Đáp án đúng: Create a strong persuasive hook to convince the audience that a problem even exists. (Unit 12 - Unsolicited Proposals).",
+        "id": 79,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 13 - Résumé Formatting",
+        "question": "What is the standard organizational format for listing work experience on a modern résumé?",
+        "options": [
+          "Alphabetical order by company name",
+          "Reverse chronological order (most recent first)",
+          "Random order based on personal preference",
+          "Order of lowest salary to highest salary"
+        ],
+        "correct_answer": "Reverse chronological order (most recent first)",
+        "explanation": "Đáp án đúng: Reverse chronological order (most recent first) (Unit 13 - Résumé Formatting).",
+        "id": 80,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 13 - Résumé Forbidden Content",
+        "question": "Which item MUST be excluded from a standard professional business résumé?",
+        "options": [
+          "Academic degrees and honors",
+          "Personal details such as age, marital status, and photos",
+          "Relevant technical competencies",
+          "Contact phone number and email"
+        ],
+        "correct_answer": "Personal details such as age, marital status, and photos",
+        "explanation": "Đáp án đúng: Personal details such as age, marital status, and photos (Unit 13 - Résumé Forbidden Content).",
+        "id": 81,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 1 - Relationship Building Roles",
+        "question": "What can happen if a team relies excessively on relationship-building roles while ignoring task roles?",
+        "options": [
+          "Decisions are made too quickly.",
+          "Harmony is prioritized at the expense of task progress and deadlines.",
+          "Blocking behaviors increase rapidly.",
+          "Psychological safety collapses instantly."
+        ],
+        "correct_answer": "Harmony is prioritized at the expense of task progress and deadlines.",
+        "explanation": "Đáp án đúng: Harmony is prioritized at the expense of task progress and deadlines. (Unit 1 - Relationship Building Roles).",
+        "id": 82,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 2 - Team Charter",
+        "question": "Which component is essential to include when developing a Team Charter?",
+        "options": [
+          "Individual personal hobbies",
+          "Shared team goals, member roles, communication channels, and ground rules",
+          "Detailed 10-year career forecasts",
+          "Personal financial income histories"
+        ],
+        "correct_answer": "Shared team goals, member roles, communication channels, and ground rules",
+        "explanation": "Đáp án đúng: Shared team goals, member roles, communication channels, and ground rules (Unit 2 - Team Charter).",
+        "id": 83,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 3 - Business Email Netiquette",
+        "question": "Why is writing an entire business email in CAPITAL LETTERS considered poor netiquette?",
+        "options": [
+          "It uses too much internet bandwidth.",
+          "It is equivalent to shouting and makes text hard to read.",
+          "It automatically triggers spam filters in all clients.",
+          "It deletes recipient attachments automatically."
+        ],
+        "correct_answer": "It is equivalent to shouting and makes text hard to read.",
+        "explanation": "Đáp án đúng: It is equivalent to shouting and makes text hard to read. (Unit 3 - Business Email Netiquette).",
+        "id": 84,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 4 - Low Emotional Intelligence",
+        "question": "What is a common organizational symptom of low Emotional Intelligence (EQ) within a team?",
+        "options": [
+          "Increased trust and rapid consensus",
+          "Frequent interpersonal friction, missed deadlines, and disengagement",
+          "High innovation rates",
+          "Improved psychological safety"
+        ],
+        "correct_answer": "Frequent interpersonal friction, missed deadlines, and disengagement",
+        "explanation": "Đáp án đúng: Frequent interpersonal friction, missed deadlines, and disengagement (Unit 4 - Low Emotional Intelligence).",
+        "id": 85,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 5 - Meeting Efficiency",
+        "question": "To prevent unnecessary meetings, what should a manager do first before sending an invitation?",
+        "options": [
+          "Invite every employee in the firm.",
+          "Determine if the objective can be resolved via email or a quick memo instead.",
+          "Schedule a minimum 2-hour block.",
+          "Omit the agenda to keep meetings spontaneous."
+        ],
+        "correct_answer": "Determine if the objective can be resolved via email or a quick memo instead.",
+        "explanation": "Đáp án đúng: Determine if the objective can be resolved via email or a quick memo instead. (Unit 5 - Meeting Efficiency).",
+        "id": 86,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 7 - Empathy in Conflict",
+        "question": "Tactical reflection during a tense discussion involves:",
+        "options": [
+          "Agreeing blindly with every point the other person makes.",
+          "Mirroring back the speaker's emotional state and key points to show understanding.",
+          "Interrupting the speaker to correct factual errors immediately.",
+          "Staying silent and walking out of the room."
+        ],
+        "correct_answer": "Mirroring back the speaker's emotional state and key points to show understanding.",
+        "explanation": "Đáp án đúng: Mirroring back the speaker's emotional state and key points to show understanding. (Unit 7 - Empathy in Conflict).",
+        "id": 87,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 8 - Logos in Persuasion",
+        "question": "Which element represents the use of \"Logos\" in a persuasive proposal?",
+        "options": [
+          "Emotional personal anecdotes",
+          "Well-structured logical arguments supported by verified statistics and facts",
+          "Highlighting the author's executive title",
+          "Appealing to moral sympathy"
+        ],
+        "correct_answer": "Well-structured logical arguments supported by verified statistics and facts",
+        "explanation": "Đáp án đúng: Well-structured logical arguments supported by verified statistics and facts (Unit 8 - Logos in Persuasion).",
+        "id": 88,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 12 - Informational Reports",
+        "question": "What is the main objective of an informational business report?",
+        "options": [
+          "To analyze market options and recommend mergers",
+          "To present data and factual updates without providing recommendations",
+          "To persuade investors to fund a venture",
+          "To resolve interpersonal team disputes"
+        ],
+        "correct_answer": "To present data and factual updates without providing recommendations",
+        "explanation": "Đáp án đúng: To present data and factual updates without providing recommendations (Unit 12 - Informational Reports).",
+        "id": 89,
+        "examId": 3
+      },
+      {
+        "unit": "Unit 13 - Internship Value",
+        "question": "How does completing an internship primarily benefit a student's career path?",
+        "options": [
+          "It guarantees immediate executive placement.",
+          "It provides real-world experience, helps build professional networks, and clarifies career fit.",
+          "It replaces the need for a university diploma.",
+          "It eliminates all workplace stress."
+        ],
+        "correct_answer": "It provides real-world experience, helps build professional networks, and clarifies career fit.",
+        "explanation": "Đáp án đúng: It provides real-world experience, helps build professional networks, and clarifies career fit. (Unit 13 - Internship Value).",
+        "id": 90,
+        "examId": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Đề 4 · Tổng Hợp Toàn Chương Trình",
+    "description": "30 câu luyện tập bao phủ toàn bộ 54 slide môn SSG105.",
+    "questions": [
+      {
+        "unit": "Unit 1 - Group Cohesiveness",
+        "question": "When a team faces intense competition from external rival firms, what usually happens to internal cohesion?",
+        "options": [
+          "Internal cohesion decreases.",
+          "Internal cohesion increases as members unite against the common challenge.",
+          "Interdependence disappears.",
+          "Task roles change into blocking roles."
+        ],
+        "correct_answer": "Internal cohesion increases as members unite against the common challenge.",
+        "explanation": "Đáp án đúng: Internal cohesion increases as members unite against the common challenge. (Unit 1 - Group Cohesiveness).",
+        "id": 91,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 2 - Challenger Safety",
+        "question": "What defines \"Challenger Safety\" in a team environment?",
+        "options": [
+          "Freedom to ask basic questions without feeling foolish.",
+          "Confidence to question existing methods and suggest innovative alternatives without fear of retaliation.",
+          "Willingness to perform assigned tasks without debate.",
+          "Being accepted into the group socially."
+        ],
+        "correct_answer": "Confidence to question existing methods and suggest innovative alternatives without fear of retaliation.",
+        "explanation": "Đáp án đúng: Confidence to question existing methods and suggest innovative alternatives without fear of retaliation. (Unit 2 - Challenger Safety).",
+        "id": 92,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 3 - Business Memo Header",
+        "question": "Which standard four fields make up the header block of a formal business memorandum?",
+        "options": [
+          "Dear, Body, Summary, Sincerely",
+          "TO, FROM, DATE, SUBJECT",
+          "Title, Abstract, Index, Footnote",
+          "Greeting, Introduction, Pitch, Signature"
+        ],
+        "correct_answer": "TO, FROM, DATE, SUBJECT",
+        "explanation": "Đáp án đúng: TO, FROM, DATE, SUBJECT (Unit 3 - Business Memo Header).",
+        "id": 93,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 4 - Maslow's Hierarchy",
+        "question": "According to Maslow's Hierarchy applied to management, before an employee can be motivated by recognition (esteem), what needs must be satisfied first?",
+        "options": [
+          "Self-actualization needs only",
+          "Basic physiological, safety, and social belonging needs",
+          "Executive bonus expectations",
+          "Advanced leadership training"
+        ],
+        "correct_answer": "Basic physiological, safety, and social belonging needs",
+        "explanation": "Đáp án đúng: Basic physiological, safety, and social belonging needs (Unit 4 - Maslow's Hierarchy).",
+        "id": 94,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 7 - Conflict Management",
+        "question": "What is the primary objective of active listening during a team conflict?",
+        "options": [
+          "Formulate a counterargument while the other person speaks.",
+          "Fully understand the speaker's perspective and feelings before responding.",
+          "Pretend to agree to end the meeting early.",
+          "Find grammatical flaws in the speaker's words."
+        ],
+        "correct_answer": "Fully understand the speaker's perspective and feelings before responding.",
+        "explanation": "Đáp án đúng: Fully understand the speaker's perspective and feelings before responding. (Unit 7 - Conflict Management).",
+        "id": 95,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 8 - Nonverbal Cues",
+        "question": "Crossed arms, avoiding eye contact, and leaning away during a proposal pitch generally communicate:",
+        "options": [
+          "High enthusiasm and agreement",
+          "Defensive or disengaged attitude",
+          "Deep agreement and trust",
+          "Executive authority"
+        ],
+        "correct_answer": "Defensive or disengaged attitude",
+        "explanation": "Đáp án đúng: Defensive or disengaged attitude (Unit 8 - Nonverbal Cues).",
+        "id": 96,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 9 - Persuasive Appeals: Pathos",
+        "question": "Using emotional storytelling to connect with an audience's personal values taps into which rhetorical element?",
+        "options": [
+          "Ethos",
+          "Logos",
+          "Pathos",
+          "Kairos"
+        ],
+        "correct_answer": "Pathos",
+        "explanation": "Đáp án đúng: Pathos (Unit 9 - Persuasive Appeals: Pathos).",
+        "id": 97,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 10 - Tone in Writing",
+        "question": "Which tone is appropriate for a formal corporate audit report?",
+        "options": [
+          "Casual and humorous",
+          "Objective, precise, and professional",
+          "Highly emotional and dramatic",
+          "Slang-filled and conversational"
+        ],
+        "correct_answer": "Objective, precise, and professional",
+        "explanation": "Đáp án đúng: Objective, precise, and professional (Unit 10 - Tone in Writing).",
+        "id": 98,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 12 - Summary vs Paraphrase",
+        "question": "What is the key difference between a summary and a paraphrase?",
+        "options": [
+          "Summaries are longer than original texts.",
+          "A paraphrase rewrites ideas at roughly original length, while a summary significantly condenses key points.",
+          "Paraphrases do not require citations.",
+          "Summaries use exact direct quotes only."
+        ],
+        "correct_answer": "A paraphrase rewrites ideas at roughly original length, while a summary significantly condenses key points.",
+        "explanation": "Đáp án đúng: A paraphrase rewrites ideas at roughly original length, while a summary significantly condenses key points. (Unit 12 - Summary vs Paraphrase).",
+        "id": 99,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 13 - Career Readiness",
+        "question": "What skill set do top recruiters repeatedly report as most lacking in recent college graduates?",
+        "options": [
+          "Rote memorization",
+          "Oral/written communication and teamwork skills",
+          "Test-taking speed",
+          "Theoretical vocabulary knowledge"
+        ],
+        "correct_answer": "Oral/written communication and teamwork skills",
+        "explanation": "Đáp án đúng: Oral/written communication and teamwork skills (Unit 13 - Career Readiness).",
+        "id": 100,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 1 - Interdependence",
+        "question": "Team members relying on each other's work to complete a project is called:",
+        "options": [
+          "Social loafing",
+          "Interdependence",
+          "Groupthink",
+          "Blocking"
+        ],
+        "correct_answer": "Interdependence",
+        "explanation": "Đáp án đúng: Interdependence (Unit 1 - Interdependence).",
+        "id": 101,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 2 - Inclusion Safety",
+        "question": "Inclusion safety means:",
+        "options": [
+          "Members feel safe asking questions.",
+          "Members feel accepted and belong to the team.",
+          "Members challenge ideas.",
+          "Members lead meetings."
+        ],
+        "correct_answer": "Members feel accepted and belong to the team.",
+        "explanation": "Đáp án đúng: Members feel accepted and belong to the team. (Unit 2 - Inclusion Safety).",
+        "id": 102,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 3 - Solicited RFP",
+        "question": "An RFP stands for:",
+        "options": [
+          "Request for Proposal",
+          "Report for Performance",
+          "Review for Project",
+          "Request for Payment"
+        ],
+        "correct_answer": "Request for Proposal",
+        "explanation": "Đáp án đúng: Request for Proposal (Unit 3 - Solicited RFP).",
+        "id": 103,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 4 - EQ Self-Awareness",
+        "question": "Understanding your own emotions and triggers is part of:",
+        "options": [
+          "Social skills",
+          "Self-awareness",
+          "Empathy",
+          "Self-regulation"
+        ],
+        "correct_answer": "Self-awareness",
+        "explanation": "Đáp án đúng: Self-awareness (Unit 4 - EQ Self-Awareness).",
+        "id": 104,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 5 - Meeting Agenda",
+        "question": "A meeting agenda should be distributed:",
+        "options": [
+          "During the meeting",
+          "In advance of the meeting",
+          "After the meeting",
+          "Only if requested"
+        ],
+        "correct_answer": "In advance of the meeting",
+        "explanation": "Đáp án đúng: In advance of the meeting (Unit 5 - Meeting Agenda).",
+        "id": 105,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 6 - Digital Communication",
+        "question": "Complex emotional sensitive discussions should avoid using:",
+        "options": [
+          "Face-to-face meetings",
+          "Text messaging / Chat",
+          "Video conferences",
+          "In-person retreats"
+        ],
+        "correct_answer": "Text messaging / Chat",
+        "explanation": "Đáp án đúng: Text messaging / Chat (Unit 6 - Digital Communication).",
+        "id": 106,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 7 - Root Cause Analysis",
+        "question": "Finding the fundamental reason behind a problem is identifying the:",
+        "options": [
+          "Symptom",
+          "Root cause",
+          "Alternative",
+          "Criteria"
+        ],
+        "correct_answer": "Root cause",
+        "explanation": "Đáp án đúng: Root cause (Unit 7 - Root Cause Analysis).",
+        "id": 107,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 8 - Visual Contrast",
+        "question": "High visual contrast in slide design means:",
+        "options": [
+          "Light gray text on white background",
+          "Dark text on light background or vice versa",
+          "Yellow text on light green background",
+          "Mixing 10 colors together"
+        ],
+        "correct_answer": "Dark text on light background or vice versa",
+        "explanation": "Đáp án đúng: Dark text on light background or vice versa (Unit 8 - Visual Contrast).",
+        "id": 108,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 9 - Attention Hook",
+        "question": "The first component of a 60-second elevator speech is:",
+        "options": [
+          "Action request",
+          "Attention statement / hook",
+          "Detailed background",
+          "Salary expectation"
+        ],
+        "correct_answer": "Attention statement / hook",
+        "explanation": "Đáp án đúng: Attention statement / hook (Unit 9 - Attention Hook).",
+        "id": 109,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 10 - Active Voice",
+        "question": "Which sentence uses active voice effectively?",
+        "options": [
+          "The report was written by the team.",
+          "The team wrote the report.",
+          "Mistakes were made by us.",
+          "Directives were issued."
+        ],
+        "correct_answer": "The team wrote the report.",
+        "explanation": "Đáp án đúng: The team wrote the report. (Unit 10 - Active Voice).",
+        "id": 110,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 11 - Research Credibility",
+        "question": "Which source is generally most credible for business research?",
+        "options": [
+          "Anonymous personal blog",
+          "Peer-reviewed journal / official industry report",
+          "Unverified social media post",
+          "Forum comment thread"
+        ],
+        "correct_answer": "Peer-reviewed journal / official industry report",
+        "explanation": "Đáp án đúng: Peer-reviewed journal / official industry report (Unit 11 - Research Credibility).",
+        "id": 111,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 12 - Executive Summary",
+        "question": "An Executive Summary in a long report is placed:",
+        "options": [
+          "At the very end after appendices",
+          "At the beginning of the report",
+          "In the middle body paragraph",
+          "Only on a website link"
+        ],
+        "correct_answer": "At the beginning of the report",
+        "explanation": "Đáp án đúng: At the beginning of the report (Unit 12 - Executive Summary).",
+        "id": 112,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 13 - Action Verbs on Resume",
+        "question": "Resume accomplishment statements should begin with:",
+        "options": [
+          "Weak passive phrases (\"I was responsible for...\")",
+          "Strong action verbs (\"Engineered\", \"Managed\", \"Increased\")",
+          "Personal pronouns (\"I think I did...\")",
+          "Complex legal terms"
+        ],
+        "correct_answer": "Strong action verbs (\"Engineered\", \"Managed\", \"Increased\")",
+        "explanation": "Đáp án đúng: Strong action verbs (\"Engineered\", \"Managed\", \"Increased\") (Unit 13 - Action Verbs on Resume).",
+        "id": 113,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 1 - Social Loafing",
+        "question": "\"Social loafing\" refers to:",
+        "options": [
+          "Working extra hours in a group",
+          "Exerting less effort when working in a group than individually",
+          "Leading a meeting smoothly",
+          "Helping teammates voluntarily"
+        ],
+        "correct_answer": "Exerting less effort when working in a group than individually",
+        "explanation": "Đáp án đúng: Exerting less effort when working in a group than individually (Unit 1 - Social Loafing).",
+        "id": 114,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 2 - Credibility Element",
+        "question": "In the Trust Equation, Credibility relates to:",
+        "options": [
+          "How reliable your actions are over time",
+          "Your expertise, reputation, and truthfulness",
+          "How safe people feel sharing secrets",
+          "How selfish you appear"
+        ],
+        "correct_answer": "Your expertise, reputation, and truthfulness",
+        "explanation": "Đáp án đúng: Your expertise, reputation, and truthfulness (Unit 2 - Credibility Element).",
+        "id": 115,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 4 - Leadership Mindset Shift",
+        "question": "Shifting to a leadership mindset means moving focus from:",
+        "options": [
+          "People to tasks only",
+          "Individual technical execution to enabling others and managing relationships",
+          "Long-term goals to immediate panic",
+          "Self-reflection to blame"
+        ],
+        "correct_answer": "Individual technical execution to enabling others and managing relationships",
+        "explanation": "Đáp án đúng: Individual technical execution to enabling others and managing relationships (Unit 4 - Leadership Mindset Shift).",
+        "id": 116,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 7 - Constructive Criticism",
+        "question": "When offering constructive feedback, focus on:",
+        "options": [
+          "The person's permanent personality traits",
+          "Specific observable behaviors and future solutions",
+          "Personal insults",
+          "Past mistakes from years ago"
+        ],
+        "correct_answer": "Specific observable behaviors and future solutions",
+        "explanation": "Đáp án đúng: Specific observable behaviors and future solutions (Unit 7 - Constructive Criticism).",
+        "id": 117,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 8 - Speaker Posture",
+        "question": "Standing upright with open gestures during a talk projects:",
+        "options": [
+          "Arrogance and hostility",
+          "Confidence and open authority",
+          "Extreme nervousness",
+          "Boredom"
+        ],
+        "correct_answer": "Confidence and open authority",
+        "explanation": "Đáp án đúng: Confidence and open authority (Unit 8 - Speaker Posture).",
+        "id": 118,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 10 - Jargon Usage",
+        "question": "Using excessive internal company jargon with external clients leads to:",
+        "options": [
+          "Instant clarity",
+          "Confusion and miscommunication",
+          "High sales automatically",
+          "Legal security"
+        ],
+        "correct_answer": "Confusion and miscommunication",
+        "explanation": "Đáp án đúng: Confusion and miscommunication (Unit 10 - Jargon Usage).",
+        "id": 119,
+        "examId": 4
+      },
+      {
+        "unit": "Unit 13 - Job vs Career",
+        "question": "A \"Career\" is best described as:",
+        "options": [
+          "A short-term task to earn immediate cash",
+          "A long-term professional journey of growth and skill building",
+          "A temporary summer gig",
+          "An entry-level task only"
+        ],
+        "correct_answer": "A long-term professional journey of growth and skill building",
+        "explanation": "Đáp án đúng: A long-term professional journey of growth and skill building (Unit 13 - Job vs Career).",
+        "id": 120,
+        "examId": 4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Đề 5 · Giao Tiếp, Thuyết Phục & Nghề Nghiệp",
+    "description": "30 câu chuyên sâu về Team Roles, Business Writing, EQ, Proposals và Résumé.",
+    "questions": [
+      {
+        "unit": "Unit 1 - Groupthink",
+        "question": "When does \"Groupthink\" typically occur in a team?",
+        "options": [
+          "Members prioritize consensus over critical evaluation.",
+          "Members encourage diverse opinions and constructive debate.",
+          "A team uses quantitative data to evaluate alternatives.",
+          "The leader delegates operational tasks to sub-teams."
+        ],
+        "correct_answer": "Members prioritize consensus over critical evaluation.",
+        "explanation": "Groupthink xảy ra khi các thành viên ưu tiên sự đồng thuận bề mặt hơn việc đánh giá phản biện.",
+        "id": 121,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 2 - Trust Equation",
+        "question": "In the Trust Equation, what does \"Reliability\" refer to?",
+        "options": [
+          "Possessing technical credentials and university degrees.",
+          "Focusing purely on one's own personal goals.",
+          "Sharing personal hobbies with coworkers.",
+          "Keeping promises and delivering consistent quality over time."
+        ],
+        "correct_answer": "Keeping promises and delivering consistent quality over time.",
+        "explanation": "Reliability là giữ lời hứa và duy trì chất lượng công việc ổn định theo thời gian.",
+        "id": 122,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 2 - Psychological Safety",
+        "question": "What does \"Contributor Safety\" allow team members to do?",
+        "options": [
+          "Avoid doing assigned work without consequences.",
+          "Work completely isolated from the rest of the team.",
+          "Apply their skills to make meaningful contributions safely.",
+          "Challenge the CEO publicly without preparation."
+        ],
+        "correct_answer": "Apply their skills to make meaningful contributions safely.",
+        "explanation": "Contributor Safety là giai đoạn thành viên tự tin đóng góp kỹ năng và ý tưởng cá nhân.",
+        "id": 123,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 3 - Business Email",
+        "question": "Within what timeframe should professional business emails ideally be answered?",
+        "options": [
+          "Within 10 business days.",
+          "Within 24 hours during business days.",
+          "Within 5 minutes regardless of the hour.",
+          "Once a week on Friday afternoons."
+        ],
+        "correct_answer": "Within 24 hours during business days.",
+        "explanation": "Email công việc chuẩn mực nên được phản hồi trong vòng 24 giờ trong ngày làm việc.",
+        "id": 124,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 3 - Business Letter",
+        "question": "What is included in a standard business letter signature block?",
+        "options": [
+          "Writer's typed name, title, and handwritten signature.",
+          "Writer's age, photo, and marital status.",
+          "Only the recipient's mailing address.",
+          "A casual emoji and personal phone number."
+        ],
+        "correct_answer": "Writer's typed name, title, and handwritten signature.",
+        "explanation": "Phần chữ ký (signature block) của Business Letter gồm tên đánh máy, chức danh và chữ ký tay.",
+        "id": 125,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 4 - Virtual Leadership",
+        "question": "What does virtual leadership rely on most heavily to succeed?",
+        "options": [
+          "Monitoring employees' webcams continuously.",
+          "Holding mandatory 3-hour daily meetings.",
+          "Requiring face-to-face lunches every week.",
+          "Clear communication, trust, and clear outcome metrics."
+        ],
+        "correct_answer": "Clear communication, trust, and clear outcome metrics.",
+        "explanation": "Lãnh đạo từ xa (Virtual Leadership) chuyển trọng tâm từ sự hiện diện sang kết quả (outcomes), niềm tin và giao tiếp rõ ràng.",
+        "id": 126,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 4 - EQ in Management",
+        "question": "How do managers with low Emotional Intelligence (EQ) typically react to constructive feedback?",
+        "options": [
+          "By asking clarifying open-ended questions.",
+          "By separating validation from agreement.",
+          "By becoming defensive or blaming others.",
+          "By listening actively and thanking the speaker."
+        ],
+        "correct_answer": "By becoming defensive or blaming others.",
+        "explanation": "Người có EQ thấp thường phản ứng phòng thủ (defensive) hoặc đổ lỗi khi nhận góp ý.",
+        "id": 127,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 5 - Meeting Agendas",
+        "question": "What essential elements must a well-prepared meeting agenda include?",
+        "options": [
+          "Private salary details of all team members.",
+          "Purpose, topics, time allocations, and responsible owners.",
+          "Personal opinions about attendees' past mistakes.",
+          "Full verbatim transcripts of previous meetings."
+        ],
+        "correct_answer": "Purpose, topics, time allocations, and responsible owners.",
+        "explanation": "Agenda cuộc họp cần nêu rõ mục đích, nội dung, thời lượng phân bổ và người phụ trách.",
+        "id": 128,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 7 - Brainstorming",
+        "question": "What is the #1 rule during the idea generation phase of brainstorming?",
+        "options": [
+          "Defer judgment and welcome wild ideas.",
+          "Critique every flawed idea immediately.",
+          "Allow only the team leader to propose solutions.",
+          "Vote on the very first idea suggested."
+        ],
+        "correct_answer": "Defer judgment and welcome wild ideas.",
+        "explanation": "Quy tắc số 1 của Brainstorming là tạm hoãn phán xét (suspend/defer judgment) và khuyến khích số lượng ý tưởng.",
+        "id": 129,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 8 - Aristotle's Pillars",
+        "question": "In persuasive speaking, what does \"Ethos\" refer to?",
+        "options": [
+          "Emotional storytelling that evokes sympathy.",
+          "Statistical charts and cause-effect logic.",
+          "Speaking rapidly to fit more words in.",
+          "Speaker credibility, character, and trustworthiness."
+        ],
+        "correct_answer": "Speaker credibility, character, and trustworthiness.",
+        "explanation": "Ethos là uy tín, nhân cách và độ tin cậy của người nói.",
+        "id": 130,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 8 - Slide Design",
+        "question": "Which practice directly improves presentation slide readability?",
+        "options": [
+          "Using five or more decorative font families.",
+          "Using light yellow text on a white background.",
+          "Using a minimum 24pt body font and strong color contrast.",
+          "Putting full paragraphs of text on every slide."
+        ],
+        "correct_answer": "Using a minimum 24pt body font and strong color contrast.",
+        "explanation": "Slide thuyết trình dễ đọc khi cỡ chữ tối thiểu 24pt và độ tương phản màu sắc cao.",
+        "id": 131,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 9 - Elevator Speech",
+        "question": "What is the standard length of an effective elevator speech?",
+        "options": [
+          "30 minutes with a full slide deck.",
+          "30 to 60 seconds (~100 words).",
+          "10 to 15 minutes (~1500 words).",
+          "3 to 5 seconds (1 sentence)."
+        ],
+        "correct_answer": "30 to 60 seconds (~100 words).",
+        "explanation": "Elevator Speech chuẩn kéo dài 30–60 giây (khoảng 100 từ) và gồm 5 phần.",
+        "id": 132,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 10 - Abstract Language",
+        "question": "Which sentence is an example of overly abstract business wording?",
+        "options": [
+          "\"We will enhance operational parameters.\"",
+          "\"We will cut server reboot time by 3 minutes.\"",
+          "\"Our Q3 revenue increased by 18%.\"",
+          "\"We hired 4 backend engineers in October.\""
+        ],
+        "correct_answer": "\"We will enhance operational parameters.\"",
+        "explanation": "\"Enhance operational parameters\" là cách diễn đạt trừu tượng, mơ hồ thay vì nêu con số cụ thể.",
+        "id": 133,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 10 - Concrete Language",
+        "question": "Which sentence best demonstrates concrete, specific business writing?",
+        "options": [
+          "\"We will make our tech stuff much better soon.\"",
+          "\"Our team is working really hard on quality.\"",
+          "\"Performance improved significantly recently.\"",
+          "\"We will cut server reboot time by 3 minutes.\""
+        ],
+        "correct_answer": "\"We will cut server reboot time by 3 minutes.\"",
+        "explanation": "Ngôn ngữ cụ thể (Concrete) sử dụng số liệu, thời gian hoặc hành động đo lường được.",
+        "id": 134,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 11 - Paraphrasing",
+        "question": "What is strictly required when paraphrasing a source in a report?",
+        "options": [
+          "Omitting the citation because the words changed.",
+          "Shortening a 10-page paper to 2 sentences without credit.",
+          "Restating the original idea in your own words with proper citation.",
+          "Keeping the exact wording without quotation marks."
+        ],
+        "correct_answer": "Restating the original idea in your own words with proper citation.",
+        "explanation": "Paraphrase là diễn đạt lại bằng ngôn từ của mình với độ dài tương đương và BẮT BUỘC phải trích dẫn nguồn.",
+        "id": 135,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 12 - Analytical Reports",
+        "question": "What distinguishes an analytical report from an informational report?",
+        "options": [
+          "Being written solely as an informal chat message.",
+          "Data analysis, conclusions, and actionable recommendations.",
+          "Presenting raw unanalyzed tables only.",
+          "Omitting headings and executive summaries."
+        ],
+        "correct_answer": "Data analysis, conclusions, and actionable recommendations.",
+        "explanation": "Analytical Report phân tích dữ liệu để đưa ra kết luận và khuyến nghị hành động.",
+        "id": 136,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 12 - Organizational Patterns",
+        "question": "What does a \"Compare-contrast\" report layout do?",
+        "options": [
+          "Evaluates similarities and differences between two or more options.",
+          "Lists events strictly in the order they occurred over time.",
+          "Explains the history of the company since its founding.",
+          "Summarizes only one side of an argument without alternatives."
+        ],
+        "correct_answer": "Evaluates similarities and differences between two or more options.",
+        "explanation": "Mẫu Compare-contrast dùng để so sánh điểm giống và khác nhau giữa các phương án.",
+        "id": 137,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 12 - Informational Reports",
+        "question": "Which document is a classic example of an informational report?",
+        "options": [
+          "A strategic recommendation on whether to merge two firms.",
+          "A persuasive pitch requesting investor funding.",
+          "A root-cause failure analysis with policy changes.",
+          "A monthly sales status update table."
+        ],
+        "correct_answer": "A monthly sales status update table.",
+        "explanation": "Báo cáo thông tin (Informational Report) chỉ trình bày dữ liệu/tình hình thực tế mà không đưa ra khuyến nghị.",
+        "id": 138,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 3 - Solicited Proposal",
+        "question": "What triggers a \"Solicited Proposal\"?",
+        "options": [
+          "An internal team conflict over meeting times.",
+          "A casual conversation in a hallway.",
+          "An official Request for Proposal (RFP) from a client.",
+          "A seller sending an unrequested pitch like a cold call."
+        ],
+        "correct_answer": "An official Request for Proposal (RFP) from a client.",
+        "explanation": "Solicited Proposal được viết để đáp lại lời mời thầu / yêu cầu chính thức (RFP) từ khách hàng.",
+        "id": 139,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 3 - Unsolicited Proposal",
+        "question": "What triggers an \"Unsolicited Proposal\"?",
+        "options": [
+          "A signed warranty contract.",
+          "A proactive pitch sent without a prior client request.",
+          "A formal government RFP announcement.",
+          "A mandatory quarterly audit checklist."
+        ],
+        "correct_answer": "A proactive pitch sent without a prior client request.",
+        "explanation": "Unsolicited Proposal là đề xuất chủ động gửi đi khi khách hàng chưa đưa ra yêu cầu mời thầu.",
+        "id": 140,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 13 - Résumé Length",
+        "question": "What is the recommended length for a standard professional résumé?",
+        "options": [
+          "1 to 2 pages maximum.",
+          "5 to 7 pages with full transcripts.",
+          "Half a page without contact details.",
+          "At least 4 pages for recent graduates."
+        ],
+        "correct_answer": "1 to 2 pages maximum.",
+        "explanation": "Độ dài tiêu chuẩn của một bản Résumé chuyên nghiệp là 1–2 trang.",
+        "id": 141,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 13 - Résumé Standards",
+        "question": "Why should headshot photos be excluded from standard international business résumés?",
+        "options": [
+          "Because printers cannot print images.",
+          "Because photos make files smaller than 1KB.",
+          "Because companies do not hire people with photos.",
+          "To prevent unconscious bias and discrimination."
+        ],
+        "correct_answer": "To prevent unconscious bias and discrimination.",
+        "explanation": "Tiêu chuẩn Résumé quốc tế cấm chèn ảnh chân dung, tuổi tác, tình trạng hôn nhân để tránh thiên kiến/phân biệt đối xử.",
+        "id": 142,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 1 - Task-Facilitating Roles",
+        "question": "Which behavior exemplifies a task-facilitating role in a team?",
+        "options": [
+          "Focusing exclusively on jokes to avoid work.",
+          "Refusing to share necessary project files.",
+          "Summarizing progress and asking clarifying questions.",
+          "Dismissing teammates' ideas without rationale."
+        ],
+        "correct_answer": "Summarizing progress and asking clarifying questions.",
+        "explanation": "Vai trò thúc đẩy công việc (Task-facilitating) gồm tổng hợp tiến độ, cung cấp/hỏi thông tin để nhóm hoàn thành mục tiêu.",
+        "id": 143,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 1 - Blocking Roles",
+        "question": "Which behavior exemplifies a blocking role in a team?",
+        "options": [
+          "Asking open-ended coaching questions.",
+          "Interrupting, rejecting ideas without rationale, and nitpicking.",
+          "Mediating conflicts calmly between members.",
+          "Tracking action items and upcoming deadlines."
+        ],
+        "correct_answer": "Interrupting, rejecting ideas without rationale, and nitpicking.",
+        "explanation": "Blocking roles cản trở tiến độ và phá vỡ sự đồng thuận bằng cách ngắt lời, bác bỏ vô lý hoặc soi mói.",
+        "id": 144,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 2 - Class Team Projects",
+        "question": "What is considered the primary goal of university classroom team projects?",
+        "options": [
+          "Developing real-world teamwork skills and the learning experience.",
+          "Producing a commercial product to sell immediately.",
+          "Letting one student do all the work for a fast grade.",
+          "Avoiding communication with classmates."
+        ],
+        "correct_answer": "Developing real-world teamwork skills and the learning experience.",
+        "explanation": "Ở các dự án nhóm đại học, trải nghiệm học tập và rèn kỹ năng làm việc nhóm quan trọng hơn sản phẩm cuối cùng.",
+        "id": 145,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 7 - Active Listening",
+        "question": "Which action is a core element of active listening?",
+        "options": [
+          "Preparing your rebuttal while the speaker is talking.",
+          "Checking your phone while nodding mechanically.",
+          "Interrupting to change the subject immediately.",
+          "Paraphrasing the speaker's points to verify understanding."
+        ],
+        "correct_answer": "Paraphrasing the speaker's points to verify understanding.",
+        "explanation": "Active listening đòi hỏi lắng nghe trọn vẹn và diễn đạt lại ý người nói để xác nhận đã hiểu đúng.",
+        "id": 146,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 4 - \"I\" Statements",
+        "question": "Which structure correctly represents an \"I\" statement in conflict resolution?",
+        "options": [
+          "\"Everyone thinks you are being lazy.\"",
+          "\"Why can't you ever listen properly?\"",
+          "\"I feel [emotion] when [behavior] because [impact].\"",
+          "\"You always ruin our team deadlines.\""
+        ],
+        "correct_answer": "\"I feel [emotion] when [behavior] because [impact].\"",
+        "explanation": "Câu cấu trúc \"I\" nêu cảm xúc, hành vi cụ thể và tác động khách quan mà không công kích cá nhân.",
+        "id": 147,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 4 - Maslow's Hierarchy",
+        "question": "Which needs form the most basic foundation of Maslow's Hierarchy?",
+        "options": [
+          "Leadership coaching and autonomy.",
+          "Physiological needs (food, shelter, basic pay).",
+          "Self-actualization and creative fulfillment.",
+          "Public recognition and prestigious awards."
+        ],
+        "correct_answer": "Physiological needs (food, shelter, basic pay).",
+        "explanation": "Tầng thấp nhất của tháp Maslow là nhu cầu sinh lý/cơ bản (Physiological needs).",
+        "id": 148,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 8 - Nonverbal Communication",
+        "question": "What does sustained, natural eye contact during a presentation convey?",
+        "options": [
+          "Honesty, confidence, and audience engagement.",
+          "Hostility and lack of preparation.",
+          "Deception and anxiety.",
+          "Disinterest in the topic."
+        ],
+        "correct_answer": "Honesty, confidence, and audience engagement.",
+        "explanation": "Giao tiếp bằng mắt tự nhiên thể hiện sự tự tin, trung thực và kết nối với khán giả.",
+        "id": 149,
+        "examId": 5
+      },
+      {
+        "unit": "Unit 13 - Career Exploration",
+        "question": "What is the key benefit of career exploration and internships for students?",
+        "options": [
+          "Guaranteeing an immediate CEO position upon graduation.",
+          "Replacing the need for soft skills entirely.",
+          "Eliminating all future workplace challenges.",
+          "Helping identify personal strengths, values, and eliminating poor career fits."
+        ],
+        "correct_answer": "Helping identify personal strengths, values, and eliminating poor career fits.",
+        "explanation": "Khám phá nghề nghiệp và thực tập giúp nhận diện thế mạnh và loại bỏ những công việc không phù hợp.",
+        "id": 150,
+        "examId": 5
+      }
+    ]
+  }
+]

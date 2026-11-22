@@ -1,5 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
-import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesCombined, Settings, Menu, X, BookText, RotateCcw, House, Languages } from 'lucide-react';
+import { BookOpen, LayoutDashboard, Mic, GraduationCap, Layers3, ChartNoAxesCombined, Settings, Menu, X, BookText, RotateCcw, House, Languages, Award } from 'lucide-react';
 import { loadProgress, KEY, markLearned as addLearned, recordEvent } from './services/progress';
 import Landing from './pages/Landing';
 import Auth from './pages/Auth';
@@ -15,13 +15,14 @@ const Reading = lazy(() => import('./pages/Reading'));
 const Speaking = lazy(() => import('./pages/Speaking'));
 const SpeakingExam = lazy(() => import('./pages/SpeakingExam'));
 const Practice = lazy(() => import('./pages/Practice'));
+const SsgExam = lazy(() => import('./pages/SsgExam'));
 const Progress = lazy(() => import('./pages/Progress'));
 const SettingsPage = lazy(() => import('./pages/Settings'));
 const LegacyApp = lazy(() => import('./LegacyApp'));
 
 const nav = [
   ['/', 'Tổng quan', LayoutDashboard], ['/lessons', 'Bài học', BookOpen], ['/vocabulary', 'Từ vựng', Layers3],
-  ['/grammar', 'Ngữ pháp', BookText], ['/reading', 'Đọc hiểu', BookOpen], ['/speaking-exam', 'Đề mẫu Speaking', Mic], ['/practice', 'Luyện FE', GraduationCap],
+  ['/grammar', 'Ngữ pháp', BookText], ['/reading', 'Đọc hiểu', BookOpen], ['/speaking-exam', 'Đề mẫu Speaking', Mic], ['/practice', 'Luyện FE', GraduationCap], ['/ssg', 'FE SSG105', Award],
   ['/mistakes', 'Ôn câu sai', RotateCcw], ['/progress', 'Tiến độ', ChartNoAxesCombined], ['/settings', 'Cài đặt', Settings], ['/landing', 'Giới thiệu', House]
 ];
 const urlFor = path => path === '/landing' ? '/nihongo' : path === '/' ? '/nihongo/dashboard' : `/nihongo${path}`;
@@ -93,6 +94,7 @@ export default function App() {
         {route === '/speaking' && <Speaking progress={progress} record={record} markLearned={markLearned} />}
         {route === '/speaking-exam' && <SpeakingExam progress={progress} record={record} markLearned={markLearned} />}
         {['/practice', '/mock', '/mistakes'].includes(baseRoute) && <Practice key={route} mode={baseRoute.slice(1)} initialLesson={new URLSearchParams(route.split('?')[1] || '').get('lesson') || 'all'} progress={progress} update={update} record={record} markLearned={markLearned} go={go} userId={user?.id || 'guest'} />}
+        {baseRoute === '/ssg' && <SsgExam />}
         {route === '/progress' && <Progress progress={progress} go={go} user={user} />}
         {route === '/settings' && <SettingsPage progress={progress} update={update} user={user} />}
         {route === '/legacy' && <LegacyApp />}

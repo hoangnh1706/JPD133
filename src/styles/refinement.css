@@ -123,6 +123,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   color: var(--text, #1e293b);
   margin-bottom: 24px;
   letter-spacing: 0.02em;
+  white-space: pre-line;
 }
 .eos-options {
   display: flex;
@@ -187,4 +188,37 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   align-items: center;
   gap: 8px;
 }
+
+/* Speaking audio-first Q&A boxes */
+.speaking-qa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 14px;
+}
+.speaking-qa-box {
+  padding: 16px 18px;
+  border: 1px solid var(--border, #e8e1df);
+  border-radius: 12px;
+  background: var(--bg, #faf9f6);
+}
+.speaking-qa-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.speaking-q-reveal {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border, #e8e1df);
+}
+.speaking-q-reveal h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 4px;
+}
+
 

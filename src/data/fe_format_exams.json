@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 20001,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: のどが （　）ね。\nB: じゃ、あの喫茶店に入（はい）りましょう。",
+    "options": [
+      "かわきました",
+      "すきました",
+      "すいました",
+      "かわりました"
+    ],
+    "correct_answer": "かわきました",
+    "explanation": "のどが かわきました：khát nước quá nhỉ (nên vào quán nước)."
+  },
+  {
+    "id": 20002,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "（　）の信号（しんごう）を 右に 曲（ま）がってください。",
+    "options": [
+      "二匹（にひき）",
+      "一つ",
+      "二つ",
+      "二つ目（め）"
+    ],
+    "correct_answer": "二つ目（め）",
+    "explanation": "Số đếm + 目（め）+ の + N：chỉ thứ tự (đèn tín hiệu thứ hai)."
+  },
+  {
+    "id": 20003,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "私は 姉に （　）をあげます。",
+    "options": [
+      "バレンタインデー",
+      "ネックレス",
+      "クリスマス",
+      "メール"
+    ],
+    "correct_answer": "ネックレス",
+    "explanation": "ネックレス (dây chuyền) là món quà phù hợp để tặng chị gái."
+  },
+  {
+    "id": 20004,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "いつ 大学（　）卒業（そつぎょう）しますか。",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "と"
+    ],
+    "correct_answer": "を",
+    "explanation": "Tốt nghiệp trường nào dùng trợ từ を：大学を卒業します."
+  },
+  {
+    "id": 20005,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "ここに 荷物（にもつ）を （　）いいですか。",
+    "options": [
+      "およいで",
+      "おきて",
+      "おきても",
+      "おいても"
+    ],
+    "correct_answer": "おいても",
+    "explanation": "置く（おく：đặt）chia thể て + もいいですか：おいても いいですか (Tôi đặt hành lý ở đây được không?)."
+  },
+  {
+    "id": 20006,
+    "lesson": 11,
+    "category": "Kanji",
+    "question": "「ひるやすみ」は 何時から 何時までですか。",
+    "options": [
+      "昼体",
+      "昼休",
+      "昼休み",
+      "昼体み"
+    ],
+    "correct_answer": "昼休み",
+    "explanation": "昼休み（ひるやすみ）：giờ nghỉ trưa."
+  },
+  {
+    "id": 20007,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "テレビで （　）の試合（しあい）を 見ました。",
+    "options": [
+      "パンフレット",
+      "オリンピック",
+      "エアコン",
+      "ニュース"
+    ],
+    "correct_answer": "オリンピック",
+    "explanation": "オリンピックの試合：trận đấu Olympic."
+  },
+  {
+    "id": 20008,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "駅から 3番（ばん）（　）バス（　）乗（の）って、美術館前（びじゅつかんまえ）（　）降（お）りてください。",
+    "options": [
+      "の・に・で",
+      "×・に・で",
+      "×・に・を",
+      "の・に・を"
+    ],
+    "correct_answer": "の・に・で",
+    "explanation": "Số hiệu + の + N (3番のバス), バスに乗る (lên xe buýt), địa điểm + で + 降りる (xuống xe ở đâu)."
+  },
+  {
+    "id": 20009,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "（　）テレビを見ません。",
+    "options": [
+      "ぜんぜん",
+      "ときどき",
+      "いつも",
+      "よく"
+    ],
+    "correct_answer": "ぜんぜん",
+    "explanation": "ぜんぜん + động từ phủ định：hoàn toàn không xem TV."
+  },
+  {
+    "id": 20010,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "「兄弟」が 何人（なんにん）いますか。",
+    "options": [
+      "かぞく",
+      "きょうだい",
+      "こうちょう",
+      "しまい"
+    ],
+    "correct_answer": "きょうだい",
+    "explanation": "兄弟（きょうだい）：anh chị em."
+  },
+  {
+    "id": 20011,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私は 日本語（　）電話（でんわ）（　）かけること（　）できません。",
+    "options": [
+      "に・で・を",
+      "に・と・×",
+      "の・を・が",
+      "で・を・が"
+    ],
+    "correct_answer": "で・を・が",
+    "explanation": "日本語で (bằng tiếng Nhật) + 電話をかける (gọi điện) + Vることができません (không thể làm gì)."
+  },
+  {
+    "id": 20012,
+    "lesson": 11,
+    "category": "Kanji",
+    "question": "「ちょうしょく」は 何ですか。",
+    "options": [
+      "朝食",
+      "朝飲",
+      "潮飲",
+      "潮食"
+    ],
+    "correct_answer": "朝食",
+    "explanation": "朝食（ちょうしょく）：bữa ăn sáng."
+  },
+  {
+    "id": 20013,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "妹は 「高校」で 勉強（べんきょう）していますか。",
+    "options": [
+      "ここ",
+      "ここう",
+      "こうこう",
+      "ごうごう"
+    ],
+    "correct_answer": "こうこう",
+    "explanation": "高校（こうこう）：trường trung học phổ thông (cấp 3)."
+  },
+  {
+    "id": 20014,
+    "lesson": 10,
+    "category": "Kanji",
+    "question": "東京大学の 「図書館」は あそこです。",
+    "options": [
+      "としょかん",
+      "びじゅつかん",
+      "かいしゃいん",
+      "えいがかん"
+    ],
+    "correct_answer": "としょかん",
+    "explanation": "図書館（としょかん）：thư viện."
+  },
+  {
+    "id": 20015,
+    "lesson": 10,
+    "category": "Kanji",
+    "question": "「道」が 分からない時、どうしますか。",
+    "options": [
+      "うち",
+      "うえ",
+      "みち",
+      "くち"
+    ],
+    "correct_answer": "みち",
+    "explanation": "道（みち）：con đường."
+  },
+  {
+    "id": 20016,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "パクさんは あたまが （　）、きれいなひとですね。",
+    "options": [
+      "よくて",
+      "いくて",
+      "いいで",
+      "よいで"
+    ],
+    "correct_answer": "よくて",
+    "explanation": "いい chia sang thể て là よくて (thông minh và xinh đẹp)."
+  },
+  {
+    "id": 20017,
+    "lesson": 11,
+    "category": "Kanji",
+    "question": "明日（あした）の 「朝」、何をしますか。",
+    "options": [
+      "ひる",
+      "あさ",
+      "ばん",
+      "よる"
+    ],
+    "correct_answer": "あさ",
+    "explanation": "朝（あさ）：buổi sáng."
+  },
+  {
+    "id": 20018,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "いぬ（　）好きです（　）、猫（ねこ）（　）好きじゃありません。",
+    "options": [
+      "は・が・は",
+      "は・から・は",
+      "が・が・が",
+      "が・から・が"
+    ],
+    "correct_answer": "は・が・は",
+    "explanation": "Dùng は...が...は để nhấn mạnh sự đối lập: chó thì thích nhưng mèo thì không."
+  },
+  {
+    "id": 20019,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "西川（にしかわ）さんは （　）、イタリア語を 勉強（べんきょう）しています。",
+    "options": [
+      "学生で",
+      "先生の",
+      "先生",
+      "学生の"
+    ],
+    "correct_answer": "学生で",
+    "explanation": "N + で + Vế 2：giới thiệu nghề nghiệp (là sinh viên) rồi bổ sung thông tin."
+  },
+  {
+    "id": 20020,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "ハノイは （　）、きれいな町（まち）です。",
+    "options": [
+      "ゆうめい",
+      "にぎやかで",
+      "にぎやかな",
+      "ゆうめくて"
+    ],
+    "correct_answer": "にぎやかで",
+    "explanation": "Tính từ đuôi な nối tính từ đứng sau dùng ～で：にぎやかで."
+  },
+  {
+    "id": 20021,
+    "lesson": 11,
+    "category": "Từ vựng & Hội thoại",
+    "question": "（　）の生活（せいかつ）は どうですか。",
+    "options": [
+      "一人暮（ひとりぐ）らし",
+      "日記（にっき）",
+      "店長（てんちょう）",
+      "作文（さくぶん）"
+    ],
+    "correct_answer": "一人暮（ひとりぐ）らし",
+    "explanation": "一人暮らし（ひとりぐらし）：cuộc sống một mình / sống độc thân."
+  },
+  {
+    "id": 20022,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私の趣味（しゅみ）は テニスです。（　）、最近（さいきん）、しません。",
+    "options": [
+      "そして",
+      "それから",
+      "とくに",
+      "でも"
+    ],
+    "correct_answer": "でも",
+    "explanation": "でも (nhưng mà)：nối hai câu mang ý nghĩa tương phản."
+  },
+  {
+    "id": 20023,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: どうやって 飛行機（ひこうき）のチケットを 予約（よやく）しますか。\nB: （　）。",
+    "options": [
+      "電話（でんわ）に参加（さんか）します",
+      "住所（じゅうしょ）を見（み）せます",
+      "インターネットで予約（よやく）します",
+      "バスを降（お）ります"
+    ],
+    "correct_answer": "インターネットで予約（よやく）します",
+    "explanation": "Hỏi đặt vé bằng cách nào -> Trả lời đặt qua Internet (インターネットで予約します)."
+  },
+  {
+    "id": 20024,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私は 新宿（しんじゅく）に （　）。",
+    "options": [
+      "すっています",
+      "すんでいます",
+      "すいています",
+      "すみています"
+    ],
+    "correct_answer": "すんでいます",
+    "explanation": "住む（すむ：sống）chia thể ています là 住んでいます（すんでいます）."
+  },
+  {
+    "id": 20025,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "私は （　）が できます。",
+    "options": [
+      "クラブ",
+      "車（くるま）の運転（うんてん）",
+      "コンテスト",
+      "住所（じゅうしょ）"
+    ],
+    "correct_answer": "車（くるま）の運転（うんてん）",
+    "explanation": "車の運転ができます：có thể lái xe ô tô."
+  },
+  {
+    "id": 20026,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "まだ 薬（くすり）を （　）。",
+    "options": [
+      "飲んでいません",
+      "飲みました",
+      "飲む",
+      "飲みます"
+    ],
+    "correct_answer": "飲んでいません",
+    "explanation": "まだ + Vていません：vẫn chưa làm gì (vẫn chưa uống thuốc)."
+  },
+  {
+    "id": 20027,
+    "lesson": 10,
+    "category": "Kanji",
+    "question": "「じょうげ」という 漢字（かんじ）を 書いてください。",
+    "options": [
+      "乗車",
+      "上下",
+      "上京",
+      "下上"
+    ],
+    "correct_answer": "上下",
+    "explanation": "上下（じょうげ）：trên dưới."
+  },
+  {
+    "id": 20028,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "私の趣味（しゅみ）は 「音楽」です。",
+    "options": [
+      "りょうり",
+      "おんがく",
+      "りょこう",
+      "すいえい"
+    ],
+    "correct_answer": "おんがく",
+    "explanation": "音楽（おんがく）：âm nhạc."
+  },
+  {
+    "id": 20029,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "マルコさんは サッカーが じょうずで、（　）です。",
+    "options": [
+      "きれい",
+      "かっこいい",
+      "きれくて",
+      "かっこよくて"
+    ],
+    "correct_answer": "かっこいい",
+    "explanation": "Đứng cuối câu trước です dùng dạng nguyên thể：かっこいいです."
+  },
+  {
+    "id": 20030,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "（　）図書館で 勉強しています。",
+    "options": [
+      "たいてい",
+      "だんだん",
+      "そろそろ",
+      "それから"
+    ],
+    "correct_answer": "たいてい",
+    "explanation": "たいてい：thường xuyên (thông thường)."
+  },
+  {
+    "id": 20031,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "子供（こども）が いますから、たばこを （　）ください。",
+    "options": [
+      "吸（す）って",
+      "買って",
+      "吸（す）わないで",
+      "とって"
+    ],
+    "correct_answer": "吸（す）わないで",
+    "explanation": "Vないでください：xin đừng làm gì (vì có trẻ em nên xin đừng hút thuốc)."
+  },
+  {
+    "id": 20032,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "モモは （　）、白（しろ）いうさぎです。",
+    "options": [
+      "ちゃいろいで",
+      "きれくて",
+      "まじめな",
+      "耳（みみ）が長（なが）くて"
+    ],
+    "correct_answer": "耳（みみ）が長（なが）くて",
+    "explanation": "Momo là chú thỏ tai dài và lông trắng (Nが + Aくて)."
+  },
+  {
+    "id": 20033,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "おなかが （　）ですから、何も食べたくないです。",
+    "options": [
+      "いたい",
+      "たいせつ",
+      "くらい",
+      "めいわく"
+    ],
+    "correct_answer": "いたい",
+    "explanation": "おなかが いたいですから：vì đau bụng nên không muốn ăn gì."
+  },
+  {
+    "id": 20034,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "兄は 目（め）が （　）、髪（かみ）が 短いです。",
+    "options": [
+      "おおきくて",
+      "きれくて",
+      "しろくて",
+      "ひろくて"
+    ],
+    "correct_answer": "おおきくて",
+    "explanation": "目が大きくて：mắt to (và tóc ngắn)."
+  },
+  {
+    "id": 20035,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "ダニエルさんは （　）で、病院（びょういん）で 働（はたら）いています。",
+    "options": [
+      "高校生（こうこうせい）",
+      "いしゃ",
+      "学生",
+      "大学生"
+    ],
+    "correct_answer": "いしゃ",
+    "explanation": "Làm việc ở bệnh viện là bác sĩ (いしゃ)."
+  },
+  {
+    "id": 20036,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "1か月に 2回（かい）、料理教室（りょうりきょうしつ）に （　）います。",
+    "options": [
+      "さがして",
+      "ひいて",
+      "かよって",
+      "つくって"
+    ],
+    "correct_answer": "かよって",
+    "explanation": "通う（かよう）：đi lại định kỳ (tới lớp học nấu ăn 2 lần/tháng)."
+  },
+  {
+    "id": 20037,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "「たのしい」パーティーを 作（つく）りましょう。",
+    "options": [
+      "薬しい",
+      "楽しい",
+      "楽い",
+      "薬い"
+    ],
+    "correct_answer": "楽しい",
+    "explanation": "楽しい（たのしい）：vui vẻ."
+  },
+  {
+    "id": 20038,
+    "lesson": 8,
+    "category": "Đọc hiểu",
+    "question": "【Đọc đoạn văn】「大阪、神戸、京都、奈良は大きい町です。ビルや車や人が（ ① ）、にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。」\n\n1. Tìm từ phù hợp điền vào vị trí ①:",
+    "options": [
+      "少（すく）ないで",
+      "多（おお）くて",
+      "多（おお）いで",
+      "少（すく）なくて"
+    ],
+    "correct_answer": "多（おお）くて",
+    "explanation": "多い（おおい：nhiều/đông）chia thể て là 多くて."
+  },
+  {
+    "id": 20039,
+    "lesson": 8,
+    "category": "Đọc hiểu",
+    "question": "【Đọc đoạn văn】「大阪、神戸、京都、奈良は大きい町です。ビルや車や人が多くて、にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。」\n\n2. どうして京都（きょうと）と奈良（なら）は外国人（がいこくじん）がたくさん遊（あそ）びに来ますか。",
+    "options": [
+      "町（まち）の後（うし）ろに山（やま）が、前（まえ）に海（うみ）がありますから",
+      "ビルや車（くるま）や人がたくさんありますから",
+      "古（ふる）いお寺（てら）や神社（じんじゃ）がたくさんありますから",
+      "京都（きょうと）と奈良（なら）は大阪（おおさか）から近（ちか）いですから"
+    ],
+    "correct_answer": "古（ふる）いお寺（てら）や神社（じんじゃ）がたくさんありますから",
+    "explanation": "Trong bài viết rõ: vì Kyoto và Nara có rất nhiều chùa cổ và đền thần (古いお寺や神社がたくさんありますから)."
+  },
+  {
+    "id": 20040,
+    "lesson": 8,
+    "category": "Đọc hiểu",
+    "question": "【Đọc đoạn văn】「大阪、神戸、京都、奈良は大きい町です。ビルや車や人が多くて、にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。」\n\n3. 若（わか）い人はどこが好きですか。",
+    "options": [
+      "大阪（おおさか）",
+      "奈良（なら）",
+      "神戸（こうべ）",
+      "京都（きょうと）"
+    ],
+    "correct_answer": "神戸（こうべ）",
+    "explanation": "Câu cuối đoạn văn: 若い人は神戸が好きです (Người trẻ thích Kobe)."
+  },
+  {
+    "id": 20041,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "「おねえさん」は 会社員（かいしゃいん）ですか。",
+    "options": [
+      "お姉さん",
+      "お父さん",
+      "お弟さん",
+      "お兄さん"
+    ],
+    "correct_answer": "お姉さん",
+    "explanation": "お姉さん（おねえさん）：chị gái."
+  },
+  {
+    "id": 20042,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "「ぼこくご」の 漢字（かんじ）は 何ですか。",
+    "options": [
+      "母国語",
+      "母国後",
+      "母語国",
+      "毎国語"
+    ],
+    "correct_answer": "母国語",
+    "explanation": "母国語（ぼこくご）：tiếng mẹ đẻ."
+  },
+  {
+    "id": 20043,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "山田（やまだ）さんは 「歌う」ことが できますか。",
+    "options": [
+      "つかう",
+      "もらう",
+      "さそう",
+      "うたう"
+    ],
+    "correct_answer": "うたう",
+    "explanation": "歌う（うたう）：hát."
+  },
+  {
+    "id": 20044,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "「たび」の 漢字（かんじ）は 何ですか。",
+    "options": [
+      "音",
+      "族",
+      "旅",
+      "車"
+    ],
+    "correct_answer": "旅",
+    "explanation": "旅（たび）：chuyến đi, du lịch."
+  },
+  {
+    "id": 20045,
+    "lesson": 10,
+    "category": "Kanji",
+    "question": "交差点（こうさてん）を 「みぎ」に 曲（ま）がってください。",
+    "options": [
+      "右",
+      "左",
+      "石",
+      "佐"
+    ],
+    "correct_answer": "右",
+    "explanation": "右（みぎ）：bên phải."
+  },
+  {
+    "id": 20046,
+    "lesson": 10,
+    "category": "Kanji",
+    "question": "「ちか」一階（いっかい）は どちらですか。",
+    "options": [
+      "地図",
+      "地下",
+      "土地",
+      "地球"
+    ],
+    "correct_answer": "地下",
+    "explanation": "地下（ちか）：tầng hầm, dưới lòng đất."
+  },
+  {
+    "id": 20047,
+    "lesson": 11,
+    "category": "Kanji",
+    "question": "7時ですよ。はやく 「起きて」ください。",
+    "options": [
+      "さきて",
+      "かきて",
+      "おきて",
+      "いきて"
+    ],
+    "correct_answer": "おきて",
+    "explanation": "起きて（おきて）：thức dậy."
+  },
+  {
+    "id": 20048,
+    "lesson": 8,
+    "category": "Đọc hiểu",
+    "question": "私は ルームメイトと 四人で 住（す）んでいます。\n質問（しつもん）：ルームメイトは 何人 いますか？",
+    "options": [
+      "四人",
+      "三人",
+      "二人",
+      "一人"
+    ],
+    "correct_answer": "三人",
+    "explanation": "Tôi cùng bạn ở chung phòng tổng cộng là 4 người -> trừ bản thân ra thì có 3 người bạn cùng phòng."
+  },
+  {
+    "id": 20049,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "先週、マルコさんが 靴下（くつした）を （　）。",
+    "options": [
+      "くれました",
+      "くれませんか",
+      "もらいませんか",
+      "もらいました"
+    ],
+    "correct_answer": "くれました",
+    "explanation": "N1 が + Vật を + くれました：ai đó tặng cho mình."
+  },
+  {
+    "id": 20050,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "猫（ねこ）が 二匹（にひき）（　）。",
+    "options": [
+      "います",
+      "あります",
+      "すんでいます",
+      "はたらきます"
+    ],
+    "correct_answer": "います",
+    "explanation": "Động vật, người dùng います；đồ vật dùng あります."
+  },
+  {
+    "id": 20051,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "ワンさんは 顔（かお）が （　）です。",
+    "options": [
+      "小さい",
+      "高い",
+      "げんき",
+      "まじめ"
+    ],
+    "correct_answer": "げんき",
+    "explanation": "顔が元気（げんき）です：gương mặt tươi tắn, khỏe khoắn."
+  },
+  {
+    "id": 20052,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "私は 両親（りょうしん）に （　）します。",
+    "options": [
+      "誕生日（たんじょうび）カード",
+      "会話",
+      "電話（でんわ）",
+      "クリスマスカード"
+    ],
+    "correct_answer": "電話（でんわ）",
+    "explanation": "両親に電話します：gọi điện thoại cho bố mẹ."
+  },
+  {
+    "id": 20053,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "西川（にしかわ）さんは 二十二才です。西川（にしかわ）さんの （　）は 高校生（こうこうせい）です。",
+    "options": [
+      "妹",
+      "妹さん",
+      "姉",
+      "お姉さん"
+    ],
+    "correct_answer": "妹",
+    "explanation": "Khi nhắc tên người (西川さんの...) thì không thêm さん vào phía sau từ chỉ quan hệ gia đình."
+  },
+  {
+    "id": 20054,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: Bさんは （　）住（す）んでいますか。\nB: 私は 兄（　）住（す）んでいます。",
+    "options": [
+      "だれと・と",
+      "どこに・に",
+      "だれと・に",
+      "どこに・と"
+    ],
+    "correct_answer": "だれと・と",
+    "explanation": "Sống cùng ai: だれと住んでいますか -> 兄と住んでいます."
+  },
+  {
+    "id": 20055,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私は ギターを （　）が できません。",
+    "options": [
+      "いいます",
+      "いうこと",
+      "ひくこと",
+      "ひきます"
+    ],
+    "correct_answer": "ひくこと",
+    "explanation": "ギターを弾く（ひく） + ことができません：không thể chơi đàn guitar."
+  },
+  {
+    "id": 20056,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私は あまり料理を （　）。",
+    "options": [
+      "つくっています",
+      "つくります",
+      "つくることです",
+      "つくりません"
+    ],
+    "correct_answer": "つくりません",
+    "explanation": "あまり + động từ phủ định：tôi không hay nấu ăn lắm."
+  },
+  {
+    "id": 20057,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "1週間 （　）2回（かい）、プール（　）およぎます。",
+    "options": [
+      "×・の",
+      "×・に",
+      "に・に",
+      "に・で"
+    ],
+    "correct_answer": "に・で",
+    "explanation": "Khoảng thời gian + に + số lần (1週間に2回); Địa điểm thực hiện hành động + で (プールで)."
+  },
+  {
+    "id": 20058,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "あの子（こ）は （　）なりましたね。",
+    "options": [
+      "きれい",
+      "きれいな",
+      "きれいに",
+      "きれくて"
+    ],
+    "correct_answer": "きれいに",
+    "explanation": "Tính từ な + に なります：きれいになりましたね."
+  },
+  {
+    "id": 20059,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "交差点（こうさてん）（　）右（　）曲（ま）がってください。",
+    "options": [
+      "に・へ",
+      "に・を",
+      "へ・に",
+      "を・に"
+    ],
+    "correct_answer": "を・に",
+    "explanation": "Địa điểm + を + 曲がる; Hướng phải/trái + に + 曲がる."
+  },
+  {
+    "id": 20060,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "水の音 （　）（　）。",
+    "options": [
+      "を・聞こえます",
+      "が・聞こえます",
+      "を・見えます",
+      "が・見えます"
+    ],
+    "correct_answer": "が・聞こえます",
+    "explanation": "Âm thanh dùng trợ từ が + 聞こえます (nghe thấy tiếng nước)."
+  },
+  {
+    "id": 20061,
+    "lesson": 10,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "来年、（　）なります。",
+    "options": [
+      "観覧車（かんらんしゃ）に",
+      "会社（かいしゃ）に",
+      "銀行（ぎんこう）に",
+      "教師（きょうし）に"
+    ],
+    "correct_answer": "教師（きょうし）に",
+    "explanation": "Danh từ nghề nghiệp + になります：trở thành giáo viên."
+  },
+  {
+    "id": 20062,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: ご飯（はん）、（　）？\nB: うん、食べた。",
+    "options": [
+      "食べる",
+      "食べた",
+      "飲む",
+      "飲んだ"
+    ],
+    "correct_answer": "食べた",
+    "explanation": "Câu trả lời chia quá khứ (食べた) nên câu hỏi cũng dùng quá khứ thông thường 食べた？"
+  },
+  {
+    "id": 20063,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: 昨日（きのう）、あまり（　）ね。\nB: うん。",
+    "options": [
+      "さむくなかった",
+      "さむかった",
+      "かんたんだ",
+      "かんたんだった"
+    ],
+    "correct_answer": "さむくなかった",
+    "explanation": "あまり đi với dạng phủ định; 昨日 là quá khứ nên dùng さむくなかった."
+  },
+  {
+    "id": 20064,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "（　）とき、テニスを始めました。",
+    "options": [
+      "小学生な",
+      "小学生の",
+      "小学生",
+      "小学生で"
+    ],
+    "correct_answer": "小学生の",
+    "explanation": "Danh từ + の + とき：小学生のとき (hồi còn là học sinh tiểu học)."
+  },
+  {
+    "id": 20065,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "マリヤムさんは 私の（　）です。",
+    "options": [
+      "へた",
+      "じょうず",
+      "こうはい",
+      "からだ"
+    ],
+    "correct_answer": "こうはい",
+    "explanation": "後輩（こうはい）：hậu bối, đàn em vào sau."
+  },
+  {
+    "id": 20066,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "一日に コーヒーを （　）飲みます。",
+    "options": [
+      "にじかん",
+      "にはい",
+      "にさつ",
+      "にばい"
+    ],
+    "correct_answer": "にはい",
+    "explanation": "Đếm ly/cốc dùng ～はい/ぱい/ばい：2 cốc là にはい."
+  },
+  {
+    "id": 20067,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "一日に たばこを （　）吸（す）います。",
+    "options": [
+      "さんばい",
+      "さんほん",
+      "さんぽん",
+      "さんぼん"
+    ],
+    "correct_answer": "さんぼん",
+    "explanation": "Đếm điếu (vật thon dài) dùng 本：1本 (いっぽん), 2本 (にほん), 3本 (さんぼん)."
+  },
+  {
+    "id": 20068,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "ときどき、（　）映画を 見ます。",
+    "options": [
+      "ポップス",
+      "ドラマ",
+      "アクション",
+      "コンテスト"
+    ],
+    "correct_answer": "アクション",
+    "explanation": "アクション映画：phim hành động."
+  },
+  {
+    "id": 20069,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "（　）が 飛（と）んでいます。",
+    "options": [
+      "ゾウ",
+      "鳥（とり）",
+      "パンダ",
+      "サル"
+    ],
+    "correct_answer": "鳥（とり）",
+    "explanation": "鳥が飛んでいます：con chim đang bay."
+  },
+  {
+    "id": 20070,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "道を （　）ください。",
+    "options": [
+      "渡（わた）って",
+      "聞こえて",
+      "見えて",
+      "曲（ま）がって"
+    ],
+    "correct_answer": "渡（わた）って",
+    "explanation": "道を渡ってください：hãy băng qua đường."
+  },
+  {
+    "id": 20071,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "【レストランで】すみません、（　）は どちらですか。",
+    "options": [
+      "おなか",
+      "首",
+      "入口（いりぐち）",
+      "声（こえ）"
+    ],
+    "correct_answer": "入口（いりぐち）",
+    "explanation": "入口（いりぐち）：lối vào."
+  },
+  {
+    "id": 20072,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "けしゴムで この漢字（かんじ）を （　）ください。",
+    "options": [
+      "けして",
+      "つけて",
+      "しめて",
+      "あけて"
+    ],
+    "correct_answer": "けして",
+    "explanation": "消して（けして）：xóa/tẩy đi."
+  },
+  {
+    "id": 20073,
+    "lesson": 11,
+    "category": "Từ vựng & Hội thoại",
+    "question": "毎朝、（　）をしています。",
+    "options": [
+      "クラスメート",
+      "ジョギング",
+      "生活（せいかつ）",
+      "日記（にっき）"
+    ],
+    "correct_answer": "ジョギング",
+    "explanation": "ジョギングをしています：chạy bộ mỗi sáng."
+  },
+  {
+    "id": 20074,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: 毎日、大変（たいへん）？\nB: ううん、あまり（　）。",
+    "options": [
+      "大変（たいへん）じゃない",
+      "大変（たいへん）ありません",
+      "大変（たいへん）だ",
+      "大変（たいへん）だった"
+    ],
+    "correct_answer": "大変（たいへん）じゃない",
+    "explanation": "Thể thông thường của tính từ な phủ định：大変じゃない."
+  },
+  {
+    "id": 20075,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "山口（やまぐち）さんの （　）は 東京に 住（す）んでいます。",
+    "options": [
+      "兄",
+      "お兄さん",
+      "姉",
+      "妹"
+    ],
+    "correct_answer": "お兄さん",
+    "explanation": "Nói về người nhà của người khác (山口さん) dùng kính trọng：お兄さん."
+  },
+  {
+    "id": 20076,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "昨日（きのう）、ワンさんに メールを （　）。",
+    "options": [
+      "おくりました",
+      "でんわしました",
+      "おくります",
+      "でんわします"
+    ],
+    "correct_answer": "おくりました",
+    "explanation": "昨日 (hôm qua) chia quá khứ：メールを送りました (đã gửi email)."
+  },
+  {
+    "id": 20077,
+    "lesson": 11,
+    "category": "Đọc hiểu",
+    "question": "【Đọc bức thư gửi Daniel】「お元気ですか。私は 4月から コンビニで アルバイトを しています。朝 とても 早いですから、いつも ねむいです。でも、今は＿＿①＿＿。コンビニの てんちょうは 優しい人です。日本語学校は 午後 5時に 終わります。それから、クラスメートと 一緒に 晩ごはんを 食べます。夜は たいてい、うちで テレビを 見たり、＿＿②＿＿を 読んだり しています。でも、一人暮らしですから、少し 寂しいです。今年の 6月に 学校を ＿＿③＿＿して、日本の 会社で 働きます。」\n\nChọn từ thích hợp điền vào ＿＿①＿＿:",
+    "options": [
+      "なれました",
+      "なりました",
+      "別（わか）れました",
+      "遅（おく）れました"
+    ],
+    "correct_answer": "なれました",
+    "explanation": "慣れました（なれました）：nhưng bây giờ thì đã quen rồi."
+  },
+  {
+    "id": 20078,
+    "lesson": 11,
+    "category": "Đọc hiểu",
+    "question": "【Đọc bức thư gửi Daniel】「…夜は たいてい、うちで テレビを 見たり、＿＿②＿＿を 読んだり しています。でも、一人暮らしですから、少し 寂しいです。」\n\nChọn từ thích hợp điền vào ＿＿②＿＿:",
+    "options": [
+      "辞書（じしょ）",
+      "ドラマ",
+      "テレビ",
+      "ざっし"
+    ],
+    "correct_answer": "ざっし",
+    "explanation": "テレビを見たり、ざっしを読んだりしています (xem TV, đọc tạp chí)."
+  },
+  {
+    "id": 20079,
+    "lesson": 11,
+    "category": "Đọc hiểu",
+    "question": "【Đọc bức thư gửi Daniel】「…今年の 6月に 学校を ＿＿③＿＿して、日本の 会社で 働きます。」\n\nChọn từ thích hợp điền vào ＿＿③＿＿:",
+    "options": [
+      "卒業（そつぎょう）",
+      "入学（にゅうがく）",
+      "引越（ひっこ）し",
+      "集合（しゅうごう）"
+    ],
+    "correct_answer": "卒業（そつぎょう）",
+    "explanation": "学校を卒業して、日本の会社で働きます：tốt nghiệp trường rồi làm việc ở công ty Nhật."
+  },
+  {
+    "id": 20080,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: よく りょうりを つくりますか。\nB: いいえ、（　）つくりません。",
+    "options": [
+      "いつも",
+      "あまり",
+      "とても",
+      "よく"
+    ],
+    "correct_answer": "あまり",
+    "explanation": "あまり + phủ định：không hay làm lắm."
+  },
+  {
+    "id": 20081,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "あやのさんが 私のたんじょうびに プレゼントを （　）。",
+    "options": [
+      "あげました",
+      "くれました",
+      "もらいました",
+      "おくりました"
+    ],
+    "correct_answer": "くれました",
+    "explanation": "Ai đó が + 私のたんじょうびに + くれました (tặng cho tôi)."
+  },
+  {
+    "id": 20082,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "（姉妹）は 何人いますか。",
+    "options": [
+      "しまい",
+      "りょうしん",
+      "きょうだい",
+      "きょうとう"
+    ],
+    "correct_answer": "しまい",
+    "explanation": "姉妹（しまい）：chị em gái."
+  },
+  {
+    "id": 20083,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: （　）は げんきですか。\nB: はい、（　）は おかげさまで げんきです。",
+    "options": [
+      "つま／おくさん",
+      "ごしゅじん／おっと",
+      "おとうさん／おっと",
+      "ちち／はは"
+    ],
+    "correct_answer": "ごしゅじん／おっと",
+    "explanation": "Hỏi chồng người khác dùng ご主人 (ごしゅじん), trả lời về chồng mình dùng 夫 (おっと)."
+  },
+  {
+    "id": 20084,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "（兄弟）はいませんが、ともだちがたくさんいます。",
+    "options": [
+      "しまい",
+      "りょうしん",
+      "きょうとう",
+      "きょうだい"
+    ],
+    "correct_answer": "きょうだい",
+    "explanation": "兄弟（きょうだい）：anh chị em."
+  },
+  {
+    "id": 20085,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "A: パクさん、このチョコレートは かわいいですね。\nB: バレンタインデーに こいびと（　）もらいました。",
+    "options": [
+      "を",
+      "が",
+      "は",
+      "に"
+    ],
+    "correct_answer": "に",
+    "explanation": "Nhận cái gì từ ai dùng trợ từ に (hoặc から)：こいびとに もらいました."
+  },
+  {
+    "id": 20086,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "今、私は （くるま）がほしいです。",
+    "options": [
+      "車",
+      "東",
+      "軍",
+      "庫"
+    ],
+    "correct_answer": "車",
+    "explanation": "車（くるま）：ô tô."
+  },
+  {
+    "id": 20087,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "アンナさんは じょうず（　）ギターをひきたいですから、ギターきょうしつ（　）さんかします。",
+    "options": [
+      "にーの",
+      "を一に",
+      "を一が",
+      "にーに"
+    ],
+    "correct_answer": "にーに",
+    "explanation": "じょうずに (chơi giỏi), きょうしつに さんかします (tham gia vào lớp học)."
+  },
+  {
+    "id": 20088,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "四月二十七日は バス （旅行）です。",
+    "options": [
+      "りょこい",
+      "りょうこう",
+      "りょうこ",
+      "りょこう"
+    ],
+    "correct_answer": "りょこう",
+    "explanation": "旅行（りょこう）：du lịch."
+  },
+  {
+    "id": 20089,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "かんじができませんから、（　）にはいりたいです。",
+    "options": [
+      "しょどうコンテスト",
+      "おかしきょうしつ",
+      "ダイビングツアー",
+      "しょどうきょうしつ"
+    ],
+    "correct_answer": "しょどうきょうしつ",
+    "explanation": "Không viết được Kanji -> muốn tham gia lớp học thư pháp (書道教室)."
+  },
+  {
+    "id": 20090,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "「しゃちょう」の 漢字（かんじ）は 何ですか。",
+    "options": [
+      "社長",
+      "部長",
+      "学長",
+      "校長"
+    ],
+    "correct_answer": "社長",
+    "explanation": "社長（しゃちょう）：giám đốc công ty."
+  },
+  {
+    "id": 20091,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "いつか （かいがい）へ行きたいです。",
+    "options": [
+      "毎名",
+      "海外",
+      "毎外",
+      "海名"
+    ],
+    "correct_answer": "海外",
+    "explanation": "海外（かいがい）：nước ngoài."
+  },
+  {
+    "id": 20092,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: すみません、コーヒーを （　）と ケーキを （　）ください。\nB: はい、かしこまりました。しょうしょう おまちください。",
+    "options": [
+      "いっぱい／ひとつ",
+      "にはい／みっか",
+      "にさつ／にまい",
+      "いっぽん／さんばい"
+    ],
+    "correct_answer": "いっぱい／ひとつ",
+    "explanation": "1 cốc cà phê = いっぱい, 1 cái bánh = ひとつ."
+  },
+  {
+    "id": 20093,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "よる、（映画）を見に行きます。",
+    "options": [
+      "えいが",
+      "けえかく",
+      "ええが",
+      "けいかく"
+    ],
+    "correct_answer": "えいが",
+    "explanation": "映画（えいが）：bộ phim."
+  },
+  {
+    "id": 20094,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "もうすぐ母の日ですから、母に てがみを （　）。",
+    "options": [
+      "あげました",
+      "かきました",
+      "かります",
+      "おくります"
+    ],
+    "correct_answer": "おくります",
+    "explanation": "もうすぐ (sắp đến) chia hiện tại/tương lai：てがみを おくります (gửi thư cho mẹ)."
+  },
+  {
+    "id": 20095,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "ここに じゅうしょと名前を （　）、がいこくじんとうろくしょうを （　）、もうしこむことができます。",
+    "options": [
+      "きいて／みて",
+      "いって／かいて",
+      "かいて／みせて",
+      "よんで／して"
+    ],
+    "correct_answer": "かいて／みせて",
+    "explanation": "Viết địa chỉ và tên (かいて), xuất trình thẻ ngoại kiều (みせて) thì có thể đăng ký."
+  },
+  {
+    "id": 20096,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "山田さんは きょうしです。めいじ高校で おんがくを （　）。",
+    "options": [
+      "ならっています",
+      "はたらきます",
+      "はたらいています",
+      "おしえています"
+    ],
+    "correct_answer": "おしえています",
+    "explanation": "Giáo viên thì dạy học：おしえています (đang dạy âm nhạc)."
+  },
+  {
+    "id": 20097,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "（おんがく）は ダニエルさんの しゅみです。",
+    "options": [
+      "音楽",
+      "音楽",
+      "暗楽",
+      "暗薬"
+    ],
+    "correct_answer": "音楽",
+    "explanation": "音楽（おんがく）：âm nhạc."
+  },
+  {
+    "id": 20098,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "たかはしさんは バスの （　）ができます。",
+    "options": [
+      "うんてんこと",
+      "うんてんして",
+      "うんてん",
+      "うんてんする"
+    ],
+    "correct_answer": "うんてん",
+    "explanation": "Danh từ + ができます：バスの うんてんが できます (có thể lái xe buýt)."
+  },
+  {
+    "id": 20099,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: （　）が いますか。\nB: はい、（　）います。",
+    "options": [
+      "きょうだい／ににん",
+      "ほん／さんさつ",
+      "ペット／いっぴき",
+      "ねこ／ひとり"
+    ],
+    "correct_answer": "ペット／いっぴき",
+    "explanation": "ペットがいますか -> いっぴき います (có 1 con thú cưng)."
+  },
+  {
+    "id": 20100,
+    "lesson": 8,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "マルコさんは どんなひとですか。",
+    "options": [
+      "20才で、だいがくせいです。",
+      "しんせつですが、いいひとです。",
+      "かっこよくて、せがたかいひとです。",
+      "おもしろくて、しんせつなひとです。"
+    ],
+    "correct_answer": "おもしろくて、しんせつなひとです。",
+    "explanation": "Đáp đúng về tính cách/con người：おもしろくて、しんせつなひとです."
+  },
+  {
+    "id": 20101,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "きのうのよる、（　）ねませんでした。",
+    "options": [
+      "どこも",
+      "ぜんぜん",
+      "ときどき",
+      "なにも"
+    ],
+    "correct_answer": "ぜんぜん",
+    "explanation": "ぜんぜん + phủ định：tối qua hoàn toàn không ngủ."
+  },
+  {
+    "id": 20102,
+    "lesson": 11,
+    "category": "Từ vựng & Hội thoại",
+    "question": "まいにち、（　）くらい ねます。からだによくないです。",
+    "options": [
+      "よんほん",
+      "よんさつ",
+      "よんかい",
+      "よじかん"
+    ],
+    "correct_answer": "よじかん",
+    "explanation": "Khoảng 4 tiếng đồng hồ：よじかん (4時間)."
+  },
+  {
+    "id": 20103,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "A: （　）びじゅつかんへ 行きますか。\nB: 6ばんのバスにのって、ほしでバスをおります。",
+    "options": [
+      "どこに",
+      "どうやって",
+      "どうして",
+      "どのバス"
+    ],
+    "correct_answer": "どうやって",
+    "explanation": "Hỏi cách thức đi lại dùng どうやって."
+  },
+  {
+    "id": 20104,
+    "lesson": 8,
+    "category": "Kanji",
+    "question": "（おおや）さんは ことし60才です。",
+    "options": [
+      "大家",
+      "大像",
+      "大様",
+      "大嫁"
+    ],
+    "correct_answer": "大家",
+    "explanation": "大家（おおや）：chủ nhà trọ."
+  },
+  {
+    "id": 20105,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "さとうさんは かしゅじゃありませんが、うた（　）じょうずですね。",
+    "options": [
+      "が",
+      "を",
+      "より",
+      "のほうが"
+    ],
+    "correct_answer": "が",
+    "explanation": "N + が + じょうずです (giỏi hát)."
+  },
+  {
+    "id": 20106,
+    "lesson": 8,
+    "category": "Đọc hiểu",
+    "question": "「おきなわのうみはとてもゆうめいです。先週、私はりょうしんとあねがふたりとおきなわへ行きました。私のしゅみはすいえいです。うみでおよぎたかったですが、かぜがありましたから、できませんでした。とてもざんねんでした。」\n\nCâu hỏi: 私のかぞくは なんにんですか。",
+    "options": [
+      "よにん",
+      "ごにん",
+      "ろくにん",
+      "さんにん"
+    ],
+    "correct_answer": "よにん",
+    "explanation": "Theo đáp án đề K-team: A. よにん."
+  },
+  {
+    "id": 20107,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "（　）、わたしはよく えいがや （　）をみます。とてもおもしろいです。",
+    "options": [
+      "きょねん／アニメ",
+      "きのう／テレビ",
+      "らいねん／ジャズ",
+      "さいきん／ドラマ"
+    ],
+    "correct_answer": "さいきん／ドラマ",
+    "explanation": "最近（さいきん：gần đây）tôi hay xem phim và phim truyền hình (ドラマ)."
+  },
+  {
+    "id": 20108,
+    "lesson": 9,
+    "category": "Từ vựng & Hội thoại",
+    "question": "はなださんのしゅみは きってを （　）です。",
+    "options": [
+      "かえること",
+      "たべること",
+      "あつめること",
+      "はらうこと"
+    ],
+    "correct_answer": "あつめること",
+    "explanation": "切手を集めること：sở thích sưu tầm tem."
+  },
+  {
+    "id": 20109,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "さくらえきで バスを （　）。",
+    "options": [
+      "おりてください",
+      "うんてんしてください",
+      "のぼってください",
+      "のってください"
+    ],
+    "correct_answer": "のってください",
+    "explanation": "Theo đáp án đề K-team: D. のってください (lên xe buýt ở ga Sakura)."
+  },
+  {
+    "id": 20110,
+    "lesson": 10,
+    "category": "Từ vựng & Hội thoại",
+    "question": "いま おかねがありませんから、（　）で はらいます。",
+    "options": [
+      "ナイフ",
+      "メール",
+      "チケット",
+      "カード"
+    ],
+    "correct_answer": "カード",
+    "explanation": "カードで はらいます：thanh toán bằng thẻ."
+  },
+  {
+    "id": 20111,
+    "lesson": 9,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "私のしゅみはピアノです。（ 1 ）クラシックがいちばんすきです。いっしゅうかん（ 2 ）三回ひきます。（ 3 ）じょうずじゃありません。",
+    "options": [
+      "1-とくに / 2-に / 3-でも",
+      "1-でも / 2-に / 3-が",
+      "1-そして / 2-よく / 3-それから",
+      "1-よく / 2-そして / 3-とくに"
+    ],
+    "correct_answer": "1-とくに / 2-に / 3-でも",
+    "explanation": "とくに (đặc biệt là), 1週間に3回 (3 lần mỗi tuần), でも (nhưng không giỏi)."
+  },
+  {
+    "id": 20112,
+    "lesson": 8,
+    "category": "Từ vựng & Hội thoại",
+    "question": "ナタポンさんは （　）が よくて、べんきょうが はやいです。",
+    "options": [
+      "からだ",
+      "みみ",
+      "くち",
+      "あたま"
+    ],
+    "correct_answer": "あたま",
+    "explanation": "頭がいい（あたまがいい）：thông minh, tiếp thu nhanh."
+  },
+  {
+    "id": 20113,
+    "lesson": 9,
+    "category": "Kanji",
+    "question": "なによりも （うたう）のが好きです。",
+    "options": [
+      "歌う",
+      "寄う",
+      "調う",
+      "唱う"
+    ],
+    "correct_answer": "歌う",
+    "explanation": "歌う（うたう）：hát."
+  },
+  {
+    "id": 20114,
+    "lesson": 11,
+    "category": "Ngữ pháp & Trợ từ",
+    "question": "こうりゅうかい（　）日本人のともだち（　）つくりたいです。",
+    "options": [
+      "でーが",
+      "がーで",
+      "を一を",
+      "でーを"
+    ],
+    "correct_answer": "でーを",
+    "explanation": "こうりゅうかいで (ở buổi giao lưu) + ともだちをつくりたい (muốn kết bạn)."
+  }
+]
