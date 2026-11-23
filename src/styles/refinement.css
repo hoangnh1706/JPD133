@@ -221,4 +221,23 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   margin-bottom: 4px;
 }
 
+/* UI/UX Polish & Anti-Pattern Fixes */
+.brand small { font-size: 0.75rem; }
+.sidebar-foot p { font-size: 0.8rem; line-height: 1.5; }
+.main-area .lead { max-width: 65ch; }
+.pill { font-size: 0.75rem; padding: 6px 12px; }
+.exam-layout { align-items: start; }
+.panel.exam-main-card,
+.panel.practice-panel {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.eos-card { margin: 12px 0 16px; }
+.eos-body { padding: 18px 22px 22px; }
+.eos-instruction { margin-bottom: 14px; }
+.eos-question-prompt { margin-bottom: 18px; }
+
+
 
