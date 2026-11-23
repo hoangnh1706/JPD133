@@ -9,7 +9,7 @@ function makeRandomExam() {
   return {
     id: 'random',
     title: 'Đề Ngẫu Nhiên · Trộn 30 câu',
-    description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 150 câu SSG105 (bao gồm cả câu bẫy tình huống).',
+    description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 300 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & câu bẫy).',
     questions: shuffled
   };
 }
@@ -59,19 +59,69 @@ function EosQuestionCard({ question, questionNumber, selected, onSelect, showFee
   );
 }
 
+const SSG_STORAGE_KEY = 'ssg105_exam_state_v1';
+
+function loadSsgState() {
+  try {
+    const raw = localStorage.getItem(SSG_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
 export default function SsgExam() {
-  const [selectedExamId, setSelectedExamId] = useState('1');
-  const [randomExam, setRandomExam] = useState(makeRandomExam);
-  const [mode, setMode] = useState('practice'); // 'practice' | 'mock'
+  const initial = useMemo(() => loadSsgState(), []);
+  const [selectedExamId, setSelectedExamId] = useState(() => initial?.selectedExamId || '1');
+  const [randomExam, setRandomExam] = useState(() => {
+    if (initial?.randomIds?.length) {
+      const qs = initial.randomIds.map(id => allQuestions.find(q => q.id === id)).filter(Boolean);
+      if (qs.length) {
+        return {
+          id: 'random',
+          title: 'Đề Ngẫu Nhiên · Trộn 30 câu',
+          description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 300 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & câu bẫy).',
+          questions: qs
+        };
+      }
+    }
+    return makeRandomExam();
+  });
+  const [mode, setMode] = useState(() => initial?.mode || 'practice'); // 'practice' | 'mock'
 
-  // Practice mode state
-  const [qIndex, setQIndex] = useState(0);
-  const [practiceAnswers, setPracticeAnswers] = useState({});
+  // Practice mode state (persisted per exam)
+  const [qIndexByExam, setQIndexByExam] = useState(() => initial?.qIndexByExam || {});
+  const [practiceAnswers, setPracticeAnswers] = useState(() => initial?.practiceAnswers || {});
 
-  // Mock exam mode state
-  const [mockSession, setMockSession] = useState(null);
+  // Mock exam mode state (persisted)
+  const [mockSession, setMockSession] = useState(() => initial?.mockSession || null);
   const [now, setNow] = useState(Date.now());
   const [confirmSubmit, setConfirmSubmit] = useState(false);
+
+  const qIndex = Number(qIndexByExam[selectedExamId] || 0);
+  const setQIndex = updater => {
+    setQIndexByExam(prev => {
+      const currentVal = Number(prev[selectedExamId] || 0);
+      const nextVal = typeof updater === 'function' ? updater(currentVal) : updater;
+      return { ...prev, [selectedExamId]: nextVal };
+    });
+  };
+
+  // Save state to localStorage on every change
+  useEffect(() => {
+    try {
+      localStorage.setItem(SSG_STORAGE_KEY, JSON.stringify({
+        selectedExamId,
+        randomIds: randomExam.questions.map(q => q.id),
+        mode,
+        qIndexByExam,
+        practiceAnswers,
+        mockSession
+      }));
+    } catch {
+      // Ignore storage quota errors
+    }
+  }, [selectedExamId, randomExam, mode, qIndexByExam, practiceAnswers, mockSession]);
 
   const currentExam = useMemo(() => {
     if (selectedExamId === 'random') return randomExam;
@@ -82,17 +132,20 @@ export default function SsgExam() {
 
   const handleExamChange = nextId => {
     setSelectedExamId(nextId);
-    setQIndex(0);
-    setPracticeAnswers({});
     setMockSession(null);
     setConfirmSubmit(false);
   };
 
   const regenerateRandom = () => {
-    setRandomExam(makeRandomExam());
+    const next = makeRandomExam();
+    setRandomExam(next);
     setSelectedExamId('random');
-    setQIndex(0);
-    setPracticeAnswers({});
+    setQIndexByExam(prev => ({ ...prev, random: 0 }));
+    setPracticeAnswers(prev => {
+      const copy = { ...prev };
+      next.questions.forEach(q => { delete copy[q.id]; });
+      return copy;
+    });
     setMockSession(null);
     setConfirmSubmit(false);
   };
@@ -132,7 +185,7 @@ export default function SsgExam() {
     <>
       <div className="eyebrow">SSG105 · FINAL EXAM PRACTICE</div>
       <h1>Ôn thi FE SSG105 (30 câu / đề)<span className="pink">.</span></h1>
-      <p className="lead">{currentExam.description} Tổng cộng 5 bộ đề chuẩn 30 câu (150 câu) + chế độ bốc đề ngẫu nhiên.</p>
+      <p className="lead">{currentExam.description} Tổng cộng 10 bộ đề chuẩn 30 câu (300 câu hỏi hoàn toàn khác nhau, gồm cả đề thật SU26-FE & SU26-RE) + chế độ bốc đề ngẫu nhiên.</p>
 
       <div className="toolbar">
         <select aria-label="Chọn đề thi SSG105" value={selectedExamId} onChange={e => handleExamChange(e.target.value)}>
@@ -197,7 +250,14 @@ export default function SsgExam() {
               <button
                 type="button"
                 className="secondary-button"
-                onClick={() => setPracticeAnswers({})}
+                onClick={() => {
+                  setPracticeAnswers(prev => {
+                    const copy = { ...prev };
+                    questions.forEach(q => { delete copy[q.id]; });
+                    return copy;
+                  });
+                  setQIndex(0);
+                }}
               >
                 <RotateCcw size={16} /> Làm lại đề này
               </button>
