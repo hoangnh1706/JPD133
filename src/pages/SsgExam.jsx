@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, CheckCircle2, Clock3, Flag, RotateCcw, Send, Shuffle } from 'lucide-react';
 import ssgExams from '../data/ssg105_exams.json';
+import { addMistake } from '../services/mistakes';
 
 const allQuestions = ssgExams.flatMap(ex => ex.questions);
 
@@ -51,7 +52,7 @@ function EosQuestionCard({ question, questionNumber, selected, onSelect, showFee
           <div className={`feedback ${selected === question.correct_answer ? 'good' : 'bad'}`} role="status">
             <strong>{selected === question.correct_answer ? 'Chính xác!' : 'Chưa chính xác'}</strong>
             <p><strong>Đáp án đúng:</strong> {question.correct_answer}</p>
-            {question.explanation && <p><strong>Giải thích / Mẹo:</strong> {question.explanation}</p>}
+            {question.explanation && <p style={{ whiteSpace: 'pre-line', marginTop: 8 }}>{question.explanation}</p>}
           </div>
         )}
       </div>
@@ -160,9 +161,13 @@ export default function SsgExam() {
 
   useEffect(() => {
     if (mockSession?.status === 'running' && remaining === 0) {
+      questions.forEach(q => {
+        const ans = mockSession.answers[q.id];
+        if (ans !== undefined && ans !== q.correct_answer) addMistake('ssg', q.id);
+      });
       setMockSession(s => (s ? { ...s, status: 'finished', auto: true } : s));
     }
-  }, [remaining, mockSession?.status]);
+  }, [remaining, mockSession?.status, mockSession?.answers, questions]);
 
   const startMock = () => {
     setMockSession({
@@ -224,8 +229,21 @@ export default function SsgExam() {
           <div className="panel exam-main-card">
             <div className="exam-bar">
               <span className="pill">{practiceQ.unit}</span>
-              <span className="muted">Đã làm {practiceAnsweredCount}/{questions.length} · Đúng {practiceCorrectCount}</span>
+              <span className="muted">
+                Đã làm {practiceAnsweredCount}/{questions.length} · Đúng {practiceCorrectCount} ({((practiceCorrectCount / Math.max(questions.length, 1)) * 10).toFixed(1)}/10đ)
+              </span>
             </div>
+
+            {practiceAnsweredCount === questions.length && (
+              <div className="feedback good" style={{ marginBottom: 16 }}>
+                <strong>
+                  🎉 Hoàn thành {currentExam.title}: {practiceCorrectCount}/{questions.length} câu đúng ({Math.round((practiceCorrectCount / questions.length) * 100)}% · {((practiceCorrectCount / questions.length) * 10).toFixed(1)}/10 điểm)
+                </strong>
+                <p style={{ marginTop: 6 }}>
+                  Xếp loại: {practiceCorrectCount >= 26 ? 'Xuất sắc' : practiceCorrectCount >= 21 ? 'Khá / Tốt' : practiceCorrectCount >= 15 ? 'Đạt' : 'Cần ôn thêm'} — Các câu làm sai đã được tự động lưu vào tab Ôn câu sai.
+                </p>
+              </div>
+            )}
 
             <EosQuestionCard
               question={practiceQ}
@@ -234,6 +252,7 @@ export default function SsgExam() {
               onSelect={option => {
                 if (practiceChosen !== undefined) return;
                 setPracticeAnswers(prev => ({ ...prev, [practiceQ.id]: option }));
+                if (option !== practiceQ.correct_answer) addMistake('ssg', practiceQ.id);
               }}
               showFeedback={practiceChosen !== undefined}
             />
@@ -383,7 +402,14 @@ export default function SsgExam() {
             {confirmSubmit && (
               <div className="confirm-box" role="dialog" aria-label="Xác nhận nộp bài">
                 <p>Bạn đã trả lời {Object.keys(mockSession.answers).length}/{questions.length} câu. Nộp bài ngay?</p>
-                <button type="button" className="primary-button" onClick={() => { setMockSession(s => ({ ...s, status: 'finished' })); setConfirmSubmit(false); }}>
+                <button type="button" className="primary-button" onClick={() => {
+                  questions.forEach(q => {
+                    const ans = mockSession.answers[q.id];
+                    if (ans !== undefined && ans !== q.correct_answer) addMistake('ssg', q.id);
+                  });
+                  setMockSession(s => ({ ...s, status: 'finished' }));
+                  setConfirmSubmit(false);
+                }}>
                   Xác nhận nộp
                 </button>
                 <button type="button" className="text-button" onClick={() => setConfirmSubmit(false)}>
@@ -400,7 +426,7 @@ export default function SsgExam() {
         return (
           <div className="panel results">
             <span className="eyebrow">KẾT QUẢ THI THỬ SSG105</span>
-            <h2><CheckCircle2 size={28} style={{ verticalAlign: 'middle', marginRight: 8, color: '#10b981' }} />{correct}/{questions.length} câu đúng ({Math.round((correct / questions.length) * 100)}%)</h2>
+            <h2><CheckCircle2 size={28} style={{ verticalAlign: 'middle', marginRight: 8, color: '#10b981' }} />{correct}/{questions.length} câu đúng ({Math.round((correct / questions.length) * 100)}% · {((correct / questions.length) * 10).toFixed(1)}/10 điểm)</h2>
             <p>{mockSession.auto ? 'Hết thời gian 45 phút, hệ thống đã tự động thu bài.' : 'Bạn đã hoàn thành bài thi thử.'}</p>
             <div className="button-row">
               <button type="button" className="primary-button" onClick={startMock}>Làm lại đề này</button>
@@ -417,7 +443,7 @@ export default function SsgExam() {
                   <small style={{ color: isOk ? '#059669' : '#dc2626', fontWeight: 600 }}>
                     {userAns === undefined ? 'Chưa trả lời' : isOk ? '✓ Đúng' : '✕ Sai'} · Bạn chọn: {userAns ?? '—'} · Đáp án đúng: {q.correct_answer}
                   </small>
-                  <p>{q.explanation}</p>
+                  <p style={{ whiteSpace: 'pre-line', marginTop: 6 }}>{q.explanation}</p>
                 </div>
               );
             })}
