@@ -47,7 +47,7 @@ export default function Reading({ progress, record, markLearned = () => {} }) {
 
   return <><div className="eyebrow">ĐỌC HIỂU JPD133</div>
     <h1>Đọc và hiểu từng đoạn<span className="pink">.</span></h1>
-    <p className="lead">{readingLibrary.length} bài đọc, gồm văn bản gốc và bốn bài luyện Bài 8–11 có nhiều từ Katakana, Kanji trong phạm vi từng bài. Mỗi bài có 2 câu hỏi theo mẫu thi Speaking.</p>
+    <p className="lead">{readingLibrary.length} bài đọc, gồm văn bản gốc và các bài luyện Bài 8–11 có nhiều từ Katakana, Kanji trong phạm vi từng bài. Mỗi bài có câu hỏi theo mẫu thi Speaking.</p>
     <div className="toolbar"><select aria-label="Chọn bài đọc" value={id} onChange={event => select(Number(event.target.value))}>
       <optgroup label="Bài luyện theo Bài 8–11">{readingLibrary.filter(reading => reading.lesson).map(reading => <option key={reading.id} value={reading.id}>{reading.title}{learned.has(String(reading.id)) ? ' · Đã học' : ''}</option>)}</optgroup>
       <optgroup label="Bài đọc từ tài liệu gốc">{readingLibrary.filter(reading => !reading.lesson).map(reading => <option key={reading.id} value={reading.id}>{reading.title}{learned.has(String(reading.id)) ? ' · Đã học' : ''}</option>)}</optgroup>

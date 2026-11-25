@@ -56,9 +56,12 @@ function EosQuestionCard({ question, questionNumber, selected, onSelect, showFee
               <div style={{ marginTop: 10 }}>
                 <strong>Phân tích từng đáp án:</strong>
                 <ul style={{ margin: '6px 0 0', paddingLeft: 18, display: 'grid', gap: 6 }}>
-                  {question.option_explanations.map((line, idx) => (
-                    <li key={idx}>{line}</li>
-                  ))}
+                  {question.option_explanations.map((line, idx) => {
+                    const displayLine = line.includes('không phù hợp với ngữ cảnh tình huống')
+                      ? `${String.fromCharCode(65 + idx)}. ✕ Sai`
+                      : line;
+                    return <li key={idx}>{displayLine}</li>;
+                  })}
                 </ul>
               </div>
             )}
