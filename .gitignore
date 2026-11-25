@@ -27,3 +27,5 @@ tmp/pdfs/
 *.zip
 __pycache__/
 *.pyc
+
+documents/pdf/*.pdf

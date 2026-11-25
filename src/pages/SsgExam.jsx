@@ -10,7 +10,7 @@ function makeRandomExam() {
   return {
     id: 'random',
     title: 'Đề Ngẫu Nhiên · Trộn 30 câu',
-    description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 300 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & câu bẫy).',
+    description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 358 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & bộ lý thuyết Ôn FE).',
     questions: shuffled
   };
 }
@@ -52,7 +52,23 @@ function EosQuestionCard({ question, questionNumber, selected, onSelect, showFee
           <div className={`feedback ${selected === question.correct_answer ? 'good' : 'bad'}`} role="status">
             <strong>{selected === question.correct_answer ? 'Chính xác!' : 'Chưa chính xác'}</strong>
             <p><strong>Đáp án đúng:</strong> {question.correct_answer}</p>
-            {question.explanation && <p style={{ whiteSpace: 'pre-line', marginTop: 8 }}>{question.explanation}</p>}
+            {question.option_explanations?.length > 0 && (
+              <div style={{ marginTop: 10 }}>
+                <strong>Phân tích từng đáp án:</strong>
+                <ul style={{ margin: '6px 0 0', paddingLeft: 18, display: 'grid', gap: 6 }}>
+                  {question.option_explanations.map((line, idx) => (
+                    <li key={idx}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {question.explanation && (
+              <p style={{ whiteSpace: 'pre-line', marginTop: 10 }}>
+                {question.explanation.includes('📚')
+                  ? '📚 ' + question.explanation.split('📚')[1].trim()
+                  : question.explanation}
+              </p>
+            )}
           </div>
         )}
       </div>
@@ -81,7 +97,7 @@ export default function SsgExam() {
         return {
           id: 'random',
           title: 'Đề Ngẫu Nhiên · Trộn 30 câu',
-          description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 300 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & câu bẫy).',
+          description: '30 câu ngẫu nhiên trích từ toàn bộ ngân hàng 358 câu SSG105 (bao gồm đề thật SU26-FE, SU26-RE & bộ lý thuyết Ôn FE).',
           questions: qs
         };
       }
@@ -190,7 +206,7 @@ export default function SsgExam() {
     <>
       <div className="eyebrow">SSG105 · FINAL EXAM PRACTICE</div>
       <h1>Ôn thi FE SSG105 (30 câu / đề)<span className="pink">.</span></h1>
-      <p className="lead">{currentExam.description} Tổng cộng 10 bộ đề chuẩn 30 câu (300 câu hỏi hoàn toàn khác nhau, gồm cả đề thật SU26-FE & SU26-RE) + chế độ bốc đề ngẫu nhiên.</p>
+      <p className="lead">{currentExam.description} Tổng cộng 12 bộ đề (358 câu hỏi hoàn toàn khác nhau, gồm đề thật SU26-FE, SU26-RE & bộ lý thuyết Ôn FE) + chế độ bốc đề ngẫu nhiên.</p>
 
       <div className="toolbar">
         <select aria-label="Chọn đề thi SSG105" value={selectedExamId} onChange={e => handleExamChange(e.target.value)}>

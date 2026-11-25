@@ -72,6 +72,7 @@ const exercises = [
     id: 106,
     lesson: 1,
     type: 'multiple_choice',
+    type: 'multiple_choice',
     title: 'Nghề nghiệp: Giáo viên',
     question: '「田中先生は日本語学校の（　　）です。」',
     options: ['きょうし', 'がくせい', 'いしゃ', 'かいしゃいん'],

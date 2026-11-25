@@ -229,8 +229,37 @@ function Question({question,questionNumber=1,selected,onSelect,showFeedback}) {
         {showFeedback && (
           <div className={`feedback ${selected === question.correct_answer ? 'good' : 'bad'}`} role="status">
             <strong>{selected === question.correct_answer ? 'Chính xác!' : 'Cần ôn lại'}</strong>
-            <p>Đáp án đúng: {question.correct_answer}</p>
-            {question.explanation && <p style={{ whiteSpace: 'pre-line', marginTop: 6 }}>{question.explanation}</p>}
+            <p><strong>Đáp án đúng:</strong> {question.correct_answer}</p>
+            {question.option_explanations?.length > 0 ? (
+              <div style={{ marginTop: 10 }}>
+                <strong>Phân tích từng đáp án:</strong>
+                <ul style={{ margin: '6px 0 0', paddingLeft: 18, display: 'grid', gap: 6 }}>
+                  {question.option_explanations.map((line, idx) => (
+                    <li key={idx}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <div style={{ marginTop: 10 }}>
+                <strong>Phân tích từng đáp án:</strong>
+                <ul style={{ margin: '6px 0 0', paddingLeft: 18, display: 'grid', gap: 6 }}>
+                  {question.options.map((opt, idx) => {
+                    const letter = String.fromCharCode(65 + idx);
+                    const isOk = opt === question.correct_answer;
+                    return (
+                      <li key={idx}>
+                        {letter}. <strong>{opt}</strong>: {isOk ? `✓ Đúng — ${question.explanation || 'Phù hợp nhất với ngữ cảnh câu.'}` : `✕ Sai — Không đúng cách đọc/chữ Hán hoặc ngữ pháp của câu (đáp án đúng phải là "${question.correct_answer}").`}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+            {question.explanation?.includes('📚') && (
+              <p style={{ whiteSpace: 'pre-line', marginTop: 10 }}>
+                {'📚 ' + question.explanation.split('📚')[1].trim()}
+              </p>
+            )}
           </div>
         )}
       </div>
