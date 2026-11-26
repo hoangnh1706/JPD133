@@ -7,17 +7,27 @@ import SpeakingTip from '../components/SpeakingTip';
 
 const phases = ['reading', 'reading-1', 'reading-2', 'picture', 'free-1', 'free-2', 'done'];
 const lessonOrder = [8, 9, 10, 11];
-const getExam = index => {
+const getExam = (index, customSeed = null) => {
   const reading = readingLibrary[index];
-  const lesson = lessonOrder[index % 4];
+  const lesson = reading.lesson || lessonOrder[index % 4];
   const pictures = imageQuestions.filter(item => item.lesson === lesson && item.qa.length);
   const free = noImageQuestions.filter(item => item.lesson === lesson);
+  if (customSeed) {
+    return {
+      reading,
+      lesson,
+      picture: pictures[customSeed.picOffset % pictures.length],
+      free: [free[customSeed.freeOffset % free.length], free[(customSeed.freeOffset + 1) % free.length]],
+    };
+  }
   return { reading, lesson, picture: pictures[Math.floor(index / 4) % pictures.length], free: [free[(index * 2) % free.length], free[(index * 2 + 1) % free.length]] };
 };
 
 export default function SpeakingExam({ progress, record, markLearned = () => {} }) {
   const [tab, setTab] = useState('exam'); // 'exam' | 'picture' | 'no-image'
   const [examIndex, setExamIndex] = useState(0);
+  const [randomSeed, setRandomSeed] = useState(null);
+  const [picQaIndex, setPicQaIndex] = useState(0);
   const [phaseIndex, setPhaseIndex] = useState(-1);
   const [prep, setPrep] = useState(20);
   const [showQuestion, setShowQuestion] = useState(false);
@@ -45,7 +55,7 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
   const stream = useRef(null);
   const audioRef = useRef('');
 
-  const exam = useMemo(() => getExam(examIndex), [examIndex]);
+  const exam = useMemo(() => getExam(examIndex, randomSeed), [examIndex, randomSeed]);
   const phase = phases[phaseIndex];
   const learned = getLearnedSet(progress, 'speaking-exam');
   const learnedSpeaking = getLearnedSet(progress, 'speaking');
@@ -160,11 +170,25 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
   const restart = () => {
     setPhaseIndex(-1);
     setPrep(20);
+    setPicQaIndex(0);
     setShowQuestion(false);
     setAnswer(false);
     setTranslation(false);
     setError('');
     clearAudio();
+  };
+
+  const rollRandomExam = () => {
+    const challengeIndices = readingLibrary
+      .map((r, i) => (r.lesson ? i : -1))
+      .filter(i => i >= 0);
+    const nextIdx = challengeIndices[Math.floor(Math.random() * challengeIndices.length)] ?? 0;
+    setExamIndex(nextIdx);
+    setRandomSeed({
+      picOffset: Math.floor(Math.random() * 100),
+      freeOffset: Math.floor(Math.random() * 100),
+    });
+    restart();
   };
 
   const nextPic = offset => {
@@ -197,7 +221,8 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
 
   const furigana = progress?.settings?.furigana ?? true;
   const readingQuestion = phase === 'reading-1' ? exam.reading.questions[0] : exam.reading.questions[1];
-  const qa = phase === 'picture' ? exam.picture.qa[0] : phase === 'free-1' ? exam.free[0] : exam.free[1];
+  const activePicQa = exam.picture.qa[picQaIndex % exam.picture.qa.length];
+  const qa = phase === 'picture' ? activePicQa : phase === 'free-1' ? exam.free[0] : exam.free[1];
 
   return <>
     <div className="eyebrow">SPEAKING · ÔN THI NÓI JPD133</div>
@@ -206,7 +231,7 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
 
     <div className="toolbar" style={{ marginBottom: 20 }}>
       <div className="segmented" role="tablist" aria-label="Chế độ luyện nói">
-        <button role="tab" aria-selected={tab === 'exam'} className={tab === 'exam' ? 'selected' : ''} onClick={() => switchTab('exam')}>Đề mẫu đầy đủ (20 đề)</button>
+        <button role="tab" aria-selected={tab === 'exam'} className={tab === 'exam' ? 'selected' : ''} onClick={() => switchTab('exam')}>Đề mẫu đầy đủ ({readingLibrary.length} đề)</button>
         <button role="tab" aria-selected={tab === 'picture'} className={tab === 'picture' ? 'selected' : ''} onClick={() => switchTab('picture')}>Luyện Có Tranh ({imageQuestions.length} tranh)</button>
         <button role="tab" aria-selected={tab === 'no-image'} className={tab === 'no-image' ? 'selected' : ''} onClick={() => switchTab('no-image')}>Câu hỏi Không Tranh (2 câu/lượt)</button>
       </div>
@@ -216,16 +241,19 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
       <div className="panel exam-setup">
         <div className="form-grid">
           <label>Chọn đề mẫu
-            <select value={examIndex} disabled={phaseIndex >= 0 || phaseIndex === -2} onChange={event => { setExamIndex(Number(event.target.value)); restart(); }}>
+            <select value={examIndex} disabled={phaseIndex >= 0 || phaseIndex === -2} onChange={event => { setExamIndex(Number(event.target.value)); setRandomSeed(null); restart(); }}>
               {readingLibrary.map((reading, index) => <option value={index} key={reading.id}>Đề {index + 1} · {reading.title}{learned.has(String(index + 1)) ? ' · Đã học' : ''}</option>)}
             </select>
           </label>
           <div>
             <strong>Bài ngữ pháp {exam.lesson}</strong> {learned.has(String(examIndex + 1)) && <span className="learned-badge">✓ Đã học</span>}
-            <p className="muted">1 Reading · 2 câu hỏi · 1 Tranh · 2 Câu không tranh</p>
+            <p className="muted">1 Reading · 2 câu hỏi · 1 Tranh ({exam.picture.qa.length} câu) · 2 Câu không tranh</p>
           </div>
         </div>
-        {phaseIndex === -1 && <button className="primary-button" onClick={() => { setPrep(20); setPhaseIndex(-2); }}>Bắt đầu đề mẫu <ArrowRight size={18}/></button>}
+        {phaseIndex === -1 && <div className="button-row">
+          <button className="primary-button" onClick={() => { setPrep(20); setPhaseIndex(-2); }}>Bắt đầu đề mẫu <ArrowRight size={18}/></button>
+          <button className="secondary-button" onClick={rollRandomExam}><Shuffle size={17}/> Trộn đề Kanji & Katakana lạ (Bài 8–11)</button>
+        </div>}
         {phaseIndex === -2 && <div className="prep-count"><strong>{prep}</strong><span>giây chuẩn bị</span><button className="secondary-button" onClick={() => setPhaseIndex(0)}>Bắt đầu ngay</button></div>}
       </div>
 
@@ -263,7 +291,22 @@ export default function SpeakingExam({ progress, record, markLearned = () => {} 
 
           {['picture','free-1','free-2'].includes(phase) && <>
             <span className="eyebrow">{phase === 'picture' ? 'CÂU HỎI CÓ TRANH' : 'CÂU HỎI KHÔNG TRANH'}</span>
-            {phase === 'picture' && <img className="speaking-image" src={exam.picture.image} alt="Tranh cho câu hỏi thi nói"/>}
+            {phase === 'picture' && <>
+              <img className="speaking-image" src={exam.picture.image} alt="Tranh cho câu hỏi thi nói"/>
+              {exam.picture.qa.length > 1 && <div className="button-row" style={{ marginTop: 10 }}>
+                {exam.picture.qa.map((_, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    className={picQaIndex % exam.picture.qa.length === idx ? 'primary-button' : 'secondary-button'}
+                    style={{ minHeight: 36, padding: '0 12px', fontSize: '0.85rem' }}
+                    onClick={() => { setPicQaIndex(idx); setShowQuestion(false); setAnswer(false); window.speechSynthesis?.cancel(); }}
+                  >
+                    Câu tranh {idx + 1}
+                  </button>
+                ))}
+              </div>}
+            </>}
             <p className="muted" style={{ marginTop: 10 }}>Bấm nghe câu hỏi rồi trả lời trực tiếp.</p>
             <div className="button-row">
               <button className="primary-button" onClick={() => speak(qa.q_jp)}><Volume2 size={17}/> Nghe câu hỏi</button>

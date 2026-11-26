@@ -136,4 +136,44 @@ export const readingChallenges = [
       { q_jp: 'どんなとき<ruby>寂<rt>さび</rt></ruby>しいですか。', q_vi: 'Khi nào cảm thấy cô đơn?', a_jp: '国の家族に会いたいとき<ruby>寂<rt>さび</rt></ruby>しいです。' },
     ],
   },
+  {
+    id: 29, lesson: 8, title: 'Đề C8 · Bữa tối cùng gia đình (Kanji & Katakana)',
+    jp_text: '今日は<ruby>母<rt>はは</rt></ruby>と晩ごはんを作っています。私は<ruby>野菜<rt>やさい</rt></ruby>を切って、母はスープを作っています。<ruby>肉<rt>にく</rt></ruby>とやさいのスープです。私はきのうスーパーで肉と野菜を買いました。<ruby>父<rt>ちち</rt></ruby>はテーブルをきれいにしています。今日は休みですから、<ruby>家族<rt>かぞく</rt></ruby>みんなで<ruby>食事<rt>しょくじ</rt></ruby>することができます。とても楽しいです。食事して、いっしょにテレビを見たり、アイスクリームを食べたり、<ruby>音楽<rt>おんがく</rt></ruby>を聞いたりします。母を<ruby>手伝<rt>てつだ</rt></ruby>いたいですから、<ruby>料理<rt>りょうり</rt></ruby>が上手になりたいです。',
+    vi_text: 'Hôm nay tôi đang nấu bữa tối cùng mẹ. Tôi cắt rau còn mẹ nấu súp, là súp thịt và rau. Hôm qua tôi đã mua thịt và rau ở siêu thị. Bố đang dọn sạch bàn ăn. Vì hôm nay được nghỉ nên cả gia đình có thể ăn cùng nhau, rất vui. Ăn xong mọi người cùng xem TV, ăn kem hoặc nghe nhạc. Vì muốn giúp mẹ nên tôi muốn nấu ăn giỏi hơn.',
+    focus: ['母', '父'],
+    questions: [
+      { q_jp: '私はきのうスーパーで何を買いましたか。', q_vi: 'Hôm qua nhân vật đã mua gì ở siêu thị?', a_jp: '<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>を買いました。' },
+      { q_jp: '<ruby>食事<rt>しょくじ</rt></ruby>をしてから、みんなで何をしますか。', q_vi: 'Sau khi ăn xong, mọi người làm gì cùng nhau?', a_jp: 'テレビを見たり、アイスクリームを食べたり、<ruby>音楽<rt>おんがく</rt></ruby>を聞いたりします。' },
+    ],
+  },
+  {
+    id: 30, lesson: 9, title: 'Bài 9 · Katakana & Kanji nâng cao: Cuối tuần ở Odaiba',
+    jp_text: '<ruby>最近<rt>さいきん</rt></ruby>、私は<ruby>特<rt>とく</rt></ruby>にミュージカルとアクション映画が好きです。先週、クラスメイトとショッピングモールで映画のチケットを買いました。夜はレストランでイタリア<ruby>料理<rt>りょうり</rt></ruby>を食べてから、レインボーブリッジと東京タワーのイルミネーションを見ました。とてもきれいでした。友だちはクラシックやポップスもよく聞いて、<ruby>小説<rt>しょうせつ</rt></ruby>や<ruby>漫画<rt>まんが</rt></ruby>を月に5<ruby>冊<rt>さつ</rt></ruby>読みます。来月はダンスのコンテストや<ruby>書道<rt>しょどう</rt></ruby>のイベントにも行くつもりです。',
+    vi_text: 'Gần đây tôi đặc biệt thích nhạc kịch và phim hành động. Tuần trước tôi đã mua vé xem phim ở trung tâm mua sắm cùng bạn cùng lớp. Buổi tối sau khi ăn món Ý ở nhà hàng, chúng tôi ngắm đèn trang trí cầu Rainbow và tháp Tokyo, rất đẹp. Bạn tôi cũng hay nghe nhạc cổ điển và nhạc pop, mỗi tháng đọc 5 quyển tiểu thuyết và truyện tranh. Tháng sau tôi dự định đi xem cuộc thi nhảy và sự kiện thư pháp.',
+    focus: ['最近', '特に', 'ミュージカル', 'アクション', 'クラシック', 'ポップス', '小説', '漫画', 'コンテスト', '書道', 'イベント'],
+    questions: [
+      { q_jp: '先週、ショッピングモールで何を買いましたか。', q_vi: 'Tuần trước nhân vật đã mua gì ở trung tâm mua sắm?', a_jp: '映画のチケットを買いました。' },
+      { q_jp: '友だちは1か月に<ruby>小説<rt>しょうせつ</rt></ruby>や<ruby>漫画<rt>まんが</rt></ruby>を何<ruby>冊<rt>さつ</rt></ruby>読みますか。', q_vi: 'Bạn nhân vật đọc mấy quyển tiểu thuyết và truyện tranh mỗi tháng?', a_jp: '5<ruby>冊<rt>さつ</rt></ruby>読みます。' },
+    ],
+  },
+  {
+    id: 31, lesson: 10, title: 'Bài 10 · Katakana & Kanji nâng cao: Chỉ đường & Sân bay',
+    jp_text: '<ruby>外国<rt>がいこく</rt></ruby>人の友だちが日本へ遊びに来ましたから、ホテルのパンフレットと<ruby>薬<rt>くすり</rt></ruby>を持って駅へ行きました。駅を出て、<ruby>右<rt>みぎ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>をまっすぐ行くと、大きい<ruby>交差点<rt>こうさてん</rt></ruby>があります。<ruby>信号<rt>しんごう</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、1つ目の<ruby>角<rt>かど</rt></ruby>を<ruby>左<rt>ひだり</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がると、長い<ruby>橋<rt>はし</rt></ruby>が見えます。橋のとなりにカフェがあります。重い<ruby>荷物<rt>にもつ</rt></ruby>をベンチに置いて、いっしょにコーヒーを飲みました。外から電車の<ruby>音<rt>おと</rt></ruby>と人の<ruby>声<rt>こえ</rt></ruby>が聞こえました。',
+    vi_text: 'Vì bạn người nước ngoài đến Nhật chơi nên tôi mang tờ rơi khách sạn và thuốc ra nhà ga. Ra khỏi ga, đi thẳng đường bên phải sẽ thấy một ngã tư lớn. Băng qua đèn giao thông và rẽ trái ở góc đường thứ nhất sẽ thấy cây cầu dài. Bên cạnh cầu có quán cà phê. Chúng tôi đặt hành lý nặng lên ghế băng rồi cùng uống cà phê. Từ bên ngoài nghe thấy tiếng tàu điện và giọng nói mọi người.',
+    focus: ['パンフレット', '薬', '右', '道', '交差点', '信号', '角', '左', '橋', '荷物', '音', '声'],
+    questions: [
+      { q_jp: '1つ目の<ruby>角<rt>かど</rt></ruby>をどちらに<ruby>曲<rt>ま</rt></ruby>がりますか。', q_vi: 'Rẽ hướng nào ở góc đường thứ nhất?', a_jp: '<ruby>左<rt>ひだり</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がります。' },
+      { q_jp: 'カフェの中で、外から何が聞こえましたか。', q_vi: 'Trong quán cà phê, từ bên ngoài nghe thấy gì?', a_jp: '電車の<ruby>音<rt>おと</rt></ruby>と人の<ruby>声<rt>こえ</rt></ruby>が聞こえました。' },
+    ],
+  },
+  {
+    id: 32, lesson: 11, title: 'Bài 11 · Katakana & Kanji nâng cao: Đời sống & Olympic',
+    jp_text: '私は4月からアパートで<ruby>一人暮<rt>ひとりぐ</rt></ruby>らしをしています。<ruby>平日<rt>へいじつ</rt></ruby>は大学で日本語の<ruby>会話<rt>かいわ</rt></ruby>と<ruby>作文<rt>さくぶん</rt></ruby>を勉強して、<ruby>毎週<rt>まいしゅう</rt></ruby>コンピューターで<ruby>日記<rt>にっき</rt></ruby>を書きます。夜、コンビニでアルバイトをしてから、クラスメイトとジョギングをします。部屋が暑いときはエアコンをつけて、オリンピックのニュースやスポーツ<ruby>選手<rt>せんしゅ</rt></ruby>のインタビューを見ます。来年の春、大学を<ruby>卒業<rt>そつぎょう</rt></ruby>したら、<ruby>外国<rt>がいこく</rt></ruby>の会社で働きたいです。',
+    vi_text: 'Từ tháng 4 tôi sống một mình ở căn hộ. Ngày thường tôi học hội thoại và viết văn tiếng Nhật ở đại học, hằng tuần viết nhật ký bằng máy tính. Buổi tối sau khi làm thêm ở cửa hàng tiện lợi, tôi chạy bộ cùng bạn cùng lớp. Khi phòng nóng tôi bật điều hòa và xem tin Olympic hoặc phỏng vấn các vận động viên thể thao. Mùa xuân năm sau, sau khi tốt nghiệp đại học, tôi muốn làm việc ở công ty nước ngoài.',
+    focus: ['一人暮らし', '平日', '会話', '作文', '毎週', '日記', 'クラスメイト', 'ジョギング', 'エアコン', 'オリンピック', 'ニュース', '選手', '卒業', '外国'],
+    questions: [
+      { q_jp: '<ruby>毎週<rt>まいしゅう</rt></ruby>、何で<ruby>日記<rt>にっき</rt></ruby>を書きますか。', q_vi: 'Hằng tuần viết nhật ký bằng gì?', a_jp: 'コンピューターで<ruby>日記<rt>にっき</rt></ruby>を書きます。' },
+      { q_jp: '大学を<ruby>卒業<rt>そつぎょう</rt></ruby>したら、どこで働きたいですか。', q_vi: 'Sau khi tốt nghiệp đại học muốn làm việc ở đâu?', a_jp: '<ruby>外国<rt>がいこく</rt></ruby>の会社で働きたいです。' },
+    ],
+  },
 ];
